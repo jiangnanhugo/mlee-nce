@@ -1,0 +1,41 @@
+T37	Pathway 923 930	pathway
+T3	Positive_regulation 51 60	induction
+E3	Positive_regulation:T3 Theme:T4 Cause:T5
+T12	Cell_proliferation 292 305	proliferation
+E12	Cell_proliferation:T12 Theme:T13
+T19	Positive_regulation 491 500	induction
+E19	Positive_regulation:T19 Theme:T20
+T22	Planned_process 645 655	knock down
+E22	Planned_process:T22 Theme:T24
+T23	Gene_expression 662 672	expression
+E23	Gene_expression:T23 Theme:T24
+T26	Positive_regulation 717 726	stimulate
+E26	Positive_regulation:T26 Cause:T25 Theme:E27
+T27	Gene_expression 778 788	expression
+E27	Gene_expression:T27 Theme:T30
+T32	Regulation 860 868	mediates
+E32	Regulation:T32 Theme:E34 Cause:E15
+T34	Positive_regulation 876 887	stimulation
+E34	Positive_regulation:T34 Theme:T35 Cause:T36
+T10	Positive_regulation 23 32	inducible
+E1	Positive_regulation:T10 Cause:T1 Theme:T2
+T40	Regulation 0 4	Role
+E2	Regulation:T40 Cause:T2 Theme:E3
+T41	Positive_regulation 101 110	inducible
+E4	Positive_regulation:T41 Cause:T6 Theme:T7
+T42	Positive_regulation 157 166	activated
+E5	Positive_regulation:T42 Theme:T7 Cause:T9
+T43	Regulation 261 271	regulation
+E6	Regulation:T43 Cause:T7 Theme:E12
+T44	Development 317 326	formation
+E7	Development:T44 Theme:T15
+E8	Regulation:T43 Cause:T7 Theme:E7
+T45	Positive_regulation 510 518	extended
+E9	Positive_regulation:T45 Cause:E19 Theme:T21
+A1	Speculation E9
+A2	Speculation E26
+E10	Gene_expression:T27 Theme:T29
+E13	Positive_regulation:T26 Cause:T25 Theme:E10
+A3	Speculation E13
+E15	Regulation:T32 Cause:T33 Theme:E16
+E16	Pathway:T37 Participant:T38

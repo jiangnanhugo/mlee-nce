@@ -1,0 +1,65 @@
+T3	Blood_vessel_development 45 57	angiogenesis
+T12	Blood_vessel_development 253 263	angiogenic
+T20	Blood_vessel_development 599 611	angiogenesis
+T65	Blood_vessel_development 1415 1425	angiogenic
+T68	Blood_vessel_development 1468 1478	angiogenic
+T10	Planned_process 206 215	Targeting
+E10	Planned_process:T10 Theme:T11
+T33	Localization 857 868	recruitment
+E33	Localization:T33 Theme:T34
+T39	Development 927 938	development
+E39	Development:T39 Theme:T40
+T45	Localization 1100 1111	recruitment
+E45	Localization:T45 Theme:T46
+T47	Positive_regulation 1138 1147	promotion
+E47	Positive_regulation:T47 Theme:E49 Cause:E51
+T49	Localization 1160 1168	invasion
+E49	Localization:T49 Theme:T50
+T51	Breakdown 1193 1204	degradation
+E51	Breakdown:T51 Theme:T52
+T53	Positive_regulation 1210 1221	stimulation
+E53	Positive_regulation:T53 Theme:E55
+T55	Cell_proliferation 1234 1247	proliferation
+E55	Cell_proliferation:T55 Theme:T56
+T59	Positive_regulation 1313 1323	activation
+E59	Positive_regulation:T59 Theme:T60
+T70	Localization 1511 1522	recruitment
+E70	Localization:T70 Theme:T71
+*	Equiv T30 T31
+T18	Localization 23 34	recruitment
+E2	Localization:T18 Theme:T2 ToLoc:T4
+T24	Positive_regulation 143 151	critical
+E3	Positive_regulation:T24 Cause:T5 Theme:E4
+T29	Development 160 171	development
+E4	Development:T29 Theme:T9
+T35	Localization 321 332	recruitment
+E5	Localization:T35 Theme:T11 ToLoc:T13
+T36	Localization 453 464	recruitment
+E6	Localization:T36 Theme:T15
+T61	Regulation 499 511	contribution
+E7	Regulation:T61 Theme:E20 Cause:T16
+E9	Regulation:T61 Theme:E20 Cause:T17
+T64	Positive_regulation 704 712	enhances
+E11	Positive_regulation:T64 Cause:T23 Theme:E1
+T72	Development 752 762	maturation
+E12	Development:T72 Theme:T28
+E13	Positive_regulation:T64 Cause:T23 Theme:E12
+T73	Regulation 897 903	effect
+E15	Regulation:T73 Cause:T37 Theme:E39
+T74	Remodeling 1019 1030	remodelling
+E16	Remodeling:T74 Theme:T42
+T75	Binding 1374 1379	bound
+E17	Binding:T75 Theme:T62
+E18	Blood_vessel_development:T3 AtLoc:T4
+E19	Blood_vessel_development:T12 
+E20	Blood_vessel_development:T20 AtLoc:T19
+E21	Blood_vessel_development:T65 
+E22	Blood_vessel_development:T68 
+T67	Negative_regulation 264 271	therapy
+E23	Negative_regulation:T67 Theme:E19
+T1	Blood_vessel_development 720 735	vascularization
+E1	Blood_vessel_development:T1 AtLoc:T26
+T8	Regulation 789 802	participation
+E8	Regulation:T8 Cause:T30 Theme:E33
+T14	Positive_regulation 1077 1087	contribute
+E14	Positive_regulation:T14 Cause:T43 Theme:E45

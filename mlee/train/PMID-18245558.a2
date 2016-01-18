@@ -1,0 +1,81 @@
+T7	Blood_vessel_development 127 139	Angiogenesis
+T16	Blood_vessel_development 324 336	angiogenesis
+T31	Blood_vessel_development 862 880	neovascularization
+T58	Blood_vessel_development 1648 1660	angiogenesis
+T1	Negative_regulation 0 11	Suppression
+E1	Negative_regulation:T1 Cause:E5 Theme:E3
+T2	Localization 37 47	metastasis
+E2	Localization:T2 Theme:T4
+T3	Growth 26 32	growth
+E3	Growth:T3 Theme:T4
+T5	Gene_expression 91 101	expression
+E5	Gene_expression:T5 Theme:T6
+T10	Negative_regulation 208 219	suppressing
+E10	Negative_regulation:T10 Theme:E12
+T11	Development 237 259	metastatic progression
+E11	Development:T11 Theme:T13
+T12	Growth 226 232	growth
+E12	Growth:T12 Theme:T13
+T18	Planned_process 409 418	delivered
+E18	Planned_process:T18 Instrument:T19 Instrument2:T1002
+T24	Planned_process 580 587	deliver
+E24	Planned_process:T24 Instrument:T22 Instrument2:T25 Theme:T26
+T33	Planned_process 970 980	pretreated
+E33	Planned_process:T33 Instrument:T69 Instrument:T34 Theme:T35
+T36	Negative_regulation 1020 1029	reduction
+E36	Negative_regulation:T36 Theme:T37 Cause:E33
+T40	Negative_regulation 1104 1128	tumor-suppressive action
+E40	Negative_regulation:T40 Theme:T42 Cause:T41
+T44	Negative_regulation 1210 1217	reduced
+E44	Negative_regulation:T44 Theme:T45
+T48	Localization 1315 1325	metastasis
+E48	Localization:T48 Theme:T50 ToLoc:T52
+E49	Localization:T48 Theme:T50 ToLoc:T51
+T55	Planned_process 1517 1525	excision
+E55	Planned_process:T55 Theme:T56
+T60	Negative_regulation 1674 1685	suppressing
+E60	Negative_regulation:T60 Theme:E61 Cause:T28
+T61	Growth 1692 1698	growth
+E61	Growth:T61 Theme:T62
+T63	Development 1732 1743	progression
+E63	Development:T63 Theme:T64
+R1	frag Arg1:T8 Arg2:T1002	
+*	Equiv T1002 T17
+*	Equiv T8 T20
+R2	frag Arg1:T67 Arg2:T22	
+T71	Positive_regulation 82 90	mediated
+E4	Positive_regulation:T71 Cause:T1001 Theme:E5
+E6	Negative_regulation:T1 Cause:E5 Theme:E2
+E7	Negative_regulation:T10 Theme:E11
+T9	Planned_process 491 503	gene therapy
+E8	Planned_process:T9 Theme:T21
+T72	Regulation 381 394	effectiveness
+E9	Regulation:T72 Cause:E18 Theme:E8
+A1	Speculation E9
+T23	Localization 1088 1098	metastases
+E13	Localization:T23 ToLoc:T38 Theme:T37
+T73	Negative_regulation 1058 1065	reduced
+E14	Negative_regulation:T73 Theme:T38 Cause:E33
+E15	Negative_regulation:T40 Theme:T42 Cause:T43
+T74	Negative_regulation 1304 1314	suppressed
+E16	Negative_regulation:T74 Cause:T59 Theme:E48
+E17	Negative_regulation:T74 Cause:T47 Theme:E48
+E19	Negative_regulation:T74 Cause:T59 Theme:E49
+E20	Negative_regulation:T74 Cause:T47 Theme:E49
+T75	Planned_process 1405 1414	treatment
+E21	Planned_process:T75 Theme:T1006
+T76	Negative_regulation 1613 1626	effectiveness
+E22	Negative_regulation:T76 Theme:E31 Cause:T57
+E23	Negative_regulation:T76 Theme:E31 Cause:T28
+E25	Negative_regulation:T60 Theme:E61 Cause:T57
+E26	Planned_process:T80 Instrument:T39
+E27	Planned_process:T80 Instrument:T65
+E28	Blood_vessel_development:T7 
+E29	Blood_vessel_development:T16 
+E30	Blood_vessel_development:T31 
+E31	Blood_vessel_development:T58 
+T79	Negative_regulation 1813 1820	against
+E32	Negative_regulation:T79 Theme:T66 Cause:E26
+T80	Planned_process 1787 1799	gene therapy
+E34	Negative_regulation:T79 Theme:T66 Cause:E27
+E35	Planned_process:T24 Instrument:T67 Instrument2:T25 Theme:T26

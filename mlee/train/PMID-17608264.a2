@@ -1,0 +1,61 @@
+T2	Blood_vessel_development 20 32	angiogenesis
+T4	Blood_vessel_development 81 93	angiogenesis
+T6	Blood_vessel_development 188 200	angiogenesis
+T19	Blood_vessel_development 638 650	angiogenesis
+T26	Blood_vessel_development 894 906	angiogenesis
+T30	Blood_vessel_development 984 996	angiogenesis
+T35	Blood_vessel_development 1086 1098	angiogenesis
+T40	Blood_vessel_development 1192 1204	angiogenesis
+T46	Blood_vessel_development 1349 1361	angiogenesis
+T51	Blood_vessel_development 1531 1541	angiogenic
+T52	Blood_vessel_development 1593 1603	angiogenic
+T57	Blood_vessel_development 1698 1710	angiogenesis
+*	Equiv T37 T38
+T16	Negative_regulation 67 77	Inhibition
+E1	Negative_regulation:T16 Theme:E22
+T18	Regulation 180 184	role
+E2	Regulation:T18 Theme:E23
+T20	Planned_process 260 267	surgery
+E3	Planned_process:T20 Theme:T1003
+T25	Planned_process 273 279	placed
+E4	Planned_process:T25 Theme:T7
+T29	Planned_process 299 307	embedded
+E5	Planned_process:T29 Instrument:T7 Theme:T8
+T33	Planned_process 336 344	overlaid
+E6	Planned_process:T33 Instrument:T1 Theme:T7
+T34	Growth 699 705	growth
+E7	Growth:T34 Theme:T21
+T39	Positive_regulation 689 698	initiated
+E8	Positive_regulation:T39 Theme:E7
+T42	Growth 710 719	elongated
+E9	Growth:T42 Theme:T21
+T56	Negative_regulation 884 893	inhibited
+E11	Negative_regulation:T56 Cause:T24 Theme:E25
+T59	Negative_regulation 974 983	inhibited
+E12	Negative_regulation:T59 Theme:E26 Cause:T28
+E13	Negative_regulation:T59 Theme:E26 Cause:T27
+T60	Positive_regulation 1181 1191	stimulated
+E14	Positive_regulation:T60 Cause:T36 Theme:E15
+T61	Positive_regulation 1205 1215	initiation
+E15	Positive_regulation:T61 Theme:E28
+T62	Growth 1287 1293	growth
+E16	Growth:T62 Theme:T44
+T63	Positive_regulation 1298 1308	stimulated
+E17	Positive_regulation:T63 Theme:E16 Cause:T36
+T65	Positive_regulation 1683 1694	exploration
+E19	Positive_regulation:T65 Theme:E32
+T68	Planned_process 355 362	culture
+E20	Planned_process:T68 Theme:T67
+E21	Blood_vessel_development:T2 AtLoc:T3
+E22	Blood_vessel_development:T4 
+E23	Blood_vessel_development:T6 
+E24	Blood_vessel_development:T19 Theme:T17
+E25	Blood_vessel_development:T26 
+E26	Blood_vessel_development:T30 
+E27	Blood_vessel_development:T35 
+E28	Blood_vessel_development:T40 
+E29	Blood_vessel_development:T46 
+E30	Blood_vessel_development:T51 
+E31	Blood_vessel_development:T52 AtLoc:T53
+E32	Blood_vessel_development:T57 AtLoc:T58
+E18	Blood_vessel_development:T52 AtLoc:T55

@@ -1,0 +1,11 @@
+T6	Blood_vessel_development 1082 1100	neovascularization
+T7	Positive_regulation 1105 1113	increase
+E7	Positive_regulation:T7 Theme:T8
+*	Equiv T8 T9
+T12	Planned_process 277 284	treated
+E1	Planned_process:T12 Theme:T1000
+T13	Positive_regulation 814 822	improved
+E2	Positive_regulation:T13 Theme:T4
+T14	Planned_process 1051 1064	PDT treatment
+E3	Planned_process:T14 Theme:T5
+E4	Blood_vessel_development:T6 

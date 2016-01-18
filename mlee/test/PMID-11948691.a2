@@ -1,0 +1,76 @@
+T29	Blood_vessel_development 353 365	angiogenesis
+T32	Blood_vessel_development 444 456	angiogenesis
+T2	Regulation 8 16	mediates
+E2	Regulation:T2 Theme:E3 Cause:T1
+T3	Binding 17 26	formation
+E3	Binding:T3 Theme:T4 Theme:T5
+T6	Positive_regulation 81 88	enhance
+E6	Positive_regulation:T6 Theme:E7 Cause:E3
+T7	Binding 106 113	binding
+E7	Binding:T7 Theme:T8
+T9	Gene_expression 116 129	Co-expression
+E9	Gene_expression:T9 Theme:T10 Theme:T12
+T16	Positive_regulation 197 205	enhances
+E16	Positive_regulation:T16 Cause:E9 Theme:E17
+T17	Binding 214 221	binding
+E17	Binding:T17 Theme:T18 Theme:T19
+T20	Localization 236 246	chemotaxis
+E20	Localization:T20 Theme:T21
+T23	Gene_expression 271 285	Overexpression
+E23	Gene_expression:T23 Theme:T24
+T33	Binding 474 485	association
+E33	Binding:T33 Theme:T34 Theme:T35
+T42	Binding 677 681	bind
+E42	Binding:T42 Theme:T43 Theme:T44
+T45	Binding 780 786	formed
+E45	Binding:T45 Theme:T48 Theme:T47 Theme:T46
+T50	Gene_expression 835 845	expressing
+E50	Gene_expression:T50 Theme:T52
+T53	Gene_expression 867 877	expressing
+E53	Gene_expression:T53 Theme:T54
+T58	Regulation 939 947	mediated
+E58	Regulation:T58 Cause:T57 Theme:E59
+T59	Binding 952 959	binding
+E59	Binding:T59 Theme:T60 Theme:T85
+T61	Gene_expression 993 1003	expressing
+E61	Gene_expression:T61 Theme:T62
+T63	Binding 1075 1084	formation
+E63	Binding:T63 Theme:T64 Theme:T66
+T67	Positive_regulation 1131 1140	increased
+E67	Positive_regulation:T67 Cause:E63 Theme:E68
+T68	Binding 1154 1161	binding
+E68	Binding:T68 Theme:T69 Theme:T70
+T71	Binding 1195 1204	formation
+E71	Binding:T71 Theme:T72 Theme:T73 Theme:T74
+T75	Positive_regulation 1252 1263	potentiates
+E75	Positive_regulation:T75 Cause:E71 Theme:E76
+T76	Binding 1272 1279	binding
+E76	Binding:T76 Theme:T77 Theme:T78
+T80	Binding 1367 1378	association
+E80	Binding:T80 Theme:T82 Theme:T84
+*	Equiv T11 T12
+*	Equiv T13 T14
+T15	Positive_regulation 250 258	response
+E1	Positive_regulation:T15 Cause:T22 Theme:E16
+E4	Positive_regulation:T16 Cause:E9 Theme:E20
+T26	Positive_regulation 337 346	increased
+E5	Positive_regulation:T26 Cause:E23 Theme:E18
+T27	Growth 370 376	growth
+E8	Growth:T27 Theme:T28
+E10	Positive_regulation:T26 Cause:E23 Theme:E8
+E11	Positive_regulation:T15 Cause:T22 Theme:E4
+T31	Positive_regulation 435 443	mediated
+E12	Positive_regulation:T31 Cause:T30 Theme:E19
+A1	Negation E42
+T56	Planned_process 818 828	co-culture
+E13	Planned_process:T56 Theme:T51 Theme2:T65
+T49	Binding 1308 1314	formed
+E14	Binding:T49 Theme:T72 Theme:T73 Theme:T74
+E15	Binding:T49 Theme:T77 Theme:T78
+E18	Blood_vessel_development:T29 AtLoc:T28
+E19	Blood_vessel_development:T32 
+T86	Positive_regulation 699 706	support
+E21	Positive_regulation:T86 Cause:T43 Theme:E22
+A3	Negation E21
+T87	Binding 707 724	complex formation
+E22	Binding:T87 Theme:T36 Theme2:T37

@@ -1,0 +1,70 @@
+T1	Blood_vessel_development 14 26	angiogenesis
+T4	Blood_vessel_development 99 109	angiogenic
+T14	Blood_vessel_development 354 366	angiogenesis
+T22	Blood_vessel_development 591 603	angiogenesis
+T27	Blood_vessel_development 673 685	angiogenesis
+T30	Blood_vessel_development 735 745	angiogenic
+T39	Blood_vessel_development 921 933	angiogenesis
+T53	Blood_vessel_development 1333 1345	angiogenesis
+E2	Positive_regulation:T9 Theme:T33 Cause:T32
+T7	Positive_regulation 162 172	activation
+E7	Positive_regulation:T7 Theme:T8
+T9	Positive_regulation 773 782	activated
+T41	Catabolism 951 962	dissolution
+E41	Catabolism:T41 Theme:T42
+T44	Localization 997 1006	migration
+E44	Localization:T44 Theme:T13
+T47	Positive_regulation 1189 1199	activation
+E47	Positive_regulation:T47 Theme:T50
+*	Equiv T15 T16
+*	Equiv T35 T36
+*	Equiv T33 T34
+T3	Regulation 0 10	Modulation
+E3	Regulation:T3 Cause:T21 Theme:E28
+E4	Regulation:T3 Cause:T21 Theme:T2
+T12	Regulation 150 158	mediated
+E5	Regulation:T12 Theme:T5 Cause:E7
+T26	Regulation 229 236	effects
+E6	Regulation:T26 Theme:T10
+A1	Speculation E6
+T38	Positive_regulation 265 274	activated
+E8	Positive_regulation:T38 Theme:T11
+T40	Positive_regulation 576 587	stimulation
+E9	Positive_regulation:T40 Theme:E31 Cause:T19
+E10	Positive_regulation:T40 Theme:E31 Cause:T20
+T52	Negative_regulation 658 669	suppression
+E11	Negative_regulation:T52 Theme:E32 Cause:T25
+T54	Negative_regulation 719 730	antagonized
+E12	Negative_regulation:T54 Cause:T28 Theme:E33
+E1	Negative_regulation:T52 Theme:E32 Cause:T24
+E13	Positive_regulation:T9 Theme:T33 Cause:T31
+T6	Positive_regulation 934 941	leading
+E14	Positive_regulation:T6 Cause:T37 Theme:E41
+T55	Positive_regulation 1014 1023	activated
+E15	Positive_regulation:T55 Theme:T13
+E16	Positive_regulation:T6 Cause:T37 Theme:E44
+T56	Negative_regulation 1078 1087	inhibited
+E17	Negative_regulation:T56 Theme:E18 Cause:T46
+T57	Positive_regulation 1092 1102	activation
+E18	Positive_regulation:T57 Theme:T37
+E19	Negative_regulation:T56 Theme:E18 Cause:T45
+T58	Negative_regulation 1129 1140	antagonised
+E20	Negative_regulation:T58 Theme:E21 Cause:T46
+T59	Regulation 1145 1152	effects
+E21	Regulation:T59 Theme:E47 Cause:T48
+E22	Regulation:T59 Theme:E47 Cause:T49
+E23	Negative_regulation:T58 Theme:E22 Cause:T46
+E24	Negative_regulation:T58 Theme:E22 Cause:T45
+E25	Negative_regulation:T58 Theme:E21 Cause:T45
+T60	Positive_regulation 1276 1285	activated
+E26	Positive_regulation:T60 Theme:T51
+T61	Regulation 1319 1329	modulators
+E27	Regulation:T61 Theme:E35
+E28	Blood_vessel_development:T1 
+E29	Blood_vessel_development:T4 
+E30	Blood_vessel_development:T14 AtLoc:T15
+E31	Blood_vessel_development:T22 AtLoc:T23
+E32	Blood_vessel_development:T27 
+E33	Blood_vessel_development:T30 
+E34	Blood_vessel_development:T39 
+E35	Blood_vessel_development:T53 

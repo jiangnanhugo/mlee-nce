@@ -1,0 +1,71 @@
+T1	Blood_vessel_development 0 12	Angiogenesis
+T7	Blood_vessel_development 230 242	angiogenesis
+T8	Blood_vessel_development 314 326	angiogenesis
+T18	Blood_vessel_development 735 745	angiogenic
+T22	Blood_vessel_development 884 896	angiogenesis
+T23	Blood_vessel_development 898 908	Angiogenic
+T27	Blood_vessel_development 1203 1213	angiogenic
+T29	Blood_vessel_development 1285 1295	angiogenic
+T34	Blood_vessel_development 1470 1482	angiogenesis
+T39	Blood_vessel_development 1645 1657	angiogenesis
+T43	Blood_vessel_development 1726 1738	angiogenesis
+R1	frag Arg1:T2 Arg2:T3
+*	Equiv T19 T20
+*	Equiv T9 T10
+*	Equiv T11 T12
+*	Equiv T16 T17
+T49	Development 111 120	expansion
+E1	Development:T49 Theme:T4
+T50	Development 156 167	development
+E2	Development:T50 Theme:T5
+T51	Regulation 201 211	regulation
+E3	Regulation:T51 Theme:E23
+T52	Planned_process 563 571	obtained
+E4	Planned_process:T52 Theme:T15
+E5	Planned_process:T52 Theme:T14
+T53	Planned_process 650 657	layered
+E6	Planned_process:T53 Theme:T15
+E7	Planned_process:T53 Theme:T14
+T36	Gene_expression 831 841	expression
+E8	Gene_expression:T36 Theme:T19
+T54	Planned_process 858 865	layered
+E9	Planned_process:T54 Theme:T47
+T55	Positive_regulation 873 883	stimulated
+E10	Positive_regulation:T55 Cause:T47 Theme:E26
+T56	Positive_regulation 909 920	stimulation
+E11	Positive_regulation:T56 Theme:E27
+T57	Binding 1050 1060	connection
+E12	Binding:T57 Theme:T24 Theme:T25
+T58	Localization 1144 1155	recruitment
+E13	Localization:T58 Theme:T26
+T60	Localization 1263 1275	localization
+E14	Localization:T60 Theme:T28
+T61	Positive_regulation 1296 1307	stimulation
+E15	Positive_regulation:T61 Theme:E29
+T63	Positive_regulation 1455 1466	Stimulation
+E16	Positive_regulation:T63 Theme:E30 Cause:T35
+T64	Negative_regulation 1512 1521	abolished
+E17	Negative_regulation:T64 Cause:T37 Theme:E16
+T65	Regulation 1557 1564	targets
+E18	Regulation:T65 Cause:T37 Theme:T38
+T66	Regulation 1631 1641	regulation
+E19	Regulation:T66 Cause:T40 Theme:E31
+T67	Regulation 1710 1714	role
+E20	Regulation:T67 Cause:T42 Theme:E32
+E22	Blood_vessel_development:T1 AtLoc:T2
+E23	Blood_vessel_development:T7 AtLoc:T6
+E24	Blood_vessel_development:T8 AtLoc:T9
+E25	Blood_vessel_development:T18 
+E26	Blood_vessel_development:T22 
+E27	Blood_vessel_development:T23 
+E28	Blood_vessel_development:T27 AtLoc:T28
+E29	Blood_vessel_development:T29 
+E30	Blood_vessel_development:T34 
+E31	Blood_vessel_development:T39 
+E32	Blood_vessel_development:T43 AtLoc:T44
+E33	Blood_vessel_development:T1 AtLoc:T3
+E34	Blood_vessel_development:T8 AtLoc:T11
+E35	Blood_vessel_development:T43 AtLoc:T45
+E36	Regulation:T67 Cause:T42 Theme:E35
+T68	Regulation 142 148	linked
+E21	Regulation:T68 Theme:E1 Cause:E2

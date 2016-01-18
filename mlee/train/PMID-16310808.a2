@@ -1,0 +1,115 @@
+T13	Blood_vessel_development 141 153	Angiogenesis
+T18	Blood_vessel_development 234 244	angiogenic
+T34	Blood_vessel_development 605 617	angiogenesis
+T37	Blood_vessel_development 782 794	angiogenesis
+T66	Blood_vessel_development 1457 1467	angiogenic
+T3	Localization 37 46	secretion
+E3	Localization:T3 Theme:T4
+E7	Negative_regulation:T20 Theme:E49 Cause:T48
+T10	Development 92 101	formation
+E10	Development:T10 Theme:T11
+T19	Positive_regulation 262 271	stimulate
+E19	Positive_regulation:T19 Theme:E22
+T20	Negative_regulation 1046 1055	inhibited
+T22	Localization 293 300	migrate
+E22	Localization:T22 Theme:T23
+T39	Localization 871 880	secretion
+E39	Localization:T39 Theme:T40
+T49	Localization 1061 1070	secretion
+E49	Localization:T49 Theme:T50
+T69	Negative_regulation 1507 1524	inhibitory action
+E69	Negative_regulation:T69 Theme:E70
+T70	Localization 1533 1542	secretion
+E70	Localization:T70 Theme:T71
+T72	Development 1569 1578	formation
+E72	Development:T72 Theme:T74
+T76	Binding 1650 1658	adhesion
+E76	Binding:T76 Theme:T79
+T78	Localization 1636 1645	migration
+E78	Localization:T78 Theme:T79
+T17	Regulation 22 31	affecting
+E13	Regulation:T17 Cause:T1 Theme:E3
+T6	Development 172 181	formation
+E6	Development:T6 Theme:T15
+T8	Regulation 217 226	regulated
+E8	Regulation:T8 Theme:E58
+T35	Cell_proliferation 302 313	proliferate
+E15	Cell_proliferation:T35 Theme:T23
+T41	Development 318 331	differentiate
+E16	Development:T41 Theme:T23
+T43	Development 335 339	form
+E17	Development:T43 Theme:T24
+E18	Positive_regulation:T19 Theme:E15
+E20	Positive_regulation:T19 Theme:E16
+E23	Regulation:T17 Cause:T1 Theme:E63
+E24	Regulation:T17 Cause:T1 Theme:E1
+E26	Regulation:T17 Cause:T1 Theme:E10
+T54	Development 387 398	development
+E28	Development:T54 Theme:T26
+T56	Remodeling 416 426	remodeling
+E29	Remodeling:T56 Theme:T28
+T57	Development 509 518	formation
+E30	Development:T57 Theme:T30
+T59	Negative_regulation 644 661	inhibitory action
+E31	Negative_regulation:T59 Theme:E60 Cause:T31
+A1	Speculation E31
+*	Equiv T31 T32
+T60	Regulation 733 742	influence
+E32	Regulation:T60 Cause:T36 Theme:E61
+A2	Speculation E32
+T63	Regulation 841 847	effect
+E33	Regulation:T63 Cause:T38 Theme:E39
+A3	Speculation E33
+T42	Development 931 940	formation
+E34	Development:T42 Theme:T46
+T44	Localization 882 896	cell migration
+E35	Localization:T44 Theme:T47
+T64	Binding 898 906	adhesion
+E36	Binding:T64 Theme:T47
+E37	Regulation:T63 Cause:T38 Theme:E34
+E38	Regulation:T63 Cause:T38 Theme:E36
+E40	Regulation:T63 Cause:T38 Theme:E35
+A4	Speculation E37
+A5	Speculation E38
+A6	Speculation E40
+T68	Development 1114 1120	formed
+E41	Development:T68 Theme:T52
+T80	Negative_regulation 1090 1099	decreased
+E42	Negative_regulation:T80 Cause:T48 Theme:E41
+T81	Positive_regulation 1141 1150	increased
+E43	Positive_regulation:T81 Theme:E44 Cause:T48
+T82	Binding 1156 1164	adhesion
+E44	Binding:T82 Theme:T53 Theme:T84
+T83	Planned_process 1178 1192	Administration
+E46	Planned_process:T83 Instrument:T55
+T58	Negative_regulation 1468 1474	action
+E47	Negative_regulation:T58 Theme:E62 Cause:T67
+T61	Positive_regulation 1493 1496	due
+E48	Positive_regulation:T61 Theme:E47 Cause:E69
+E50	Negative_regulation:T69 Theme:E72
+E52	Positive_regulation:T61 Theme:E47 Cause:E50
+T65	Regulation 1607 1616	influence
+E53	Regulation:T65 Cause:T67 Theme:E78
+E54	Regulation:T65 Cause:T67 Theme:E76
+T86	Cell_proliferation 1398 1411	proliferation
+E55	Cell_proliferation:T86 Theme:T85
+T87	Regulation 1386 1392	change
+E56	Regulation:T87 Cause:T62 Theme:E55
+A7	Negation E56
+E58	Blood_vessel_development:T13 
+E59	Blood_vessel_development:T18 
+E60	Blood_vessel_development:T34 
+E61	Blood_vessel_development:T37 
+E62	Blood_vessel_development:T66 
+T91	Localization 48 62	cell migration
+E63	Localization:T91 Theme:T12
+T2	Binding 64 72	adhesion
+E1	Binding:T2 Theme:T12
+T7	Localization 1259 1268	migration
+E2	Localization:T7 Theme:T5
+T9	Positive_regulation 1244 1253	increased
+E4	Positive_regulation:T9 Theme:E2 Cause:E46
+T14	Negative_regulation 1293 1302	decreased
+E5	Negative_regulation:T14 Theme:E9 Cause:E46
+T21	Localization 1308 1317	migration
+E9	Localization:T21 Theme:T16

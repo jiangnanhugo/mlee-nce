@@ -1,0 +1,72 @@
+T1	Blood_vessel_development 4 14	angiogenic
+T58	Blood_vessel_development 1877 1887	angiogenic
+T9	Positive_regulation 198 208	stimulated
+E9	Positive_regulation:T9 Cause:T10 Theme:E1
+T32	Negative_regulation 888 897	decreased
+E32	Negative_regulation:T32 Theme:T33
+R1	frag Arg1:T4 Arg2:T5	
+T7	Cell_proliferation 215 228	proliferation
+E1	Cell_proliferation:T7 Theme:T11
+T13	Negative_regulation 243 260	effective against
+E2	Negative_regulation:T13 Cause:T6 Theme:T12
+A1	Negation E2
+E3	Negative_regulation:T13 Cause:T6 Theme:T14
+A2	Negation E3
+T15	Negative_regulation 180 189	inhibitor
+E4	Negative_regulation:T15 Cause:T6 Theme:E1
+T30	Planned_process 360 368	Exposure
+E5	Planned_process:T30 Theme:T19 Instrument:T16 Instrument:T18
+T57	Planned_process 540 548	Exposure
+E6	Planned_process:T57 Theme:T20 Instrument:T21 Instrument:T23
+T59	Death 476 484	survival
+E7	Death:T59 Theme:T19
+A3	Negation E7
+T60	Positive_regulation 459 467	resulted
+E10	Positive_regulation:T60 Theme:E7 Cause:E5
+T61	Death 634 643	survivals
+E11	Death:T61 Theme:T20
+A4	Negation E11
+T62	Positive_regulation 617 625	resulted
+E12	Positive_regulation:T62 Theme:E11 Cause:E6
+E13	Planned_process:T30 Theme:T19 Instrument:T17 Instrument:T18
+E14	Positive_regulation:T60 Theme:E7 Cause:E13
+E15	Planned_process:T57 Instrument:T22 Instrument:T23 Theme:T20
+E16	Positive_regulation:T62 Theme:E11 Cause:E15
+T63	Planned_process 760 774	Administration
+E17	Planned_process:T63 Theme:T1001 Instrument:T27
+T64	Positive_regulation 874 882	resulted
+E18	Positive_regulation:T64 Theme:E32 Cause:E17
+T65	Negative_regulation 1107 1114	against
+E19	Negative_regulation:T65 Cause:T38 Theme:T39
+T66	Growth 1158 1164	growth
+E20	Growth:T66 Theme:T40
+T67	Negative_regulation 1165 1170	delay
+E21	Negative_regulation:T67 Theme:E20 Cause:T41
+T68	Growth 1220 1226	growth
+E22	Growth:T68 Theme:T42
+T69	Negative_regulation 1227 1232	delay
+E23	Negative_regulation:T69 Cause:T43 Theme:E22
+T70	Positive_regulation 1138 1147	increased
+E24	Positive_regulation:T70 Cause:T38 Theme:E21
+E25	Positive_regulation:T70 Cause:T38 Theme:E23
+T71	Planned_process 1270 1284	Administration
+E26	Planned_process:T71 Instrument:T44
+T72	Positive_regulation 1307 1316	increased
+E27	Positive_regulation:T72 Theme:E29 Cause:E26
+T73	Growth 1327 1333	growth
+E28	Growth:T73 Theme:T45
+T74	Negative_regulation 1334 1339	delay
+E29	Negative_regulation:T74 Theme:E28
+T75	Planned_process 1402 1411	Treatment
+E30	Planned_process:T75 Instrument:T47
+T76	Planned_process 1675 1689	Administration
+E33	Planned_process:T76 Instrument:T52 Instrument:T53
+T78	Planned_process 136 143	culture
+E34	Planned_process:T78 Theme:T77
+E35	Blood_vessel_development:T1 AtLoc:T5
+E36	Blood_vessel_development:T58 
+E37	Blood_vessel_development:T1 AtLoc:T4
+T83	Negative_regulation 29 36	effects
+E38	Negative_regulation:T83 Theme:T82
+E39	Negative_regulation:T83 Theme:E37
+E40	Negative_regulation:T83 Theme:E35

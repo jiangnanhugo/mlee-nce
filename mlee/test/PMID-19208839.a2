@@ -1,0 +1,88 @@
+T9	Pathway 168 174	system
+T22	Blood_vessel_development 457 467	angiogenic
+T25	Blood_vessel_development 531 543	angiogenesis
+T28	Blood_vessel_development 768 780	angiogenesis
+T70	Blood_vessel_development 1876 1888	angiogenesis
+T3	Development 58 69	development
+E3	Development:T3 Theme:T4
+T7	Growth 137 143	growth
+E7	Growth:T7 Theme:T8
+T17	Positive_regulation 354 366	up-regulated
+E17	Positive_regulation:T17 Theme:T18
+T29	Growth 791 797	growth
+E29	Growth:T29 Theme:T30
+T31	Growth 900 906	growth
+E31	Growth:T31 Theme:T32
+T38	Growth 1080 1086	growth
+E38	Growth:T38 Theme:T39
+T41	Development 1166 1177	development
+E41	Development:T41 Theme:T42
+T43	Growth 1193 1199	growth
+E43	Growth:T43 Theme:T44
+T45	Development 1243 1254	progression
+E45	Development:T45 Theme:T46
+T54	Localization 1561 1572	recruitment
+E54	Localization:T54 Theme:T56
+T60	Localization 1657 1666	Recruited
+E60	Localization:T60 Theme:T62
+*	Equiv T18 T19
+T2	Regulation 28 35	affects
+E1	Regulation:T2 Cause:T1 Theme:E3
+T67	Development 81 91	maturation
+E2	Development:T67 Theme:T6
+E4	Regulation:T2 Cause:T1 Theme:E2
+T72	Regulation 99 110	dispensable
+E6	Regulation:T72 Theme:E7 Cause:T1
+A1	Negation E6
+T73	Regulation 259 270	controlling
+E8	Regulation:T73 Cause:E37 Theme:E9
+T74	Development 278 286	assembly
+E9	Development:T74 Theme:T16
+T75	Development 288 298	maturation
+E10	Development:T75 Theme:T16
+E11	Regulation:T73 Cause:E37 Theme:E10
+T76	Negative_regulation 468 480	intervention
+E12	Negative_regulation:T76 Theme:E33
+T77	Regulation 573 582	depending
+E16	Regulation:T77 Theme:T23
+T78	Regulation 750 754	role
+E18	Regulation:T78 Cause:T27 Theme:E35
+A2	Speculation E18
+E19	Regulation:T78 Cause:T27 Theme:E29
+A3	Speculation E19
+T79	Gene_expression 950 959	deficient
+E20	Gene_expression:T79 Theme:T33
+A4	Negation E20
+T80	Gene_expression 1110 1119	deficient
+E21	Gene_expression:T80 Theme:T40
+A5	Negation E21
+T81	Gene_expression 1595 1604	deficient
+E22	Gene_expression:T81 Theme:T57
+A6	Negation E22
+T82	Regulation 1849 1853	role
+E23	Regulation:T82 Cause:T68 Theme:E36
+T83	Development 1577 1587	maturation
+E24	Development:T83 Theme:T56
+T84	Growth 1475 1480	grown
+E25	Growth:T84 Theme:T50
+T85	Gene_expression 1490 1499	deficient
+E26	Gene_expression:T85 Theme:T51
+A7	Negation E26
+T86	Growth 1032 1036	grew
+E27	Growth:T86 Theme:T34
+E28	Growth:T86 Theme:T35
+E30	Growth:T86 Theme:T36
+T87	Gene_expression 1053 1062	deficient
+E32	Gene_expression:T87 Theme:T37
+A8	Negation E32
+E33	Blood_vessel_development:T22 
+E34	Blood_vessel_development:T25 AtLoc:T24
+E35	Blood_vessel_development:T28 
+E36	Blood_vessel_development:T70 AtLoc:T69
+E37	Pathway:T9 Participant:T10 Participant2:T11
+T88	Localization 1377 1386	perfusion
+E39	Localization:T88 Theme:T48
+T5	Development 304 314	quiescence
+E5	Development:T5 Theme:T16
+A12	Negation E5
+E13	Regulation:T73 Cause:E37 Theme:E5

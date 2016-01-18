@@ -1,0 +1,61 @@
+T3	Blood_vessel_development 20 32	angiogenesis
+T5	Blood_vessel_development 55 67	Angiogenesis
+T10	Blood_vessel_development 167 179	angiogenesis
+T18	Blood_vessel_development 275 287	angiogenesis
+T30	Blood_vessel_development 456 468	angiogenesis
+T47	Blood_vessel_development 767 779	angiogenesis
+T12	Negative_regulation 195 210	down-regulation
+E12	Negative_regulation:T12 Theme:T13
+T14	Regulation 242 247	alter
+E14	Regulation:T14 Theme:E15 Cause:E6
+T15	Growth 254 260	growth
+E15	Growth:T15 Theme:T16
+T20	Negative_regulation 392 406	down-regulated
+E20	Negative_regulation:T20 Theme:E22 Cause:T26
+T21	Positive_regulation 340 352	up-regulated
+E21	Positive_regulation:T21 Cause:T25 Theme:E22
+T22	Gene_expression 317 327	Expression
+E22	Gene_expression:T22 Theme:T23
+T33	Cell_proliferation 514 527	proliferation
+E33	Cell_proliferation:T33 Theme:T36
+T35	Localization 500 509	migration
+E35	Localization:T35 Theme:T36
+T37	Positive_regulation 568 578	activation
+E37	Positive_regulation:T37 Cause:T40 Theme:T38
+T41	Regulation 662 672	regulation
+E41	Regulation:T41 Theme:E42
+T42	Development 682 693	progression
+E42	Development:T42 Theme:T43
+T48	Development 790 801	progression
+E48	Development:T48 Theme:T49
+*	Equiv T38 T39
+*	Equiv T8 T9
+T1	Growth 97 103	growth
+E1	Growth:T1 Theme:T7
+T6	Localization 108 118	metastasis
+E2	Localization:T6 Theme:T7
+T11	Regulation 0 10	Regulation
+E3	Regulation:T11 Theme:E18 Cause:T4
+T17	Regulation 68 89	plays a critical role
+E4	Regulation:T17 Cause:E19 Theme:E1
+E5	Regulation:T17 Cause:E19 Theme:E2
+T29	Regulation 264 274	modulating
+E6	Regulation:T29 Cause:E12 Theme:E24
+E7	Negative_regulation:T20 Theme:E22 Cause:T27
+T31	Negative_regulation 447 455	inhibits
+E8	Negative_regulation:T31 Theme:E25 Cause:E10
+T44	Negative_regulation 472 482	inhibiting
+E9	Negative_regulation:T44 Cause:T28 Theme:E35
+E10	Negative_regulation:T44 Cause:T28 Theme:E33
+E11	Negative_regulation:T31 Theme:E25 Cause:E9
+T46	Negative_regulation 753 763	inhibition
+E13	Negative_regulation:T46 Cause:T45 Theme:E26
+E16	Negative_regulation:T46 Cause:T45 Theme:E48
+T50	Regulation 634 654	plays a crucial role
+E17	Regulation:T50 Cause:E37 Theme:E41
+E18	Blood_vessel_development:T3 AtLoc:T2
+E19	Blood_vessel_development:T5 
+E23	Blood_vessel_development:T10 
+E24	Blood_vessel_development:T18 AtLoc:T19
+E25	Blood_vessel_development:T30 
+E26	Blood_vessel_development:T47 

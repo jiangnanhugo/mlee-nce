@@ -1,0 +1,66 @@
+T61	Blood_vessel_development 1637 1649	angiogenesis
+T3	Positive_regulation 47 57	activation
+E3	Positive_regulation:T3 Theme:T4
+T6	Localization 85 94	secretion
+E6	Localization:T6 Theme:T7 FromLoc:T8
+T13	Regulation 362 372	modulation
+E13	Regulation:T13 Cause:T11 Theme:T14
+T21	Positive_regulation 632 641	activates
+E21	Positive_regulation:T21 Cause:T22 Theme:T23
+T27	Positive_regulation 790 797	induces
+E27	Positive_regulation:T27 Theme:E29 Cause:T28
+T29	Positive_regulation 798 808	activation
+E29	Positive_regulation:T29 Theme:T30
+T34	Transcription 969 982	transcription
+E34	Transcription:T34 Theme:T35
+T41	Planned_process 1165 1177	coincubation
+E41	Planned_process:T41 Instrument:T43 Instrument:T42
+T44	Negative_regulation 1207 1221	downregulation
+E44	Negative_regulation:T44 Theme:E45
+T45	Localization 1230 1239	secretion
+E45	Localization:T45 Theme:T46
+T50	Positive_regulation 1406 1416	activation
+E50	Positive_regulation:T50 Theme:T51
+T58	Regulation 1546 1581	have important regulatory functions
+E58	Regulation:T58 Theme:T60 Cause:T57
+*	Equiv T10 T9
+*	Equiv T36 T35
+*	Equiv T25 T26
+T17	Regulation 37 46	modulates
+E1	Regulation:T17 Cause:T1 Theme:E3
+E2	Positive_regulation:T3 Theme:T5
+E4	Regulation:T17 Cause:T1 Theme:E6
+E5	Regulation:T17 Cause:T1 Theme:E2
+T20	Cell_proliferation 261 268	growing
+E7	Cell_proliferation:T20 Theme:T2
+T40	Regulation 208 216	mediator
+E8	Regulation:T40 Cause:T9 Theme:T2
+E9	Regulation:T13 Cause:T11 Theme:T15
+T12	Regulation 434 456	play an important role
+E10	Regulation:T12 Theme:T16
+E11	Regulation:T12 Theme:T18
+T19	Planned_process 684 696	coincubation
+E12	Planned_process:T19 Theme:T24 Instrument:T25 Instrument:T22
+T55	Negative_regulation 744 755	suppression
+E14	Negative_regulation:T55 Cause:E12 Theme:E21
+T59	Regulation 836 844	modulate
+E15	Regulation:T59 Theme:E16 Cause:T28
+A1	Negation E15
+T62	Binding 849 856	binding
+E16	Binding:T62 Theme:T30
+T63	Regulation 936 947	controlling
+E17	Regulation:T63 Theme:E34 Cause:T33
+E18	Regulation:T63 Theme:E34 Cause:T32
+T64	Planned_process 1007 1014	treated
+E19	Planned_process:T64 Theme:T37 Instrument:T38 Instrument:T39
+T65	Positive_regulation 860 873	costimulation
+E20	Positive_regulation:T65 Theme2:T31 Theme:T30
+T66	Positive_regulation 1193 1196	led
+E22	Positive_regulation:T66 Cause:E41 Theme:E44
+T67	Planned_process 1285 1294	treatment
+E23	Planned_process:T67 Instrument:T47
+T68	Regulation 1391 1398	effects
+E24	Regulation:T68 Cause:T48 Theme:E50
+E25	Positive_regulation:T50 Theme:T52
+E26	Regulation:T68 Cause:T48 Theme:E25
+E28	Blood_vessel_development:T61 

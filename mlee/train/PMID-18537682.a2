@@ -1,0 +1,12 @@
+T4	Blood_vessel_development 134 146	angiogenesis
+T8	Blood_vessel_development 549 559	angiogenic
+T13	Blood_vessel_development 691 707	angiosuppressive
+T14	Blood_vessel_development 712 728	angiostimulatory
+T16	Blood_vessel_development 791 803	angiogenesis
+E1	Blood_vessel_development:T4 
+E2	Blood_vessel_development:T8 
+E3	Blood_vessel_development:T13 
+E4	Blood_vessel_development:T14 
+E5	Blood_vessel_development:T16 
+T5	Negative_regulation 560 567	effects
+E6	Negative_regulation:T5 Theme:E2

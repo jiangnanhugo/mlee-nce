@@ -1,0 +1,59 @@
+T1	Blood_vessel_development 29 41	angiogenesis
+T4	Blood_vessel_development 113 125	angiogenesis
+T10	Blood_vessel_development 296 308	angiogenesis
+T36	Blood_vessel_development 1463 1475	angiogenesis
+T42	Blood_vessel_development 1593 1603	angiogenic
+T45	Blood_vessel_development 1697 1709	angiogenesis
+T5	Positive_regulation 313 324	upregulated
+E5	Positive_regulation:T5 Theme:T6
+T11	Planned_process 433 446	administering
+E11	Planned_process:T11 Instrument:T12 Theme:T1000
+T13	Positive_regulation 787 796	increased
+E13	Positive_regulation:T13 Theme:T15 Cause:E16
+T16	Planned_process 822 836	administration
+E16	Planned_process:T16 Instrument:T17
+T18	Planned_process 913 922	treatment
+E18	Planned_process:T18 Instrument:T19
+T21	Planned_process 1038 1047	treatment
+E21	Planned_process:T21 Instrument:T22
+T26	Positive_regulation 1134 1143	increased
+E26	Positive_regulation:T26 Theme:T27
+T29	Planned_process 1266 1273	treated
+E29	Planned_process:T29 Instrument:T30 Theme:T1001
+T31	Planned_process 1360 1369	Injection
+E31	Planned_process:T31 Instrument:T48
+T38	Planned_process 1529 1538	treatment
+E38	Planned_process:T38 Instrument:T39
+*	Equiv T6 T7
+T23	Positive_regulation 12 19	induced
+E1	Positive_regulation:T23 Theme:E19
+T33	Positive_regulation 45 54	dependent
+E2	Positive_regulation:T33 Theme:E19 Cause:T3
+A1	Speculation E5
+T35	Positive_regulation 844 852	increase
+E3	Positive_regulation:T35 Theme:T15
+T41	Positive_regulation 877 885	increase
+E4	Positive_regulation:T41 Theme:T15
+T44	Positive_regulation 1086 1094	increase
+E6	Positive_regulation:T44 Theme:T25
+T46	Negative_regulation 1174 1182	declined
+E7	Negative_regulation:T46 Theme:T27
+T47	Positive_regulation 1314 1323	increased
+E8	Positive_regulation:T47 Theme:T28
+T49	Negative_regulation 1434 1441	blocked
+E9	Negative_regulation:T49 Cause:E31 Theme:E23
+T50	Positive_regulation 1452 1462	stimulated
+E10	Positive_regulation:T50 Cause:T34 Theme:E23
+T51	Regulation 1508 1515	altered
+E12	Regulation:T51 Cause:E38 Theme:T37
+A2	Negation E12
+T52	Regulation 1569 1585	plays a key role
+E15	Regulation:T52 Cause:T40 Theme:E25
+T53	Regulation 1686 1696	associated
+E17	Regulation:T53 Cause:T43 Theme:E27
+E19	Blood_vessel_development:T1 Theme:T54
+E20	Blood_vessel_development:T4 Theme:T55
+E22	Blood_vessel_development:T10 
+E23	Blood_vessel_development:T36 
+E25	Blood_vessel_development:T42 
+E27	Blood_vessel_development:T45 

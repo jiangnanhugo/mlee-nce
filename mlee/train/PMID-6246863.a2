@@ -1,0 +1,13 @@
+T4	Blood_vessel_development 455 473	neovascularization
+T8	Blood_vessel_development 729 747	neovascularization
+T10	Development 488 497	developed
+E1	Development:T10 Theme:T5
+T11	Planned_process 132 144	inoculations
+E2	Planned_process:T11 Theme:T1000 Instrument:T12
+*	Equiv T12 T13
+T15	Planned_process 325 336	inoculation
+E3	Planned_process:T15 Instrument:T14
+T16	Development 562 571	developed
+E4	Development:T16 Theme:T7
+E5	Blood_vessel_development:T4 AtLoc:T5
+E6	Blood_vessel_development:T8 AtLoc:T9

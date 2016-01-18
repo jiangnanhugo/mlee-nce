@@ -1,0 +1,21 @@
+T1	Blood_vessel_development 20 32	angiogenesis
+T4	Blood_vessel_development 81 93	angiogenesis
+T20	Blood_vessel_development 937 949	angiogenesis
+T22	Blood_vessel_development 1713 1725	angiogenesis
+T5	Localization 139 149	metastasis
+E5	Localization:T5 Theme:T7
+T6	Growth 128 134	growth
+E6	Growth:T6 Theme:T7
+T15	Gene_expression 873 883	expression
+E15	Gene_expression:T15 Theme:T18
+E17	Gene_expression:T15 Theme:T16
+T24	Localization 1883 1892	migration
+E24	Localization:T24 Theme:T25 ToLoc:T26
+E1	Blood_vessel_development:T1 AtLoc:T2
+E2	Blood_vessel_development:T4 AtLoc:T3
+E3	Blood_vessel_development:T20 
+E4	Blood_vessel_development:T22 AtLoc:T23
+T17	Planned_process 1976 1988	chemotherapy
+E7	Planned_process:T17 Theme:T1002
+T27	Planned_process 1996 2008	radiotherapy
+E8	Planned_process:T27 Theme:T1002

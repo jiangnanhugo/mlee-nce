@@ -1,0 +1,54 @@
+T12	Blood_vessel_development 151 163	angiogenesis
+T16	Blood_vessel_development 248 260	angiogenesis
+T52	Blood_vessel_development 1356 1368	angiogenesis
+T5	Localization 29 38	migration
+E5	Localization:T5 Theme:T6
+T9	Localization 81 90	Migration
+E9	Localization:T9 Theme:T10
+T13	Positive_regulation 173 182	Increased
+E13	Positive_regulation:T13 Theme:T14
+T20	Localization 416 425	migration
+E20	Localization:T20 Theme:T21
+T35	Localization 801 810	migration
+E35	Localization:T35 Theme:T36
+T40	Localization 906 915	migration
+E40	Localization:T40 Theme:T41
+T55	Localization 1387 1396	migration
+E55	Localization:T55 Theme:T56
+T3	Positive_regulation 18 28	stimulates
+E1	Positive_regulation:T3 Theme:E5 Cause:T2
+T7	Regulation 215 225	associated
+E2	Regulation:T7 Cause:E13 Theme:E25
+T11	Positive_regulation 372 381	increases
+E3	Positive_regulation:T11 Theme:E20
+T15	Positive_regulation 523 541	stimulatory effect
+E6	Positive_regulation:T15 Cause:T25 Theme:E7
+T18	Localization 559 568	migration
+E7	Localization:T18 Theme:T26
+T22	Regulation 646 664	mitogenic activity
+E10	Regulation:T22 Cause:T28 Theme:T29
+T27	Positive_regulation 763 773	stimulated
+E11	Positive_regulation:T27 Cause:T32 Theme:E35
+T30	Positive_regulation 868 878	stimulated
+E12	Positive_regulation:T30 Cause:T38 Theme:E40
+T33	Negative_regulation 1067 1074	blocked
+E14	Negative_regulation:T33 Theme:T44 Cause:T47
+E15	Negative_regulation:T33 Theme:T44 Cause:T48
+E16	Negative_regulation:T33 Theme:T44 Cause:T49
+A1	Negation E16
+T37	Regulation 1334 1338	role
+E17	Regulation:T37 Cause:T51 Theme:E26
+T42	Positive_regulation 1379 1386	enhance
+E18	Positive_regulation:T42 Cause:E17 Theme:E55
+T45	Growth 1425 1432	growing
+E21	Growth:T45 Theme:T57
+T58	Positive_regulation 947 956	stimulate
+E22	Positive_regulation:T58 Theme:E23 Cause:T38
+T59	Localization 957 966	migration
+E23	Localization:T59 Theme:T53
+A2	Negation E22
+E24	Blood_vessel_development:T12 
+E25	Blood_vessel_development:T16 
+E26	Blood_vessel_development:T52 
+A3	Speculation E18
+A10	Negation E10

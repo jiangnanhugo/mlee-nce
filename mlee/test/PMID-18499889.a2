@@ -1,0 +1,15 @@
+T10	Regulation 151 161	management
+E1	Regulation:T10 Theme:T3
+T11	Planned_process 755 764	Treatment
+E2	Planned_process:T11 Theme:T5
+T12	Planned_process 1039 1051	chemotherapy
+E3	Planned_process:T12 Instrument:T6
+T13	Planned_process 1137 1149	chemotherapy
+E4	Planned_process:T13 Theme:T7
+T14	Planned_process 1284 1296	chemotherapy
+E5	Planned_process:T14 Theme:T8
+T15	Planned_process 1405 1414	treatment
+E6	Planned_process:T15 Theme:T9
+T16	Planned_process 454 466	chemotherapy
+E7	Planned_process:T16 Theme:T1000
+E8	Planned_process:T16 Theme:T1001

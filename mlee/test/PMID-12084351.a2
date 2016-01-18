@@ -1,0 +1,51 @@
+T1	Pathway 5 14	signaling
+T10	Blood_vessel_development 695 710	neoangiogenesis
+T12	Pathway 871 888	signaling pathway
+T25	Pathway 1474 1481	pathway
+T16	Dephosphorylation 897 914	dephosphorylation
+E16	Dephosphorylation:T16 Theme:T17
+T20	Regulation 1211 1222	alterations
+E20	Regulation:T20 Theme:T21
+T22	Planned_process 1358 1377	selective targeting
+E22	Planned_process:T22 Theme:T23
+*	Equiv T3 T4
+*	Equiv T13 T14
+T35	Regulation 271 275	role
+E1	Regulation:T35 Cause:T5 Theme:E2
+T36	Development 310 321	development
+E2	Development:T36 Theme:T6
+T39	Development 506 517	development
+E6	Development:T39 Theme:T32
+T38	Regulation 686 694	aberrant
+E5	Regulation:T38 Theme:E14 Cause:T32
+T40	Regulation 765 774	dependent
+E7	Regulation:T40 Theme:T11
+T41	Negative_regulation 816 824	inhibits
+E8	Negative_regulation:T41 Theme:E23 Cause:E9
+T42	Regulation 816 824	inhibits
+E9	Regulation:T42 Cause:T11 Theme:E16
+T44	Regulation 1044 1055	play a role
+E10	Regulation:T44 Cause:T18 Theme:T43
+A1	Speculation E10
+E3	Regulation:T35 Cause:T5 Theme:T29
+T37	Planned_process 1533 1540	therapy
+E4	Planned_process:T37 Theme:T33
+T45	Negative_regulation 135 145	suppressor
+E11	Negative_regulation:T45 Theme:T30 Cause:T3
+T48	Cell_proliferation 628 641	proliferation
+E12	Cell_proliferation:T48 Theme:T47
+T49	Regulation 610 622	uncontrolled
+E13	Regulation:T49 Theme:E12
+A2	Negation E13
+E14	Blood_vessel_development:T10 Theme:T32
+T50	Death 655 664	apoptosis
+E15	Death:T50 Theme:T47
+T51	Regulation 476 484	aberrant
+E17	Regulation:T51 Theme:T7
+T52	Negative_regulation 643 649	escape
+E18	Negative_regulation:T52 Theme:E15 Cause:T32
+T53	Localization 672 680	invasion
+E19	Localization:T53 Theme:T32 ToLoc:T9
+E21	Pathway:T1 Participant:T2
+E23	Pathway:T12 Participant:T15 Participant2:T13
+E24	Pathway:T25 Participant:T26 Participant2:T27 Participant3:T28

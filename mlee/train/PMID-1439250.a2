@@ -1,0 +1,8 @@
+T2	Blood_vessel_development 340 358	neovascularization
+T4	Breakdown 457 467	detachment
+E4	Breakdown:T4 Theme:T5
+T15	Breakdown 1260 1270	detachment
+E15	Breakdown:T15 Theme:T16
+T19	Positive_regulation 318 329	stimulating
+E1	Positive_regulation:T19 Theme:E2
+E2	Blood_vessel_development:T2 

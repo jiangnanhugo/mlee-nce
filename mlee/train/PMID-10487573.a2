@@ -1,0 +1,29 @@
+T2	Blood_vessel_development 42 60	neovascularization
+T6	Blood_vessel_development 181 199	neovascularization
+T9	Blood_vessel_development 522 540	neovascularization
+T3	Breakdown 84 96	degeneration
+E3	Breakdown:T3 Theme:T4
+T7	Breakdown 230 242	degeneration
+E7	Breakdown:T7 Theme:T8
+T1	Regulation 137 144	Control
+E1	Regulation:T1 Theme:E13
+T5	Planned_process 618 625	treated
+E2	Planned_process:T5 Theme:T1002
+T12	Planned_process 678 686	received
+E4	Planned_process:T12 Theme:T1003
+T13	Planned_process 1025 1032	therapy
+E5	Planned_process:T13 Theme:T1007
+T14	Planned_process 1357 1367	irradiated
+E6	Planned_process:T14 Theme:T1010
+T15	Planned_process 1387 1396	untreated
+E8	Planned_process:T15 Theme:T1010
+A1	Negation E8
+T16	Planned_process 1276 1286	irradiated
+E9	Planned_process:T16 Theme:T1009
+T17	Negative_regulation 1203 1211	refusing
+E10	Negative_regulation:T17 Theme:E11
+T18	Planned_process 1212 1224	radiotherapy
+E11	Planned_process:T18 Theme:T1008
+E12	Blood_vessel_development:T2 
+E13	Blood_vessel_development:T6 
+E14	Blood_vessel_development:T9 

@@ -1,0 +1,45 @@
+T8	Pathway 246 255	signaling
+T12	Positive_regulation 320 327	induces
+E12	Positive_regulation:T12 Cause:T13 Theme:E1
+T18	Positive_regulation 435 445	activation
+E18	Positive_regulation:T18 Theme:T19
+T20	Gene_expression 523 533	expression
+E20	Gene_expression:T20 Theme:T21
+T27	Negative_regulation 933 946	downregulated
+E27	Negative_regulation:T27 Theme:E28
+T28	Gene_expression 865 874	expressed
+E28	Gene_expression:T28 Theme:T29
+T43	Gene_expression 1386 1400	overexpression
+E43	Gene_expression:T43 Theme:T44
+T49	Positive_regulation 1544 1553	activated
+E49	Positive_regulation:T49 Theme:T51
+*	Equiv T6 T5
+*	Equiv T25 T26
+T3	Gene_expression 336 346	expression
+E1	Gene_expression:T3 Theme:T14
+T4	Negative_regulation 408 417	attenuate
+E2	Negative_regulation:T4 Theme:E18 Cause:E12
+T16	Planned_process 721 728	coupled
+E3	Planned_process:T16 Instrument:T23 Instrument:T24
+T41	Planned_process 649 657	targeted
+E4	Planned_process:T41 Instrument:T23 Instrument:T24 Theme:T1002
+T47	Planned_process 969 983	administration
+E5	Planned_process:T47 Theme:T1003 Instrument:T32
+E6	Planned_process:T47 Theme:T1003 Instrument:T33
+T53	Positive_regulation 1050 1062	reactivation
+E7	Positive_regulation:T53 Theme:T35 Site:T54
+T55	Regulation 1040 1049	sensitive
+E8	Regulation:T55 Cause:T34 Theme:E7
+T56	Positive_regulation 1013 1021	resulted
+E9	Positive_regulation:T56 Theme:E7 Cause:E6
+E10	Positive_regulation:T56 Theme:E7 Cause:E5
+T57	Positive_regulation 1205 1212	induced
+E11	Positive_regulation:T57 Site:T58 Theme:T38
+T59	Gene_expression 1294 1303	deficient
+E13	Gene_expression:T59 Theme:T42
+A1	Negation E13
+T61	Positive_regulation 1369 1377	mediated
+E14	Positive_regulation:T61 Cause:T60 Theme:E43
+T64	Gene_expression 1530 1540	expression
+E16	Gene_expression:T64 Theme:T46
+E15	Pathway:T8 Participant:T9 Participant2:T10

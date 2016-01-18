@@ -1,0 +1,49 @@
+T55	Blood_vessel_development 1098 1108	angiogenic
+T59	Blood_vessel_development 1170 1182	angiogenesis
+T1	Regulation 0 10	Regulation
+E1	Regulation:T1 Theme:T2 Cause:T3
+T12	Positive_regulation 300 306	induce
+E12	Positive_regulation:T12 Cause:T13 Theme:T14
+T18	Negative_regulation 411 419	inhibits
+E18	Negative_regulation:T18 Cause:T19 Theme:E20
+T20	Positive_regulation 424 433	induction
+E20	Positive_regulation:T20 Cause:T23 Theme:T21
+T27	Negative_regulation 594 600	blocks
+E27	Negative_regulation:T27 Theme:E30 Cause:T29
+T30	Positive_regulation 621 630	induction
+E30	Positive_regulation:T30 Theme:T31
+T35	Regulation 806 814	regulate
+E35	Regulation:T35 Theme:E40 Cause:T38
+T40	Transcription 815 828	transcription
+E40	Transcription:T40 Theme:T41
+T45	Cell_proliferation 953 966	proliferation
+E45	Cell_proliferation:T45 Theme:T47
+T50	Localization 1053 1061	secreted
+E50	Localization:T50 Theme:T51 FromLoc:T52
+R1	frag Arg1:T16 Arg2:T17
+*	Equiv T7 T8
+*	Equiv T14 T15
+*	Equiv T25 T26
+T10	Positive_regulation 138 144	induce
+E3	Positive_regulation:T10 Cause:T6 Theme:T7
+T33	Gene_expression 215 222	express
+E4	Gene_expression:T33 Theme:T11
+E2	Positive_regulation:T20 Cause:T23 Theme:T22
+E5	Negative_regulation:T18 Cause:T19 Theme:E2
+T5	Regulation 511 519	mediated
+E6	Regulation:T5 Theme:T24 Cause:T25
+T44	Positive_regulation 611 620	dependent
+E7	Positive_regulation:T44 Theme:E30 Cause:T37
+E8	Negative_regulation:T27 Theme:E30 Cause:T28
+A1	Negation E27
+T54	Planned_process 897 904	treated
+E9	Planned_process:T54 Instrument:T42 Theme:T43
+T58	Positive_regulation 925 935	stimulates
+E10	Positive_regulation:T58 Theme:E45 Cause:T43
+T62	Positive_regulation 1162 1169	promote
+E11	Positive_regulation:T62 Cause:T57 Theme:E15
+T63	Planned_process 1263 1270	therapy
+E13	Planned_process:T63 Theme:T61
+E14	Blood_vessel_development:T55 
+E15	Blood_vessel_development:T59 AtLoc:T60
+E16	Regulation:T35 Theme:E40 Cause:T39

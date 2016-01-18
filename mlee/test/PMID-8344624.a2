@@ -1,0 +1,19 @@
+T7	Blood_vessel_development 458 470	angiogenesis
+T4	Positive_regulation 422 433	accelerates
+E4	Positive_regulation:T4 Theme:E5
+T5	Gene_expression 443 453	production
+E5	Gene_expression:T5 Theme:T6
+T12	Planned_process 1 10	Treatment
+E1	Planned_process:T12 Instrument:T10 Theme:T1
+E2	Positive_regulation:T4 Theme:E10
+T13	Planned_process 1120 1130	amputation
+E3	Planned_process:T13 Theme:T9
+T15	Development 494 500	repair
+E6	Development:T15 Theme:T14
+T16	Positive_regulation 477 486	enhancing
+E7	Positive_regulation:T16 Theme:E6
+T18	Negative_regulation 403 410	reduces
+E8	Negative_regulation:T18 Theme:T17
+T21	Regulation 359 367	affected
+E9	Regulation:T21 Theme:T20
+E10	Blood_vessel_development:T7 

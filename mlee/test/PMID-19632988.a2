@@ -1,0 +1,4 @@
+T3	Blood_vessel_development 476 488	angiogenesis
+T7	Negative_regulation 556 566	neutralize
+E1	Negative_regulation:T7 Theme:T6
+E2	Blood_vessel_development:T3 

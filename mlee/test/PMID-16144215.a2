@@ -1,0 +1,7 @@
+T3	Blood_vessel_development 232 250	neovascularization
+*	Equiv T6 T7
+T8	Development 36 47	development
+E1	Development:T8 Theme:T1
+T15	Growth 195 201	growth
+E2	Growth:T15 Theme:T2
+E3	Blood_vessel_development:T3 AtLoc:T4

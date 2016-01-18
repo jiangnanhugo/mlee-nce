@@ -1,0 +1,6 @@
+T8	Blood_vessel_development 740 760	neovascular response
+T6	Positive_regulation 731 737	induce
+E6	Positive_regulation:T6 Theme:E2
+T1	Planned_process 441 452	angiography
+E1	Planned_process:T1 Instrument:T3 Theme:T1000
+E2	Blood_vessel_development:T8 

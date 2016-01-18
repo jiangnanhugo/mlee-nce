@@ -1,0 +1,48 @@
+T4	Blood_vessel_development 110 122	angiogenesis
+T34	Blood_vessel_development 1088 1100	angiogenesis
+T16	Gene_expression 642 657	superexpression
+E16	Gene_expression:T16 Theme:T18
+T17	Planned_process 625 637	transfection
+E17	Planned_process:T17 Instrument:T18 Theme:T15
+T19	Positive_regulation 662 670	increase
+E19	Positive_regulation:T19 Theme:T20
+T21	Gene_expression 790 800	expression
+E21	Gene_expression:T21 Theme:T22
+T27	Negative_regulation 1043 1053	antagonism
+E27	Negative_regulation:T27 Theme:T29
+T31	Positive_regulation 1069 1078	induction
+E31	Positive_regulation:T31 Theme:E25 Cause:T33
+T26	Regulation 290 297	engaged
+E1	Regulation:T26 Theme:E2 Cause:T5 Site:T36
+T38	Transcription 305 318	transcription
+E2	Transcription:T38 Theme:T11
+E3	Regulation:T26 Theme:E2 Cause:T5 Site:T37
+T39	Gene_expression 451 459	produces
+E4	Gene_expression:T39 Theme:T13
+T40	Death 722 731	apoptosis
+E5	Death:T40 Theme:T15
+T41	Negative_regulation 732 742	protection
+E6	Negative_regulation:T41 Theme:E5
+T42	Positive_regulation 711 718	leading
+E7	Positive_regulation:T42 Theme:E6 Cause:E19
+T43	Negative_regulation 808 818	restricted
+E8	Negative_regulation:T43 Theme:E21
+A1	Negation E8
+T44	Regulation 984 988	role
+E9	Regulation:T44 Cause:T25 Theme:E18
+A2	Speculation E9
+T45	Negative_regulation 1021 1032	influencing
+E10	Negative_regulation:T45 Theme:E27
+E11	Positive_regulation:T31 Theme:E25 Cause:T32
+E13	Negative_regulation:T27 Theme:T28
+E14	Negative_regulation:T45 Theme:E31
+E15	Negative_regulation:T45 Theme:E11
+E18	Negative_regulation:T45 Theme:E13
+E20	Regulation:T44 Cause:T25 Theme:E10
+E22	Regulation:T44 Cause:T25 Theme:E15
+E23	Regulation:T44 Cause:T25 Theme:E14
+A3	Speculation E20
+A4	Speculation E22
+A5	Speculation E23
+E24	Blood_vessel_development:T4 
+E25	Blood_vessel_development:T34 AtLoc:T30

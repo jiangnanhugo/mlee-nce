@@ -1,0 +1,4 @@
+T2	Blood_vessel_development 69 81	angiogenesis
+E1	Blood_vessel_development:T2 
+T1	Blood_vessel_development 0 12	Angiogenesis
+E2	Blood_vessel_development:T1 

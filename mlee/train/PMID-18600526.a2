@@ -1,0 +1,42 @@
+T16	Blood_vessel_development 310 322	angiogenesis
+T33	Blood_vessel_development 721 733	angiogenesis
+T10	Gene_expression 238 248	expression
+E10	Gene_expression:T10 Theme:T11
+T14	Growth 289 295	growth
+E14	Growth:T14 Theme:T15
+T39	Positive_regulation 967 976	induction
+E39	Positive_regulation:T39 Theme:T40
+*	Equiv T5 T7
+*	Equiv T28 T29
+*	Equiv T35 T36
+*	Equiv T37 T38
+*	Equiv T30 T31
+*	Equiv T8 T9
+T2	Regulation 4 8	role
+E1	Regulation:T2 Theme:T4 Cause:T1
+E2	Regulation:T2 Theme:T4 Cause:T3
+T6	Positive_regulation 297 306	induction
+E3	Positive_regulation:T6 Theme:E16
+T13	Gene_expression 423 432	expressed
+E4	Gene_expression:T13 Theme:T18
+T20	Regulation 530 539	catalyzes
+E5	Regulation:T20 Cause:T25 Theme:E18
+E6	Regulation:T20 Cause:T25 Theme:E19
+E7	Regulation:T20 Cause:T25 Theme:E20
+T24	Regulation 689 700	play a role
+E8	Regulation:T24 Cause:T30 Theme:E9
+A1	Speculation E8
+T32	Positive_regulation 708 717	induction
+E9	Positive_regulation:T32 Theme:E17
+T44	Positive_regulation 1067 1073	induce
+E11	Positive_regulation:T44 Theme:E12
+T45	Gene_expression 1078 1088	expression
+E12	Gene_expression:T45 Theme:T42
+E13	Gene_expression:T45 Theme:T41
+E15	Positive_regulation:T44 Theme:E13
+E16	Blood_vessel_development:T16 
+E17	Blood_vessel_development:T33 
+T46	Metabolism 530 539	catalyzes
+E18	Metabolism:T46 Theme:T26
+E19	Metabolism:T46 Theme:T27
+E20	Metabolism:T46 Theme:T28

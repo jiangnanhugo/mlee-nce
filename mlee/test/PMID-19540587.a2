@@ -1,0 +1,60 @@
+T8	Blood_vessel_development 110 132	neo-endothelialisation
+T11	Blood_vessel_development 195 213	Endothelialisation
+T2	Binding 48 56	adhesion
+E2	Binding:T2 Theme:T5
+T12	Binding 227 235	adhesion
+E12	Binding:T12 Theme:T13
+T21	Cell_proliferation 637 643	growth
+E21	Cell_proliferation:T21 Theme:T22
+T23	Binding 665 673	adhesion
+E23	Binding:T23 Theme:T24
+T29	Cell_proliferation 842 855	proliferation
+E29	Cell_proliferation:T29 Theme:T30
+T39	Binding 1190 1198	adhesion
+E39	Binding:T39 Theme:T40
+T43	Cell_proliferation 1355 1368	proliferation
+E43	Cell_proliferation:T43 Theme:T44
+T45	Binding 1395 1403	adhesion
+E45	Binding:T45 Theme:T46
+*	Equiv T31 T32
+E3	Binding:T2 Theme:T3
+T4	Regulation 99 109	Controlled
+E5	Regulation:T4 Theme:E26
+T47	Planned_process 465 471	coated
+E6	Planned_process:T47 Instrument:T19
+T48	Negative_regulation 648 655	reduced
+E7	Negative_regulation:T48 Theme:E23
+T49	Positive_regulation 611 619	Enhanced
+E8	Positive_regulation:T49 Theme:E21
+T50	Planned_process 704 710	coated
+E9	Planned_process:T50 Instrument:T25
+T51	Planned_process 735 743	uncoated
+E10	Planned_process:T51 Instrument:T25
+T52	Planned_process 753 762	implanted
+E11	Planned_process:T52 Theme:T1000
+T53	Positive_regulation 815 824	stimulate
+E13	Positive_regulation:T53 Cause:T26 Theme:E29
+T54	Cell_proliferation 1015 1021	growth
+E14	Cell_proliferation:T54 Theme:T35
+T55	Localization 896 904	presence
+E15	Localization:T55 Theme:T31
+T56	Localization 981 988	absence
+E16	Localization:T56 Theme:T33
+A1	Negation E16
+T57	Binding 1091 1104	anti-adhesive
+E17	Binding:T57 Theme:T36 Theme:T37
+A2	Negation E17
+T58	Binding 1203 1214	aggregation
+E18	Binding:T58 Theme:T40
+T61	Positive_regulation 1328 1337	promoting
+E22	Positive_regulation:T61 Cause:T41 Theme:E43
+T62	Regulation 1375 1385	modulating
+E24	Regulation:T62 Theme:E45
+*	Equiv T64 T63
+E25	Planned_process:T52 Theme:T1000
+A3	Negation E10
+E26	Blood_vessel_development:T8 
+E27	Blood_vessel_development:T11 
+T1	Regulation 4 14	modulation
+E1	Regulation:T1 Theme:E3 Cause:T7
+E4	Regulation:T1 Theme:E2 Cause:T7

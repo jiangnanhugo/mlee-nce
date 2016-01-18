@@ -1,0 +1,45 @@
+T2	Blood_vessel_development 29 41	angiogenesis
+T5	Blood_vessel_development 102 114	angiogenesis
+T11	Blood_vessel_development 177 189	angiogenesis
+T16	Blood_vessel_development 364 376	angiogenesis
+T20	Blood_vessel_development 483 495	angiogenesis
+T24	Blood_vessel_development 562 574	angiogenesis
+T32	Blood_vessel_development 666 678	angiogenesis
+T37	Blood_vessel_development 744 756	angiogenesis
+T40	Blood_vessel_development 813 828	vascularization
+T8	Development 139 150	development
+E8	Development:T8 Theme:T10
+T29	Regulation 619 628	regulates
+E29	Regulation:T29 Cause:T25 Theme:E23
+*	Equiv T14 T15
+T23	Development 48 57	formation
+E1	Development:T23 Theme:T4
+T30	Positive_regulation 118 126	critical
+E2	Positive_regulation:T30 Cause:E1 Theme:E8
+T7	Regulation 168 176	Aberrant
+E4	Regulation:T7 Theme:E19
+T36	Positive_regulation 190 195	leads
+E5	Positive_regulation:T36 Cause:E19 Theme:T31
+T38	Regulation 310 320	regulating
+E7	Regulation:T38 Theme:T14
+E10	Regulation:T38 Theme:E20
+T41	Negative_regulation 400 408	deletion
+E11	Negative_regulation:T41 Theme:T18
+T43	Regulation 553 561	regulate
+E13	Regulation:T43 Cause:T22 Theme:E22
+T44	Regulation 724 734	contribute
+E14	Regulation:T44 Theme:E24 Cause:T35
+E15	Regulation:T44 Theme:E24 Cause:T34
+E16	Regulation:T44 Theme:E24 Cause:T33
+E17	Blood_vessel_development:T2 
+E18	Blood_vessel_development:T5 
+E19	Blood_vessel_development:T11 
+E20	Blood_vessel_development:T16 
+E21	Blood_vessel_development:T20 
+E22	Blood_vessel_development:T24 
+E23	Blood_vessel_development:T32 
+E24	Blood_vessel_development:T37 AtLoc:T13
+E25	Blood_vessel_development:T40 
+E3	Regulation:T29 Cause:T25 Theme:T3
+R1	frag Arg1:T6 Arg2:T35	
+E6	Regulation:T44 Theme:E24 Cause:T6

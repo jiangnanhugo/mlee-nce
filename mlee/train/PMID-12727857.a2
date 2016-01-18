@@ -1,0 +1,72 @@
+T2	Blood_vessel_development 6 18	angiogenesis
+T3	Regulation 19 28	modulates
+E3	Regulation:T3 Theme:E4 Cause:E2
+T4	Binding 51 63	interactions
+E4	Binding:T4 Theme:T6 Theme:T5
+T8	Gene_expression 114 124	expression
+E8	Gene_expression:T8 Theme:T7
+T10	Gene_expression 131 141	expression
+E10	Gene_expression:T10 Theme:T9
+T14	Binding 220 232	interactions
+E14	Binding:T14 Theme:T16 Theme:T15
+T17	Regulation 314 324	regulation
+E17	Regulation:T17 Theme:E18 Cause:T21
+T18	Binding 350 362	interactions
+E18	Binding:T18 Theme:T20 Theme:T19
+T22	Positive_regulation 454 464	stimulated
+E22	Positive_regulation:T22 Cause:T23 Theme:E24
+T24	Binding 487 499	interactions
+E24	Binding:T24 Theme:T26 Theme:T25
+T34	Binding 670 682	interactions
+E34	Binding:T34 Theme:T36 Theme:T35
+T52	Binding 1169 1177	adhesion
+E52	Binding:T52 Theme:T53
+T64	Binding 1593 1605	interactions
+E64	Binding:T64 Theme:T66 Theme:T65
+T76	Positive_regulation 1915 1928	up-regulation
+E76	Positive_regulation:T76 Theme:T77
+T85	Binding 960 968	adhesion
+E1	Binding:T85 Theme:T47
+T11	Negative_regulation 75 83	reducing
+E2	Negative_regulation:T11 Theme:E8 Cause:E33
+T12	Regulation 186 194	involved
+E5	Regulation:T12 Theme:E14 Cause:E10
+A1	Speculation E17
+T13	Growth 733 740	growing
+E6	Growth:T13 Theme:T37
+T28	Growth 804 811	growing
+E7	Growth:T28 Theme:T42
+T30	Negative_regulation 985 995	diminished
+E11	Negative_regulation:T30 Theme:E1
+T31	Negative_regulation 1069 1078	reduction
+E12	Negative_regulation:T31 Theme:E1
+T33	Negative_regulation 1235 1242	reduced
+E13	Negative_regulation:T33 Theme:E52
+T40	Planned_process 1429 1438	Treatment
+E15	Planned_process:T40 Theme:T1010 Instrument:T63
+T41	Negative_regulation 1538 1547	prevented
+E16	Negative_regulation:T41 Cause:E15 Theme:E19
+T49	Negative_regulation 1552 1567	down-regulation
+E19	Negative_regulation:T49 Theme:E64
+T55	Planned_process 1649 1659	nontreated
+E20	Planned_process:T55 Theme:T1010
+A3	Negation E20
+T56	Negative_regulation 1747 1757	suppressed
+E21	Negative_regulation:T56 Cause:T70 Theme:T71
+T57	Positive_regulation 1907 1914	induced
+E23	Positive_regulation:T57 Cause:T74 Theme:E76
+T61	Negative_regulation 2008 2015	reduced
+E25	Negative_regulation:T61 Theme:E76
+E26	Positive_regulation:T76 Theme:T78
+E27	Positive_regulation:T57 Cause:T74 Theme:E26
+E28	Negative_regulation:T61 Theme:E26
+T67	Planned_process 2033 2045	preincubated
+E29	Planned_process:T67 Theme:T79 Instrument:T80
+E30	Planned_process:T67 Theme:T79 Instrument:T81
+T69	Localization 2281 2286	enter
+E31	Localization:T69 Theme:T82 ToLoc:T83
+A4	Speculation E31
+A5	Negation E31
+T88	Positive_regulation 1680 1689	activated
+E32	Positive_regulation:T88 Theme:T87
+E33	Blood_vessel_development:T2 AtLoc:T1

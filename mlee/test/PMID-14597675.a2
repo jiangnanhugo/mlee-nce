@@ -1,0 +1,64 @@
+T1	Blood_vessel_development 35 47	angiogenesis
+T12	Blood_vessel_development 357 369	angiogenesis
+T13	Blood_vessel_development 425 437	angiogenesis
+T30	Blood_vessel_development 797 809	angiogenesis
+T34	Blood_vessel_development 910 922	angiogenesis
+T38	Blood_vessel_development 1084 1096	angiogenesis
+T41	Blood_vessel_development 1155 1167	angiogenesis
+T45	Blood_vessel_development 1310 1322	angiogenesis
+T48	Blood_vessel_development 1385 1397	angiogenesis
+T8	Regulation 165 189	exerts mitogenic effects
+E8	Regulation:T8 Theme:T6 Cause:T3
+T15	Positive_regulation 479 487	elevated
+E15	Positive_regulation:T15 Theme:T16 Cause:E17
+T17	Gene_expression 516 530	overexpression
+E17	Gene_expression:T17 Theme:T18
+T22	Negative_regulation 616 624	decrease
+E22	Negative_regulation:T22 Theme:T23 Cause:T26
+T33	Positive_regulation 898 906	increase
+E33	Positive_regulation:T33 Theme:E24
+T40	Negative_regulation 1133 1141	impaired
+E40	Negative_regulation:T40 Theme:E14
+*	Equiv T24 T25
+*	Equiv T18 T19
+*	Equiv T3 T4
+T10	Regulation 13 23	regulation
+E1	Regulation:T10 Theme:E19 Cause:T2
+T20	Regulation 290 297	changes
+E2	Regulation:T20 Theme:T11
+T29	Regulation 261 269	mediator
+E3	Regulation:T29 Cause:T9 Theme:E2
+E4	Regulation:T29 Cause:T9 Theme:E20
+A1	Speculation E3
+A2	Speculation E4
+T47	Planned_process 417 424	implant
+E5	Planned_process:T47 Instrument:T44 Theme:T1000
+T50	Gene_expression 578 587	deficient
+E9	Gene_expression:T50 Theme:T21
+A3	Negation E9
+T51	Positive_regulation 764 771	induced
+E10	Positive_regulation:T51 Theme:E11 Cause:T28
+T52	Positive_regulation 774 785	stimulation
+E11	Positive_regulation:T52 Theme:E23
+T53	Positive_regulation 1061 1068	induced
+E12	Positive_regulation:T53 Theme:E13 Cause:T37
+T54	Positive_regulation 1069 1080	stimulation
+E13	Positive_regulation:T54 Theme:E25
+T55	Positive_regulation 1142 1151	induction
+E14	Positive_regulation:T55 Theme:E26
+T56	Regulation 1276 1284	mediates
+E16	Regulation:T56 Theme:E18 Cause:T43
+T57	Positive_regulation 1287 1298	stimulation
+E18	Positive_regulation:T57 Theme:E27
+E19	Blood_vessel_development:T1 
+E20	Blood_vessel_development:T12 
+E21	Blood_vessel_development:T13 
+E23	Blood_vessel_development:T30 
+E24	Blood_vessel_development:T34 
+E25	Blood_vessel_development:T38 
+E26	Blood_vessel_development:T41 
+E27	Blood_vessel_development:T45 
+E28	Blood_vessel_development:T48 
+T58	Gene_expression 1197 1205	knockout
+E29	Gene_expression:T58 Theme:T42
+A4	Negation E29

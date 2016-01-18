@@ -1,0 +1,24 @@
+T5	Positive_regulation 220 229	activated
+E5	Positive_regulation:T5 Theme:T6
+T7	Positive_regulation 352 361	excessive
+E7	Positive_regulation:T7 Theme:E8
+T8	Synthesis 362 372	production
+E8	Synthesis:T8 Theme:T9
+T16	Positive_regulation 683 691	activate
+E16	Positive_regulation:T16 Theme:T17
+*	Equiv T2 T4
+T3	Metabolism 43 53	metabolism
+E1	Metabolism:T3 Theme:T1
+T19	Synthesis 151 159	produced
+E2	Synthesis:T19 Theme:T2
+T20	Catabolism 384 390	damage
+E3	Catabolism:T20 Theme:T10
+T21	Breakdown 384 390	damage
+E4	Breakdown:T21 Theme:T12
+E6	Catabolism:T20 Theme:T11
+T22	Planned_process 655 664	perfusion
+E9	Planned_process:T22 Theme:T14
+E10	Positive_regulation:T16 Theme:T18
+T15	Regulation 790 799	regulated
+E11	Regulation:T15 Theme:T18
+E12	Regulation:T15 Theme:T17

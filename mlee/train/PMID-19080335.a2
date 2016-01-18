@@ -1,0 +1,64 @@
+T47	Blood_vessel_development 2556 2568	angiogenesis
+T1	Planned_process 10 22	transplanted
+E1	Planned_process:T1 Instrument:T2
+T4	Planned_process 189 204	transplantation
+E4	Planned_process:T4 Instrument:T5
+T7	Planned_process 459 471	transplanted
+E7	Planned_process:T7 Instrument:T8 Theme:T1002
+T9	Planned_process 558 570	transplanted
+E9	Planned_process:T9 Instrument:T10
+T14	Planned_process 872 881	injection
+E14	Planned_process:T14 Instrument:T15 Theme:T1005
+T22	Death 1378 1387	apoptosis
+E22	Death:T22 Theme:T23
+T27	Planned_process 1666 1675	Engrafted
+E27	Planned_process:T27 Instrument:T28
+T30	Gene_expression 1761 1771	expression
+E30	Gene_expression:T30 Theme:T31
+T33	Planned_process 1949 1964	transplantation
+E33	Planned_process:T33 Instrument:T34
+T35	Death 2002 2011	apoptosis
+E35	Death:T35 Theme:T36
+T48	Negative_regulation 2573 2583	decreasing
+E48	Negative_regulation:T48 Theme:E49 Cause:T44
+T49	Death 2598 2607	apoptosis
+E49	Death:T49 Theme:T50
+*	Equiv T5 T6
+T46	Planned_process 701 709	isolated
+E2	Planned_process:T46 Instrument:T12 Theme:T1004
+T51	Planned_process 714 722	cultured
+E3	Planned_process:T51 Theme:T12
+T52	Death 737 746	apoptosis
+E5	Death:T52 Theme:T13
+T53	Development 1064 1079	differentiation
+E6	Development:T53 Theme:T68
+*	Equiv T17 T18
+T54	Death 1480 1489	apoptosis
+E8	Death:T54 Theme:T25
+E10	Death:T54 Theme:T26
+T55	Cell_proliferation 1691 1703	proliferated
+E11	Cell_proliferation:T55 Theme:T28
+T56	Development 1708 1722	differentiated
+E12	Development:T56 Theme:T28
+T57	Negative_regulation 1991 2001	attenuated
+E13	Negative_regulation:T57 Theme:E35 Cause:E33
+T58	Death 1681 1689	survived
+E15	Death:T58 Theme:T28
+A1	Negation E15
+T59	Regulation 2097 2103	effect
+E16	Regulation:T59 Theme:T37
+T60	Positive_regulation 2108 2116	elevated
+E17	Positive_regulation:T60 Theme:E16
+T62	Positive_regulation 2438 2446	improved
+E19	Positive_regulation:T62 Theme:T42
+T63	Positive_regulation 2511 2518	improve
+E20	Positive_regulation:T63 Theme:T45 Cause:E21
+T64	Regulation 2511 2518	improve
+E21	Regulation:T64 Cause:T44 Theme:E26
+T65	Planned_process 2613 2625	transplanted
+E23	Planned_process:T65 Instrument:T44
+T67	Planned_process 1144 1159	transplantation
+E24	Planned_process:T67 Instrument:T66
+T69	Planned_process 1087 1094	grafted
+E25	Planned_process:T69 Instrument:T68
+E26	Blood_vessel_development:T47 

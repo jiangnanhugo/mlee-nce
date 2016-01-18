@@ -1,0 +1,10 @@
+T2	Blood_vessel_development 94 112	neovascularization
+T5	Blood_vessel_development 211 229	neovascularization
+T3	Positive_regulation 200 210	stimulates
+E1	Positive_regulation:T3 Theme:E4
+T13	Regulation 443 450	changes
+E2	Regulation:T13 Theme:T6
+E3	Blood_vessel_development:T2 
+E4	Blood_vessel_development:T5 
+T11	Blood_vessel_development 1088 1099	neovascular
+E5	Blood_vessel_development:T11 

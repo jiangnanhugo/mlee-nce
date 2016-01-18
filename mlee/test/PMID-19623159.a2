@@ -1,0 +1,58 @@
+T1	Blood_vessel_development 0 12	Angiogenesis
+T3	Blood_vessel_development 71 83	Angiogenesis
+T9	Blood_vessel_development 256 268	angiogenesis
+T11	Blood_vessel_development 409 421	angiogenesis
+T12	Blood_vessel_development 423 435	Angiogenesis
+T14	Blood_vessel_development 541 553	angiogenesis
+T16	Blood_vessel_development 712 724	angiogenesis
+T17	Blood_vessel_development 766 778	angiogenesis
+T21	Blood_vessel_development 893 910	revascularization
+T27	Blood_vessel_development 1240 1252	angiogenesis
+T31	Blood_vessel_development 1479 1489	angiogenic
+T40	Blood_vessel_development 1727 1739	angiogenesis
+T42	Blood_vessel_development 1911 1923	angiogenesis
+T6	Regulation 172 182	regulation
+E6	Regulation:T6 Theme:E2
+T18	Growth 843 849	growth
+E18	Growth:T18 Theme:T20
+T23	Regulation 982 991	restoring
+E23	Regulation:T23 Theme:T24
+T29	Development 1302 1313	development
+E29	Development:T29 Theme:T30
+*	Equiv T35 T36
+*	Equiv T33 T34
+T22	Development 111 118	forming
+E1	Development:T22 Theme:T5
+T38	Growth 165 171	growth
+E2	Growth:T38 Theme:T8
+T39	Regulation 272 281	regulated
+E3	Regulation:T39 Theme:E17
+T44	Regulation 396 403	control
+E5	Regulation:T44 Theme:E20
+T45	Growth 492 496	grow
+E8	Growth:T45 Theme:T13
+T46	Positive_regulation 702 711	stimulate
+E9	Positive_regulation:T46 Theme:E24
+T47	Positive_regulation 829 838	stimulate
+E10	Positive_regulation:T47 Theme:E18
+T48	Localization 1015 1026	preexisting
+E11	Localization:T48 Theme:T25
+T49	Positive_regulation 1321 1331	stimulated
+E12	Positive_regulation:T49 Theme:E29
+A1	Speculation E12
+T50	Positive_regulation 1530 1537	enhance
+E13	Positive_regulation:T50 Theme:T32 Cause:T10
+E14	Positive_regulation:T50 Theme:T32
+E15	Blood_vessel_development:T1 
+E16	Blood_vessel_development:T3 
+E17	Blood_vessel_development:T9 
+E20	Blood_vessel_development:T11 
+E21	Blood_vessel_development:T12 
+E22	Blood_vessel_development:T14 
+E24	Blood_vessel_development:T16 
+E25	Blood_vessel_development:T17 
+E26	Blood_vessel_development:T21 
+E27	Blood_vessel_development:T27 
+E30	Blood_vessel_development:T31 
+E31	Blood_vessel_development:T40 
+E32	Blood_vessel_development:T42 

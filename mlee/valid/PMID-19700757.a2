@@ -1,0 +1,53 @@
+T2	Blood_vessel_development 74 86	angiogenesis
+T5	Blood_vessel_development 143 155	angiogenesis
+T7	Blood_vessel_development 299 311	angiogenesis
+T34	Blood_vessel_development 1093 1105	angiogenesis
+T44	Blood_vessel_development 1692 1704	angiogenesis
+T20	Negative_regulation 671 680	inhibited
+E20	Negative_regulation:T20 Theme:E21 Cause:T24
+T21	Binding 597 602	bound
+E21	Binding:T21 Theme:T23 Theme:T22
+T38	Planned_process 1377 1386	knockdown
+E38	Planned_process:T38 Theme:T39
+R1	frag Arg1:T4 Arg2:T6	
+T45	Regulation 123 139	plays a key role
+E1	Regulation:T45 Cause:T3 Theme:E24
+T46	Planned_process 316 328	unchallenged
+E2	Planned_process:T46 Theme:T8
+A1	Negation E2
+T47	Development 392 405	morphogenesis
+E3	Development:T47 Theme:T12
+T48	Positive_regulation 367 374	induced
+E4	Positive_regulation:T48 Cause:T9 Theme:E3
+T49	Development 425 434	formation
+E5	Development:T49 Theme:T14
+T50	Negative_regulation 453 460	reduced
+E6	Negative_regulation:T50 Theme:E5 Cause:T16
+E7	Negative_regulation:T50 Theme:E5 Cause:T18
+E8	Negative_regulation:T50 Theme:E5 Cause:T19
+A2	Negation E8
+T51	Planned_process 615 622	labeled
+E9	Planned_process:T51 Theme:T23
+T52	Death 736 757	cytoskeletal collapse
+E10	Death:T52 Theme:T26
+T53	Positive_regulation 709 715	caused
+E12	Positive_regulation:T53 Cause:T25 Theme:E10
+T54	Negative_regulation 790 797	delayed
+E14	Negative_regulation:T54 Theme:T28 Cause:T25
+T55	Gene_expression 923 933	expressing
+E15	Gene_expression:T55 Theme:T30
+T56	Regulation 970 977	control
+E16	Regulation:T56 Cause:T31 CSite:T33 Theme:E15
+T57	Negative_regulation 1077 1087	interfered
+E17	Negative_regulation:T57 Theme:E26 Cause:E19
+T58	Development 1139 1148	sprouting
+E18	Development:T58 Theme:T36
+T59	Negative_regulation 1128 1138	inhibiting
+E19	Negative_regulation:T59 Theme:E18 Cause:T32
+T60	Regulation 1620 1632	central role
+E22	Regulation:T60 Cause:T43 Theme:E28
+E23	Blood_vessel_development:T2 
+E24	Blood_vessel_development:T5 
+E25	Blood_vessel_development:T7 
+E26	Blood_vessel_development:T34 
+E28	Blood_vessel_development:T44 

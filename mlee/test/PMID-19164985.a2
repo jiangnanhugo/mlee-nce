@@ -1,0 +1,24 @@
+T23	Blood_vessel_development 859 877	neovascularization
+T27	Development 1179 1188	formation
+E27	Development:T27 Theme:T28
+*	Equiv T6 T9
+*	Equiv T11 T14
+T3	Regulation 305 312	effects
+E2	Regulation:T3 Cause:T10 Theme:T15
+E3	Regulation:T3 Cause:T11 Theme:T15
+T7	Planned_process 576 583	applied
+E1	Planned_process:T7 Instrument:T20
+E4	Planned_process:T7 Instrument:T19
+E5	Planned_process:T7 Instrument:T18
+E6	Planned_process:T7 Instrument:T2
+T8	Development 758 764	formed
+E7	Development:T8 Theme:T21
+T12	Development 917 926	formation
+E8	Development:T12 Theme:T25
+E9	Development:T12 Theme:T24
+T13	Development 1100 1106	formed
+E10	Development:T13 Theme:T26
+T34	Regulation 1351 1358	effects
+E11	Regulation:T34 Theme:T31 Cause:T30
+E12	Regulation:T34 Theme:T31 Cause:T29
+E13	Blood_vessel_development:T23 

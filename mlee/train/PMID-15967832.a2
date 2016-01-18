@@ -1,0 +1,26 @@
+T2	Blood_vessel_development 113 125	angiogenesis
+T14	Blood_vessel_development 577 589	angiogenesis
+T16	Blood_vessel_development 814 826	angiogenesis
+T5	Growth 354 360	growth
+E5	Growth:T5 Theme:T6
+T8	Growth 398 404	growth
+E8	Growth:T8 Theme:T9
+R1	frag Arg1:T18 Arg2:T19	
+R2	frag Arg1:T17 Arg2:T19	
+*	Equiv T11 T12
+T13	Positive_regulation 371 379	requires
+E1	Positive_regulation:T13 Theme:E5 Cause:E8
+T20	Remodeling 409 419	remodeling
+E2	Remodeling:T20 Theme:T9
+T21	Growth 449 453	grow
+E3	Growth:T21 Theme:T10
+E4	Positive_regulation:T13 Theme:E5 Cause:E2
+T22	Planned_process 846 855	treatment
+E6	Planned_process:T22 Theme:T17
+E9	Planned_process:T22 Theme:T18
+E10	Planned_process:T22 Theme:T19
+E11	Blood_vessel_development:T2 
+E12	Blood_vessel_development:T14 
+E13	Blood_vessel_development:T16 
+T7	Cell_division 298 306	dividing
+E7	Cell_division:T7 Theme:T4

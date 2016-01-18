@@ -1,0 +1,31 @@
+T8	Blood_vessel_development 718 730	angiogenesis
+T17	Blood_vessel_development 1106 1121	neoangiogenesis
+T32	Pathway 1927 1950	antiapoptotic signaling
+T1	Death 9 18	apoptosis
+E1	Death:T1 Theme:T2
+T6	Death 575 584	apoptosis
+E6	Death:T6 Theme:T7
+T18	Gene_expression 1195 1204	expressed
+E18	Gene_expression:T18 Theme:T19
+T23	Positive_regulation 1672 1684	upregulation
+E23	Positive_regulation:T23 Theme:T24
+T30	Negative_regulation 1887 1895	impaired
+E30	Negative_regulation:T30 Theme:E2
+R1	frag Arg1:T9 Arg2:T11
+T37	Death 1913 1922	apoptosis
+E2	Death:T37 Theme:T31
+T22	Growth 77 90	proliferation
+E3	Growth:T22 Theme:T3
+T34	Growth 607 620	proliferation
+E4	Growth:T34 Theme:T10
+T39	Growth 1359 1372	proliferation
+E5	Growth:T39 Theme:T38
+T40	Development 1744 1753	formation
+E7	Development:T40 Theme:T26
+E8	Positive_regulation:T23 Theme:E7
+E9	Negative_regulation:T30 Theme:E13
+T41	Growth 2031 2044	proliferation
+E10	Growth:T41 Theme:T12
+E11	Blood_vessel_development:T8 
+E12	Blood_vessel_development:T17 
+E13	Pathway:T32 

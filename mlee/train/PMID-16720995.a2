@@ -1,0 +1,24 @@
+T21	Blood_vessel_development 787 802	neoangiogenesis
+*	Equiv T6 T7
+*	Equiv T10 T11
+*	Equiv T26 T12
+T4	Breakdown 48 54	damage
+E1	Breakdown:T4 Theme:T3
+T8	Remodeling 106 127	morphological changes
+E2	Remodeling:T8 Theme:T5
+T20	Positive_regulation 180 188	promoted
+E3	Positive_regulation:T20 Theme:E2 Cause:T6
+T27	Positive_regulation 359 366	promote
+E4	Positive_regulation:T27 Theme:E5 Cause:T9
+T28	Synthesis 367 376	formation
+E5	Synthesis:T28 Theme:T10
+T29	Gene_expression 514 523	expressed
+E6	Gene_expression:T29 Theme:T12
+T30	Remodeling 614 635	morphological changes
+E7	Remodeling:T30 Theme:T16
+T31	Breakdown 749 766	structural damage
+E8	Breakdown:T31 Theme:T22
+T32	Regulation 725 745	plays a pivotal role
+E9	Regulation:T32 Cause:T19 Theme:E8
+E10	Regulation:T32 Cause:T19 Theme:E11
+E11	Blood_vessel_development:T21 AtLoc:T22

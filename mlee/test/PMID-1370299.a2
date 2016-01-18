@@ -1,0 +1,73 @@
+T1	Pathway 22 28	system
+T17	Pathway 365 371	system
+T31	Pathway 712 718	system
+T51	Pathway 1215 1221	system
+T63	Pathway 1446 1452	system
+T69	Pathway 1550 1556	system
+T5	Localization 74 83	migration
+E5	Localization:T5 Theme:T6
+T8	Regulation 119 129	modulation
+E8	Regulation:T8 Theme:E9 Cause:T7
+T9	Gene_expression 158 168	expression
+E9	Gene_expression:T9 Theme:T10
+T12	Localization 194 203	migration
+E12	Localization:T12 Theme:T13
+T15	Negative_regulation 308 318	Inhibition
+E15	Negative_regulation:T15 Theme:E27
+T26	Localization 545 554	migration
+E26	Localization:T26 Theme:T3
+T30	Negative_regulation 672 682	Inhibition
+E30	Negative_regulation:T30 Theme:E28
+T33	Positive_regulation 797 806	increased
+E33	Positive_regulation:T33 Theme:E34
+T34	Gene_expression 807 817	expression
+E34	Gene_expression:T34 Theme:T35
+T40	Positive_regulation 997 1005	elevated
+E40	Positive_regulation:T40 Theme:E41
+T41	Gene_expression 958 968	expression
+E41	Gene_expression:T41 Theme:T43
+T45	Positive_regulation 1107 1116	increased
+E45	Positive_regulation:T45 Theme:T46
+T48	Positive_regulation 1157 1166	increases
+E48	Positive_regulation:T48 Theme:T49
+T50	Negative_regulation 1222 1234	interruption
+E50	Negative_regulation:T50 Theme:E29
+T55	Gene_expression 1326 1336	expression
+E55	Gene_expression:T55 Theme:T56
+T58	Positive_regulation 1362 1371	increases
+E58	Positive_regulation:T58 Theme:E60
+T60	Localization 1392 1401	migration
+E60	Localization:T60 Theme:T61
+T67	Gene_expression 1522 1532	expression
+E67	Gene_expression:T67 Theme:T68
+*	Equiv T28 T29
+T24	Regulation 29 39	regulation
+E1	Regulation:T24 Cause:E24 Theme:E5
+T27	Positive_regulation 518 527	increased
+E2	Positive_regulation:T27 Cause:T23 Theme:E26
+E3	Positive_regulation:T27 Cause:T19 Theme:E26
+E6	Positive_regulation:T27 Cause:T23 Theme:T28
+E7	Positive_regulation:T27 Cause:T19 Theme:T28
+T38	Positive_regulation 862 871	increased
+E10	Positive_regulation:T38 Theme:T36
+E13	Positive_regulation:T38 Theme:T37
+E14	Positive_regulation:T38 Theme:T39
+T47	Positive_regulation 1310 1319	increased
+E16	Positive_regulation:T47 Theme:E55
+T54	Negative_regulation 1453 1463	inhibition
+E17	Negative_regulation:T54 Theme:E31
+E18	Positive_regulation:T58 Theme:T62
+T57	Regulation 1497 1505	mediated
+E19	Regulation:T57 Cause:T66 Theme:E17
+E20	Regulation:T57 Cause:T66 Theme:E18
+E21	Regulation:T57 Cause:T66 Theme:E58
+T65	Positive_regulation 1507 1515	Elevated
+E22	Positive_regulation:T65 Theme:E67
+T71	Negative_regulation 1557 1567	inhibition
+E23	Negative_regulation:T71 Theme:E32
+E24	Pathway:T1 Participant:T2
+E27	Pathway:T17 Participant:T18
+E28	Pathway:T31 Participant:T32
+E29	Pathway:T51 Participant:T52
+E31	Pathway:T63 Participant:T64
+E32	Pathway:T69 Participant:T70

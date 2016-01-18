@@ -1,0 +1,16 @@
+T4	Blood_vessel_development 82 94	Angiogenesis
+T8	Blood_vessel_development 207 217	angiogenic
+T11	Development 283 294	progression
+E11	Development:T11 Theme:T12
+*	Equiv T5 T6
+T52	Regulation 95 118	plays an important role
+E1	Regulation:T52 Cause:E4 Theme:T51
+T53	Regulation 261 271	associated
+E2	Regulation:T53 Cause:T10 Theme:E11
+*	Equiv T54 T55
+T56	Regulation 361 365	role
+E3	Regulation:T56 Cause:T13 Theme:T54
+A1	Speculation E3
+*	Equiv T28 T29
+E4	Blood_vessel_development:T4 
+E5	Blood_vessel_development:T8 

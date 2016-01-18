@@ -1,0 +1,21 @@
+T2	Blood_vessel_development 94 109	neoangiogenesis
+T3	Blood_vessel_development 118 133	neoangiogenesis
+T24	Blood_vessel_development 692 706	vasculogenesis
+T19	Breakdown 617 623	damage
+E19	Breakdown:T19 Theme:T21
+*	Equiv T16 T17
+T7	Breakdown 217 228	dysfunction
+E1	Breakdown:T7 Theme:T5
+T10	Positive_regulation 580 588	increase
+E2	Positive_regulation:T10 Theme:T16
+T15	Regulation 660 682	have an important role
+E3	Regulation:T15 Cause:T22 Theme:E9
+T18	Breakdown 769 780	dysfunction
+E5	Breakdown:T18 Theme:T26
+*	Equiv T11 T12
+*	Equiv T27 T28
+E6	Blood_vessel_development:T2 
+E7	Blood_vessel_development:T3 AtLoc:T1001
+E9	Blood_vessel_development:T24 AtLoc:T23
+T38	Positive_regulation 81 90	dependent
+E10	Positive_regulation:T38 Cause:E6 Theme:T1000

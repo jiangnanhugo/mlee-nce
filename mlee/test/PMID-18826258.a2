@@ -1,0 +1,26 @@
+T4	Blood_vessel_development 723 735	angiogenesis
+T5	Blood_vessel_development 745 755	angiogenic
+T7	Blood_vessel_development 902 912	angiogenic
+T13	Blood_vessel_development 1255 1267	angiogenesis
+T8	Binding 583 595	interactions
+E1	Binding:T8 Theme:T3
+T14	Growth 711 717	growth
+E2	Growth:T14 Theme:T12
+T15	Binding 843 848	bound
+E3	Binding:T15 Theme:T6
+T16	Binding 936 948	interactions
+E4	Binding:T16 Theme:T9 Theme:T18
+T17	Positive_regulation 921 930	resulting
+E5	Positive_regulation:T17 Cause:E4 Theme:E13
+T19	Regulation 1020 1027	control
+E6	Regulation:T19 Theme:E7 Cause:T18
+T20	Binding 1028 1036	adhesion
+E7	Binding:T20 Theme:T10 Theme:T26
+T25	Cell_proliferation 1244 1250	growth
+E8	Cell_proliferation:T25 Theme:T24
+E9	Blood_vessel_development:T4 
+E10	Blood_vessel_development:T5 
+E11	Blood_vessel_development:T7 
+E12	Blood_vessel_development:T13 
+T27	Negative_regulation 913 920	signals
+E13	Negative_regulation:T27 Theme:E11

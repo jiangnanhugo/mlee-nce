@@ -1,0 +1,32 @@
+T6	Blood_vessel_development 159 171	angiogenesis
+T12	Blood_vessel_development 429 441	angiogenesis
+T1	Gene_expression 79 89	expression
+E1	Gene_expression:T1 Theme:T2
+T4	Positive_regulation 149 158	Increased
+E4	Positive_regulation:T4 Theme:E5
+T16	Positive_regulation 593 601	elevated
+E16	Positive_regulation:T16 Theme:E17
+T17	Gene_expression 607 617	expression
+E17	Gene_expression:T17 Theme:T18
+T19	Gene_expression 732 742	expression
+E19	Gene_expression:T19 Theme:T20
+T21	Gene_expression 794 804	expression
+E21	Gene_expression:T21 Theme:T22
+T23	Gene_expression 1019 1029	expression
+E23	Gene_expression:T23 Theme:T24
+T25	Gene_expression 1412 1422	expression
+E25	Gene_expression:T25 Theme:T26
+T27	Gene_expression 1500 1510	expression
+E27	Gene_expression:T27 Theme:T28
+T29	Gene_expression 1599 1609	expression
+E29	Gene_expression:T29 Theme:T30
+T31	Gene_expression 1746 1756	expression
+E31	Gene_expression:T31 Theme:T32
+*	Equiv T8 T9
+*	Equiv T2 T3
+T13	Regulation 490 499	regulates
+E2	Regulation:T13 Cause:T8 Theme:T14
+T36	Regulation 416 425	regulator
+E3	Regulation:T36 Cause:T8 Theme:E6
+E5	Blood_vessel_development:T6 AtLoc:T7
+E6	Blood_vessel_development:T12 

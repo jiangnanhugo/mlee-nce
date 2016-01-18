@@ -1,0 +1,37 @@
+T36	Blood_vessel_development 1968 1980	angiogenesis
+T7	Positive_regulation 292 300	elevated
+E7	Positive_regulation:T7 Theme:T8
+T14	Positive_regulation 612 621	increased
+E14	Positive_regulation:T14 Theme:T15
+T19	Positive_regulation 1222 1230	elevated
+E19	Positive_regulation:T19 Theme:T20
+T22	Positive_regulation 1417 1425	elevated
+E22	Positive_regulation:T22 Theme:T23
+T24	Positive_regulation 1475 1483	elevated
+E24	Positive_regulation:T24 Theme:T25
+T26	Positive_regulation 1517 1525	elevated
+E26	Positive_regulation:T26 Theme:T27
+T29	Positive_regulation 1780 1788	elevated
+E29	Positive_regulation:T29 Theme:T30
+T31	Positive_regulation 1829 1838	increased
+E31	Positive_regulation:T31 Theme:T32
+T33	Development 1870 1881	development
+E33	Development:T33 Theme:T34
+T35	Negative_regulation 2003 2025	antagonize the effects
+E35	Negative_regulation:T35 Theme:T37
+T5	Positive_regulation 69 78	increased
+E1	Positive_regulation:T5 Theme:T3
+T12	Gene_expression 249 261	deficiencies
+E2	Gene_expression:T12 Theme:T6
+A1	Negation E2
+T38	Positive_regulation 463 471	elevated
+E3	Positive_regulation:T38 Theme:T10
+A2	Negation E3
+*	Equiv T17 T18
+T40	Localization 948 956	presence
+E4	Localization:T40 Theme:T17
+T41	Positive_regulation 1329 1337	elevated
+E5	Positive_regulation:T41 Theme:T21
+T42	Positive_regulation 1657 1665	elevated
+E6	Positive_regulation:T42 Theme:T28
+E8	Blood_vessel_development:T36 

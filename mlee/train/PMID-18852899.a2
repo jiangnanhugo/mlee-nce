@@ -1,0 +1,120 @@
+T2	Pathway 35 42	pathway
+T9	Blood_vessel_development 89 101	angiogenesis
+T13	Blood_vessel_development 195 207	angiogenesis
+T17	Blood_vessel_development 264 276	angiogenesis
+T42	Pathway 884 901	signaling pathway
+T72	Blood_vessel_development 1368 1380	angiogenesis
+T78	Blood_vessel_development 1491 1503	angiogenesis
+T91	Blood_vessel_development 1779 1791	angiogenesis
+T6	Gene_expression 66 76	production
+E6	Gene_expression:T6 Theme:T7
+T20	Cell_proliferation 309 322	proliferation
+E20	Cell_proliferation:T20 Theme:T21
+T27	Gene_expression 573 583	production
+E27	Gene_expression:T27 Theme:T29
+T32	Negative_regulation 690 698	reducing
+E32	Negative_regulation:T32 Theme:E33
+T33	Binding 703 710	binding
+E33	Binding:T33 Theme:T35 Site:T99 Theme2:T34
+T36	Gene_expression 772 782	production
+E36	Gene_expression:T36 Theme:T37
+T38	Positive_regulation 800 811	stimulation
+E38	Positive_regulation:T38 Theme:T39
+T46	Negative_regulation 975 985	suppressed
+E46	Negative_regulation:T46 Theme:T53 Cause:E47
+T47	Negative_regulation 943 953	inhibition
+E47	Negative_regulation:T47 Theme:T49
+T51	Positive_regulation 992 999	induced
+E51	Positive_regulation:T51 Cause:T52 Theme:T53
+T55	Positive_regulation 1047 1054	induced
+E55	Positive_regulation:T55 Cause:T54 Theme:E56
+T56	Localization 1067 1079	localization
+E56	Localization:T56 Theme:T57 ToLoc:T48
+T58	Negative_regulation 1113 1123	inhibition
+E58	Negative_regulation:T58 Theme:T59
+T60	Planned_process 1134 1142	mutating
+E60	Planned_process:T60 Theme:T106
+T63	Negative_regulation 1193 1203	inhibiting
+E63	Negative_regulation:T63 Theme:T64
+T65	Negative_regulation 1208 1217	decreased
+E65	Negative_regulation:T65 Site:T107 Theme:T66 Cause:E63
+T69	Gene_expression 1337 1347	production
+E69	Gene_expression:T69 Theme:T71
+T75	Positive_regulation 1457 1465	increase
+E75	Positive_regulation:T75 Theme:T76 Cause:T73
+T86	Gene_expression 1702 1712	production
+E86	Gene_expression:T86 Theme:T88
+T12	Positive_regulation 54 60	induce
+E1	Positive_regulation:T12 Cause:E2 Theme:E6
+T16	Regulation 6 13	signals
+E2	Regulation:T16 Theme:T5 Cause:T1
+E3	Positive_regulation:T12 Cause:E2 Theme:E45
+T18	Regulation 130 138	recruits
+E4	Regulation:T18 Cause:T10 Theme:T11
+T77	Regulation 168 176	regulate
+E5	Regulation:T77 Theme:E48 Cause:E4
+T79	Localization 212 222	metastases
+E7	Localization:T79 Theme:T14
+E8	Regulation:T77 Theme:E7 Cause:E4
+T90	Positive_regulation 283 291	promotes
+E9	Positive_regulation:T90 Cause:T15 Theme:E20
+T93	Development 344 353	formation
+E10	Development:T93 Theme:T23
+T94	Positive_regulation 399 406	induces
+E11	Positive_regulation:T94 Theme:E12 Cause:T24
+T95	Gene_expression 411 421	expression
+E12	Gene_expression:T95 Theme:T25
+T96	Positive_regulation 560 567	induced
+E13	Positive_regulation:T96 Cause:T28 Theme:E27
+T98	Planned_process 632 638	linked
+E14	Planned_process:T98 Instrument:T97 Instrument:T31
+T100	Positive_regulation 783 790	induced
+E15	Positive_regulation:T100 Cause:E38 Theme:E36
+T101	Regulation 751 757	effect
+E16	Regulation:T101 Theme:E36 Cause:E32
+A1	Negation E16
+T102	Positive_regulation 850 857	induced
+E17	Positive_regulation:T102 Theme:T41 Cause:E18
+T103	Regulation 850 857	induced
+E18	Regulation:T103 Cause:T40 Theme:T45
+E21	Negative_regulation:T47 Theme:T50
+E23	Negative_regulation:T46 Theme:T53 Cause:E21
+T104	Negative_regulation 1098 1105	blocked
+E24	Negative_regulation:T104 Cause:E58 Theme:E56
+T108	Planned_process 1250 1257	treated
+E25	Planned_process:T108 Instrument:T67 Theme:T68
+E26	Positive_regulation:T90 Cause:T15 Theme:E10
+E28	Negative_regulation:T65 Site:T107 Theme:T66 Cause:E60
+T109	Positive_regulation 1324 1331	induced
+E29	Positive_regulation:T109 Cause:T70 Theme:E69
+T110	Localization 1425 1432	recruit
+E30	Localization:T110 Theme:T74
+T111	Regulation 1405 1412	ability
+E31	Regulation:T111 Cause:T73 Theme:E30
+T112	Positive_regulation 1483 1490	enhance
+E34	Positive_regulation:T112 Theme:E52 Cause:T73
+T113	Negative_regulation 1563 1572	abolished
+E35	Negative_regulation:T113 Theme:E39 Cause:T8
+T114	Positive_regulation 1579 1586	induced
+E37	Positive_regulation:T114 Theme:E39 Cause:T82
+T115	Development 1600 1609	formation
+E39	Development:T115 Theme:T83
+T116	Positive_regulation 1660 1669	dependent
+E40	Positive_regulation:T116 Theme:E86 Cause:T85
+T117	Positive_regulation 1689 1696	induced
+E41	Positive_regulation:T117 Cause:T87 Theme:E86
+E42	Positive_regulation:T116 Theme:E86 Cause:T84
+T118	Positive_regulation 1772 1778	induce
+E43	Positive_regulation:T118 Theme:E53 Cause:E44
+T119	Regulation 1772 1778	induce
+E44	Regulation:T119 Cause:T89 Theme:T92
+E45	Blood_vessel_development:T9 
+E48	Blood_vessel_development:T13 AtLoc:T14
+E49	Blood_vessel_development:T17 
+E50	Blood_vessel_development:T72 
+E52	Blood_vessel_development:T78 
+E53	Blood_vessel_development:T91 
+E54	Pathway:T2 Participant:T3 Participant2:T4
+E57	Pathway:T42 Participant:T43 Participant2:T44
+T19	Positive_regulation 251 260	activator
+E19	Positive_regulation:T19 Cause:T15 Theme:E49

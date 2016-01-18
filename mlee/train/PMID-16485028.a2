@@ -1,0 +1,37 @@
+T10	Blood_vessel_development 401 413	angiogenesis
+T12	Negative_regulation 529 539	inhibition
+E12	Negative_regulation:T12 Theme:T13
+T14	Negative_regulation 635 645	inhibition
+E14	Negative_regulation:T14 Theme:E15
+T15	Growth 628 634	growth
+E15	Growth:T15 Theme:T17
+T16	Death 619 624	death
+E16	Death:T16 Theme:T17
+T24	Binding 92 102	associated
+E1	Binding:T24 Theme:T3 Theme:T6
+T26	Cell_proliferation 346 364	cell proliferation
+E3	Cell_proliferation:T26 Theme:T9
+T27	Regulation 332 342	regulation
+E4	Regulation:T27 Theme:E3 Cause:T8
+T28	Death 377 386	apoptosis
+E5	Death:T28 Theme:T9
+T29	Regulation 366 373	control
+E6	Regulation:T29 Cause:T8 Theme:E5
+T30	Positive_regulation 388 397	promotion
+E7	Positive_regulation:T30 Cause:T8 Theme:E20
+T25	Positive_regulation 419 430	stimulation
+E2	Positive_regulation:T25 Cause:T8 Theme:E8
+T31	Localization 434 442	invasion
+E8	Localization:T31 Theme:T9
+T32	Localization 443 453	metastasis
+E9	Localization:T32 Theme:T9
+E10	Positive_regulation:T25 Cause:T8 Theme:E9
+E11	Negative_regulation:T14 Theme:E16
+T34	Planned_process 589 598	therapies
+E13	Planned_process:T34 Theme:T33
+T35	Positive_regulation 599 604	leads
+E17	Positive_regulation:T35 Cause:E13 Theme:E11
+E18	Positive_regulation:T35 Cause:E13 Theme:E14
+T36	Negative_regulation 708 712	play
+E19	Negative_regulation:T36 Cause:T19 Theme:T20
+E20	Blood_vessel_development:T10 

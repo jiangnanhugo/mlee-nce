@@ -1,0 +1,71 @@
+T3	Blood_vessel_development 118 128	angiogenic
+T4	Blood_vessel_development 217 227	angiogenic
+T5	Blood_vessel_development 237 247	angiogenic
+T6	Blood_vessel_development 308 320	angiogenesis
+T16	Blood_vessel_development 643 655	angiogenesis
+T27	Blood_vessel_development 882 892	angiogenic
+T31	Blood_vessel_development 969 981	angiogenesis
+T45	Blood_vessel_development 1211 1223	angiogenesis
+T12	Positive_regulation 524 535	upregulated
+E12	Positive_regulation:T12 Theme:E13
+T13	Gene_expression 500 510	expression
+E13	Gene_expression:T13 Theme:T14
+T18	Positive_regulation 704 711	induced
+E18	Positive_regulation:T18 Theme:T19
+T24	Positive_regulation 851 860	increased
+E24	Positive_regulation:T24 Theme:E25 Cause:E6
+T25	Development 867 876	formation
+E25	Development:T25 Theme:T26
+T28	Development 948 957	formation
+E28	Development:T28 Theme:T29
+T37	Growth 1097 1110	proliferation
+E37	Growth:T37 Theme:T39
+T38	Development 1078 1093	differentiation
+E38	Development:T38 Theme:T39
+T40	Negative_regulation 1151 1158	reduced
+E40	Negative_regulation:T40 Theme:E41 Cause:E10
+T41	Death 1123 1132	apoptosis
+E41	Death:T41 Theme:T42
+T46	Positive_regulation 1279 1287	enhanced
+E46	Positive_regulation:T46 Theme:E47
+T47	Gene_expression 1302 1312	expression
+E47	Gene_expression:T47 Theme:T48
+*	Equiv T8 T9
+T10	Negative_regulation 94 101	defense
+E1	Negative_regulation:T10 Theme:T2
+T21	Positive_regulation 174 181	induced
+E2	Positive_regulation:T21 Theme:E16
+T22	Negative_regulation 321 330	inhibitor
+E3	Negative_regulation:T22 Theme:E20 Cause:T8
+T32	Gene_expression 408 417	deficient
+E4	Gene_expression:T32 Theme:T11
+A1	Negation E4
+T33	Planned_process 392 401	subjected
+E5	Planned_process:T33 Theme:T1000
+T35	Gene_expression 748 758	deficiency
+E6	Gene_expression:T35 Theme:T23
+A2	Negation E6
+T43	Positive_regulation 1000 1008	enhanced
+E7	Positive_regulation:T43 Theme:E23
+E8	Positive_regulation:T43 Theme:E28
+T50	Gene_expression 1018 1027	deficient
+E9	Gene_expression:T50 Theme:T34
+A3	Negation E9
+T51	Gene_expression 1046 1056	deficiency
+E10	Gene_expression:T51 Theme:T36
+A4	Negation E10
+T52	Regulation 1065 1071	affect
+E11	Regulation:T52 Cause:E10 Theme:E38
+A5	Negation E11
+E14	Regulation:T52 Cause:E10 Theme:E37
+A6	Negation E14
+T44	Negative_regulation 1340 1347	defense
+E15	Negative_regulation:T44 Theme:T49
+E16	Blood_vessel_development:T3 
+E17	Blood_vessel_development:T4 
+E19	Blood_vessel_development:T5 
+E20	Blood_vessel_development:T6 
+E21	Blood_vessel_development:T16 
+E22	Blood_vessel_development:T27 
+E23	Blood_vessel_development:T31 AtLoc:T30
+E26	Blood_vessel_development:T45 

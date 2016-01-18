@@ -1,0 +1,25 @@
+T2	Development 0 8	Building
+E2	Development:T2 Theme:T3
+T7	Localization 250 257	migrate
+E7	Localization:T7 Theme:T8
+T14	Localization 377 385	coalesce
+E14	Localization:T14 Theme:T11
+T16	Development 390 394	form
+E16	Development:T16 Theme:T17
+T21	Remodeling 535 544	remodeled
+E21	Remodeling:T21 Theme:T22
+T25	Development 1105 1116	development
+E25	Development:T25 Theme:T26
+T28	Development 1180 1189	formation
+E28	Development:T28 Theme:T29
+T9	Development 95 103	develops
+E3	Development:T9 Theme:T4
+T30	Development 195 209	differentiates
+E4	Development:T30 Theme:T5
+T32	Development 826 831	built
+E5	Development:T32 Theme:T23
+T1	Development 408 416	lumenize
+E1	Development:T1 Theme:T17
+T6	Localization 428 438	ensheathed
+E6	Localization:T6 ToLoc:T17 Theme:T18
+E8	Localization:T6 ToLoc:T17 Theme:T19

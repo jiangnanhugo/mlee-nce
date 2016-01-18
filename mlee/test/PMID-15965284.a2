@@ -1,0 +1,36 @@
+T10	Blood_vessel_development 566 578	angiogenesis
+T11	Negative_regulation 584 593	reduction
+E11	Negative_regulation:T11 Theme:E12
+T12	Growth 603 609	growth
+E12	Growth:T12 Theme:T13
+T9	Regulation 49 55	effect
+E1	Regulation:T9 Cause:T1 Theme:E2
+T27	Negative_regulation 82 92	prevention
+E2	Negative_regulation:T27 Theme:T2
+T29	Planned_process 271 280	treatment
+E4	Planned_process:T29 Theme:T7 Instrument:T5
+T30	Negative_regulation 485 495	inhibition
+E5	Negative_regulation:T30 Theme:E6
+T31	Localization 503 511	invasive
+E6	Localization:T31 Theme:T8
+T32	Negative_regulation 552 562	inhibition
+E7	Negative_regulation:T32 Theme:E3
+T33	Planned_process 760 769	treatment
+E8	Planned_process:T33 Instrument:T14
+T34	Development 777 788	development
+E9	Development:T34 Theme:T15
+T35	Regulation 723 729	effect
+E10	Regulation:T35 Cause:E8 Theme:E9
+A1	Speculation E10
+T36	Planned_process 1039 1046	receive
+E13	Planned_process:T36 Instrument:T19 Theme:T1002
+T37	Planned_process 1432 1450	adjuvant treatment
+E14	Planned_process:T37 Instrument:T23
+T38	Negative_regulation 1475 1485	prevention
+E15	Negative_regulation:T38 Theme:T24
+T39	Planned_process 1617 1631	preventive use
+E16	Planned_process:T39 Instrument:T25 Theme:T1005
+E3	Blood_vessel_development:T10 
+T40	Planned_process 1069 1078	treatment
+E17	Planned_process:T40 Theme:T1002
+A2	Negation E17

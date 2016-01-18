@@ -1,0 +1,28 @@
+T5	Blood_vessel_development 69 81	angiogenesis
+T7	Blood_vessel_development 144 156	angiogenesis
+T8	Blood_vessel_development 282 292	angiogenic
+T9	Pathway 311 318	pathway
+T13	Blood_vessel_development 365 375	angiogenic
+T15	Pathway 506 513	pathway
+T14	Negative_regulation 489 496	inhibit
+E14	Negative_regulation:T14 Theme:E15 Cause:T17
+R1	frag Arg1:T19 Arg2:T20
+*	Equiv T1 T2
+T11	Negative_regulation 51 61	inhibiting
+E1	Negative_regulation:T11 Theme:E9 Cause:T6
+T12	Regulation 135 143	Aberrant
+E2	Regulation:T12 Theme:E10
+T34	Regulation 258 266	mediated
+E3	Regulation:T34 Theme:E10
+T35	Negative_regulation 386 396	Inhibition
+E4	Negative_regulation:T35 Theme:E13
+E5	Negative_regulation:T14 Theme:E15 Cause:T20
+E6	Negative_regulation:T14 Theme:E15 Cause:T19
+E7	Negative_regulation:T14 Theme:E15
+E8	Negative_regulation:T14 Theme:E15 Cause:T25
+E9	Blood_vessel_development:T5 AtLoc:T4
+E10	Blood_vessel_development:T7 
+E11	Blood_vessel_development:T8 
+E12	Blood_vessel_development:T13 
+E13	Pathway:T9 Participant:T10
+E15	Pathway:T15 Participant:T16

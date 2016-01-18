@@ -1,0 +1,31 @@
+T46	Blood_vessel_development 1429 1441	angiogenesis
+T2	Regulation 17 27	regulation
+E2	Regulation:T2 Theme:T3
+T17	Gene_expression 430 440	expression
+E17	Gene_expression:T17 Theme:T18
+T31	Gene_expression 1056 1066	expression
+E31	Gene_expression:T31 Theme:T32
+T38	Gene_expression 1224 1234	expression
+E38	Gene_expression:T38 Theme:T39
+T47	Growth 1501 1507	growth
+E47	Growth:T47 Theme:T48
+T49	Regulation 1561 1571	regulation
+E49	Regulation:T49 Theme:T52 Cause:T50
+*	Equiv T33 T32
+*	Equiv T34 T35
+*	Equiv T36 T37
+E1	Regulation:T2 Theme:T4
+T1	Localization 834 839	found
+E3	Localization:T1 Theme:T22 AtLoc:T24
+T7	Development 898 912	differentiated
+E4	Development:T7 Theme:T25
+T16	Growth 962 975	proliferation
+E5	Growth:T16 Theme:T43
+E6	Gene_expression:T31 Theme:T34
+E7	Gene_expression:T31 Theme:T36
+T29	Regulation 1419 1428	regulates
+E8	Regulation:T29 Cause:T44 Theme:E11
+T30	Localization 1512 1536	metastatic dissemination
+E9	Localization:T30 Theme:T48
+E10	Regulation:T49 Theme:T52 Cause:T51
+E11	Blood_vessel_development:T46 

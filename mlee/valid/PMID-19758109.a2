@@ -1,0 +1,43 @@
+T3	Blood_vessel_development 69 81	Angiogenesis
+T11	Blood_vessel_development 236 246	angiogenic
+T15	Blood_vessel_development 366 376	angiogenic
+T24	Blood_vessel_development 517 527	angiogenic
+T31	Blood_vessel_development 638 648	angiogenic
+T5	Positive_regulation 121 131	supporting
+E5	Positive_regulation:T5 Theme:E7
+T6	Positive_regulation 107 116	promoting
+E6	Positive_regulation:T6 Theme:E7
+T7	Growth 138 144	growth
+E7	Growth:T7 Theme:T8
+T12	Binding 288 299	interaction
+E12	Binding:T12 Theme:T13 Theme:T14
+T16	Regulation 427 434	control
+E16	Regulation:T16 Theme:T17
+T38	Regulation 869 875	target
+E38	Regulation:T38 Theme:T41 Cause:T39
+T40	Negative_regulation 880 887	destroy
+E40	Negative_regulation:T40 Theme:T41 Cause:T39
+T42	Breakdown 937 948	destruction
+E42	Breakdown:T42 Theme:T43
+*	Equiv T25 T28
+*	Equiv T19 T21
+*	Equiv T50 T51
+T9	Breakdown 50 60	disrupting
+E1	Breakdown:T9 Theme:T2
+T18	Regulation 82 103	has an essential role
+E2	Regulation:T18 Cause:E11 Theme:E6
+E3	Regulation:T18 Cause:E11 Theme:E5
+T20	Positive_regulation 413 420	improve
+E4	Positive_regulation:T20 Cause:T19 Theme:E16
+T27	Development 893 904	established
+E8	Development:T27 Theme:T41
+T30	Death 1003 1011	survival
+E9	Death:T30 Theme:T45
+A1	Negation E9
+T32	Death 990 998	necrosis
+E10	Death:T32 Theme:T43
+E11	Blood_vessel_development:T3 
+E13	Blood_vessel_development:T11 
+E14	Blood_vessel_development:T15 
+E15	Blood_vessel_development:T24 
+E17	Blood_vessel_development:T31 

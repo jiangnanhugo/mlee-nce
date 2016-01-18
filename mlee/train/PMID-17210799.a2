@@ -1,0 +1,106 @@
+T14	Blood_vessel_development 315 325	angiogenic
+T92	Blood_vessel_development 2056 2068	angiogenesis
+T1	Positive_regulation 0 10	Activation
+E1	Positive_regulation:T1 Theme:T2
+E2	Positive_regulation:T3 Theme:E40
+T3	Positive_regulation 872 881	increased
+E3	Negative_regulation:T13 Cause:T46 Theme:E50
+T6	Cell_proliferation 147 160	proliferation
+E6	Cell_proliferation:T6 Theme:T7
+T13	Negative_regulation 1076 1085	inhibited
+T17	Cell_proliferation 413 426	proliferation
+E17	Cell_proliferation:T17 Theme:T19
+T30	Cell_proliferation 659 672	proliferation
+E30	Cell_proliferation:T30 Theme:T32
+T34	Localization 773 780	release
+E34	Localization:T34 Theme:T37
+T35	Positive_regulation 743 752	increased
+E35	Positive_regulation:T35 Theme:E36
+T36	Gene_expression 758 768	expression
+E36	Gene_expression:T36 Theme:T37
+T40	Phosphorylation 882 897	phosphorylation
+E40	Phosphorylation:T40 Theme:T41
+T49	Positive_regulation 1095 1104	increases
+E49	Positive_regulation:T49 Theme:E50
+T50	Gene_expression 1113 1123	expression
+E50	Gene_expression:T50 Theme:T51
+T53	Planned_process 1179 1193	administration
+E53	Planned_process:T53 Instrument:T55
+T64	Positive_regulation 1492 1501	increased
+E64	Positive_regulation:T64 Theme:E65 Cause:T63
+T65	Phosphorylation 1506 1521	phosphorylation
+E65	Phosphorylation:T65 Theme:T66
+T78	Positive_regulation 1903 1913	activating
+E78	Positive_regulation:T78 Theme:T79
+T80	Positive_regulation 1928 1937	enhancing
+E80	Positive_regulation:T80 Theme:E81
+T81	Gene_expression 1943 1952	synthesis
+E81	Gene_expression:T81 Theme:T82
+T84	Cell_proliferation 1968 1981	proliferation
+E84	Cell_proliferation:T84 Theme:T86
+T89	Regulation 2020 2030	regulation
+E89	Regulation:T89 Theme:T91
+R1	frag Arg1:T11 Arg2:T12
+*	Equiv T21 T22
+*	Equiv T19 T20
+*	Equiv T46 T47
+T16	Positive_regulation 122 129	induced
+E4	Positive_regulation:T16 Cause:T4 Theme:E6
+T29	Regulation 81 89	mediates
+E7	Regulation:T29 Cause:E1 Theme:E6
+*	Equiv T9 T8
+T43	Synthesis 208 214	formed
+E8	Synthesis:T43 Theme:T8
+T48	Positive_regulation 307 314	induces
+E9	Positive_regulation:T48 Theme:E39 Cause:T8
+T56	Positive_regulation 381 390	increases
+E10	Positive_regulation:T56 Cause:T15 Theme:E17
+A1	Speculation E10
+T72	Regulation 489 496	effects
+E11	Regulation:T72 Cause:T23 Theme:T26
+*	Equiv T24 T23
+R2	frag Arg1:T83 Arg2:T26	
+E12	Regulation:T72 Cause:T23 Theme:T83
+T88	Positive_regulation 645 655	stimulated
+E13	Positive_regulation:T88 Theme:E30 Cause:T27
+E14	Positive_regulation:T88 Theme:E30 Cause:T28
+E15	Positive_regulation:T35 Theme:E34
+T93	Negative_regulation 973 982	inhibited
+E16	Negative_regulation:T93 Theme:T42
+E19	Negative_regulation:T13 Cause:T46 Theme:T52
+T94	Regulation 1243 1249	effect
+E20	Regulation:T94 Theme:T57 Cause:E53
+A2	Negation E20
+*	Equiv T66 T67
+T95	Negative_regulation 1678 1688	suppressed
+E21	Negative_regulation:T95 Cause:T71 Theme:T74
+*	Equiv T70 T71
+T96	Regulation 1720 1727	changes
+E22	Regulation:T96 Theme:T73
+E23	Negative_regulation:T95 Cause:T71 Theme:E22
+A3	Negation E21
+T98	Synthesis 1342 1351	formation
+E24	Synthesis:T98 Theme:T97
+T99	Positive_regulation 1321 1330	increased
+E25	Positive_regulation:T99 Theme:E24
+T101	Planned_process 1399 1407	staining
+E26	Planned_process:T101 Theme:T60 Instrument:T100
+T102	Negative_regulation 1437 1446	inhibited
+E27	Negative_regulation:T102 Theme:E25 Cause:T61
+A4	Negation E27
+E28	Negative_regulation:T102 Theme:E25 Cause:T62
+A5	Negation E28
+T104	Synthesis 1826 1835	formation
+E29	Synthesis:T104 Theme:T103
+T105	Positive_regulation 1804 1814	stimulates
+E32	Positive_regulation:T105 Cause:T75 Theme:E29
+T106	Regulation 1958 1964	drives
+E33	Regulation:T106 Cause:E81 Theme:E84
+T107	Regulation 2004 2012	involved
+E37	Regulation:T107 Cause:T87 Theme:E89
+A6	Speculation E37
+E38	Regulation:T107 Cause:T87 Theme:E5
+A7	Speculation E38
+E39	Blood_vessel_development:T14 
+E41	Blood_vessel_development:T92 
+E5	Regulation:T89 Theme:E41

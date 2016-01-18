@@ -1,0 +1,38 @@
+T1	Blood_vessel_development 28 46	neovascularization
+T2	Blood_vessel_development 112 130	neovascularization
+T3	Blood_vessel_development 330 348	neovascularization
+T6	Blood_vessel_development 843 861	neovascularization
+T7	Blood_vessel_development 1011 1029	neovascularization
+T8	Blood_vessel_development 1312 1330	neovascularization
+T9	Blood_vessel_development 1433 1451	neovascularization
+T10	Blood_vessel_development 1660 1678	neovascularization
+T11	Blood_vessel_development 1867 1884	revascularization
+T13	Regulation 4 11	effects
+E1	Regulation:T13 Theme:E12
+T14	Negative_regulation 103 111	inhibits
+E2	Negative_regulation:T14 Theme:E13
+*	Equiv T15 T16
+T17	Planned_process 435 444	implanted
+E3	Planned_process:T17 Instrument:T15 Theme:T12
+T18	Planned_process 895 905	irradiated
+E4	Planned_process:T18 Theme:T1002
+T20	Negative_regulation 995 1003	decrease
+E7	Negative_regulation:T20 Theme:E16 Cause:E4
+T21	Negative_regulation 1252 1262	diminished
+E8	Negative_regulation:T21 Theme:E17
+T22	Negative_regulation 1530 1539	decreased
+E9	Negative_regulation:T22 Theme:E18
+A1	Negation E9
+T23	Negative_regulation 1650 1659	inhibited
+E10	Negative_regulation:T23 Theme:E19
+T25	Negative_regulation 1851 1859	impaired
+E11	Negative_regulation:T25 Theme:E20
+E12	Blood_vessel_development:T1 
+E13	Blood_vessel_development:T2 AtLoc:T26
+E14	Blood_vessel_development:T3 
+E15	Blood_vessel_development:T6 
+E16	Blood_vessel_development:T7 
+E17	Blood_vessel_development:T8 
+E18	Blood_vessel_development:T9 
+E19	Blood_vessel_development:T10 
+E20	Blood_vessel_development:T11 AtLoc:T24

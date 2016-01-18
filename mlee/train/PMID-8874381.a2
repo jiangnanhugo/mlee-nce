@@ -1,0 +1,30 @@
+T29	Blood_vessel_development 1150 1162	angiogenesis
+T31	Blood_vessel_development 1442 1452	angiogenic
+T9	Development 386 397	development
+E9	Development:T9 Theme:T10
+T21	Development 809 820	development
+E21	Development:T21 Theme:T22
+T34	Development 1576 1587	development
+E34	Development:T34 Theme:T35
+*	Equiv T2 T3
+T19	Development 115 126	development
+E1	Development:T19 Theme:T7
+T30	Positive_regulation 93 103	stimulates
+E2	Positive_regulation:T30 Theme:E1 Cause:T1
+T36	Localization 194 202	secreted
+E3	Localization:T36 Theme:T2 FromLoc:T4
+T37	Planned_process 333 354	arterial gene therapy
+E4	Planned_process:T37 Instrument:T5
+T38	Positive_regulation 358 367	stimulate
+E5	Positive_regulation:T38 Cause:T5 Theme:E9
+T39	Planned_process 709 720	transfected
+E6	Planned_process:T39 Instrument:T17
+T40	Planned_process 732 758	site-specific transfection
+E7	Planned_process:T40 Instrument:T18
+T41	Positive_regulation 769 777	resulted
+E10	Positive_regulation:T41 Cause:E7 Theme:E21
+T43	Positive_regulation 1546 1557	stimulating
+E11	Positive_regulation:T43 Theme:E34
+E12	Blood_vessel_development:T29 
+E13	Blood_vessel_development:T31 
+R1	frag Arg1:T8 Arg2:T23	

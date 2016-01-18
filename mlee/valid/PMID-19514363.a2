@@ -1,0 +1,19 @@
+T10	Blood_vessel_development 356 368	angiogenesis
+T13	Negative_regulation 587 599	inactivation
+E13	Negative_regulation:T13 Theme:T14
+T8	Regulation 246 257	independent
+E1	Regulation:T8 Theme:T5 Cause:T7
+A1	Negation E1
+T16	Positive_regulation 227 236	dependent
+E2	Positive_regulation:T16 Theme:T5 Cause:T6
+T17	Regulation 334 345	implication
+E3	Regulation:T17 Theme:E8 Cause:T9
+T19	Growth 646 652	growth
+E4	Growth:T19 Theme:T18
+T20	Positive_regulation 627 632	leads
+E5	Positive_regulation:T20 Cause:E13 Theme:E4
+T22	Regulation 431 441	regulation
+E6	Regulation:T22 Theme:E7
+T23	Death 459 468	apoptosis
+E7	Death:T23 Theme:T21
+E8	Blood_vessel_development:T10 

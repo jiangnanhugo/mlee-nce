@@ -1,0 +1,26 @@
+T1	Pathway 12 24	fibrinolytic
+T2	Pathway 54 61	systems
+T8	Blood_vessel_development 410 422	angiogenesis
+T11	Pathway 465 477	fibrinolytic
+T14	Pathway 535 542	systems
+T17	Pathway 681 693	fibrinolytic
+T18	Pathway 702 709	systems
+T6	Remodeling 354 367	modifications
+E6	Remodeling:T6 Theme:T7
+T9	Breakdown 448 459	proteolysis
+E9	Breakdown:T9 Theme:T10
+*	Equiv T15 T16
+T20	Development 65 76	development
+E1	Development:T20 Theme:T4
+T21	Regulation 0 4	Role
+E2	Regulation:T21 Theme:E1 Cause:E5
+E3	Blood_vessel_development:T8 
+E4	Pathway:T1 
+E5	Pathway:T2 Participant:T3
+E7	Pathway:T11 Participant:T12 Participant2:T13
+E8	Pathway:T14 Participant:T15
+E10	Pathway:T17 
+E11	Pathway:T18 Participant:T19
+E12	Regulation:T21 Theme:E1 Cause:E4
+T22	Planned_process 614 624	transgenic
+E13	Planned_process:T22 Theme:T1000

@@ -1,0 +1,106 @@
+T29	Blood_vessel_development 851 863	angiogenesis
+T50	Blood_vessel_development 1744 1756	angiogenesis
+T1	Positive_regulation 0 8	Enhanced
+E1	Positive_regulation:T1 Theme:E2
+T2	Gene_expression 15 25	expression
+E2	Gene_expression:T2 Theme:T3
+T6	Planned_process 283 294	transfected
+E6	Planned_process:T6 Instrument:T7 Theme:T8
+T11	Planned_process 421 432	transfected
+E11	Planned_process:T11 Instrument:T12 Theme:T13
+T14	Planned_process 471 482	transfected
+E14	Planned_process:T14 Theme:T16
+T21	Positive_regulation 723 732	increased
+E21	Positive_regulation:T21 Theme:T22
+T23	Positive_regulation 748 756	enhanced
+E23	Positive_regulation:T23 Theme:E24
+T24	Gene_expression 763 773	expression
+E24	Gene_expression:T24 Theme:T25
+T26	Planned_process 781 792	transfected
+E26	Planned_process:T26 Instrument:T27 Theme:T83
+T30	Negative_regulation 869 878	decreased
+E30	Negative_regulation:T30 Theme:T31
+T32	Planned_process 1199 1210	transfected
+E32	Planned_process:T32 Instrument:T33 Theme:T34
+T35	Positive_regulation 1220 1229	increased
+E35	Positive_regulation:T35 Theme:T36
+T38	Gene_expression 1279 1289	expression
+E38	Gene_expression:T38 Theme:T39
+T42	Development 1335 1344	formation
+E42	Development:T42 Theme:T43
+T47	Positive_regulation 1603 1614	enhancement
+E47	Positive_regulation:T47 Theme:T48
+T15	Planned_process 77 92	transplantation
+E3	Planned_process:T15 Theme:T4 Instrument:T78
+*	Equiv T8 T9
+T10	Planned_process 526 540	nontransfected
+E4	Planned_process:T10 Theme:T17
+A1	Negation E4
+T18	Positive_regulation 840 850	stimulated
+E5	Positive_regulation:T18 Theme:E49
+E7	Positive_regulation:T35 Theme:T37
+T19	Positive_regulation 1264 1273	increased
+E8	Positive_regulation:T19 Theme:E38
+T28	Negative_regulation 1291 1298	limited
+E9	Negative_regulation:T28 Theme:E10
+T40	Death 1304 1313	apoptosis
+E10	Death:T40 Theme:T34
+T46	Positive_regulation 1319 1327	enhanced
+E12	Positive_regulation:T46 Theme:E42
+T49	Death 1464 1473	surviving
+E13	Death:T49 Theme:T44
+A2	Negation E13
+T51	Planned_process 1543 1554	transfected
+E15	Planned_process:T51 Theme:T45
+T52	Positive_regulation 1735 1743	enhanced
+E16	Positive_regulation:T52 Theme:E50
+T54	Planned_process 126 141	transplantation
+E17	Planned_process:T54 Instrument:T53
+T57	Positive_regulation 214 222	enhances
+E18	Positive_regulation:T57 Cause:T5 Theme:E19
+T58	Cell_proliferation 228 241	proliferation
+E19	Cell_proliferation:T58 Theme:T56
+T59	Death 246 254	survival
+E20	Death:T59 Theme:T56
+A3	Negation E20
+E22	Positive_regulation:T57 Cause:T5 Theme:E20
+T61	Positive_regulation 328 335	enhance
+E25	Positive_regulation:T61 Cause:T8 Theme:E27
+T62	Death 341 349	survival
+E27	Death:T62 Theme:T60
+A4	Negation E27
+A5	Speculation E25
+T64	Planned_process 385 400	transplantation
+E28	Planned_process:T64 Instrument:T63
+T67	Cell_proliferation 825 838	proliferation
+E29	Cell_proliferation:T67 Theme:T66
+T72	Positive_regulation 1626 1634	improved
+E31	Positive_regulation:T72 Cause:E47 Theme:E33
+T73	Cell_proliferation 1646 1659	proliferation
+E33	Cell_proliferation:T73 Theme:T71
+T74	Death 1661 1669	survival
+E34	Death:T74 Theme:T71
+A6	Negation E34
+E36	Positive_regulation:T72 Cause:E47 Theme:E34
+T75	Development 1675 1686	engraftment
+E37	Development:T75 Theme:T71
+E39	Positive_regulation:T72 Cause:E47 Theme:E37
+T76	Development 362 373	engraftment
+E40	Development:T76 Theme:T60
+T77	Positive_regulation 354 361	improve
+E43	Positive_regulation:T77 Cause:T8 Theme:E40
+A7	Speculation E43
+T79	Development 54 65	engraftment
+E44	Development:T79 Theme:T4
+T81	Planned_process 1698 1713	transplantation
+E45	Planned_process:T81 Theme:T80
+T82	Positive_regulation 26 34	improves
+E46	Positive_regulation:T82 Cause:E2 Theme:E44
+T85	Planned_process 1152 1161	implanted
+E48	Planned_process:T85 Instrument:T84
+E49	Blood_vessel_development:T29 
+E50	Blood_vessel_development:T50 
+T41	Death 200 206	losses
+E41	Death:T41 Theme:T55
+T86	Planned_process 1481 1490	implanted
+E51	Planned_process:T86 Instrument:T44

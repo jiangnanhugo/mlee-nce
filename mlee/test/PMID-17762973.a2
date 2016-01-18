@@ -1,0 +1,71 @@
+T1	Pathway 9 18	signaling
+T5	Pathway 74 105	intercellular signaling pathway
+T10	Pathway 308 317	signaling
+T25	Pathway 641 648	pathway
+T30	Pathway 755 764	signaling
+T65	Blood_vessel_development 1457 1469	angiogenesis
+T83	Pathway 1851 1860	signaling
+T7	Development 264 275	development
+E7	Development:T7 Theme:T9
+T21	Positive_regulation 529 538	increased
+E21	Positive_regulation:T21 Theme:E22 Cause:T19
+T22	Localization 544 557	incorporation
+E22	Localization:T22 Theme:T23 ToLoc:T24
+T35	Negative_regulation 882 892	attenuated
+E35	Negative_regulation:T35 Theme:E36 Cause:E1
+T36	Localization 898 911	incorporation
+E36	Localization:T36 Theme:T37 ToLoc:T38
+T42	Negative_regulation 1022 1029	delayed
+E42	Negative_regulation:T42 Theme:E43
+T43	Growth 1036 1042	growth
+E43	Growth:T43 Theme:T44
+T45	Localization 1123 1132	localized
+E45	Localization:T45 Theme:T47 ToLoc:T48
+T49	Gene_expression 1174 1183	expressed
+E49	Gene_expression:T49 Theme:T51
+T55	Gene_expression 1278 1285	express
+E55	Gene_expression:T55 Theme:T56
+T57	Positive_regulation 1391 1398	induces
+E57	Positive_regulation:T57 Cause:T59 Theme:E61
+T58	Gene_expression 1364 1372	produced
+E58	Gene_expression:T58 Theme:T59
+T61	Gene_expression 1407 1417	expression
+E61	Gene_expression:T61 Theme:T62
+T71	Regulation 1649 1656	altered
+E71	Regulation:T71 Theme:T72 Cause:E5
+*	Equiv T19 T20
+T4	Planned_process 832 841	Treatment
+E1	Planned_process:T4 Instrument:T34
+T16	Positive_regulation 696 703	induced
+E2	Positive_regulation:T16 Theme:E3 Cause:T29
+T27	Cell_proliferation 704 717	proliferation
+E3	Cell_proliferation:T27 Theme:T24
+T39	Negative_regulation 684 691	reduced
+E4	Negative_regulation:T39 Cause:T28 Theme:E3
+T52	Planned_process 1533 1542	Treatment
+E5	Planned_process:T52 Instrument:T67
+T68	Negative_regulation 1574 1584	attenuated
+E6	Negative_regulation:T68 Cause:E5 Theme:E9
+T85	Development 1594 1603	formation
+E9	Development:T85 Theme:T70
+T77	Planned_process 1751 1758	labeled
+E10	Planned_process:T77 Instrument:T80 Theme:T81
+T89	Development 1897 1906	formation
+E12	Development:T89 Theme:T87
+T90	Regulation 1861 1870	regulates
+E13	Regulation:T90 Cause:E25 Theme:E12
+E14	Regulation:T90 Cause:E25 Theme:T87
+T92	Cell_proliferation 121 134	proliferation
+E15	Cell_proliferation:T92 Theme:T91
+T93	Development 139 154	differentiation
+E16	Development:T93 Theme:T91
+E17	Blood_vessel_development:T65 AtLoc:T64
+E18	Pathway:T1 Participant:T2
+E19	Pathway:T5 Participant:T6
+E20	Pathway:T10 Participant:T11
+E23	Pathway:T25 Participant:T26
+E24	Pathway:T30 Participant:T31
+E25	Pathway:T83 Participant:T84
+T8	Regulation 1783 1789	effect
+E8	Regulation:T8 Theme:T82 Cause:T74
+A5	Negation E8

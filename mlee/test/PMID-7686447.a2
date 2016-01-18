@@ -1,0 +1,57 @@
+T2	Blood_vessel_development 32 44	angiogenesis
+T4	Blood_vessel_development 104 116	angiogenesis
+T8	Blood_vessel_development 309 321	angiogenesis
+T12	Blood_vessel_development 470 480	angiogenic
+T31	Blood_vessel_development 1492 1507	vascularization
+T33	Blood_vessel_development 1573 1588	vascularization
+T49	Blood_vessel_development 2374 2386	angiogenesis
+T51	Blood_vessel_development 2436 2446	angiogenic
+T6	Growth 241 247	growth
+E6	Growth:T6 Theme:T7
+T19	Localization 845 852	release
+E19	Localization:T19 Theme:T20
+T28	Planned_process 1417 1427	injections
+E28	Planned_process:T28 Theme:T1002 Instrument:T29
+T34	Planned_process 1646 1656	injections
+E34	Planned_process:T34 Instrument:T35 Theme:T1003
+T36	Negative_regulation 1711 1719	retarded
+E36	Negative_regulation:T36 Theme:E37 Cause:E34
+T37	Growth 1724 1730	growth
+E37	Growth:T37 Theme:T38
+T43	Planned_process 2052 2062	conjugated
+E43	Planned_process:T43 Instrument:T45 Instrument:T44
+*	Equiv T11 T10
+T56	Catabolism 1001 1011	broke down
+E1	Catabolism:T56 Theme:T21
+T57	Planned_process 1061 1070	Treatment
+E2	Planned_process:T57 Instrument:T23 Theme:T22
+T58	Localization 1234 1243	migration
+E3	Localization:T58 Theme:T22
+T59	Negative_regulation 1218 1227	inhibited
+E4	Negative_regulation:T59 Theme:E3 Cause:E2
+T60	Negative_regulation 1483 1491	retarded
+E7	Negative_regulation:T60 Theme:E20 Cause:E28
+T61	Negative_regulation 1563 1572	abolished
+E8	Negative_regulation:T61 Theme:E21 Cause:E28
+T63	Planned_process 1824 1834	treatments
+E10	Planned_process:T63 Instrument:T39 Instrument:T40
+T64	Negative_regulation 1931 1937	effect
+E11	Negative_regulation:T64 Cause:T41 Theme:E9
+T67	Planned_process 139 148	treatment
+E12	Planned_process:T67 Theme:T66
+T69	Planned_process 2406 2415	treatment
+E13	Planned_process:T69 Theme:T68
+T62	Cell_proliferation 1917 1930	proliferative
+E9	Cell_proliferation:T62 Theme:T42
+E14	Blood_vessel_development:T2 
+E16	Blood_vessel_development:T4 
+E17	Blood_vessel_development:T8 
+E18	Blood_vessel_development:T12 
+E20	Blood_vessel_development:T31 
+E21	Blood_vessel_development:T33 
+E22	Blood_vessel_development:T49 
+E23	Blood_vessel_development:T51 
+T71	Negative_regulation 71 79	activity
+E24	Negative_regulation:T71 Theme:T70
+T5	Binding 553 558	binds
+E5	Binding:T5 Theme:T17

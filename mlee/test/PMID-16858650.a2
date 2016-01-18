@@ -1,0 +1,46 @@
+T3	Blood_vessel_development 49 59	angiogenic
+T8	Blood_vessel_development 262 274	angiogenesis
+T15	Blood_vessel_development 729 739	angiogenic
+T38	Blood_vessel_development 1651 1663	angiogenesis
+T20	Regulation 1154 1164	controlled
+E20	Regulation:T20 Theme:E21 Cause:T19
+T21	Localization 1169 1176	release
+E21	Localization:T21 Theme:T22
+T23	Planned_process 1225 1231	loaded
+E23	Planned_process:T23 Instrument:T24
+T33	Localization 1514 1521	release
+E33	Localization:T33 Theme:T34
+T35	Planned_process 1204 1216	implantation
+E35	Planned_process:T35 Theme:T1000
+*	Equiv T5 T6
+T2	Localization 203 210	release
+E1	Localization:T2 Theme:T5
+T7	Positive_regulation 255 261	induce
+E2	Positive_regulation:T7 Theme:E14 Cause:E1
+T26	Planned_process 547 553	loaded
+E3	Planned_process:T26 Instrument:T10
+*	Equiv T41 T40
+T45	Planned_process 651 657	loaded
+E4	Planned_process:T45 Instrument:T13
+T47	Localization 709 716	release
+E5	Localization:T47 Theme:T13
+T49	Localization 1002 1010	released
+E6	Localization:T49 Theme:T18
+T52	Positive_regulation 1280 1287	induced
+E7	Positive_regulation:T52 Theme:E8 Cause:E35
+T53	Development 1292 1301	formation
+E8	Development:T53 Theme:T28
+T55	Planned_process 1455 1462	loading
+E9	Planned_process:T55 Instrument:T30
+T57	Planned_process 1469 1475	loaded
+E10	Planned_process:T57 Instrument:T31
+T58	Binding 1587 1594	binding
+E11	Binding:T58 Theme:T36 Theme:T37
+T59	Positive_regulation 1637 1644	induced
+E12	Positive_regulation:T59 Theme:E16
+E13	Blood_vessel_development:T3 
+E14	Blood_vessel_development:T8 
+E15	Blood_vessel_development:T15 
+E16	Blood_vessel_development:T38 
+T27	Planned_process 1431 1445	immobilization
+E17	Planned_process:T27 Theme:T29

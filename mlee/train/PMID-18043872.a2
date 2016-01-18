@@ -1,0 +1,15 @@
+T8	Growth 198 202	grow
+E1	Growth:T8 Theme:T7
+T9	Localization 204 210	invade
+E2	Localization:T9 Theme:T7
+T10	Localization 215 226	metastasize
+E4	Localization:T10 Theme:T7
+T12	Regulation 374 381	control
+E5	Regulation:T12 Theme:T11
+T13	Negative_regulation 386 396	prevention
+E6	Negative_regulation:T13 Theme:T11
+T15	Localization 62 72	metastasis
+E8	Localization:T15 Theme:T5
+T17	Binding 494 506	interactions
+E9	Binding:T17 Theme:T16 Theme:T4
+R1	frag Arg1:T16 Arg2:T4	

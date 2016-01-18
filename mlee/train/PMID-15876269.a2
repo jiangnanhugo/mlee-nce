@@ -1,0 +1,24 @@
+T3	Blood_vessel_development 211 223	angiogenesis
+T8	Blood_vessel_development 333 343	angiogenic
+*	Equiv T6 T5
+T7	Regulation 380 386	affect
+E1	Regulation:T7 Theme:T9
+A1	Negation E1
+T21	Planned_process 616 625	treatment
+E2	Planned_process:T21 Instrument:T11 Theme:T1000
+T22	Planned_process 732 740	treating
+E3	Planned_process:T22 Instrument:T12 Theme:T13
+T23	Planned_process 868 875	treated
+E4	Planned_process:T23 Theme:T1001 Instrument:T14
+T25	Planned_process 994 1003	treatment
+E5	Planned_process:T25 Instrument:T15 Theme:T1002
+T26	Planned_process 1172 1179	treated
+E6	Planned_process:T26 Theme:T1003
+T27	Planned_process 1219 1228	treatment
+E7	Planned_process:T27 Instrument:T16
+T28	Planned_process 1303 1307	used
+E8	Planned_process:T28 Instrument:T17 Theme:T18
+E9	Blood_vessel_development:T3 
+E10	Blood_vessel_development:T8 
+T29	Negative_regulation 358 368	properties
+E11	Negative_regulation:T29 Theme:E10

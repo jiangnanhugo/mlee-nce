@@ -1,0 +1,107 @@
+T9	Blood_vessel_development 318 328	angiogenic
+T20	Pathway 648 657	signaling
+T24	Blood_vessel_development 727 739	angiogenesis
+T56	Blood_vessel_development 1539 1551	angiogenesis
+T65	Blood_vessel_development 1694 1706	angiogenesis
+T84	Blood_vessel_development 1988 2000	angiogenesis
+T15	Growth 504 510	growth
+E15	Growth:T15 Theme:T16
+T25	Growth 758 764	growth
+E25	Growth:T25 Theme:T26
+T40	Negative_regulation 1134 1143	inhibited
+E40	Negative_regulation:T40 Cause:T41 Theme:E42
+T42	Phosphorylation 1159 1174	phosphorylation
+E42	Phosphorylation:T42 Theme:T44
+T45	Phosphorylation 1209 1224	phosphorylation
+E45	Phosphorylation:T45 Theme:T46
+T59	Gene_expression 1592 1602	expressing
+E59	Gene_expression:T59 Theme:T60
+T61	Gene_expression 1618 1628	expressing
+E61	Gene_expression:T61 Theme:T62
+T68	Gene_expression 1753 1763	expressing
+E68	Gene_expression:T68 Theme:T69
+T74	Gene_expression 1844 1854	expressing
+E74	Gene_expression:T74 Theme:T75
+T78	Negative_regulation 1914 1924	preventing
+E78	Negative_regulation:T78 Theme:E79 Cause:E81
+T79	Development 1931 1942	progression
+E79	Development:T79 Theme:T80
+T81	Negative_regulation 1956 1966	inhibiting
+E81	Negative_regulation:T81 Cause:T77 Theme:T83
+T85	Negative_regulation 2028 2038	inhibiting
+E85	Negative_regulation:T85 Theme:T86
+R1	frag Arg1:T52 Arg2:T53
+*	Equiv T7 T8
+T3	Negative_regulation 40 46	blocks
+E1	Negative_regulation:T3 Theme:T4 Cause:T2
+T5	Positive_regulation 54 61	induced
+E2	Positive_regulation:T5 Theme:T4
+T10	Negative_regulation 491 497	impede
+E3	Negative_regulation:T10 Theme:E15 Cause:T1
+T12	Negative_regulation 704 711	prevent
+E4	Negative_regulation:T12 Cause:T17 Theme:E49
+*	Equiv T17 T18 T19
+T13	Positive_regulation 719 726	induced
+E5	Positive_regulation:T13 Cause:T23 Theme:E49
+E6	Negative_regulation:T12 Cause:T17 Theme:E25
+T14	Regulation 822 830	mediated
+E7	Regulation:T14 Cause:T28 Theme:T31
+T22	Regulation 774 781	effects
+E8	Regulation:T22 Cause:T27 Theme:T31
+A1	Speculation E8
+T29	Positive_regulation 1151 1158	induced
+E9	Positive_regulation:T29 Cause:T43 Theme:E42
+T32	Positive_regulation 1201 1208	induced
+E10	Positive_regulation:T32 Cause:T30 Theme:E45
+E11	Negative_regulation:T40 Cause:T41 Theme:E45
+T39	Negative_regulation 1362 1369	blocked
+E12	Negative_regulation:T39 Cause:T47 Theme:E16
+T48	Positive_regulation 1381 1388	induced
+E13	Positive_regulation:T48 Cause:T49 Theme:E16
+T55	Positive_regulation 1400 1407	induced
+E14	Positive_regulation:T55 Cause:T50 Theme:E16
+T57	Cell_proliferation 1408 1421	proliferation
+E16	Cell_proliferation:T57 Theme:T52
+T58	Death 1423 1431	survival
+E17	Death:T58 Theme:T52
+A2	Negation E17
+T64	Localization 1437 1446	migration
+E18	Localization:T64 Theme:T52
+E19	Localization:T64 Theme:T53
+E20	Death:T58 Theme:T53
+A3	Negation E20
+E21	Cell_proliferation:T57 Theme:T53
+E22	Positive_regulation:T55 Cause:T50 Theme:E17
+E23	Positive_regulation:T55 Cause:T50 Theme:E18
+E24	Positive_regulation:T55 Cause:T50 Theme:E19
+E26	Positive_regulation:T55 Cause:T50 Theme:E20
+E27	Positive_regulation:T55 Cause:T50 Theme:E21
+E28	Positive_regulation:T48 Cause:T49 Theme:E17
+E29	Positive_regulation:T48 Cause:T49 Theme:E18
+E30	Positive_regulation:T48 Cause:T49 Theme:E19
+E31	Positive_regulation:T48 Cause:T49 Theme:E20
+E32	Positive_regulation:T48 Cause:T49 Theme:E21
+E33	Negative_regulation:T39 Cause:T47 Theme:E17
+E34	Negative_regulation:T39 Cause:T47 Theme:E18
+E35	Negative_regulation:T39 Cause:T47 Theme:E19
+E36	Negative_regulation:T39 Cause:T47 Theme:E20
+E37	Negative_regulation:T39 Cause:T47 Theme:E21
+T66	Negative_regulation 1529 1538	prevented
+E38	Negative_regulation:T66 Cause:T54 Theme:E50
+T76	Positive_regulation 1574 1581	induced
+E39	Positive_regulation:T76 Theme:E50 Cause:T82
+T87	Negative_regulation 1686 1693	blocked
+E41	Negative_regulation:T87 Cause:T63 Theme:E52
+E43	Gene_expression:T68 Theme:T70
+A4	Speculation E78
+E44	Negative_regulation:T81 Cause:T77 Theme:E53
+E46	Negative_regulation:T78 Theme:E79 Cause:E44
+E47	Negative_regulation:T78 Theme:E79 Cause:E85
+A5	Speculation E46
+A6	Speculation E47
+E48	Blood_vessel_development:T9 
+E49	Blood_vessel_development:T24 
+E50	Blood_vessel_development:T56 
+E52	Blood_vessel_development:T65 
+E53	Blood_vessel_development:T84 
+E54	Pathway:T20 Participant:T21

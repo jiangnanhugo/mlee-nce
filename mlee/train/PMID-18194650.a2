@@ -1,0 +1,54 @@
+T10	Blood_vessel_development 184 194	angiogenic
+T17	Positive_regulation 473 479	induce
+E17	Positive_regulation:T17 Theme:E19 Cause:T18
+T19	Localization 510 524	redistribution
+E19	Localization:T19 Theme:T20
+T21	Negative_regulation 619 627	inhibits
+E21	Negative_regulation:T21 Theme:E23 Cause:T22
+T23	Positive_regulation 632 642	activation
+E23	Positive_regulation:T23 Theme:T24 Cause:T25
+T27	Localization 740 755	internalization
+E27	Localization:T27 Theme:T28
+T29	Positive_regulation 770 778	promotes
+E29	Positive_regulation:T29 Cause:E11 Theme:E31
+T31	Positive_regulation 783 793	activation
+E31	Positive_regulation:T31 Theme:T32
+T34	Binding 833 844	association
+E34	Binding:T34 Theme:T35 Theme:T36
+T39	Positive_regulation 941 950	promoting
+E39	Positive_regulation:T39 Theme:E40
+T40	Negative_regulation 955 965	disruption
+E40	Negative_regulation:T40 Theme:E41
+T41	Binding 981 999	cell-cell contacts
+E41	Binding:T41 Theme:T42
+*	Equiv T5 T6
+*	Equiv T7 T8
+T45	Negative_regulation 15 23	prevents
+E1	Negative_regulation:T45 Cause:E3 Theme:E2
+T46	Positive_regulation 29 36	induced
+E2	Positive_regulation:T46 Theme:T43 Cause:T2
+T47	Negative_regulation 65 77	sequestering
+E3	Negative_regulation:T47 Theme:T3 Cause:E4
+T48	Regulation 65 77	sequestering
+E4	Regulation:T48 Theme:T4 Cause:T1
+T49	Negative_regulation 286 294	protects
+E5	Negative_regulation:T49 Theme:E7 Cause:T12
+T50	Positive_regulation 310 317	induced
+E6	Positive_regulation:T50 Theme:E7 Cause:T14
+T51	Localization 325 332	leakage
+E7	Localization:T51 Theme:T9
+T52	Negative_regulation 444 449	halts
+E8	Negative_regulation:T52 Theme:E17 Cause:T16
+T53	Phosphorylation 484 499	phosphorylation
+E9	Phosphorylation:T53 Theme:T20
+T54	Positive_regulation 500 509	dependent
+E10	Positive_regulation:T54 Cause:E9 Theme:E19
+T55	Regulation 770 778	promotes
+E11	Regulation:T55 Cause:T30 Theme:T33
+T56	Positive_regulation 816 825	resulting
+E12	Positive_regulation:T56 Cause:E29 Theme:E34
+T57	Positive_regulation 928 936	required
+E13	Positive_regulation:T57 Theme:E39
+T37	Regulation 257 267	stabilizes
+E14	Regulation:T37 Cause:T12 Theme:T13
+E15	Blood_vessel_development:T10 

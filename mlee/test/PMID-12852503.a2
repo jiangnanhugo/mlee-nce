@@ -1,0 +1,22 @@
+T5	Blood_vessel_development 847 865	neovascularization
+T2	Localization 790 803	encapsulation
+E2	Localization:T2 Theme:T3
+T6	Localization 1057 1070	encapsulation
+E6	Localization:T6 Theme:T7
+T8	Development 1155 1164	formation
+E8	Development:T8 Theme:T9
+T10	Localization 1249 1262	encapsulation
+E10	Localization:T10 Theme:T11
+T13	Localization 1487 1500	encapsulation
+E13	Localization:T13 Theme:T14
+E1	Localization:T2 Theme:T16
+T17	Positive_regulation 1032 1040	resulted
+E3	Positive_regulation:T17 Theme:E6
+T20	Positive_regulation 1120 1128	resulted
+E4	Positive_regulation:T20 Theme:E8
+T21	Death 879 887	necrosis
+E5	Death:T21 Theme:T4
+T22	Death 1264 1272	necrosis
+E7	Death:T22 Theme:T11
+*	Equiv T26 T25
+E9	Blood_vessel_development:T5 

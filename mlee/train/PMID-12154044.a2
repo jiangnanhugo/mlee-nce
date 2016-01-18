@@ -1,0 +1,75 @@
+T2	Blood_vessel_development 14 26	angiogenesis
+T22	Blood_vessel_development 682 694	angiogenesis
+T24	Blood_vessel_development 822 832	angiogenic
+T25	Blood_vessel_development 869 879	angiogenic
+T54	Blood_vessel_development 1645 1657	angiogenesis
+T57	Blood_vessel_development 1726 1738	angiogenesis
+T9	Negative_regulation 354 364	inhibiting
+E9	Negative_regulation:T9 Theme:E10 Cause:T8
+T10	Development 369 384	differentiation
+E10	Development:T10 Theme:T11
+T26	Positive_regulation 999 1007	abundant
+E26	Positive_regulation:T26 Theme:E27
+T27	Development 1008 1017	branching
+E27	Development:T27 Theme:T28
+T32	Development 1167 1173	formed
+E32	Development:T32 Theme:T33
+T41	Negative_regulation 1431 1440	decreased
+E41	Negative_regulation:T41 Cause:T40 Theme:T43
+R1	frag Arg1:T50 Arg2:T51
+R2	frag Arg1:T49 Arg2:T51
+R3	frag Arg1:T48 Arg2:T51
+*	Equiv T4 T5
+*	Equiv T43 T44
+T1	Negative_regulation 0 10	Inhibition
+E1	Negative_regulation:T1 Theme:E34 Cause:T3
+T21	Negative_regulation 262 271	decreased
+E2	Negative_regulation:T21 Theme:E3
+T37	Cell_proliferation 272 285	proliferation
+E3	Cell_proliferation:T37 Theme:T7
+T53	Positive_regulation 290 299	induction
+E4	Positive_regulation:T53 Theme:E5
+T56	Death 303 312	apoptosis
+E5	Death:T56 Theme:T7
+T58	Regulation 216 223	effects
+E6	Regulation:T58 Cause:T8 Theme:E2
+E7	Regulation:T58 Cause:T8 Theme:E4
+E11	Development:T10 Theme:T12
+E12	Negative_regulation:T9 Theme:E11 Cause:T8
+T59	Regulation 332 339	effects
+E8	Regulation:T59 Theme:T7 Cause:E9
+E13	Regulation:T59 Theme:T7 Cause:E12
+T60	Negative_regulation 470 478	decrease
+E14	Negative_regulation:T60 Cause:T13 Theme:E17
+T61	Negative_regulation 674 681	inhibit
+E15	Negative_regulation:T61 Cause:T20 Theme:E35
+A1	Speculation E15
+T62	Planned_process 749 755	placed
+E18	Planned_process:T62 Instrument:T23 Theme:T1001
+T63	Planned_process 1113 1116	fed
+E19	Planned_process:T63 Instrument:T30
+T65	Breakdown 1237 1246	collapsed
+E20	Breakdown:T65 Theme:T34
+E21	Negative_regulation:T41 Cause:T40 Theme:T46
+E22	Negative_regulation:T41 Cause:T40 Theme:T47
+T66	Negative_regulation 1634 1644	inhibiting
+E23	Negative_regulation:T66 Theme:E38
+T67	Regulation 1621 1630	effective
+E24	Regulation:T67 Theme:E23 Cause:T51
+E25	Regulation:T67 Theme:E23 Cause:T50
+E28	Regulation:T67 Theme:E23 Cause:T49
+E29	Regulation:T67 Theme:E23 Cause:T48
+T68	Negative_regulation 1718 1725	inhibit
+E30	Negative_regulation:T68 Cause:T55 Theme:E39
+T70	Localization 1141 1153	infiltrating
+E33	Localization:T70 Theme:T69
+E34	Blood_vessel_development:T2 
+E35	Blood_vessel_development:T22 
+E36	Blood_vessel_development:T24 
+E37	Blood_vessel_development:T25 
+E38	Blood_vessel_development:T54 
+E39	Blood_vessel_development:T57 
+T71	Planned_process 846 860	s.c. injection
+E40	Planned_process:T71 Theme:T1001
+T17	Development 519 523	form
+E17	Development:T17 Theme:T18

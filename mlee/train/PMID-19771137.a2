@@ -1,0 +1,56 @@
+T3	Blood_vessel_development 42 54	angiogenesis
+T6	Blood_vessel_development 97 109	Angiogenesis
+T14	Blood_vessel_development 225 237	angiogenesis
+T26	Blood_vessel_development 415 427	angiogenesis
+T30	Blood_vessel_development 514 526	angiogenesis
+T63	Blood_vessel_development 1376 1388	angiogenesis
+T8	Regulation 137 148	maintaining
+E8	Regulation:T8 Theme:E9
+T9	Localization 165 173	delivery
+E9	Localization:T9 Theme:T10
+T15	Synthesis 245 256	synthesized
+E15	Synthesis:T15 Theme:T16
+T22	Positive_regulation 371 378	promote
+E22	Positive_regulation:T22 Theme:E3 Cause:E4
+T36	Planned_process 679 687	ligation
+E36	Planned_process:T36 Theme:T37
+T38	Planned_process 715 723	received
+E38	Planned_process:T38 Instrument:T39
+T40	Planned_process 790 798	received
+E40	Planned_process:T40 Instrument:T41
+T45	Gene_expression 930 940	expression
+E45	Gene_expression:T45 Theme:T46
+T55	Positive_regulation 1278 1287	increased
+E55	Positive_regulation:T55 Theme:E56
+T56	Gene_expression 1236 1246	expression
+E56	Gene_expression:T56 Theme:T57
+T59	Negative_regulation 1339 1349	inhibition
+E59	Negative_regulation:T59 Theme:T60 Cause:T61
+T67	Positive_regulation 1445 1452	induces
+E67	Positive_regulation:T67 Theme:E69
+T69	Gene_expression 1453 1463	expression
+E69	Gene_expression:T69 Theme:T70
+*	Equiv T20 T21
+*	Equiv T17 T18
+*	Equiv T11 T12
+T2	Regulation 32 41	modulates
+E1	Regulation:T2 Cause:T1 Theme:E10
+T7	Regulation 110 133	plays an important role
+E2	Regulation:T7 Cause:E12 Theme:E8
+T13	Death 379 387	survival
+E3	Death:T13 Theme:T24
+A1	Negation E3
+T23	Regulation 371 378	promote
+E4	Regulation:T23 Cause:T19 Theme:E14
+A2	Speculation E22
+E5	Planned_process:T38 Instrument:T25
+E6	Planned_process:T40 Instrument:T27
+A3	Speculation E45
+T62	Negative_regulation 1367 1375	inhibits
+E7	Negative_regulation:T62 Theme:E23 Cause:E59
+E10	Blood_vessel_development:T3 
+E12	Blood_vessel_development:T6 
+E13	Blood_vessel_development:T14 
+E14	Blood_vessel_development:T26 
+E16	Blood_vessel_development:T30 AtLoc:T31
+E23	Blood_vessel_development:T63 AtLoc:T64

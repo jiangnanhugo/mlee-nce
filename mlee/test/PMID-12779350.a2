@@ -1,0 +1,32 @@
+T9	Development 525 536	development
+E9	Development:T9 Theme:T10
+T15	Breakdown 601 612	Destruction
+E15	Breakdown:T15 Theme:T17
+T20	Regulation 737 748	manipulated
+E20	Regulation:T20 Theme:T22
+*	Equiv T24 T25
+T11	Planned_process 12 19	therapy
+E1	Planned_process:T11 Theme:T1
+T19	Regulation 21 33	manipulation
+E2	Regulation:T19 Theme:T2 Cause:T3
+T27	Planned_process 379 388	treatment
+E3	Planned_process:T27 Theme:T5
+T31	Negative_regulation 496 506	Inhibition
+E4	Negative_regulation:T31 Theme:E9
+T32	Regulation 550 556	effect
+E5	Regulation:T32 Cause:E4 Theme:E6
+T12	Growth 564 570	growth
+E6	Growth:T12 Theme:T14
+T13	Development 575 586	progression
+E7	Development:T13 Theme:T14
+E10	Regulation:T32 Cause:E4 Theme:E7
+T33	Planned_process 803 815	administered
+E11	Planned_process:T33 Theme:T23
+T34	Planned_process 930 937	therapy
+E12	Planned_process:T34 Instrument:T24
+T36	Positive_regulation 1079 1087	improves
+E13	Positive_regulation:T36 Cause:T26 Theme:T35
+T8	Breakdown 671 677	damage
+E8	Breakdown:T8 Theme:T18
+T16	Positive_regulation 654 662	inflicts
+E14	Positive_regulation:T16 Theme:E8 Cause:E15

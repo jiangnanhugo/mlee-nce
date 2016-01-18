@@ -1,0 +1,112 @@
+T14	Blood_vessel_development 174 186	angiogenesis
+T36	Pathway 590 607	signaling pathway
+T106	Pathway 1667 1676	signaling
+T5	Localization 78 87	migration
+E5	Localization:T5 Theme:T6
+T10	Protein_processing 119 126	cleaved
+E10	Protein_processing:T10 Theme:T11
+T16	Localization 216 225	migration
+E16	Localization:T16 Theme:T17
+T20	Negative_regulation 291 301	inhibition
+E20	Negative_regulation:T20 Theme:E23 Cause:T19 CSite:T21
+T23	Localization 322 331	migration
+E23	Localization:T23 Theme:T24
+T30	Localization 466 475	migration
+E30	Localization:T30 Theme:T31
+T43	Localization 717 727	chemotaxis
+E43	Localization:T43 Theme:T44
+E48	Localization:T43 Theme:T49
+T61	Localization 945 954	migration
+E61	Localization:T61 Theme:T62
+T64	Positive_regulation 1017 1028	stimulation
+E64	Positive_regulation:T64 Cause:T67 Theme:T62
+E65	Positive_regulation:T64 Cause:T66 Theme:T62
+T70	Localization 1069 1081	localization
+E70	Localization:T70 Theme:T71 ToLoc:T50
+T72	Positive_regulation 1136 1147	stimulation
+E72	Positive_regulation:T72 Cause:T73 Theme:T62
+E74	Positive_regulation:T72 Cause:T75 Theme:T62
+T77	Phosphorylation 1245 1260	phosphorylation
+E77	Phosphorylation:T77 Theme:T80
+E78	Phosphorylation:T77 Theme:T79
+T83	Phosphorylation 1327 1342	phosphorylation
+E83	Phosphorylation:T83 Theme:T86
+E84	Phosphorylation:T83 Theme:T85
+T87	Positive_regulation 1371 1382	stimulation
+E87	Positive_regulation:T87 Cause:T90 Theme:T62
+E88	Positive_regulation:T87 Cause:T89 Theme:T62
+T96	Localization 1489 1498	migration
+E96	Localization:T96 Theme:T97
+T98	Localization 1520 1532	localization
+E98	Localization:T98 Theme:T99 ToLoc:T109
+T101	Positive_regulation 1562 1573	stimulation
+E101	Positive_regulation:T101 Theme:T62 Cause:T102
+T111	Localization 1705 1714	migration
+E111	Localization:T111 Theme:T112
+*	Equiv T32 T33
+*	Equiv T9 T8
+*	Equiv T34 T35
+*	Equiv T11 T12
+*	Equiv T44 T46
+T3	Negative_regulation 409 419	inhibition
+E1	Negative_regulation:T3 Theme:T34 Cause:E42
+T13	Negative_regulation 165 173	inhibits
+E2	Negative_regulation:T13 Theme:E16 Cause:T11 CSite:T8
+T18	Regulation 268 276	involved
+E3	Regulation:T18 Theme:E20 Cause:E4
+E6	Negative_regulation:T3 Theme:T32 Cause:E42
+T26	Negative_regulation 620 627	inhibit
+E7	Negative_regulation:T26 Cause:T39 Theme:E48 CSite:T40
+E8	Negative_regulation:T26 Cause:T39 Theme:E43 CSite:T40
+T28	Positive_regulation 762 770	response
+E9	Positive_regulation:T28 Cause:T52 Theme:E43
+E11	Positive_regulation:T28 Cause:T52 Theme:E48
+E12	Positive_regulation:T28 Cause:T51 Theme:E48
+E13	Positive_regulation:T28 Cause:T51 Theme:E43
+T41	Negative_regulation 913 921	decrease
+E14	Negative_regulation:T41 Cause:T57 Theme:E61 CSite:T58
+T45	Negative_regulation 1058 1064	reduce
+E17	Negative_regulation:T45 Cause:T68 Theme:E70 CSite:T69
+T54	Regulation 1224 1230	effect
+E18	Regulation:T54 Cause:T76 Theme:E77
+E19	Regulation:T54 Cause:T76 Theme:E78
+T59	Negative_regulation 1319 1326	inhibit
+E21	Negative_regulation:T59 Cause:T81 Theme:E83 CSite:T82
+E24	Negative_regulation:T59 Cause:T81 Theme:E84 CSite:T82
+A1	Speculation E19
+A2	Speculation E18
+T63	Negative_regulation 1466 1471	block
+E25	Negative_regulation:T63 Theme:E96
+T94	Negative_regulation 1503 1510	disrupt
+E26	Negative_regulation:T94 Theme:E98
+E27	Positive_regulation:T101 Theme:T62 Cause:T103
+T100	Regulation 1645 1651	alters
+E28	Regulation:T100 Cause:T104 Theme:E34 CSite:T105
+T113	Negative_regulation 1680 1687	inhibit
+E31	Negative_regulation:T113 Theme:E111 Cause:E28
+E32	Blood_vessel_development:T14 
+E33	Pathway:T36 Participant:T37 Participant2:T38
+E34	Pathway:T106 Participant:T107 Participant2:T108
+T4	Pathway 249 267	signaling pathways
+E4	Pathway:T4 
+T15	Localization 804 813	migration
+E15	Localization:T15 Theme:T44
+T22	Negative_regulation 790 800	inhibition
+E22	Negative_regulation:T22 Cause:T53 Theme:E15
+T29	Negative_regulation 824 832	reversed
+E29	Negative_regulation:T29 Cause:T55 Theme:E22
+E35	Localization:T15 Theme:T49
+E36	Negative_regulation:T22 Cause:T53 Theme:E35
+E37	Negative_regulation:T29 Cause:T55 Theme:E36
+T42	Regulation 1723 1734	alterations
+E38	Regulation:T42 Theme:T114
+T47	Protein_processing 12 19	cleaved
+E39	Protein_processing:T47 Theme:T2
+T48	Negative_regulation 52 60	inhibits
+E40	Negative_regulation:T48 Cause:E41 Theme:E5
+T60	Regulation 52 60	inhibits
+E41	Regulation:T60 Cause:T2 Theme:T7 CSite:T1
+T65	Regulation 559 562	act
+E42	Regulation:T65 Theme:E33 Cause:T25 CSite:T27
+A15	Speculation E1
+A16	Speculation E6

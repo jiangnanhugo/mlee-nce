@@ -1,0 +1,62 @@
+T7	Blood_vessel_development 164 176	angiogenesis
+T9	Blood_vessel_development 358 368	angiogenic
+T10	Blood_vessel_development 457 467	angiogenic
+T17	Blood_vessel_development 683 695	angiogenesis
+T31	Blood_vessel_development 1454 1464	angiogenic
+T2	Negative_regulation 106 116	inhibition
+E2	Negative_regulation:T2 Theme:E3
+T3	Growth 126 132	growth
+E3	Growth:T3 Theme:T4
+T11	Gene_expression 525 534	expresses
+E11	Gene_expression:T11 Theme:T12
+T14	Cell_proliferation 630 643	proliferation
+E14	Cell_proliferation:T14 Theme:T15
+T22	Negative_regulation 926 935	reduction
+E22	Negative_regulation:T22 Theme:E21
+T18	Positive_regulation 11 19	mediated
+E1	Positive_regulation:T18 Theme:E4 Cause:T26
+T32	Planned_process 20 33	gene transfer
+E4	Planned_process:T32 Instrument:T1
+T5	Localization 137 147	metastases
+E5	Localization:T5 Theme:T4
+E6	Negative_regulation:T2 Theme:E5
+T33	Gene_expression 91 101	expression
+E7	Gene_expression:T33 Theme:T1
+T34	Positive_regulation 56 63	results
+E8	Positive_regulation:T34 Cause:E4 Theme:E7
+E9	Positive_regulation:T34 Cause:E4 Theme:E6
+E10	Positive_regulation:T34 Cause:E4 Theme:E2
+T35	Negative_regulation 150 160	Inhibition
+E12	Negative_regulation:T35 Theme:E32
+T36	Planned_process 230 237	therapy
+E15	Planned_process:T36 Theme:T6
+T38	Planned_process 483 494	constructed
+E16	Planned_process:T38 Theme:T37
+T39	Negative_regulation 668 679	suppression
+E17	Negative_regulation:T39 Theme:E35
+T40	Positive_regulation 696 703	induced
+E18	Positive_regulation:T40 Cause:T19 Theme:E35
+T41	Planned_process 853 867	administration
+E19	Planned_process:T41 Theme:T1002
+T42	Positive_regulation 902 910	resulted
+E20	Positive_regulation:T42 Cause:E19 Theme:E24
+T21	Growth 943 949	growth
+E21	Growth:T21 Theme:T23
+E23	Growth:T21 Theme:T24
+E24	Negative_regulation:T22 Theme:E23
+T43	Planned_process 1108 1124	vector treatment
+E25	Planned_process:T43 Instrument:T25
+T44	Development 1150 1159	formation
+E26	Development:T44 Theme:T27
+T45	Negative_regulation 1136 1145	prevented
+E27	Negative_regulation:T45 Cause:E25 Theme:E26
+T46	Negative_regulation 1285 1294	decreased
+E28	Negative_regulation:T46 Theme:T30
+T48	Planned_process 1503 1510	therapy
+E30	Planned_process:T48 Theme:T8
+E31	Positive_regulation:T42 Cause:E19 Theme:E22
+E32	Blood_vessel_development:T7 
+E33	Blood_vessel_development:T9 
+E34	Blood_vessel_development:T10 
+E35	Blood_vessel_development:T17 
+E36	Blood_vessel_development:T31 

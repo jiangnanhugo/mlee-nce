@@ -1,0 +1,36 @@
+T1	Blood_vessel_development 10 20	angiogenic
+T6	Blood_vessel_development 290 302	angiogenesis
+T7	Blood_vessel_development 307 325	endothelialization
+T28	Blood_vessel_development 1087 1105	endothelialization
+T30	Blood_vessel_development 1198 1216	Endothelialization
+T33	Blood_vessel_development 1546 1559	angiogenicity
+T2	Planned_process 58 73	transplantation
+E2	Planned_process:T2 Instrument:T3
+T9	Positive_regulation 430 436	induce
+E9	Positive_regulation:T9 Theme:E1
+T12	Planned_process 495 508	transplanting
+E12	Planned_process:T12 Instrument:T13
+T15	Development 579 585	create
+E15	Development:T15 Theme:T16
+T18	Positive_regulation 616 626	inducement
+E18	Positive_regulation:T18 Theme:E19
+T19	Growth 640 646	growth
+E19	Growth:T19 Theme:T20
+T21	Localization 691 702	infiltrated
+E21	Localization:T21 Theme:T22
+*	Equiv T26 T27
+T17	Growth 447 453	growth
+E1	Growth:T17 Theme:T11
+T23	Positive_regulation 599 608	resulting
+E3	Positive_regulation:T23 Cause:E15 Theme:E18
+T25	Planned_process 807 816	implanted
+E5	Planned_process:T25 Theme:T14
+T34	Death 888 896	survived
+E6	Death:T34 Theme:T24
+A1	Negation E6
+E4	Blood_vessel_development:T1 
+E11	Blood_vessel_development:T6 
+E13	Blood_vessel_development:T7 
+E14	Blood_vessel_development:T28 
+E16	Blood_vessel_development:T30 
+E17	Blood_vessel_development:T33 

@@ -1,0 +1,6 @@
+T2	Blood_vessel_development 14 26	angiogenesis
+T7	Blood_vessel_development 368 378	angiogenic
+T13	Growth 459 467	regrowth
+E2	Growth:T13 Theme:T9
+E3	Blood_vessel_development:T2 AtLoc:T1
+E4	Blood_vessel_development:T7 

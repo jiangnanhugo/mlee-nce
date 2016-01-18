@@ -1,0 +1,32 @@
+T3	Blood_vessel_development 70 82	angiogenesis
+T1	Localization 8 20	localization
+E1	Localization:T1 Theme:T2
+T7	Negative_regulation 326 335	inhibited
+E7	Negative_regulation:T7 Theme:E5 Cause:T10
+T8	Synthesis 309 318	synthesis
+E8	Synthesis:T8 Theme:T29
+T12	Negative_regulation 463 473	inhibition
+E12	Negative_regulation:T12 Cause:T13 Theme:T14
+T18	Negative_regulation 622 630	inhibits
+E18	Negative_regulation:T18 Cause:T19 Theme:E10
+T26	Negative_regulation 83 95	intervention
+E2	Negative_regulation:T26 Theme:E15
+T27	Regulation 54 60	target
+E3	Regulation:T27 Theme:E2 Cause:T2
+A1	Speculation E3
+T28	Localization 129 139	identified
+E4	Localization:T28 Theme:T6 AtLoc:T5
+T30	Positive_regulation 295 304	catalyzes
+E5	Positive_regulation:T30 Theme:E8 Cause:T9
+T31	Cell_proliferation 391 396	grown
+E6	Cell_proliferation:T31 Theme:T11
+T32	Cell_proliferation 517 522	grown
+E9	Cell_proliferation:T32 Theme:T15
+T34	Synthesis 640 649	synthesis
+E10	Synthesis:T34 Theme:T33
+T36	Catabolism 658 668	hydrolysis
+E11	Catabolism:T36 Theme:T35
+E13	Negative_regulation:T18 Cause:T19 Theme:E11
+T17	Planned_process 802 814	administered
+E14	Planned_process:T17 Instrument:T20
+E15	Blood_vessel_development:T3 

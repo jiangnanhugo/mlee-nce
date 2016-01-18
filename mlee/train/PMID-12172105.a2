@@ -1,0 +1,22 @@
+T15	Blood_vessel_development 1126 1145	neovascularizations
+T18	Blood_vessel_development 1229 1247	neovascularization
+T3	Breakdown 89 101	degeneration
+E3	Breakdown:T3 Theme:T4
+T6	Breakdown 193 204	detachments
+E6	Breakdown:T6 Theme:T7
+T8	Breakdown 244 256	degeneration
+E8	Breakdown:T8 Theme:T9
+T11	Breakdown 776 786	detachment
+E11	Breakdown:T11 Theme:T12
+T20	Positive_regulation 1365 1374	elevation
+E20	Positive_regulation:T20 Theme:T21
+T27	Remodeling 125 136	alterations
+E1	Remodeling:T27 Theme:T5
+T28	Planned_process 465 476	angiography
+E4	Planned_process:T28 Theme:T1 Instrument:T23 Instrument:T17
+T29	Planned_process 1515 1526	angiography
+E5	Planned_process:T29 Instrument:T26 Instrument:T25 Theme:T22
+T30	Breakdown 55 65	detachment
+E2	Breakdown:T30 Theme:T2
+E7	Blood_vessel_development:T15 
+E9	Blood_vessel_development:T18 

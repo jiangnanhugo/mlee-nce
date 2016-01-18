@@ -1,0 +1,94 @@
+T1	Regulation 11 21	regulation
+E1	Regulation:T1 Theme:E4 Cause:T2
+T4	Localization 32 43	trafficking
+E4	Localization:T4 Theme:T5
+T9	Regulation 182 191	regulates
+E9	Regulation:T9 Theme:T10 Cause:T7
+T11	Localization 265 276	trafficking
+E11	Localization:T11 Theme:T13
+T15	Regulation 354 364	regulation
+E15	Regulation:T15 Cause:T14 Theme:E16
+T16	Localization 375 386	trafficking
+E16	Localization:T16 Theme:T17
+T19	Localization 428 437	migration
+E19	Localization:T19 Theme:T20
+T21	Localization 513 527	colocalization
+E21	Localization:T21 Theme:T23 Theme:T24
+T22	Localization 496 508	localization
+E22	Localization:T22 Theme:T23
+T25	Gene_expression 587 597	Expression
+E25	Gene_expression:T25 Theme:T29
+T30	Positive_regulation 638 647	activated
+E30	Positive_regulation:T30 Theme:E31
+T31	Localization 655 666	trafficking
+E31	Localization:T31 Theme:T32
+T33	Regulation 684 696	Manipulation
+E33	Regulation:T33 Theme:T35
+T37	Localization 830 841	trafficking
+E37	Localization:T37 Theme:T38
+T39	Negative_regulation 859 868	Depletion
+E39	Negative_regulation:T39 Theme:T40
+T41	Phosphorylation 901 916	phosphorylation
+E41	Phosphorylation:T41 Site:T71 Theme:T42
+T43	Phosphorylation 953 968	phosphorylation
+E43	Phosphorylation:T43 Theme:T44
+T48	Localization 987 996	migration
+E48	Localization:T48 Theme:T49
+T51	Negative_regulation 1020 1029	depletion
+E51	Negative_regulation:T51 Theme:T52
+T54	Negative_regulation 1053 1062	depletion
+E54	Negative_regulation:T54 Theme:T55
+T59	Localization 1109 1120	trafficking
+E59	Localization:T59 Theme:T60
+T62	Regulation 1192 1202	regulation
+E62	Regulation:T62 Theme:T63
+T64	Regulation 1270 1278	mediated
+E64	Regulation:T64 Theme:E36 Cause:T65
+*	Equiv T7 T8
+T12	Pathway 251 260	signaling
+T3	Regulation 401 407	linked
+E2	Regulation:T3 Theme:E19 Cause:E15
+A1	Speculation E2
+T26	Binding 612 617	bound
+E3	Binding:T26 Theme:T28 Theme:T29
+E5	Binding:T26 Theme:T27 Theme:T29
+T50	Negative_regulation 632 637	block
+E6	Negative_regulation:T50 Cause:E25 Theme:E31
+T53	Catabolism 671 682	degradation
+E7	Catabolism:T53 Theme:T32
+E8	Negative_regulation:T50 Cause:E25 Theme:E7
+E10	Positive_regulation:T30 Theme:E7
+T67	Gene_expression 759 773	overexpression
+E12	Gene_expression:T67 Theme:T35
+T68	Negative_regulation 806 812	blocks
+E13	Negative_regulation:T68 Cause:E12 Theme:E37
+T36	Positive_regulation 813 822	activated
+E14	Positive_regulation:T36 Theme:E37
+T69	Catabolism 846 857	degradation
+E17	Catabolism:T69 Theme:T38
+E20	Positive_regulation:T36 Theme:E17
+E23	Negative_regulation:T68 Cause:E12 Theme:E17
+T70	Negative_regulation 878 887	decreased
+E24	Negative_regulation:T70 Theme:E41 Cause:E39
+T72	Positive_regulation 921 930	increased
+E26	Positive_regulation:T72 Theme:E43 Cause:E39
+*	Equiv T44 T45 T46
+T73	Positive_regulation 1001 1010	increased
+E27	Positive_regulation:T73 Cause:E51 Theme:E48
+T74	Negative_regulation 1034 1043	decreased
+E28	Negative_regulation:T74 Cause:E54 Theme:E48
+T75	Regulation 1093 1101	regulate
+E29	Regulation:T75 Theme:E59 Cause:T57
+E32	Regulation:T75 Theme:E59 Cause:T56
+T58	Regulation 1183 1191	mediated
+E34	Regulation:T58 Cause:T61 Theme:E62
+T76	Positive_regulation 1230 1239	dependent
+E35	Positive_regulation:T76 Cause:E36 Theme:E62
+T77	Catabolism 1283 1293	hydrolysis
+E36	Catabolism:T77 Theme:T66
+E38	Pathway:T12 Participant:T13
+T18	Pathway 391 400	signaling
+E18	Pathway:T18 Participant:T17
+E40	Regulation:T15 Cause:T14 Theme:E18
+E42	Regulation:T3 Theme:E19 Cause:E40
+A4	Speculation E42

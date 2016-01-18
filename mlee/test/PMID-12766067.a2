@@ -1,0 +1,34 @@
+T13	Blood_vessel_development 730 748	neovascularization
+T19	Blood_vessel_development 970 988	neovascularization
+T23	Blood_vessel_development 1120 1138	neovascularization
+T9	Localization 660 672	infiltration
+E9	Localization:T9 Theme:T10
+T34	Planned_process 48 57	treatment
+E1	Planned_process:T34 Instrument:T2 Instrument:T1
+T35	Planned_process 235 242	treated
+E2	Planned_process:T35 Instrument:T4
+T36	Planned_process 536 543	therapy
+E3	Planned_process:T36 Instrument:T7
+T37	Planned_process 1044 1051	treated
+E4	Planned_process:T37 Instrument:T20
+T38	Planned_process 1205 1212	treated
+E5	Planned_process:T38 Instrument:T26
+T39	Planned_process 1320 1329	treatment
+E6	Planned_process:T39 Instrument:T27
+T40	Planned_process 1479 1493	administration
+E7	Planned_process:T40 Instrument:T28
+T41	Reproduction 1412 1425	recultivation
+E10	Reproduction:T41 Theme:T1006
+T42	Reproduction 1553 1566	recultivation
+E12	Reproduction:T42 Theme:T1007
+T43	Planned_process 1663 1672	treatment
+E13	Planned_process:T43 Instrument:T30 Instrument:T29
+T44	Planned_process 1783 1792	treatment
+E15	Planned_process:T44 Instrument:T32 Theme:T1008
+T45	Planned_process 425 432	treated
+E16	Planned_process:T45 Instrument:T6
+T46	Planned_process 1746 1757	application
+E18	Planned_process:T46 Instrument:T31 Theme:T1008
+E19	Blood_vessel_development:T13 
+E20	Blood_vessel_development:T19 
+E22	Blood_vessel_development:T23 

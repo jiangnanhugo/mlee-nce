@@ -1,0 +1,10 @@
+T4	Blood_vessel_development 178 190	angiogenesis
+*	Equiv T9 T10
+T5	Planned_process 263 271	treating
+E1	Planned_process:T5 Instrument:T6 Theme:T7
+T24	Planned_process 413 438	enzyme linked immunoassay
+E3	Planned_process:T24 Theme:T9
+T25	Death 1324 1332	survived
+E4	Death:T25 Theme:T1006
+A1	Negation E4
+E5	Blood_vessel_development:T4 

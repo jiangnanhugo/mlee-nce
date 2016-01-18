@@ -1,0 +1,25 @@
+T4	Blood_vessel_development 393 403	angiogenic
+T14	Blood_vessel_development 843 853	angiogenic
+T21	Blood_vessel_development 1256 1266	angiogenic
+T24	Blood_vessel_development 1822 1832	angiogenic
+T26	Blood_vessel_development 2021 2031	angiogenic
+T5	Positive_regulation 532 539	induced
+E5	Positive_regulation:T5 Cause:E3 Theme:T6
+T10	Planned_process 404 413	treatment
+E1	Planned_process:T10 Theme:T3
+T17	Planned_process 543 565	subcutaneous injection
+E2	Planned_process:T17 Theme:T1001 Instrument:T7
+E3	Planned_process:T17 Instrument:T9 Theme:T1002
+T27	Planned_process 810 819	treatment
+E4	Planned_process:T27 Instrument:T15
+E6	Planned_process:T27 Instrument:T16
+T28	Planned_process 691 700	implanted
+E7	Planned_process:T28 Instrument:T11
+T29	Planned_process 1510 1517	treated
+E8	Planned_process:T29 Instrument:T22
+E9	Blood_vessel_development:T4 
+E10	Blood_vessel_development:T14 
+E11	Blood_vessel_development:T21 
+E12	Blood_vessel_development:T24 
+E13	Blood_vessel_development:T26 
+E14	Positive_regulation:T5 Cause:E2 Theme:T6

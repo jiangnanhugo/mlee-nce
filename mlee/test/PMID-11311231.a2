@@ -1,0 +1,28 @@
+T3	Blood_vessel_development 61 71	angiogenic
+T7	Blood_vessel_development 132 142	angiogenic
+T14	Blood_vessel_development 375 385	angiogenic
+T19	Blood_vessel_development 794 804	angiogenic
+*	Equiv T6 T5
+*	Equiv T1 T2
+T8	Negative_regulation 72 81	inhibitor
+E1	Negative_regulation:T8 Theme:E10 Cause:T1
+T11	Positive_regulation 143 153	stimulator
+E2	Positive_regulation:T11 Theme:E11 Cause:E3
+T13	Regulation 160 169	functions
+E3	Regulation:T13 Cause:T5 Theme:T9
+E4	Regulation:T13 Cause:T5 Theme:T10
+E5	Positive_regulation:T11 Theme:E11 Cause:E4
+T15	Negative_regulation 386 395	inhibitor
+E6	Negative_regulation:T15 Theme:E12 Cause:T12
+T20	Binding 503 510	binding
+E7	Binding:T20 Theme:T18 Theme:T12
+A1	Negation E7
+T4	Negative_regulation 818 828	inhibiting
+E8	Negative_regulation:T4 Theme:T21
+T23	Binding 862 869	binding
+E9	Binding:T23 Theme:T22
+A2	Negation E9
+E10	Blood_vessel_development:T3 
+E11	Blood_vessel_development:T7 
+E12	Blood_vessel_development:T14 
+E13	Blood_vessel_development:T19 

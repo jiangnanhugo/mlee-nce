@@ -1,0 +1,14 @@
+T6	Blood_vessel_development 210 228	neovascularization
+T3	Planned_process 153 175	intravitreal injection
+E3	Planned_process:T3 Instrument:T4 Theme:T1000
+T7	Planned_process 394 416	intravitreal injection
+E7	Planned_process:T7 Instrument:T8
+T10	Breakdown 266 278	degeneration
+E1	Breakdown:T10 Theme:T5
+T11	Positive_regulation 229 235	due to
+E2	Positive_regulation:T11 Cause:E1 Theme:E6
+T12	Planned_process 194 199	treat
+E4	Planned_process:T12 Theme:E6 Instrument:T4
+T13	Planned_process 445 453	received
+E5	Planned_process:T13 Theme:T1001 Instrument:T9
+E6	Blood_vessel_development:T6 

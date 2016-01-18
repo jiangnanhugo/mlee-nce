@@ -1,0 +1,82 @@
+T56	Blood_vessel_development 2080 2092	angiogenesis
+T2	Planned_process 53 66	gene transfer
+E2	Planned_process:T2 Instrument:T3 Theme:T4
+T6	Planned_process 179 192	gene transfer
+E6	Planned_process:T6 Instrument:T7
+T12	Planned_process 429 451	intratumoral injection
+E12	Planned_process:T12 Instrument:T13 Theme:T1003
+T14	Gene_expression 489 499	expression
+E14	Gene_expression:T14 Theme:T15
+T17	Negative_regulation 677 687	inhibition
+E17	Negative_regulation:T17 Theme:E18
+T18	Growth 697 703	growth
+E18	Growth:T18 Theme:T19
+T23	Death 858 867	apoptosis
+E23	Death:T23 Theme:T24
+T25	Planned_process 943 965	intratumoral injection
+E25	Planned_process:T25 Instrument:T26
+T27	Negative_regulation 998 1007	inhibited
+E27	Negative_regulation:T27 Cause:E25 Theme:E29
+T28	Localization 1029 1039	metastasis
+E28	Localization:T28 Theme:T30
+T29	Growth 1018 1024	growth
+E29	Growth:T29 Theme:T30
+T31	Gene_expression 1119 1129	expression
+E31	Gene_expression:T31 Theme:T32
+T34	Planned_process 1180 1189	injection
+E34	Planned_process:T34 Theme:T33 Instrument:T35
+T38	Negative_regulation 1470 1480	diminished
+E38	Negative_regulation:T38 Theme:E39
+T39	Gene_expression 1445 1455	expression
+E39	Gene_expression:T39 Theme:T40
+T47	Gene_expression 1888 1898	expression
+E47	Gene_expression:T47 Theme:T48
+T49	Negative_regulation 1926 1934	inhibits
+E49	Negative_regulation:T49 Theme:E50 Cause:E22
+T50	Growth 1939 1945	growth
+E50	Growth:T50 Theme:T52
+T51	Localization 1950 1960	metastasis
+E51	Localization:T51 Theme:T52
+T11	Positive_regulation 33 41	mediated
+E1	Positive_regulation:T11 Cause:T1 Theme:E2
+T57	Planned_process 70 82	transplanted
+E3	Planned_process:T57 Theme:T1000 Instrument:T4
+T59	Positive_regulation 159 167	mediated
+E4	Positive_regulation:T59 Cause:T58 Theme:E6
+T60	Planned_process 196 208	transplanted
+E5	Planned_process:T60 Instrument:T8 Theme:T1001
+T61	Planned_process 267 277	Transplant
+E7	Planned_process:T61 Instrument:T9
+T63	Planned_process 305 329	subcutaneous inoculation
+E9	Planned_process:T63 Instrument:T10 Theme:T1002
+E10	Negative_regulation:T27 Cause:E25 Theme:E28
+T64	Positive_regulation 1045 1054	prolonged
+E11	Positive_regulation:T64 Theme:E13 Cause:E25
+T65	Death 1059 1067	survival
+E13	Death:T65 Theme:T1004
+A1	Negation E13
+T66	Gene_expression 1326 1336	expression
+E15	Gene_expression:T66 Theme:T32
+T67	Gene_expression 1340 1347	absence
+E16	Gene_expression:T67 Theme:T32
+A2	Negation E16
+T68	Planned_process 1425 1439	administration
+E19	Planned_process:T68 Theme:T37
+T69	Negative_regulation 1527 1536	decreased
+E20	Negative_regulation:T69 Theme:T42
+T70	Death 1726 1735	apoptotic
+E21	Death:T70 Theme:T45
+T71	Planned_process 1825 1837	gene therapy
+E22	Planned_process:T71 Theme:T46
+T72	Positive_regulation 1838 1846	mediated
+E24	Positive_regulation:T72 Theme:E22
+T73	Positive_regulation 1880 1887	induces
+E26	Positive_regulation:T73 Cause:E22 Theme:E47
+E30	Negative_regulation:T49 Theme:E51 Cause:E22
+T53	Negative_regulation 2060 2070	inhibition
+E32	Negative_regulation:T53 Theme:E35 Cause:T46
+E35	Blood_vessel_development:T56 AtLoc:T55
+T41	Regulation 138 144	effect
+E36	Regulation:T41 Theme:T8 Cause:E6
+T75	Regulation 1996 2002	action
+E37	Regulation:T75 Theme:T54 Cause:T46

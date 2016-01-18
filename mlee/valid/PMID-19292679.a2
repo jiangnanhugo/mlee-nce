@@ -1,0 +1,21 @@
+T37	Blood_vessel_development 1768 1780	angiogenesis
+T38	Negative_regulation 1795 1799	slow
+E38	Negative_regulation:T38 Cause:T33 Theme:E39
+T39	Development 1817 1826	formation
+E39	Development:T39 Theme:T40
+*	Equiv T9 T10
+T13	Regulation 4 10	effect
+E1	Regulation:T13 Theme:T4
+T15	Regulation 109 115	effect
+E2	Regulation:T15 Theme:T9 Cause:T8
+A1	Speculation E2
+T35	Synthesis 1442 1451	formation
+E4	Synthesis:T35 Theme:T31
+T41	Planned_process 1569 1577	cultured
+E5	Planned_process:T41 Theme:T36
+T42	Positive_regulation 1687 1696	increases
+E6	Positive_regulation:T42 Cause:T33 Theme:T34
+T43	Negative_regulation 1761 1767	impair
+E7	Negative_regulation:T43 Theme:E8 Cause:T33
+A2	Negation E7
+E8	Blood_vessel_development:T37 

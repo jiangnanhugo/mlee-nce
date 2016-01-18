@@ -1,0 +1,8 @@
+T9	Blood_vessel_development 902 914	angiogenesis
+*	Equiv T1 T3
+*	Equiv T4 T6
+T2	Planned_process 32 41	treatment
+E1	Planned_process:T2 Theme:T1
+T5	Development 170 184	carcinogenesis
+E2	Development:T5 Theme:T7
+E3	Blood_vessel_development:T9 

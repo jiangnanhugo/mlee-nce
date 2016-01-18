@@ -1,0 +1,59 @@
+T1	Pathway 30 39	signaling
+T5	Blood_vessel_development 99 111	angiogenesis
+T43	Pathway 1097 1106	signaling
+T46	Blood_vessel_development 1120 1132	angiogenesis
+T56	Pathway 1248 1257	signaling
+T3	Negative_regulation 84 95	suppression
+E3	Negative_regulation:T3 Theme:E17 Cause:E20
+T11	Positive_regulation 354 364	activation
+E11	Positive_regulation:T11 Theme:T13
+T14	Positive_regulation 405 413	promotes
+E14	Positive_regulation:T14 Theme:E15 Cause:E11
+T15	Death 428 433	death
+E15	Death:T15 Theme:T16
+T18	Negative_regulation 469 486	negatively affect
+E18	Negative_regulation:T18 Cause:T17 Theme:T20
+T21	Planned_process 515 523	Exposure
+E21	Planned_process:T21 Theme:T23 Instrument:T25
+T29	Planned_process 763 771	knockout
+E29	Planned_process:T29 Theme:T30
+T40	Positive_regulation 975 986	up-regulate
+E40	Positive_regulation:T40 Cause:T38 Theme:T41
+T49	Negative_regulation 1160 1169	inhibited
+E49	Negative_regulation:T49 Cause:T47 Theme:E52
+T52	Localization 1187 1196	migration
+E52	Localization:T52 Theme:T53
+T58	Negative_regulation 1262 1279	negatively affect
+E58	Negative_regulation:T58 Theme:T59 Cause:E23
+T62	Breakdown 1439 1445	injury
+E62	Breakdown:T62 Theme:T63
+R1	frag Arg1:T8 Arg2:T9
+*	Equiv T25 T26
+T4	Death 59 64	death
+E1	Death:T4 Theme:T48
+T6	Positive_regulation 41 50	promotion
+E2	Positive_regulation:T6 Theme:E1 Cause:E20
+T19	Binding 381 391	associated
+E4	Binding:T19 Theme:T12 Theme:T13
+A1	Speculation E18
+T22	Positive_regulation 622 629	induced
+E5	Positive_regulation:T22 Theme:E6 Cause:E21
+T27	Death 659 664	death
+E6	Death:T27 Theme:T50
+T34	Positive_regulation 796 806	activating
+E7	Positive_regulation:T34 Cause:T32 Theme:T31
+T33	Positive_regulation 832 839	induced
+E8	Positive_regulation:T33 Theme:E9 Cause:T32
+T37	Death 840 850	cell death
+E9	Death:T37 Theme:T36
+E10	Positive_regulation:T40 Cause:T38 Theme:T42
+T39	Negative_regulation 1111 1119	suppress
+E12	Negative_regulation:T39 Theme:E19 Cause:E22
+T45	Development 1206 1215	formation
+E13	Development:T45 Theme:T55
+E16	Negative_regulation:T49 Cause:T47 Theme:E13
+E17	Blood_vessel_development:T5 
+E19	Blood_vessel_development:T46 
+E20	Pathway:T1 Participant:T2
+E22	Pathway:T43 Participant:T44
+E23	Pathway:T56 Participant:T57

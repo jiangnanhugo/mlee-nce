@@ -1,0 +1,67 @@
+T4	Blood_vessel_development 81 93	angiogenesis
+T8	Blood_vessel_development 132 144	angiogenesis
+T15	Blood_vessel_development 368 378	angiogenic
+T21	Blood_vessel_development 446 458	angiogenesis
+T36	Blood_vessel_development 726 738	angiogenesis
+T52	Blood_vessel_development 1047 1059	angiogenesis
+T57	Blood_vessel_development 1397 1407	angiogenic
+T5	Remodeling 112 122	remodeling
+E5	Remodeling:T5 Theme:T7
+T9	Remodeling 163 173	remodeling
+E9	Remodeling:T9 Theme:T11
+T18	Cell_proliferation 416 429	proliferation
+E18	Cell_proliferation:T18 Theme:T19
+T27	Localization 636 645	migration
+E27	Localization:T27 Theme:T31
+T30	Development 650 659	sprouting
+E30	Development:T30 Theme:T31
+T32	Gene_expression 686 698	coexpression
+E32	Gene_expression:T32 Theme:T33 Theme:T34
+T40	Cell_proliferation 870 883	proliferation
+E40	Cell_proliferation:T40 Theme:T44
+T43	Localization 888 897	migration
+E43	Localization:T43 Theme:T44
+T53	Remodeling 1078 1088	remodeling
+E53	Remodeling:T53 Theme:T55
+R1	frag Arg1:T2 Arg2:T3
+R2	frag Arg1:T22 Arg2:T23
+R3	frag Arg1:T49 Arg2:T50
+*	Equiv T12 T13
+T14	Positive_regulation 388 398	stimulates
+E1	Positive_regulation:T14 Theme:E18 Cause:T12
+T26	Positive_regulation 434 441	induces
+E2	Positive_regulation:T26 Cause:T12 Theme:E35
+T35	Positive_regulation 625 631	induce
+E3	Positive_regulation:T35 Cause:T25 Theme:E27
+E4	Positive_regulation:T35 Cause:T25 Theme:E30
+T39	Positive_regulation 717 725	enhanced
+E7	Positive_regulation:T39 Cause:E32 Theme:E36
+T45	Localization 747 755	presence
+E8	Localization:T45 Theme:T37
+T51	Positive_regulation 791 799	promotes
+E12	Positive_regulation:T51 Cause:T38 Theme:T16
+T62	Remodeling 838 848	remodeling
+E11	Remodeling:T62 Theme:T61
+E13	Positive_regulation:T51 Cause:T38 Theme:E11
+E14	Positive_regulation:T51 Cause:T38 Theme:E40
+E15	Positive_regulation:T51 Cause:T38 Theme:E43
+T63	Positive_regulation 924 934	stimulates
+E16	Positive_regulation:T63 Cause:T38 Theme:E19
+T64	Development 935 944	sprouting
+E19	Development:T64 Theme:T47
+T65	Regulation 996 1036	play complementary and coordinated roles
+E20	Regulation:T65 Cause:T49 Theme:E37
+E21	Regulation:T65 Cause:T50 Theme:E37
+E22	Regulation:T65 Cause:T48 Theme:E37
+E23	Regulation:T65 Cause:T49 Theme:E53
+E24	Regulation:T65 Cause:T50 Theme:E53
+E25	Regulation:T65 Cause:T48 Theme:E53
+T66	Binding 1265 1277	interactions
+E26	Binding:T66 Theme:T56 Theme:T20
+E31	Blood_vessel_development:T4 
+E33	Blood_vessel_development:T8 
+E34	Blood_vessel_development:T15 
+E35	Blood_vessel_development:T21 
+E36	Blood_vessel_development:T36 
+E37	Blood_vessel_development:T52 
+E38	Blood_vessel_development:T57 

@@ -1,0 +1,73 @@
+T4	Blood_vessel_development 47 61	vasculogenesis
+T5	Blood_vessel_development 62 74	angiogenesis
+T9	Blood_vessel_development 205 220	vascularization
+T14	Blood_vessel_development 353 363	angiogenic
+T32	Pathway 909 918	signaling
+T41	Pathway 1277 1283	system
+T55	Blood_vessel_development 1555 1570	vascularization
+T19	Gene_expression 481 491	expression
+E19	Gene_expression:T19 Theme:T21
+T34	Negative_regulation 920 932	Inactivation
+E34	Negative_regulation:T34 Theme:T35
+T47	Gene_expression 1370 1380	expression
+E47	Gene_expression:T47 Theme:T48
+R1	frag Arg1:T26 Arg2:T27
+R2	frag Arg1:T48 Arg2:T49
+R3	frag Arg1:T20 Arg2:T21
+R4	frag Arg1:T24 Arg2:T25
+*	Equiv T11 T12
+*	Equiv T22 T23
+T13	Regulation 38 46	mediated
+E1	Regulation:T13 Cause:T1 Theme:E28
+T16	Development 89 100	development
+E2	Development:T16 Theme:T6
+E3	Regulation:T13 Cause:T1 Theme:E29
+T40	Development 133 144	development
+E4	Development:T40 Theme:T7
+T44	Positive_regulation 172 181	dependent
+E5	Positive_regulation:T44 Theme:E4 Cause:E30
+T53	Development 446 457	development
+E6	Development:T53 Theme:T17
+A1	Speculation E19
+E7	Gene_expression:T19 Theme:T20
+E8	Gene_expression:T19 Theme:T22
+A2	Speculation E7
+A3	Speculation E8
+T18	Gene_expression 671 679	presence
+E9	Gene_expression:T18 Theme:T27
+T56	Transcription 671 679	presence
+E10	Transcription:T56 Theme:T27
+E11	Transcription:T56 Theme:T26
+E12	Transcription:T56 Theme:T28
+E13	Gene_expression:T18 Theme:T26
+E14	Gene_expression:T18 Theme:T28
+T57	Negative_regulation 890 898	blockade
+E15	Negative_regulation:T57 Theme:E33
+T58	Planned_process 775 790	Immunotargeting
+E16	Planned_process:T58 Instrument:T30 Theme:T31
+T59	Positive_regulation 943 951	resulted
+E17	Positive_regulation:T59 Theme:E18 Cause:E34
+T60	Negative_regulation 957 961	loss
+E18	Negative_regulation:T60 Theme:T36
+T61	Regulation 1008 1015	changes
+E20	Regulation:T61 Theme:T37 Cause:E34
+T62	Planned_process 1126 1133	treated
+E21	Planned_process:T62 Instrument:T63 Theme:T38
+T64	Death 1162 1171	apoptotic
+E22	Death:T64 Theme:T8
+T65	Positive_regulation 1248 1258	importance
+E23	Positive_regulation:T65 Cause:E35 Theme:E24
+T66	Development 1302 1313	development
+E24	Development:T66 Theme:T46
+E25	Gene_expression:T47 Theme:T49
+T67	Regulation 1470 1476	acting
+E26	Regulation:T67 Cause:T51 Theme:T52
+T68	Positive_regulation 1500 1508	required
+E27	Positive_regulation:T68 Cause:E26 Theme:E32
+E28	Blood_vessel_development:T4 AtLoc:T6
+E29	Blood_vessel_development:T5 AtLoc:T6
+E30	Blood_vessel_development:T9 AtLoc:T10
+E31	Blood_vessel_development:T14 
+E32	Blood_vessel_development:T55 AtLoc:T54
+E33	Pathway:T32 Participant:T33
+E35	Pathway:T41 Participant:T43 Participant2:T42

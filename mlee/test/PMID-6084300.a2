@@ -1,0 +1,15 @@
+T2	Blood_vessel_development 70 87	vasoproliferation
+T4	Blood_vessel_development 190 208	neovascularization
+T18	Blood_vessel_development 796 813	vasoproliferation
+T11	Development 539 548	evolution
+E11	Development:T11 Theme:T15
+T1	Development 318 324	formed
+E1	Development:T1 Theme:T5
+T3	Growth 404 417	proliferating
+E2	Growth:T3 Theme:T7
+T12	Growth 552 565	proliferating
+E3	Growth:T12 Theme:T14
+E4	Development:T11 Theme:T16
+E5	Blood_vessel_development:T2 
+E6	Blood_vessel_development:T4 
+E7	Blood_vessel_development:T18 AtLoc:T19

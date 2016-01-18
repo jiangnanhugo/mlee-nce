@@ -1,0 +1,21 @@
+T17	Blood_vessel_development 1795 1807	angiogenesis
+T10	Gene_expression 1293 1303	expression
+E10	Gene_expression:T10 Theme:T11
+T18	Positive_regulation 1958 1966	activity
+E18	Positive_regulation:T18 Theme:T21
+T22	Remodeling 2059 2069	remodeling
+E22	Remodeling:T22 Theme:T23
+*	Equiv T2 T3
+*	Equiv T5 T6
+*	Equiv T8 T9
+*	Equiv T11 T12
+E1	Gene_expression:T10 Theme:T8
+E2	Gene_expression:T10 Theme:T5
+E3	Gene_expression:T10 Theme:T2
+T1	Positive_regulation 1785 1794	promoting
+E4	Positive_regulation:T1 Theme:E8
+E5	Positive_regulation:T18 Theme:T19
+T4	Regulation 2042 2048	effect
+E6	Regulation:T4 Theme:E22 Cause:T21
+E7	Regulation:T4 Theme:E22 Cause:T19
+E8	Blood_vessel_development:T17 

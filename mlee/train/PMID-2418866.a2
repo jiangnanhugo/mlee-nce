@@ -1,0 +1,6 @@
+T1	Blood_vessel_development 8 25	revascularisation
+T6	Blood_vessel_development 440 457	revascularisation
+T12	Development 571 581	appearance
+E1	Development:T12 Theme:T9
+E2	Blood_vessel_development:T1 AtLoc:T13
+E3	Blood_vessel_development:T6 

@@ -1,0 +1,46 @@
+T5	Pathway 149 155	system
+T15	Pathway 756 762	system
+T17	Pathway 938 944	system
+T20	Blood_vessel_development 1154 1166	angiogenesis
+T24	Gene_expression 1242 1252	expression
+E24	Gene_expression:T24 Theme:T25
+T29	Gene_expression 0 10	Expression
+E1	Gene_expression:T29 Theme:T1
+T30	Regulation 12 22	regulation
+E2	Regulation:T30 Theme:T1
+E3	Regulation:T30 Theme:T2
+E4	Regulation:T30 Theme:T3
+E5	Gene_expression:T29 Theme:T2
+E6	Gene_expression:T29 Theme:T3
+*	Equiv T8 T9
+T31	Binding 469 481	interactions
+E7	Binding:T31 Theme:T13 Theme:T11
+T32	Regulation 400 408	mediated
+E8	Regulation:T32 Theme:T11
+T33	Phosphorylation 550 565	phosphorylation
+E9	Phosphorylation:T33 Theme:T13
+T34	Catabolism 567 578	proteolysis
+E10	Catabolism:T34 Theme:T13
+T35	Binding 580 594	polymerization
+E11	Binding:T35 Theme:T13
+T37	Binding 615 626	association
+E13	Binding:T37 Theme:T14 Theme:T13
+T36	Regulation 537 546	regulated
+E12	Regulation:T36 Theme:T13 Cause:E9
+E14	Regulation:T36 Theme:T13 Cause:E10
+E15	Regulation:T36 Theme:T13 Cause:E11
+E16	Regulation:T36 Theme:T13 Cause:E13
+T38	Regulation 1052 1056	role
+E17	Regulation:T38 Theme:E23 Cause:T19
+T22	Regulation 1228 1238	regulation
+E18	Regulation:T22 Theme:E24
+E19	Gene_expression:T24 Theme:T26
+E20	Gene_expression:T24 Theme:T27
+E21	Regulation:T22 Theme:E19
+E22	Regulation:T22 Theme:E20
+E25	Binding:T37 Theme:T21 Theme:T13
+E27	Regulation:T36 Theme:T13 Cause:E25
+E23	Blood_vessel_development:T20 
+E26	Pathway:T5 Participant:T6
+E28	Pathway:T15 Participant:T23
+E29	Pathway:T17 Participant:T39

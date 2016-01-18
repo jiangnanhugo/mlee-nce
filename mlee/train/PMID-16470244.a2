@@ -1,0 +1,62 @@
+T2	Localization 27 37	metastasis
+E2	Localization:T2 Theme:T3
+T15	Binding 314 336	cell-cell interactions
+E15	Binding:T15 Theme:T17 Theme:T16
+T19	Localization 364 374	deposition
+E19	Localization:T19 Theme:T21 AtLoc:T20
+T22	Gene_expression 417 427	expression
+E22	Gene_expression:T22 Theme:T24
+T28	Localization 485 496	recruitment
+E28	Localization:T28 Theme:T29
+T30	Localization 524 534	deposition
+E30	Localization:T30 Theme:T33 AtLoc:T32
+T36	Positive_regulation 631 642	stabilizing
+E36	Positive_regulation:T36 Theme:T38 Cause:T34
+T39	Death 702 713	dysfunction
+E39	Death:T39 Theme:T40
+T51	Binding 1112 1134	cell-cell interactions
+E51	Binding:T51 Theme:T53 Theme:T52
+*	Equiv T5 T6
+T4	Negative_regulation 10 15	limit
+E1	Negative_regulation:T4 Theme:E2 Cause:T1
+T26	Localization 148 158	metastasis
+E3	Localization:T26 Theme:T7 ToLoc:T8
+T49	Gene_expression 105 115	deficiency
+E4	Gene_expression:T49 Theme:T5
+A1	Negation E4
+T54	Positive_regulation 136 147	facilitates
+E5	Positive_regulation:T54 Cause:E4 Theme:E3
+T55	Development 253 257	grew
+E6	Development:T55 Theme:T13
+T56	Positive_regulation 467 475	improved
+E7	Positive_regulation:T56 Theme:E28 Cause:E22
+T57	Positive_regulation 501 510	increased
+E8	Positive_regulation:T57 Cause:E22 Theme:E30
+T58	Negative_regulation 600 605	limit
+E9	Negative_regulation:T58 Cause:E36 Theme:E10
+A2	Speculation E9
+T59	Localization 617 627	metastasis
+E10	Localization:T59 Theme:T35
+T60	Positive_regulation 714 723	increases
+E11	Positive_regulation:T60 Theme:E13 Cause:E39
+T61	Localization 728 738	metastatic
+E13	Localization:T61 Theme:T41
+A3	Speculation E11
+T62	Localization 885 895	metastases
+E16	Localization:T62 Theme:T44 ToLoc:T45
+T63	Localization 995 1005	metastasis
+E17	Localization:T63 Theme:T47
+T64	Negative_regulation 975 983	limiting
+E20	Negative_regulation:T64 Theme:E17
+T65	Regulation 953 957	role
+E21	Regulation:T65 Cause:T46 Theme:E20
+T66	Positive_regulation 1058 1065	trigger
+E23	Positive_regulation:T66 Theme:E24 Cause:E25
+T67	Localization 1066 1076	metastasis
+E24	Localization:T67 Theme:T48
+T68	Regulation 1080 1090	perturbing
+E25	Regulation:T68 Cause:T48 Theme:E51
+*	Equiv T11 T25
+E26	Localization:T26 Theme:T7 ToLoc:T70
+E29	Positive_regulation:T54 Cause:E4 Theme:E26
+E32	Localization:T62 Theme:T44 ToLoc:T71

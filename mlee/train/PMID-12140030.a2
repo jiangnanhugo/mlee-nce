@@ -1,0 +1,52 @@
+T2	Blood_vessel_development 34 52	neovascularization
+T5	Blood_vessel_development 173 191	neovascularization
+T6	Blood_vessel_development 193 196	CNV
+T7	Blood_vessel_development 388 391	CNV
+T12	Blood_vessel_development 762 765	CNV
+T22	Blood_vessel_development 1387 1390	CNV
+T24	Blood_vessel_development 1446 1449	CNV
+T26	Blood_vessel_development 1525 1528	CNV
+T34	Blood_vessel_development 2123 2126	CNV
+T19	Localization 1106 1114	observed
+E19	Localization:T19 Theme:T20 ToLoc:T21
+T28	Planned_process 1707 1714	closure
+E28	Planned_process:T28 Theme:T29
+*	Equiv T13 T14
+*	Equiv T10 T11
+T44	Breakdown 104 116	degeneration
+E1	Breakdown:T44 Theme:T41
+T45	Breakdown 234 246	degeneration
+E2	Breakdown:T45 Theme:T40
+T1	Planned_process 11 20	treatment
+E3	Planned_process:T1 Theme:E14
+T4	Regulation 68 78	associated
+E4	Regulation:T4 Theme:E1 Cause:E14
+T36	Planned_process 154 162	treating
+E5	Planned_process:T36 Theme:E15
+T46	Regulation 198 208	associated
+E6	Regulation:T46 Theme:E2 Cause:E15
+T47	Planned_process 1047 1069	intravenously-injected
+E7	Planned_process:T47 Instrument:T20
+T49	Positive_regulation 1423 1432	requiring
+E9	Positive_regulation:T49 Cause:E10 Theme:T1004
+T50	Planned_process 1433 1442	treatment
+E10	Planned_process:T50 Theme:E21
+T51	Planned_process 1549 1555	closed
+E11	Planned_process:T51 Theme:T27 Instrument:T25
+T52	Positive_regulation 2094 2102	enhanced
+E12	Positive_regulation:T52 Cause:T33 Theme:E8
+T53	Planned_process 2516 2525	treatment
+E13	Planned_process:T53 Theme:T39
+E14	Blood_vessel_development:T2 Theme:T3
+E15	Blood_vessel_development:T5 
+E16	Blood_vessel_development:T6 
+E17	Blood_vessel_development:T7 Theme:T8
+E18	Blood_vessel_development:T12 Theme:T13
+E20	Blood_vessel_development:T22 Theme:T23
+E21	Blood_vessel_development:T24 
+E22	Blood_vessel_development:T26 Theme:T27
+E23	Blood_vessel_development:T34 Theme:T35
+T48	Planned_process 2103 2119	photocoagulation
+E8	Planned_process:T48 Theme:T35
+T54	Planned_process 371 387	photocoagulating
+E24	Planned_process:T54 Theme:T8

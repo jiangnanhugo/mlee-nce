@@ -1,0 +1,6 @@
+T14	Blood_vessel_development 1180 1192	angiogenesis
+T20	Cell_proliferation 1140 1153	proliferation
+E1	Cell_proliferation:T20 Theme:T12
+T21	Localization 1167 1175	invasion
+E2	Localization:T21 Theme:T12
+E3	Blood_vessel_development:T14 

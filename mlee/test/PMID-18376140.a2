@@ -1,0 +1,50 @@
+T4	Blood_vessel_development 70 90	vasculogenic mimicry
+T16	Blood_vessel_development 326 340	vasculogenesis
+T17	Blood_vessel_development 354 366	angiogenesis
+T18	Blood_vessel_development 371 391	vasculogenic mimicry
+T19	Blood_vessel_development 393 395	VM
+T20	Blood_vessel_development 398 400	VM
+T27	Blood_vessel_development 655 657	VM
+T30	Pathway 921 928	pathway
+T34	Blood_vessel_development 906 908	VM
+T37	Blood_vessel_development 933 945	VM formation
+T41	Blood_vessel_development 998 1013	formation of VM
+T42	Blood_vessel_development 1086 1088	VM
+T50	Blood_vessel_development 1245 1247	VM
+T52	Blood_vessel_development 1356 1368	angiogenesis
+T5	Localization 160 168	invasion
+E5	Localization:T5 Theme:T6
+T7	Localization 184 194	metastasis
+E7	Localization:T7 ToLoc:T8 Theme:T6
+T14	Growth 308 314	growth
+E14	Growth:T14 Theme:T15
+T26	Positive_regulation 667 674	induced
+E26	Positive_regulation:T26 Theme:E19 Cause:T28
+T46	Planned_process 1160 1173	knocking down
+E46	Planned_process:T46 Theme:T47
+T9	Regulation 62 66	role
+E1	Regulation:T9 Theme:E11
+T35	Regulation 968 990	play an important role
+E4	Regulation:T35 Cause:T38 Theme:E22
+T39	Regulation 1089 1098	targeting
+E6	Regulation:T39 Theme:E23
+T43	Planned_process 1149 1158	treatment
+E8	Planned_process:T43 Instrument:T44
+T53	Planned_process 1193 1198	using
+E9	Planned_process:T53 Instrument:T13
+T54	Negative_regulation 1369 1376	therapy
+E10	Negative_regulation:T54 Theme:T51
+E11	Blood_vessel_development:T4 
+E12	Blood_vessel_development:T16 
+E15	Blood_vessel_development:T17 
+E16	Blood_vessel_development:T18 
+E17	Blood_vessel_development:T19 
+E18	Blood_vessel_development:T20 
+E19	Blood_vessel_development:T27 
+E20	Blood_vessel_development:T34 
+E21	Blood_vessel_development:T37 
+E22	Blood_vessel_development:T41 
+E23	Blood_vessel_development:T42 
+E24	Blood_vessel_development:T50 AtLoc:T49
+E25	Blood_vessel_development:T52 AtLoc:T51
+E27	Pathway:T30 Participant:T31 Participant2:T32 Participant3:T33

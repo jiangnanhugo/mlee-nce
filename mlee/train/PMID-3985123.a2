@@ -1,0 +1,21 @@
+T23	Blood_vessel_development 791 803	angiogenesis
+T16	Positive_regulation 596 603	enhance
+E16	Positive_regulation:T16 Theme:E17
+T17	Cell_proliferation 615 628	proliferation
+E17	Cell_proliferation:T17 Theme:T18
+T24	Growth 826 839	proliferation
+E24	Growth:T24 Theme:T25
+T21	Positive_regulation 36 47	enhancement
+E1	Positive_regulation:T21 Theme:E2
+T26	Growth 57 70	proliferation
+E2	Growth:T26 Theme:T3
+T27	Positive_regulation 180 187	enhance
+E3	Positive_regulation:T27 Theme:E4 Cause:T4
+T28	Growth 203 216	proliferation
+E4	Growth:T28 Theme:T7
+T29	Regulation 732 740	mediated
+E5	Regulation:T29 Cause:T19 Theme:T20
+T30	Regulation 769 773	role
+E6	Regulation:T30 Cause:T22 Theme:E8
+E7	Regulation:T30 Cause:T22 Theme:E24
+E8	Blood_vessel_development:T23 

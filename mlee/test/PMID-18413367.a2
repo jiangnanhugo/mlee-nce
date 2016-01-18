@@ -1,0 +1,107 @@
+T12	Blood_vessel_development 177 189	angiogenesis
+T36	Blood_vessel_development 842 852	angiogenic
+T43	Blood_vessel_development 1002 1017	vascularization
+T3	Negative_regulation 61 68	inhibit
+E3	Negative_regulation:T3 Theme:T5 Cause:E6
+T6	Negative_regulation 88 98	inhibiting
+E6	Negative_regulation:T6 Theme:E7
+T7	Positive_regulation 99 108	activated
+E7	Positive_regulation:T7 Theme:T8
+T9	Localization 126 134	invading
+E9	Localization:T9 Theme:T10
+T15	Binding 334 342	reaction
+E15	Binding:T15 Theme:T17 Theme:T16
+T18	Positive_regulation 388 398	activation
+E18	Positive_regulation:T18 Theme:T19
+T20	Development 449 460	progression
+E20	Development:T20 Theme:T21
+T22	Negative_regulation 546 560	downregulation
+E22	Negative_regulation:T22 Theme:T23
+T25	Positive_regulation 659 671	upregulation
+E25	Positive_regulation:T25 Theme:T26
+T31	Planned_process 741 753	Transfection
+E31	Planned_process:T31 Theme:T32 Instrument:T34
+T33	Gene_expression 799 809	expressing
+E33	Gene_expression:T33 Theme:T34
+T37	Negative_regulation 887 894	reduced
+E37	Negative_regulation:T37 Theme:E38
+T38	Growth 901 907	growth
+E38	Growth:T38 Theme:T39
+T40	Negative_regulation 984 992	decrease
+E40	Negative_regulation:T40 Theme:E44
+T45	Gene_expression 1028 1039	expressions
+E45	Gene_expression:T45 Theme:T46
+T48	Planned_process 1099 1111	Transfection
+E48	Planned_process:T48 Instrument:T49 Theme:T52
+T50	Planned_process 1142 1147	added
+E50	Planned_process:T50 Instrument:T51 Theme:T52
+T55	Negative_regulation 1239 1248	inhibited
+E55	Negative_regulation:T55 Theme:T56 Cause:E50
+T59	Positive_regulation 1350 1360	activation
+E59	Positive_regulation:T59 Cause:T57 Theme:T60
+T61	Gene_expression 1408 1418	expression
+E61	Gene_expression:T61 Theme:T64
+T67	Planned_process 1571 1578	treated
+E67	Planned_process:T67 Instrument:T68 Theme:T69
+T71	Gene_expression 1661 1671	expression
+E71	Gene_expression:T71 Theme:T72
+T76	Binding 1830 1838	reaction
+E76	Binding:T76 Theme:T78 Theme:T77
+T79	Negative_regulation 1871 1879	blockage
+E79	Negative_regulation:T79 Theme:E1
+T80	Positive_regulation 1883 1892	activated
+E80	Positive_regulation:T80 Theme:T81
+*	Equiv T28 T29
+*	Equiv T57 T58
+T4	Localization 1910 1918	invading
+E1	Localization:T4 Theme:T81 ToLoc:T82
+T13	Regulation 304 308	role
+E2	Regulation:T13 Cause:T14 Theme:E15
+A1	Speculation E2
+E4	Positive_regulation:T25 Theme:T28
+E5	Positive_regulation:T25 Theme:T30
+T27	Positive_regulation 875 883	resulted
+E8	Positive_regulation:T27 Theme:E37 Cause:E31
+E10	Gene_expression:T45 Theme:T47
+T35	Regulation 1172 1177	alter
+E11	Regulation:T35 Cause:E50 Theme:T53
+A2	Negation E11
+E12	Regulation:T35 Cause:E48 Theme:T53
+E13	Regulation:T35 Cause:E50 Theme:T54
+E14	Regulation:T35 Cause:E48 Theme:T54
+A3	Negation E12
+A4	Negation E13
+A5	Negation E14
+E16	Negative_regulation:T55 Theme:T56 Cause:E48
+T41	Positive_regulation 1377 1386	increased
+E17	Positive_regulation:T41 Cause:T57 Theme:E61
+E19	Gene_expression:T61 Theme:T62
+E21	Positive_regulation:T41 Cause:T57 Theme:E19
+T44	Localization 1443 1452	migration
+E23	Localization:T44 Theme:T65
+T63	Localization 1457 1465	invasion
+E24	Localization:T63 Theme:T65
+E26	Positive_regulation:T41 Cause:T57 Theme:E23
+E27	Positive_regulation:T41 Cause:T57 Theme:E24
+T83	Positive_regulation 1487 1496	increased
+E28	Positive_regulation:T83 Theme:E29
+T84	Localization 1497 1506	migration
+E29	Localization:T84 Theme:T69
+T85	Localization 1523 1531	invasive
+E30	Localization:T85 ToLoc:T66 Theme:T69
+T86	Negative_regulation 1614 1623	inhibited
+E32	Negative_regulation:T86 Cause:T70 Theme:E30
+E34	Negative_regulation:T86 Cause:T70 Theme:E29
+T87	Localization 1711 1719	invasive
+E35	Localization:T87 Theme:T74
+T88	Regulation 1697 1703	effect
+E36	Regulation:T88 Theme:E35 Cause:E71
+T89	Regulation 1792 1796	role
+E39	Regulation:T89 Theme:E41 Cause:T75
+T90	Negative_regulation 1809 1816	inhibit
+E41	Negative_regulation:T90 Theme:E76
+E42	Blood_vessel_development:T12 
+E43	Blood_vessel_development:T36 
+E44	Blood_vessel_development:T43 AtLoc:T42
+T93	Negative_regulation 853 861	activity
+E46	Negative_regulation:T93 Theme:E43 Cause:E31

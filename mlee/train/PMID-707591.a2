@@ -1,0 +1,4 @@
+T1	Blood_vessel_development 11 29	neovascularization
+T3	Blood_vessel_development 186 204	neovascularization
+E1	Blood_vessel_development:T1 
+E2	Blood_vessel_development:T3 

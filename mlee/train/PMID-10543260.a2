@@ -1,0 +1,18 @@
+T5	Blood_vessel_development 101 119	Neovascularization
+T9	Blood_vessel_development 200 210	angiogenic
+T13	Blood_vessel_development 312 322	angiogenic
+T7	Growth 148 154	growth
+E7	Growth:T7 Theme:T8
+T34	Localization 1621 1630	liberates
+E34	Localization:T34 Theme:T35 ToLoc:T36 FromLoc:T33
+*	Equiv T10 T11
+*	Equiv T17 T4
+T41	Positive_regulation 0 9	Increased
+E1	Positive_regulation:T41 Theme:T2
+T42	Regulation 175 184	regulated
+E2	Regulation:T42 Theme:E4
+T43	Positive_regulation 124 133	essential
+E3	Positive_regulation:T43 Cause:E4 Theme:E7
+E4	Blood_vessel_development:T5 
+E5	Blood_vessel_development:T9 
+E6	Blood_vessel_development:T13 

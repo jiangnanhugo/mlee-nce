@@ -1,0 +1,34 @@
+T4	Blood_vessel_development 104 116	angiogenesis
+T22	Blood_vessel_development 1107 1122	vascularization
+T38	Blood_vessel_development 1731 1746	vascularization
+T1	Growth 96 102	growth
+E1	Growth:T1 Theme:T2
+T35	Growth 1583 1589	growth
+E35	Growth:T35 Theme:T36
+*	Equiv T14 T15
+T3	Planned_process 430 441	transfected
+E2	Planned_process:T3 Instrument:T7 Theme:T8
+T6	Planned_process 460 468	injected
+E3	Planned_process:T6 Instrument:T8 Theme:T9
+T21	Planned_process 726 736	euthanized
+E4	Planned_process:T21 Theme:T1005
+T39	Planned_process 1277 1284	treated
+E5	Planned_process:T39 Theme:T28
+T40	Negative_regulation 1330 1339	decreased
+E6	Negative_regulation:T40 Theme:T29
+T41	Planned_process 1493 1501	received
+E7	Planned_process:T41 Theme:T1006
+T42	Planned_process 1599 1608	untreated
+E8	Planned_process:T42 Theme:T1007
+A1	Negation E8
+T43	Negative_regulation 1715 1724	retarding
+E9	Negative_regulation:T43 Theme:E16
+T44	Growth 1748 1754	growth
+E10	Growth:T44 Theme:T37
+T45	Localization 1759 1769	metastasis
+E11	Localization:T45 Theme:T37
+E12	Negative_regulation:T43 Theme:E10
+E13	Negative_regulation:T43 Theme:E11
+E14	Blood_vessel_development:T4 AtLoc:T2
+E15	Blood_vessel_development:T22 AtLoc:T19
+E16	Blood_vessel_development:T38 AtLoc:T37

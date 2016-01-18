@@ -1,0 +1,12 @@
+T4	Blood_vessel_development 511 529	neovascularization
+T15	Blood_vessel_development 1129 1147	neovascularization
+T19	Blood_vessel_development 1212 1230	neovascularization
+T23	Planned_process 232 239	treated
+E2	Planned_process:T23 Theme:T21
+T25	Planned_process 983 995	implantation
+E3	Planned_process:T25 Theme:T24
+E4	Blood_vessel_development:T4 AtLoc:T3
+E5	Blood_vessel_development:T15 AtLoc:T16
+E6	Blood_vessel_development:T19 AtLoc:T18
+T26	Negative_regulation 1160 1169	regressed
+E7	Negative_regulation:T26 Theme:E5

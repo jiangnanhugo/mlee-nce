@@ -1,0 +1,43 @@
+T7	Blood_vessel_development 376 388	angiogenesis
+T24	Blood_vessel_development 1102 1114	angiogenesis
+T9	Gene_expression 416 426	expression
+E9	Gene_expression:T9 Theme:T10
+T11	Regulation 445 453	regulate
+E11	Regulation:T11 Cause:E9 Theme:E2
+T14	Development 562 573	progression
+E14	Development:T14 Theme:T15
+T22	Cell_proliferation 1072 1085	proliferation
+E22	Cell_proliferation:T22 Theme:T23
+T25	Development 1141 1153	organization
+E25	Development:T25 Theme:T26
+T3	Gene_expression 130 139	expressed
+E1	Gene_expression:T3 Theme:T2
+T13	Cell_proliferation 480 493	proliferation
+E2	Cell_proliferation:T13 Theme:T12
+T18	Binding 495 503	adhesion
+E3	Binding:T18 Theme:T12
+T29	Localization 509 517	motility
+E4	Localization:T29 Theme:T12
+E5	Regulation:T11 Cause:E9 Theme:E3
+E6	Regulation:T11 Cause:E9 Theme:E4
+T30	Death 586 594	survival
+E7	Death:T30 Theme:T1001
+A1	Negation E7
+T31	Binding 793 797	bind
+E8	Binding:T31 Theme:T17
+T32	Positive_regulation 1006 1015	necessary
+E10	Positive_regulation:T32 Cause:T19 Theme:E22
+E12	Cell_proliferation:T22 Theme:T20
+E13	Positive_regulation:T32 Cause:T19 Theme:E12
+E15	Positive_regulation:T32 Cause:T19 Theme:E24
+E16	Positive_regulation:T32 Cause:T19 Theme:E25
+T34	Breakdown 943 949	injury
+E17	Breakdown:T34 Theme:T33
+T36	Remodeling 1230 1236	repair
+E18	Remodeling:T36 Theme:T35
+R1	frag Arg1:T37 Arg2:T38	
+T40	Localization 1092 1100	motility
+E19	Localization:T40 Theme:T39
+E20	Positive_regulation:T32 Cause:T19 Theme:E19
+E23	Blood_vessel_development:T7 
+E24	Blood_vessel_development:T24 

@@ -1,0 +1,47 @@
+T16	Blood_vessel_development 547 565	neovascularization
+T17	Blood_vessel_development 567 570	CNV
+T30	Blood_vessel_development 958 961	CNV
+T1	Cell_proliferation 43 55	accumulation
+E1	Cell_proliferation:T1 Theme:T3
+T6	Gene_expression 270 277	express
+E6	Gene_expression:T6 Theme:T8
+T12	Cell_proliferation 464 475	accumulated
+E12	Cell_proliferation:T12 Theme:T13
+T19	Cell_proliferation 603 614	accumulated
+E19	Cell_proliferation:T19 Theme:T20
+T25	Cell_proliferation 893 905	accumulation
+E25	Cell_proliferation:T25 Theme:T27
+T29	Positive_regulation 929 941	exacerbation
+E29	Positive_regulation:T29 Theme:E18
+T31	Cell_proliferation 1004 1016	accumulation
+E31	Cell_proliferation:T31 Theme:T33
+*	Equiv T4 T5
+T28	Breakdown 116 128	degeneration
+E2	Breakdown:T28 Theme:T10
+T34	Breakdown 197 209	degeneration
+E3	Breakdown:T34 Theme:T14
+*	Equiv T8 T9
+T37	Positive_regulation 7 16	dependent
+E4	Positive_regulation:T37 Cause:T2 Theme:E1
+T38	Regulation 135 139	role
+E5	Regulation:T38 Theme:E3 Cause:T4
+A1	Speculation E5
+T39	Breakdown 520 532	degeneration
+E7	Breakdown:T39 Theme:T35
+T40	Breakdown 700 712	degeneration
+E8	Breakdown:T40 Theme:T36
+T41	Positive_regulation 880 889	dependent
+E9	Positive_regulation:T41 Cause:T26 Theme:E25
+T42	Positive_regulation 994 1003	dependent
+E10	Positive_regulation:T42 Cause:T32 Theme:E31
+T43	Regulation 59 69	associated
+E11	Regulation:T43 Theme:E2 Cause:E1
+T44	Regulation 910 920	associated
+E13	Regulation:T44 Cause:E25 Theme:E29
+T46	Localization 402 411	migration
+E14	Localization:T46 Theme:T45
+T47	Negative_regulation 388 396	impaired
+E15	Negative_regulation:T47 Theme:E14
+E16	Blood_vessel_development:T16 
+E17	Blood_vessel_development:T17 
+E18	Blood_vessel_development:T30 

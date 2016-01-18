@@ -1,0 +1,72 @@
+T14	Blood_vessel_development 376 390	arteriogenesis
+T1	Regulation 37 47	regulation
+E1	Regulation:T1 Theme:E3
+T8	Remodeling 309 319	remodeling
+E8	Remodeling:T8 Theme:T10
+T12	Development 345 354	formation
+E12	Development:T12 Theme:T13
+T19	Regulation 537 548	maintenance
+E19	Regulation:T19 Theme:T22
+T21	Development 521 532	development
+E21	Development:T21 Theme:T22
+T23	Negative_regulation 613 627	down-regulated
+E23	Negative_regulation:T23 Theme:E24
+T24	Gene_expression 591 601	expression
+E24	Gene_expression:T24 Theme:T25
+T27	Catabolism 758 766	cleavage
+E27	Catabolism:T27 Theme:T28
+T29	Binding 779 786	binding
+E29	Binding:T29 Theme:T30 Site:T55 Theme2:T31
+T32	Catabolism 844 852	cleavage
+E32	Catabolism:T32 Theme:T33
+T37	Negative_regulation 1076 1087	suppression
+E37	Negative_regulation:T37 Theme:E30
+T39	Negative_regulation 1216 1231	down-regulation
+E39	Negative_regulation:T39 Theme:T40
+T41	Binding 1278 1285	binding
+E41	Binding:T41 Theme:T40 Theme:T42
+T45	Negative_regulation 1314 1329	destabilization
+E45	Negative_regulation:T45 Theme:T46
+T49	Remodeling 1396 1409	restructuring
+E49	Remodeling:T49 Theme:T50
+T4	Transcription 0 15	Transcriptional
+E2	Transcription:T4 Theme:T2
+T7	Protein_processing 20 36	post-translation
+E3	Protein_processing:T7 Theme:T2
+E4	Regulation:T1 Theme:E2
+T17	Regulation 278 296	plays a major role
+E5	Regulation:T17 Theme:E35
+T43	Regulation 355 358	via
+E7	Regulation:T43 Cause:E35 Theme:E12
+E10	Regulation:T43 Cause:E35 Theme:E8
+T47	Gene_expression 435 444	expressed
+E13	Gene_expression:T47 Theme:T15
+T51	Positive_regulation 492 500	required
+E14	Positive_regulation:T51 Cause:T15 Theme:E21
+E15	Positive_regulation:T51 Cause:T15 Theme:E19
+T52	Planned_process 649 656	exposed
+E16	Planned_process:T52 Theme:T26
+T53	Negative_regulation 716 731	down-regulation
+E17	Negative_regulation:T53 Theme:E24
+T54	Catabolism 794 801	cleaved
+E22	Catabolism:T54 Theme:T30
+T56	Negative_regulation 894 909	down-regulation
+E25	Negative_regulation:T56 Theme:E26
+T57	Transcription 878 893	transcriptional
+E26	Transcription:T57 Theme:T33
+T58	Negative_regulation 976 986	suppressed
+E28	Negative_regulation:T58 Theme:T35 Site:T59 Cause:T36
+T60	Transcription 1060 1075	transcriptional
+E30	Transcription:T60 Theme:T38
+T61	Positive_regulation 1052 1059	induced
+E31	Positive_regulation:T61 Theme:E37
+T62	Regulation 1099 1107	mediated
+E33	Regulation:T62 Theme:E37 Site:T63
+T64	Positive_regulation 1301 1309	required
+E34	Positive_regulation:T64 Theme:E45 Cause:E39
+A1	Speculation E34
+E35	Blood_vessel_development:T14 
+T9	Positive_regulation 1363 1371	initiate
+E11	Positive_regulation:T9 Theme:E49
+E6	Positive_regulation:T64 Theme:E45 Cause:E41
+A6	Speculation E6

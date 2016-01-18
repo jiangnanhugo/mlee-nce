@@ -1,0 +1,59 @@
+T14	Blood_vessel_development 588 603	vascularization
+T27	Blood_vessel_development 1224 1236	angiogenesis
+T38	Blood_vessel_development 1656 1671	vascularization
+T1	Positive_regulation 18 28	activation
+E1	Positive_regulation:T1 Theme:T2
+T4	Breakdown 199 210	dysfunction
+E4	Breakdown:T4 Theme:T5
+T10	Positive_regulation 392 402	activation
+E10	Positive_regulation:T10 Theme:T11
+T25	Positive_regulation 1166 1176	activation
+E25	Positive_regulation:T25 Theme:T26
+T42	Positive_regulation 1830 1840	activation
+E42	Positive_regulation:T42 Theme:T43
+T49	Development 2093 2104	alterations
+E49	Development:T49 Theme:T50
+*	Equiv T15 T18
+R1	frag Arg1:T16 Arg2:T46	
+T45	Negative_regulation 69 76	reduced
+E2	Negative_regulation:T45 Cause:E3 Theme:E1
+T47	Planned_process 87 96	treatment
+E3	Planned_process:T47 Theme:T1000 Instrument:T3
+T59	Planned_process 623 632	treatment
+E5	Planned_process:T59 Instrument:T15
+T60	Planned_process 787 795	isolated
+E7	Planned_process:T60 Theme:T19
+T61	Planned_process 876 883	treated
+E8	Planned_process:T61 Theme:T1004 Instrument:T20
+*	Equiv T20 T21
+E11	Planned_process:T61 Theme:T1004 Instrument:T62
+T63	Positive_regulation 1456 1468	up-regulated
+E12	Positive_regulation:T63 Theme:T28
+T64	Negative_regulation 1341 1350	decreased
+E13	Negative_regulation:T64 Theme:T29
+T65	Regulation 1418 1434	showed no change
+E14	Regulation:T65 Theme:T30
+A1	Negation E14
+E15	Negative_regulation:T64 Theme:T28
+E16	Regulation:T65 Theme:T31
+A2	Negation E16
+E17	Positive_regulation:T63 Theme:T29
+E18	Positive_regulation:T63 Theme:T30
+E19	Positive_regulation:T63 Theme:T31
+T66	Planned_process 1496 1505	treatment
+E20	Planned_process:T66 Theme:T1005 Instrument:T32
+T67	Positive_regulation 1641 1649	improved
+E21	Positive_regulation:T67 Cause:T35 Theme:E31
+T40	Positive_regulation 1929 1946	beneficial effect
+E22	Positive_regulation:T40 Cause:T44 Theme:T16
+E23	Positive_regulation:T40 Cause:T44 Theme:T46
+T68	Regulation 2067 2071	role
+E26	Regulation:T68 Cause:T48 Theme:E49
+T69	Regulation 2126 2133	altered
+E27	Regulation:T69 Theme:T51
+T70	Regulation 2158 2164	affect
+E28	Regulation:T70 Cause:E27 Theme:T52
+R2	frag Arg1:T71 Arg2:T1003	
+E29	Blood_vessel_development:T14 AtLoc:T13
+E30	Blood_vessel_development:T27 
+E31	Blood_vessel_development:T38 AtLoc:T37

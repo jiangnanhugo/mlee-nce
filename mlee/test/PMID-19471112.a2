@@ -1,0 +1,77 @@
+T4	Localization 35 44	migration
+E4	Localization:T4 Theme:T5
+T6	Regulation 49 59	regulation
+E6	Regulation:T6 Theme:T7 Cause:T1
+T11	Localization 186 195	migration
+E11	Localization:T11 Theme:T12
+T14	Development 246 258	regeneration
+E14	Development:T14 Theme:T17
+T16	Remodeling 231 241	remodeling
+E16	Remodeling:T16 Theme:T17
+T18	Planned_process 387 394	treated
+E18	Planned_process:T18 Instrument:T21 Theme:T19
+T22	Localization 431 440	migration
+E22	Localization:T22 Theme:T24
+T27	Positive_regulation 571 581	activation
+E27	Positive_regulation:T27 Theme:T28
+T31	Localization 706 715	migration
+E31	Localization:T31 Theme:T33
+T35	Negative_regulation 825 832	reduced
+E35	Negative_regulation:T35 Cause:T34 Theme:T36
+T37	Positive_regulation 891 900	increased
+E37	Positive_regulation:T37 Cause:T34 Theme:E40
+T40	Phosphorylation 918 933	phosphorylation
+E40	Phosphorylation:T40 Theme:T41
+T42	Phosphorylation 958 973	phosphorylation
+E42	Phosphorylation:T42 Theme:T43
+T45	Localization 992 1001	migration
+E45	Localization:T45 Theme:T46
+T48	Planned_process 1020 1029	treatment
+E48	Planned_process:T48 Instrument:T49 Theme:T78
+T53	Planned_process 1133 1142	treatment
+E53	Planned_process:T53 Instrument:T55
+T61	Localization 1245 1254	migration
+E61	Localization:T61 Theme:T62
+T66	Localization 1347 1356	migration
+E66	Localization:T66 Theme:T67
+T68	Negative_regulation 1368 1378	inhibition
+E68	Negative_regulation:T68 Theme:T69 Cause:T63
+T71	Positive_regulation 1471 1481	activation
+E71	Positive_regulation:T71 Theme:T72 Cause:T63
+*	Equiv T19 T20
+T8	Negative_regulation 10 17	reduces
+E1	Negative_regulation:T8 Cause:E6 Theme:E4
+T30	Regulation 146 152	effect
+E2	Regulation:T30 Cause:T9 Theme:E11
+A1	Speculation E2
+T47	Positive_regulation 200 209	essential
+E5	Positive_regulation:T47 Cause:E11 Theme:E16
+E7	Positive_regulation:T47 Cause:E11 Theme:E14
+T54	Positive_regulation 652 660	provoked
+E8	Positive_regulation:T54 Theme:E9 Cause:T29
+T59	Negative_regulation 688 696	decrease
+E9	Negative_regulation:T59 Theme:E31
+E12	Phosphorylation:T40 Theme:T39
+E17	Positive_regulation:T37 Cause:T34 Theme:E12
+T38	Regulation 947 953	affect
+E19	Regulation:T38 Theme:E42 Cause:T34
+A2	Negation E19
+T64	Negative_regulation 1006 1016	attenuated
+E20	Negative_regulation:T64 Cause:E48 Theme:E45
+E21	Negative_regulation:T64 Cause:T51 Theme:E45
+T73	Regulation 1232 1238	affect
+E24	Regulation:T73 Theme:E61 Cause:E53
+A3	Negation E24
+E25	Planned_process:T53 Instrument:T56
+E26	Regulation:T73 Theme:E61 Cause:E25
+A4	Negation E26
+T74	Positive_regulation 1307 1314	induced
+E28	Positive_regulation:T74 Theme:E29 Cause:E68
+T75	Negative_regulation 1317 1326	reduction
+E29	Negative_regulation:T75 Theme:E66
+T76	Regulation 1439 1450	independent
+E30	Regulation:T76 Cause:E71 Theme:E29
+A5	Negation E30
+E33	Positive_regulation:T71 Theme:T70 Cause:T63
+E34	Regulation:T76 Cause:E33 Theme:E29
+A6	Negation E34

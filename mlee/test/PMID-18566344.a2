@@ -1,0 +1,89 @@
+T6	Blood_vessel_development 84 96	angiogenesis
+T7	Blood_vessel_development 141 159	neovascularization
+T10	Blood_vessel_development 240 258	neovascularization
+T24	Blood_vessel_development 678 690	angiogenesis
+T28	Blood_vessel_development 756 774	neovascularization
+T34	Blood_vessel_development 946 958	angiogenesis
+T36	Pathway 1011 1018	pathway
+T56	Blood_vessel_development 1202 1220	neovascularization
+T59	Blood_vessel_development 1408 1418	angiogenic
+T3	Death 61 70	apoptosis
+E3	Death:T3 Theme:T4
+T18	Gene_expression 526 536	expression
+E18	Gene_expression:T18 Theme:T19
+T25	Localization 739 747	delivery
+E25	Localization:T25 Theme:T26
+T41	Negative_regulation 1036 1043	reduces
+E41	Negative_regulation:T41 Cause:T35 Theme:T49
+T61	Negative_regulation 1495 1505	inhibition
+E61	Negative_regulation:T61 Theme:T62
+*	Equiv T13 T14
+*	Equiv T1 T2
+*	Equiv T11 T12
+*	Equiv T21 T22
+*	Equiv T49 T50
+*	Equiv T51 T52
+*	Equiv T53 T54
+T5	Positive_regulation 35 43	promotes
+E1	Positive_regulation:T5 Theme:E3 Cause:T1
+T16	Negative_regulation 75 83	inhibits
+E2	Negative_regulation:T16 Theme:E37 Cause:T1
+T17	Negative_regulation 132 140	impaired
+E4	Negative_regulation:T17 Theme:E38
+T23	Negative_regulation 196 203	impairs
+E5	Negative_regulation:T23 Theme:T9
+T27	Gene_expression 385 394	expressed
+E6	Gene_expression:T27 Theme:T11
+T32	Death 549 557	survival
+E8	Death:T32 Theme:T20
+A1	Negation E8
+T48	Cell_proliferation 559 572	proliferation
+E9	Cell_proliferation:T48 Theme:T20
+T64	Localization 574 583	migration
+E10	Localization:T64 Theme:T20
+T65	Binding 589 597	adhesion
+E11	Binding:T65 Theme:T20
+T66	Planned_process 612 620	cultured
+E12	Planned_process:T66 Instrument:T20
+T67	Negative_regulation 537 544	impairs
+E13	Negative_regulation:T67 Cause:E18 Theme:E8
+E14	Planned_process:T66 Instrument:T21
+T68	Negative_regulation 669 677	inhibits
+E15	Negative_regulation:T68 Cause:E18 Theme:E40
+E16	Binding:T65 Theme:T21
+E17	Localization:T64 Theme:T21
+E19	Cell_proliferation:T48 Theme:T21
+E20	Death:T32 Theme:T21
+A2	Negation E20
+E21	Negative_regulation:T67 Cause:E18 Theme:E9
+E22	Negative_regulation:T67 Cause:E18 Theme:E10
+E23	Negative_regulation:T67 Cause:E18 Theme:E11
+E24	Negative_regulation:T67 Cause:E18 Theme:E16
+E26	Negative_regulation:T67 Cause:E18 Theme:E17
+E27	Negative_regulation:T67 Cause:E18 Theme:E19
+E28	Negative_regulation:T67 Cause:E18 Theme:E20
+T69	Negative_regulation 748 755	impairs
+E29	Negative_regulation:T69 Cause:E25 Theme:E42
+T71	Death 933 941	survival
+E31	Death:T71 Theme:T33
+A3	Negation E31
+T72	Negative_regulation 978 987	depresses
+E32	Negative_regulation:T72 Cause:T35 Theme:E47
+E33	Negative_regulation:T41 Cause:T35 Theme:T51
+E34	Negative_regulation:T41 Cause:T35 Theme:T53
+E35	Negative_regulation:T41 Cause:T35 Theme:T55
+T42	Positive_regulation 1525 1532	induced
+E36	Positive_regulation:T42 Theme:T63
+E37	Blood_vessel_development:T6 
+E38	Blood_vessel_development:T7 AtLoc:T8
+E39	Blood_vessel_development:T10 
+E40	Blood_vessel_development:T24 
+E42	Blood_vessel_development:T28 
+E43	Blood_vessel_development:T34 
+E44	Blood_vessel_development:T56 
+E45	Blood_vessel_development:T59 
+T43	Negative_regulation 1419 1425	action
+E46	Negative_regulation:T43 Cause:T60 Theme:E45
+E47	Pathway:T36 Participant:T37 Participant2:T38 Participant3:T39 Participant4:T40
+T30	Positive_regulation 509 516	induced
+E7	Positive_regulation:T30 Theme:E18

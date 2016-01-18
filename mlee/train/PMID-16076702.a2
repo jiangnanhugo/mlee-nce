@@ -1,0 +1,79 @@
+T10	Blood_vessel_development 209 221	angiogenesis
+T1	Gene_expression 90 100	expression
+E1	Gene_expression:T1 Theme:T6
+T5	Transcription 90 100	expression
+E5	Transcription:T5 Theme:T6
+T11	Growth 277 283	growth
+E11	Growth:T11 Theme:T12
+T15	Gene_expression 441 450	expressed
+E15	Gene_expression:T15 Theme:T16
+T19	Gene_expression 637 647	expression
+E19	Gene_expression:T19 Theme:T21
+T37	Gene_expression 868 878	expression
+E37	Gene_expression:T37 Theme:T38
+T46	Negative_regulation 1049 1058	decreased
+E46	Negative_regulation:T46 Theme:T47
+T50	Transcription 1141 1151	expression
+E50	Transcription:T50 Theme:T52
+T55	Gene_expression 1237 1247	expression
+E55	Gene_expression:T55 Theme:T56
+T63	Gene_expression 1478 1488	expression
+E63	Gene_expression:T63 Theme:T64
+R1	frag Arg1:T20 Arg2:T21
+R2	frag Arg1:T27 Arg2:T28
+E2	Transcription:T5 Theme:T4
+E3	Transcription:T5 Theme:T2
+E4	Gene_expression:T1 Theme:T4
+E6	Gene_expression:T1 Theme:T2
+T3	Regulation 258 269	controlling
+E7	Regulation:T3 Cause:T8 Theme:E11
+T9	Binding 289 298	interacts
+E8	Binding:T9 Theme:T13
+T14	Blood_vessel_development 380 392	angiogenesis
+T62	Positive_regulation 365 376	stimulation
+E9	Positive_regulation:T62 Theme:E32
+T65	Negative_regulation 356 364	inhibits
+E10	Negative_regulation:T65 Theme:E9 Cause:T13
+T66	Gene_expression 553 559	absent
+E12	Gene_expression:T66 Theme:T16
+A1	Negation E12
+*	Equiv T21 T22
+*	Equiv T20 T23
+*	Equiv T28 T29
+*	Equiv T27 T30
+A2	Speculation E37
+A3	Speculation E19
+E13	Gene_expression:T19 Theme:T20
+E14	Gene_expression:T19 Theme:T25
+E16	Gene_expression:T19 Theme:T26
+E17	Gene_expression:T19 Theme:T28
+E18	Gene_expression:T19 Theme:T27
+A4	Speculation E13
+A5	Speculation E14
+A6	Speculation E16
+A7	Speculation E17
+A8	Speculation E18
+E20	Gene_expression:T37 Theme:T39
+E21	Gene_expression:T37 Theme:T40
+E22	Gene_expression:T37 Theme:T41
+E23	Gene_expression:T37 Theme:T42
+E24	Gene_expression:T37 Theme:T43
+A9	Speculation E20
+A10	Speculation E21
+A11	Speculation E22
+A12	Speculation E23
+A13	Speculation E24
+E25	Transcription:T50 Theme:T53
+T18	Positive_regulation 1203 1212	increased
+E26	Positive_regulation:T18 Theme:T54
+A14	Negation E55
+T32	Positive_regulation 1298 1306	increase
+E27	Positive_regulation:T32 Theme:T57
+T33	Gene_expression 1383 1392	expressed
+E28	Gene_expression:T33 Theme:T59
+E29	Gene_expression:T33 Theme:T59
+A15	Negation E29
+T34	Positive_regulation 1489 1498	increases
+E30	Positive_regulation:T34 Theme:E63
+E31	Blood_vessel_development:T10 
+E32	Blood_vessel_development:T14 

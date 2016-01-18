@@ -1,0 +1,42 @@
+T26	Blood_vessel_development 1641 1653	angiogenesis
+T15	Positive_regulation 1089 1097	elevated
+E15	Positive_regulation:T15 Theme:E16
+T16	Gene_expression 1059 1069	expression
+E16	Gene_expression:T16 Theme:T17
+T23	Gene_expression 1581 1588	present
+E23	Gene_expression:T23 Theme:T24
+T28	Gene_expression 1745 1755	expression
+E28	Gene_expression:T28 Theme:T30
+T32	Remodeling 1848 1858	remodeling
+E32	Remodeling:T32 Theme:T34
+R1	frag Arg1:T11 Arg2:T12
+R2	frag Arg1:T29 Arg2:T30
+R3	frag Arg1:T2 Arg2:T3
+T25	Remodeling 224 232	turnover
+E1	Remodeling:T25 Theme:T6
+T35	Breakdown 326 332	cleave
+E2	Breakdown:T35 Theme:T8
+T36	Positive_regulation 326 332	cleave
+E3	Positive_regulation:T36 Cause:T7 Theme:E2
+T37	Regulation 437 447	regulating
+E4	Regulation:T37 Cause:T9 Theme:T7
+T38	Positive_regulation 820 829	increased
+E5	Positive_regulation:T38 Theme:T14
+T39	Negative_regulation 894 903	decreased
+E6	Negative_regulation:T39 Theme:T14
+T40	Negative_regulation 1332 1342	decreasing
+E7	Negative_regulation:T40 Theme:T20
+T41	Positive_regulation 1384 1393	increased
+E8	Positive_regulation:T41 Theme:T20
+T42	Positive_regulation 1488 1497	increased
+E9	Positive_regulation:T42 Theme:T22
+T43	Positive_regulation 1592 1600	elevated
+E10	Positive_regulation:T43 Theme:E23
+T44	Regulation 1710 1733	play a significant role
+E11	Regulation:T44 Cause:T27 Theme:E17
+A1	Speculation E11
+E12	Gene_expression:T28 Theme:T29
+T45	Regulation 1819 1823	role
+E13	Regulation:T45 Theme:E32 Cause:T29
+E14	Regulation:T45 Theme:E32 Cause:T30
+E17	Blood_vessel_development:T26 

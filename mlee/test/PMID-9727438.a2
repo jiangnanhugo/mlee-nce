@@ -1,0 +1,23 @@
+T10	Planned_process 478 489	transferred
+E10	Planned_process:T10 Instrument:T11 Theme:T12
+T15	Planned_process 597 605	perfused
+E15	Planned_process:T15 Instrument:T16 Theme:T13
+T19	Planned_process 818 826	perfused
+E19	Planned_process:T19 Theme:T20 Instrument:T21
+T27	Growth 954 960	growth
+E27	Growth:T27 Theme:T28
+T25	Planned_process 41 54	prefabricated
+E1	Planned_process:T25 Theme:T2
+T37	Planned_process 95 100	woven
+E2	Planned_process:T37 Instrument:T2 Theme:T4
+T38	Planned_process 222 227	woven
+E3	Planned_process:T38 Theme:T6 Instrument:T41
+E4	Planned_process:T15 Instrument:T17 Theme:T13
+E5	Planned_process:T19 Theme:T20 Instrument:T22
+T14	Planned_process 904 912	perfused
+E6	Planned_process:T14 Theme:T23
+A1	Negation E6
+T39	Blood_vessel_development 1213 1231	neovascularization
+T40	Planned_process 1347 1361	prefabrication
+E7	Planned_process:T40 Theme:T36
+E8	Blood_vessel_development:T39 

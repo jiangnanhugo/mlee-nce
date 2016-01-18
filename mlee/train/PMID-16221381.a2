@@ -1,0 +1,23 @@
+T12	Blood_vessel_development 384 402	neovascularization
+T2	Development 138 149	progression
+E2	Development:T2 Theme:T4
+T3	Development 122 133	development
+E3	Development:T3 Theme:T4
+T8	Development 311 322	development
+E8	Development:T8 Theme:T10
+T13	Development 418 429	progression
+E13	Development:T13 Theme:T14
+T16	Development 474 483	formation
+E16	Development:T16 Theme:T17
+T22	Development 629 640	development
+E22	Development:T22 Theme:T23
+T26	Development 904 913	formation
+E26	Development:T26 Theme:T27
+T1	Blood_vessel_development 64 82	Neovascularization
+T6	Negative_regulation 367 377	inhibiting
+E1	Negative_regulation:T6 Theme:E6
+E4	Negative_regulation:T6 Theme:E13
+T9	Planned_process 1008 1017	targeting
+E5	Planned_process:T9 Theme:T31
+E6	Blood_vessel_development:T12 AtLoc:T11
+E9	Blood_vessel_development:T1 

@@ -1,0 +1,64 @@
+T33	Blood_vessel_development 2227 2239	angiogenesis
+T35	Blood_vessel_development 2340 2350	angiogenic
+T10	Regulation 516 526	alteration
+E10	Regulation:T10 Theme:T12 Cause:E5
+T13	Development 605 616	development
+E13	Development:T13 Theme:T14
+T30	Growth 2031 2044	proliferative
+E30	Growth:T30 Theme:T31
+R1	frag Arg1:T37 Arg2:T38
+T46	Regulation 53 60	changes
+E1	Regulation:T46 Theme:T45
+T47	Regulation 22 29	effects
+E2	Regulation:T47 Theme:E1
+T48	Regulation 208 215	changes
+E3	Regulation:T48 Theme:T3
+*	Equiv T6 T7
+T50	Regulation 138 145	Effects
+E4	Regulation:T50 Theme:E3 Cause:T6
+A1	Speculation E4
+T51	Planned_process 430 451	X-radiation exposures
+E5	Planned_process:T51 Theme:T9
+E6	Planned_process:T51 Theme:T8
+E7	Regulation:T10 Theme:T12 Cause:E6
+T53	Planned_process 632 639	treated
+E8	Planned_process:T53 Theme:T52 Instrument:T15
+T54	Planned_process 693 702	treatment
+E9	Planned_process:T54 Theme:T52
+A2	Negation E9
+E12	Planned_process:T53 Theme:T52 Instrument:T16
+T56	Regulation 1116 1123	changes
+E14	Regulation:T56 Theme:T55
+T57	Regulation 1211 1218	changes
+E15	Regulation:T57 Cause:T17 Theme:T5
+T58	Regulation 1311 1318	changes
+E16	Regulation:T58 Cause:T19 Theme:T18
+T59	Regulation 1385 1392	changes
+E17	Regulation:T59 Theme:T18 Cause:T20
+T60	Positive_regulation 1420 1429	increased
+E18	Positive_regulation:T60 Theme:E17
+T61	Regulation 1787 1795	affected
+E19	Regulation:T61 Theme:T43
+T62	Regulation 1801 1811	associated
+E20	Regulation:T62 Cause:T26 Theme:T43
+T63	Positive_regulation 1951 1962	enhancement
+E21	Positive_regulation:T63 Theme:T27
+T64	Positive_regulation 2215 2226	stimulating
+E22	Positive_regulation:T64 Theme:E33
+T65	Positive_regulation 2351 2362	stimulation
+E23	Positive_regulation:T65 Theme:E34
+T66	Regulation 2470 2477	effects
+E24	Regulation:T66 Theme:T37
+E25	Regulation:T66 Theme:T38
+T67	Negative_regulation 2451 2459	blocking
+E26	Negative_regulation:T67 Cause:T36 Theme:E24
+E27	Negative_regulation:T67 Cause:T36 Theme:E25
+T68	Breakdown 2532 2538	damage
+E31	Breakdown:T68 Theme:T39
+T69	Breakdown 2633 2639	damage
+E32	Breakdown:T69 Theme:T41
+E33	Blood_vessel_development:T33 
+E34	Blood_vessel_development:T35 
+T11	Positive_regulation 580 587	favored
+E11	Positive_regulation:T11 Theme:E13 Cause:E7
+E35	Positive_regulation:T11 Theme:E13 Cause:E10

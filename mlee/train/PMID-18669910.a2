@@ -1,0 +1,47 @@
+T5	Blood_vessel_development 90 102	angiogenesis
+T1	Planned_process 11 20	injection
+E1	Planned_process:T1 Instrument:T2
+T10	Planned_process 351 366	transplantation
+E10	Planned_process:T10 Instrument:T11
+T18	Localization 686 694	secreted
+E18	Localization:T18 FromLoc:T19 Theme:T20
+T35	Planned_process 1421 1430	injection
+E35	Planned_process:T35 Instrument:T37
+T39	Planned_process 1529 1538	injection
+E39	Planned_process:T39 Instrument:T40
+T41	Planned_process 1607 1616	injection
+E41	Planned_process:T41 Instrument:T42
+T46	Planned_process 1798 1807	injection
+E46	Planned_process:T46 Instrument:T47
+*	Equiv T7 T9
+*	Equiv T11 T12
+*	Equiv T13 T14
+T8	Positive_regulation 70 77	induces
+E2	Positive_regulation:T8 Cause:E1 Theme:E22
+T48	Planned_process 536 544	obtained
+E3	Planned_process:T48 Theme:T15
+E4	Localization:T18 FromLoc:T19 Theme:T21
+T49	Cell_proliferation 956 969	proliferation
+E5	Cell_proliferation:T49 Theme:T24
+T50	Planned_process 1016 1024	obtained
+E6	Planned_process:T50 Theme:T27
+E7	Planned_process:T50 Theme:T26
+T51	Planned_process 1046 1054	injected
+E8	Planned_process:T51 Theme:T1003 Instrument:T27
+E9	Planned_process:T51 Theme:T1003 Instrument:T26
+T52	Planned_process 1348 1356	observed
+E11	Planned_process:T52 Theme:T33
+E12	Planned_process:T52 Theme:T32
+E13	Planned_process:T35 Instrument:T36
+T53	Localization 1497 1509	infiltration
+E14	Localization:T53 Theme:T38
+T55	Cell_proliferation 1645 1667	proliferative response
+E17	Cell_proliferation:T55 Theme:T43
+T56	Positive_regulation 1625 1631	elicit
+E19	Positive_regulation:T56 Cause:E41 Theme:E17
+A1	Negation E19
+T58	Development 272 284	regeneration
+E20	Development:T58 Theme:T57
+T59	Development 289 295	repair
+E21	Development:T59 Theme:T57
+E22	Blood_vessel_development:T5 

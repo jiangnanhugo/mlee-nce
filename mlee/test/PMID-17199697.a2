@@ -1,0 +1,28 @@
+T8	Blood_vessel_development 887 899	angiogenesis
+T10	Remodeling 61 75	reconstruction
+E1	Remodeling:T10 Theme:T2
+*	Equiv T3 T4
+T11	Development 274 280	repair
+E2	Development:T11 Theme:T5
+T12	Development 285 296	restoration
+E3	Development:T12 Theme:T5
+T13	Planned_process 323 330	surgery
+E4	Planned_process:T13 Theme:T5
+T14	Positive_regulation 263 269	induce
+E5	Positive_regulation:T14 Theme:E2
+E6	Positive_regulation:T14 Theme:E3
+T15	Positive_regulation 851 859	assisted
+E7	Positive_regulation:T15 Cause:T7 Theme:E15
+T16	Localization 901 912	recruitment
+E8	Localization:T16 Theme:T9
+E9	Positive_regulation:T15 Cause:T7 Theme:E8
+T18	Growth 545 558	proliferation
+E10	Growth:T18 Theme:T17
+T21	Remodeling 787 798	remodelling
+E11	Remodeling:T21 Theme:T20
+T24	Remodeling 867 878	remodelling
+E12	Remodeling:T24 Theme:T23
+E13	Positive_regulation:T15 Cause:T7 Theme:E12
+T26	Remodeling 962 973	remodelling
+E14	Remodeling:T26 Theme:T25
+E15	Blood_vessel_development:T8 

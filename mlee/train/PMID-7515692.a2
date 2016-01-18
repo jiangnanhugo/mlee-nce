@@ -1,0 +1,25 @@
+T2	Blood_vessel_development 91 103	angiogenesis
+T4	Blood_vessel_development 127 139	angiogenesis
+T17	Blood_vessel_development 480 498	neovascularization
+T20	Blood_vessel_development 738 750	angiogenesis
+T6	Regulation 368 377	mediating
+E6	Regulation:T6 Theme:E9
+T9	Binding 387 395	adhesion
+E9	Binding:T9 Theme:T14
+T11	Breakdown 397 415	matrix dissolution
+E11	Breakdown:T11 Theme:T12
+T13	Localization 430 438	motility
+E13	Localization:T13 Theme:T15
+T7	Localization 450 460	metastasis
+E3	Localization:T7 Theme:T16
+T8	Binding 23 35	interactions
+E1	Binding:T8 Theme:T1
+T10	Binding 307 318	interaction
+E2	Binding:T10 Theme:T5
+E4	Regulation:T6 Theme:E11
+E5	Regulation:T6 Theme:E13
+E7	Regulation:T6 Theme:E12
+E8	Blood_vessel_development:T2 
+E10	Blood_vessel_development:T4 AtLoc:T3
+E12	Blood_vessel_development:T17 AtLoc:T18
+E14	Blood_vessel_development:T20 AtLoc:T19

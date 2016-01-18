@@ -1,0 +1,25 @@
+T13	Blood_vessel_development 1392 1404	angiogenesis
+*	Equiv T4 T5
+T18	Planned_process 68 77	treatment
+E1	Planned_process:T18 Instrument:T2
+E2	Planned_process:T18 Instrument:T1
+T19	Planned_process 403 410	therapy
+E3	Planned_process:T19 Instrument:T4
+E4	Planned_process:T19 Instrument:T3
+T20	Planned_process 506 515	underwent
+E5	Planned_process:T20 Theme:T1000
+T21	Planned_process 576 584	abrasion
+E6	Planned_process:T21 Theme:T6
+T22	Planned_process 610 621	application
+E7	Planned_process:T22 Instrument:T7
+T23	Planned_process 741 748	treated
+E8	Planned_process:T23 Instrument:T8
+T24	Planned_process 789 796	therapy
+E9	Planned_process:T24 Instrument:T9
+T25	Planned_process 848 857	treatment
+E10	Planned_process:T25 Instrument:T11 Instrument:T10
+T26	Planned_process 1621 1628	therapy
+E11	Planned_process:T26 Instrument:T15
+T27	Planned_process 1732 1739	therapy
+E12	Planned_process:T27 Instrument:T17
+E13	Blood_vessel_development:T13 

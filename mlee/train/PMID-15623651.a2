@@ -1,0 +1,72 @@
+T7	Blood_vessel_development 79 91	angiogenesis
+T18	Blood_vessel_development 340 352	angiogenesis
+T51	Blood_vessel_development 1400 1410	angiogenic
+T65	Blood_vessel_development 1902 1912	angiogenic
+T2	Negative_regulation 19 27	inhibits
+E2	Negative_regulation:T2 Cause:T1 Theme:T4
+T5	Growth 67 73	growth
+E5	Growth:T5 Theme:T6
+T15	Gene_expression 238 249	overexpress
+E15	Gene_expression:T15 Theme:T16
+T39	Positive_regulation 1155 1165	activation
+E39	Positive_regulation:T39 Theme:T40 Cause:T34
+T43	Negative_regulation 1211 1220	decreased
+E43	Negative_regulation:T43 Theme:E44 Cause:T42
+T44	Binding 1240 1247	binding
+E44	Binding:T44 Theme:T45
+T46	Regulation 1261 1269	affected
+E46	Regulation:T46 Cause:T42 Theme:E47
+T47	Gene_expression 1274 1284	expression
+E47	Gene_expression:T47 Theme:T48
+T52	Positive_regulation 1425 1438	up-regulation
+E52	Positive_regulation:T52 Theme:T54
+T55	Negative_regulation 1492 1502	inhibition
+E55	Negative_regulation:T55 Theme:E56
+T56	Localization 1541 1550	secretion
+E56	Localization:T56 Theme:T57
+R1	frag Arg1:T40 Arg2:T41
+*	Equiv T20 T21
+E1	Negative_regulation:T2 Cause:T1 Theme:E5
+E3	Negative_regulation:T2 Cause:T1 Theme:E28
+T9	Negative_regulation 486 496	inhibitory
+E4	Negative_regulation:T9 Cause:T20 Theme:T22
+T10	Regulation 679 686	effects
+E6	Regulation:T10 Cause:T25 Theme:T28
+A1	Speculation E6
+T12	Regulation 800 807	effects
+E7	Regulation:T12 Theme:T33 Cause:T29
+A2	Speculation E7
+T13	Planned_process 557 572	clinical trials
+E8	Planned_process:T13 Instrument:T20 Theme:T23
+E9	Planned_process:T13 Instrument:T20 Theme:T24
+E10	Positive_regulation:T39 Theme:T41 Cause:T34
+T17	Regulation 952 961	exhibited
+E11	Regulation:T17 Theme:T35 Cause:T34
+T19	Death 1171 1180	apoptosis
+E12	Death:T19 Theme:T35
+T26	Positive_regulation 1115 1124	induction
+E13	Positive_regulation:T26 Theme:E39 Cause:T34
+E14	Positive_regulation:T26 Theme:E10 Cause:T34
+E16	Positive_regulation:T26 Theme:E12 Cause:T34
+E17	Gene_expression:T47 Theme:T49
+E18	Gene_expression:T47 Theme:T50
+E19	Regulation:T46 Cause:T42 Theme:E17
+E20	Regulation:T46 Cause:T42 Theme:E18
+T27	Regulation 1674 1681	effects
+E21	Regulation:T27 Cause:T58 Theme:E55
+E22	Regulation:T27 Cause:T58 Theme:E52
+T31	Negative_regulation 1913 1921	activity
+E23	Negative_regulation:T31 Cause:T64 Theme:E31
+T32	Planned_process 2061 2070	treatment
+E24	Planned_process:T32 Theme:T70 Instrument:T67 Instrument:T66
+T37	Death 415 420	death
+E25	Death:T37 Theme:T36
+T38	Positive_regulation 402 409	induced
+E26	Positive_regulation:T38 Theme:E25
+E27	Regulation:T12 Theme:T33 Cause:T30
+A3	Speculation E27
+E28	Blood_vessel_development:T7 AtLoc:T11
+E29	Blood_vessel_development:T18 
+E30	Blood_vessel_development:T51 
+E31	Blood_vessel_development:T65 AtLoc:T62
+E32	Negative_regulation:T31 Cause:T64 Theme:T53

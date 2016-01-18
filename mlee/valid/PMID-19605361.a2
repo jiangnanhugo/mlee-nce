@@ -1,0 +1,64 @@
+T1	Pathway 10 19	signaling
+T20	Pathway 569 586	signaling pathway
+T27	Pathway 698 707	signaling
+T39	Pathway 1194 1203	signaling
+T5	Localization 47 56	migration
+E5	Localization:T5 Theme:T6
+T12	Localization 266 275	migration
+E12	Localization:T12 Theme:T13
+T23	Localization 593 602	migration
+E23	Localization:T23 Theme:T25
+T26	Positive_regulation 674 684	activation
+E26	Positive_regulation:T26 Theme:E30
+T31	Localization 729 738	migration
+E31	Localization:T31 Theme:T33
+T36	Negative_regulation 1078 1085	reduced
+E36	Negative_regulation:T36 Theme:E37
+T37	Gene_expression 1086 1096	expression
+E37	Gene_expression:T37 Theme:T38
+T45	Localization 1278 1287	migration
+E45	Localization:T45 Theme:T48
+*	Equiv T9 T10
+T14	Regulation 20 29	modulates
+E1	Regulation:T14 Cause:E28 Theme:E5
+T30	Development 90 99	formation
+E2	Development:T30 Theme:T8
+T41	Gene_expression 453 463	deficiency
+E3	Gene_expression:T41 Theme:T15
+A1	Negation E3
+T44	Negative_regulation 495 502	defects
+E6	Negative_regulation:T44 Theme:T19
+T49	Positive_regulation 476 483	results
+E8	Positive_regulation:T49 Cause:E3 Theme:E6
+T50	Negative_regulation 717 725	inhibits
+E9	Negative_regulation:T50 Theme:E31 Cause:E26
+T51	Localization 805 811	spread
+E10	Localization:T51 Theme:T34
+T55	Death 1231 1239	survival
+E17	Death:T55 Theme:T43
+A2	Negation E17
+T56	Regulation 1216 1224	involved
+E19	Regulation:T56 Cause:E33 Theme:E17
+T57	Regulation 1269 1277	controls
+E20	Regulation:T57 Cause:E33 Theme:E45
+E21	Regulation:T57 Cause:E33 Theme:T48
+T59	Localization 1139 1148	migration
+E22	Localization:T59 Theme:T58
+T61	Localization 985 993	motility
+E25	Localization:T61 Theme:T60
+T62	Negative_regulation 977 984	reduced
+E27	Negative_regulation:T62 Theme:E25
+E28	Pathway:T1 Participant:T2 Participant2:T3
+E29	Pathway:T20 Participant:T21 Participant2:T22
+E30	Pathway:T27 Participant:T28 Participant2:T29
+E33	Pathway:T39 Participant:T40
+T4	Remodeling 172 185	restructuring
+E4	Remodeling:T4 Theme:T9
+E7	Remodeling:T4 Theme:T17
+T7	Positive_regulation 144 152	requires
+E34	Positive_regulation:T7 Theme:E2 Cause:E7
+E35	Positive_regulation:T7 Theme:E2 Cause:E4
+T11	Regulation 545 551	impact
+E11	Regulation:T11 Cause:E29 Theme:E23
+T24	Remodeling 899 911	organization
+E18	Remodeling:T24 Theme:T18

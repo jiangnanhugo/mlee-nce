@@ -1,0 +1,22 @@
+T12	Blood_vessel_development 410 422	angiogenesis
+T6	Development 332 343	progression
+E6	Development:T6 Theme:T7
+T8	Negative_regulation 354 364	inhibition
+E8	Negative_regulation:T8 Theme:E9 Cause:T5
+T9	Death 381 390	apoptosis
+E9	Death:T9 Theme:T10
+R1	frag Arg1:T17 Arg2:T23	
+*	Equiv T1 T2
+*	Equiv T3 T4
+T29	Regulation 310 320	associated
+E1	Regulation:T29 Theme:E6 Cause:T5
+T30	Positive_regulation 395 406	stimulation
+E2	Positive_regulation:T30 Cause:T5 Theme:E7
+T31	Planned_process 434 441	therapy
+E3	Planned_process:T31 Theme:T32 Instrument:T36
+T33	Positive_regulation 540 548	elevated
+E4	Positive_regulation:T33 Theme:T14
+T35	Death 761 769	survival
+E5	Death:T35 Theme:T1001
+A1	Negation E5
+E7	Blood_vessel_development:T12 

@@ -1,0 +1,48 @@
+T11	Blood_vessel_development 182 194	angiogenesis
+T4	Development 48 57	formation
+E4	Development:T4 Theme:T5
+T21	Planned_process 455 463	addition
+E21	Planned_process:T21 Instrument:T22
+T26	Development 499 508	formation
+E26	Development:T26 Theme:T27
+T33	Positive_regulation 620 630	stimulated
+E33	Positive_regulation:T33 Cause:T34 Theme:E36
+T36	Development 643 652	formation
+E36	Development:T36 Theme:T37
+T39	Negative_regulation 670 683	sequestration
+E39	Negative_regulation:T39 Theme:T40
+T53	Positive_regulation 963 974	upregulates
+E53	Positive_regulation:T53 Theme:E54 Cause:T52
+T54	Gene_expression 981 991	expression
+E54	Gene_expression:T54 Theme:T55
+R1	frag Arg1:T29 Arg2:T31
+R2	frag Arg1:T27 Arg2:T31
+*	Equiv T8 T9
+*	Equiv T41 T42
+T2	Positive_regulation 27 35	promotes
+E1	Positive_regulation:T2 Cause:T1 Theme:E4
+T10	Regulation 159 163	play
+E2	Regulation:T10 Theme:E19 Cause:T7
+E5	Regulation:T10 Theme:E19 Cause:T8
+T14	Planned_process 224 232	cultured
+E6	Planned_process:T14 Theme:T13
+T23	Positive_regulation 484 494	stimulated
+E7	Positive_regulation:T23 Cause:E21 Theme:E26
+E8	Development:T26 Theme:T29
+E9	Development:T26 Theme:T31
+E10	Positive_regulation:T23 Cause:E21 Theme:E8
+E11	Positive_regulation:T23 Cause:E21 Theme:E9
+T24	Negative_regulation 657 666	inhibited
+E12	Negative_regulation:T24 Cause:E39 Theme:E36
+T38	Planned_process 696 704	addition
+E13	Planned_process:T38 Instrument:T41
+E14	Planned_process:T38 Instrument:T43
+T47	Positive_regulation 856 865	increased
+E15	Positive_regulation:T47 Theme:T49
+A1	Negation E15
+E16	Positive_regulation:T47 Theme:T48
+T58	Planned_process 885 893	cultured
+E17	Planned_process:T58 Instrument:T51 Theme:T50
+T59	Regulation 1040 1050	responsive
+E18	Regulation:T59 Cause:T57 Theme:E54
+E19	Blood_vessel_development:T11 FromLoc:T12

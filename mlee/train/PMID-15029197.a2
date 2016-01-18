@@ -1,0 +1,54 @@
+T8	Blood_vessel_development 79 91	angiogenesis
+T13	Blood_vessel_development 333 345	angiogenesis
+T18	Blood_vessel_development 521 533	angiogenesis
+T25	Blood_vessel_development 665 677	angiogenesis
+T47	Blood_vessel_development 1186 1198	angiogenesis
+T3	Regulation 45 54	regulates
+E3	Regulation:T3 Cause:T2 Theme:E5
+T5	Growth 68 74	growth
+E5	Growth:T5 Theme:T6
+T15	Growth 510 516	growth
+E15	Growth:T15 Theme:T16
+T22	Growth 654 660	growth
+E22	Growth:T22 Theme:T23
+T26	Gene_expression 679 689	Expression
+E26	Gene_expression:T26 Theme:T27
+T33	Negative_regulation 937 946	decreased
+E33	Negative_regulation:T33 Theme:E34
+T34	Gene_expression 947 957	expression
+E34	Gene_expression:T34 Theme:T35
+T38	Binding 1086 1095	interacts
+*	Equiv T40 T41
+E1	Regulation:T3 Cause:T2 Theme:E20
+T7	Positive_regulation 320 329	induction
+E2	Positive_regulation:T7 Theme:E21
+T17	Development 403 424	malignant progression
+E4	Development:T17 Theme:T14
+T21	Regulation 483 493	regulation
+E6	Regulation:T21 Theme:E15
+E7	Regulation:T21 Theme:E23
+T24	Regulation 630 640	regulating
+E8	Regulation:T24 Theme:E22
+E9	Regulation:T24 Theme:E24
+T31	Negative_regulation 715 722	reduced
+E10	Negative_regulation:T31 Cause:E26 Theme:T28
+T44	Negative_regulation 796 805	reduction
+E11	Negative_regulation:T44 Theme:T28
+T46	Development 826 837	progression
+E12	Development:T46 Theme:T30
+T52	Growth 967 971	grow
+E13	Growth:T52 Theme:T36
+E14	Binding:T38 Theme:T39 Theme:T40
+T53	Regulation 1163 1172	regulates
+E16	Regulation:T53 Theme:E25
+T54	Regulation 1298 1319	has an important role
+E17	Regulation:T54 Cause:T50 Theme:E18
+T55	Development 1336 1348	pathogenesis
+E18	Development:T55 Theme:T51
+T56	Negative_regulation 21 31	suppressor
+E19	Negative_regulation:T56 Theme:T1 Cause:T2
+E20	Blood_vessel_development:T8 AtLoc:T6
+E21	Blood_vessel_development:T13 AtLoc:T14
+E23	Blood_vessel_development:T18 AtLoc:T16
+E24	Blood_vessel_development:T25 AtLoc:T23
+E25	Blood_vessel_development:T47 AtLoc:T45

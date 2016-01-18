@@ -1,0 +1,31 @@
+T32	Blood_vessel_development 1230 1242	angiogenesis
+T2	Localization 56 65	migration
+E2	Localization:T2 Theme:T3
+T5	Localization 72 81	migration
+E5	Localization:T5 Theme:T6
+T11	Remodeling 154 164	remodeling
+E11	Remodeling:T11 Theme:T12
+T14	Localization 220 229	migration
+E14	Localization:T14 Theme:T15
+T24	Localization 1059 1068	migration
+E24	Localization:T24 Theme:T25
+T27	Localization 1150 1159	migration
+E27	Localization:T27 Theme:T28
+T30	Localization 1213 1222	migration
+E30	Localization:T30 Theme:T31
+*	Equiv T6 T8
+T7	Regulation 118 141	plays an important role
+E3	Regulation:T7 Cause:E5 Theme:E11
+T9	Planned_process 254 263	culturing
+E6	Planned_process:T9 Theme:T41
+T16	Localization 685 692	migrate
+E7	Localization:T16 Theme:T20
+T36	Positive_regulation 1048 1055	promote
+E12	Positive_regulation:T36 Theme:E24
+T34	Regulation 0 7	Effects
+E8	Regulation:T34 Theme:E2
+T35	Regulation 1120 1124	role
+E9	Regulation:T35 Theme:E27
+T39	Localization 993 1002	migration
+E15	Localization:T39 Theme:T38
+E16	Blood_vessel_development:T32 

@@ -1,0 +1,48 @@
+T4	Blood_vessel_development 36 51	vascularization
+T7	Pathway 99 106	pathway
+T22	Blood_vessel_development 606 618	angiogenesis
+T33	Blood_vessel_development 873 885	angiogenesis
+T6	Positive_regulation 69 79	activation
+E6	Positive_regulation:T6 Theme:E19
+T13	Gene_expression 291 301	expression
+E13	Gene_expression:T13 Theme:T14
+T20	Positive_regulation 585 596	Stimulation
+E20	Positive_regulation:T20 Theme:E17
+T23	Positive_regulation 651 659	increase
+E23	Positive_regulation:T23 Theme:T24
+T35	Gene_expression 896 906	expressing
+E35	Gene_expression:T35 Theme:T36
+T37	Positive_regulation 965 973	increase
+E37	Positive_regulation:T37 Theme:T38
+T39	Positive_regulation 1031 1044	up-regulation
+E39	Positive_regulation:T39 Theme:T40
+*	Equiv T24 T25
+*	Equiv T26 T27
+T2	Positive_regulation 21 29	increase
+E1	Positive_regulation:T2 Theme:E15 Cause:E6
+T17	Positive_regulation 60 68	mediated
+E2	Positive_regulation:T17 Theme:E6 Cause:T5
+T41	Positive_regulation 466 475	increased
+E3	Positive_regulation:T41 Theme:T42
+T18	Positive_regulation 559 570	accelerated
+E4	Positive_regulation:T18 Theme:E5 Cause:E3
+T43	Growth 577 583	growth
+E5	Growth:T43 Theme:T19
+T44	Negative_regulation 756 765	decreased
+E7	Negative_regulation:T44 Theme:T29 Cause:T26
+T45	Development 791 797	formed
+E8	Development:T45 Theme:T30
+T46	Negative_regulation 812 823	inactivated
+E9	Negative_regulation:T46 Theme:T31 Cause:T26
+T47	Negative_regulation 832 841	inhibited
+E10	Negative_regulation:T47 Theme:E11 Cause:T26
+T48	Growth 848 854	growth
+E11	Growth:T48 Theme:T30
+T49	Regulation 856 862	Effect
+E12	Regulation:T49 Theme:E18 Cause:T32
+T51	Regulation 1015 1026	responsible
+E14	Regulation:T51 Theme:T38 Cause:E39
+E15	Blood_vessel_development:T4 AtLoc:T3
+E17	Blood_vessel_development:T22 AtLoc:T21
+E18	Blood_vessel_development:T33 AtLoc:T34
+E19	Pathway:T7 Participant:T8 Participant2:T9

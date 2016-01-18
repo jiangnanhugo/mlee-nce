@@ -1,0 +1,34 @@
+T1	Blood_vessel_development 30 40	angiogenic
+T14	Blood_vessel_development 330 340	angiogenic
+T25	Blood_vessel_development 553 563	angiogenic
+T30	Blood_vessel_development 660 670	angiogenic
+T43	Blood_vessel_development 960 970	angiogenic
+T8	Cell_proliferation 234 247	proliferation
+E8	Cell_proliferation:T8 Theme:T11
+T10	Localization 252 261	migration
+E10	Localization:T10 Theme:T11
+T39	Gene_expression 850 864	overexpression
+E39	Gene_expression:T39 Theme:T40
+*	Equiv T34 T35
+*	Equiv T19 T20
+*	Equiv T11 T13
+*	Equiv T17 T18
+T3	Positive_regulation 211 230	Stimulatory effects
+E1	Positive_regulation:T3 Theme:E8
+E2	Positive_regulation:T3 Theme:E10
+T5	Blood_vessel_development 139 149	angiogenic
+T6	Negative_regulation 531 542	Attenuation
+E3	Negative_regulation:T6 Theme:E15 Cause:T26
+T16	Regulation 618 633	play a key role
+E5	Regulation:T16 Cause:T28 Theme:E16
+T22	Negative_regulation 821 834	function loss
+E6	Negative_regulation:T22 Cause:E39 Theme:T38
+T24	Regulation 1004 1012	mediated
+E11	Regulation:T24 Theme:E17 Cause:T48
+E12	Regulation:T24 Theme:E17 Cause:T49
+E13	Blood_vessel_development:T1 
+E14	Blood_vessel_development:T14 
+E15	Blood_vessel_development:T25 
+E16	Blood_vessel_development:T30 
+E17	Blood_vessel_development:T43 
+E18	Blood_vessel_development:T5 

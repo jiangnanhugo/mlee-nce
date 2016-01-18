@@ -1,0 +1,24 @@
+T10	Pathway 496 513	signaling pathway
+T13	Pathway 555 564	signaling
+T30	Pathway 1301 1308	pathway
+T17	Gene_expression 653 664	overexpress
+E17	Gene_expression:T17 Theme:T19
+T29	Regulation 1265 1270	alter
+E29	Regulation:T29 Theme:E10
+T7	Growth 389 395	growth
+E1	Growth:T7 Theme:T9
+T20	Negative_regulation 453 465	inactivating
+E2	Negative_regulation:T20 Theme:E8
+T24	Localization 752 762	metastasis
+E3	Localization:T24 Theme:T18
+T32	Positive_regulation 729 738	increased
+E4	Positive_regulation:T32 Cause:E17 Theme:E3
+T33	Regulation 926 930	role
+E5	Regulation:T33 Cause:T22 Theme:T23
+T34	Positive_regulation 1017 1026	promoting
+E6	Positive_regulation:T34 Cause:T25 Theme:T26
+T35	Localization 1031 1041	metastasis
+E7	Localization:T35 Theme:T26
+E8	Pathway:T10 Participant:T11
+E9	Pathway:T13 Participant:T14
+E10	Pathway:T30 Participant:T31

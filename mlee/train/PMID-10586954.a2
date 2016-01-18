@@ -1,0 +1,64 @@
+T1	Gene_expression 51 61	expression
+E1	Gene_expression:T1 Theme:T3
+T10	Gene_expression 525 535	expression
+E10	Gene_expression:T10 Theme:T12
+T14	Gene_expression 597 607	expression
+E14	Gene_expression:T14 Theme:T15
+T18	Gene_expression 753 763	expression
+E18	Gene_expression:T18 Theme:T19
+T30	Cell_proliferation 1019 1032	proliferation
+E30	Cell_proliferation:T30 Theme:T31
+T44	Planned_process 1423 1432	treatment
+E44	Planned_process:T44 Instrument:T45
+T52	Cell_proliferation 1649 1662	proliferation
+E52	Cell_proliferation:T52 Theme:T53
+T61	Transcription 1837 1850	transcription
+E61	Transcription:T61 Theme:T62
+T64	Gene_expression 2004 2014	expression
+E64	Gene_expression:T64 Theme:T66
+*	Equiv T7 T8
+T11	Positive_regulation 8 15	induced
+E2	Positive_regulation:T11 Cause:T2 Theme:E1
+T22	Planned_process 141 148	therapy
+E3	Planned_process:T22 Instrument:T5
+T32	Regulation 486 492	effect
+E4	Regulation:T32 Cause:T9 Theme:E10
+A1	Speculation E4
+T54	Regulation 571 577	effect
+E5	Regulation:T54 Cause:T13 Theme:E14
+A2	Speculation E5
+T55	Regulation 738 747	regulates
+E6	Regulation:T55 Theme:E18 Cause:T17
+A3	Speculation E6
+T65	Planned_process 815 822	exposed
+E7	Planned_process:T65 Theme:T20 Instrument:T23
+T67	Planned_process 940 947	treated
+E8	Planned_process:T67 Instrument:T26 Theme:T27
+T68	Planned_process 963 970	assayed
+E9	Planned_process:T68 Theme:T27
+T69	Positive_regulation 1061 1070	stimulate
+E11	Positive_regulation:T69 Site:T70 Cause:T33 Theme:T34
+T71	Planned_process 1089 1095	linked
+E12	Planned_process:T71 Instrument:T21 Instrument:T70
+T72	Positive_regulation 1195 1204	increased
+E13	Positive_regulation:T72 Cause:T35 Theme:T36
+T73	Positive_regulation 1343 1351	enhanced
+E15	Positive_regulation:T73 Site:T74 Cause:T40 Theme:T43
+T75	Positive_regulation 1293 1302	increased
+E16	Positive_regulation:T75 Cause:T40 Theme:T41
+T76	Positive_regulation 1438 1447	increased
+E17	Positive_regulation:T76 Cause:E44 Theme:T46
+T77	Positive_regulation 1611 1621	stimulated
+E19	Positive_regulation:T77 Theme:E52
+T78	Negative_regulation 1694 1701	blocked
+E20	Negative_regulation:T78 Cause:T56 Theme:E19
+T79	Positive_regulation 1759 1768	increases
+E21	Positive_regulation:T79 Theme:T58 Cause:E22
+T60	Positive_regulation 1828 1836	enhanced
+E22	Positive_regulation:T60 Cause:T57 Theme:E61
+T80	Planned_process 1887 1894	therapy
+E23	Planned_process:T80 Instrument:T63 Theme:T1004
+T81	Positive_regulation 1976 1985	increased
+E24	Positive_regulation:T81 Cause:E23 Theme:E64
+R1	frag Arg1:T38 Arg2:T39	
+R2	frag Arg1:T37 Arg2:T39	

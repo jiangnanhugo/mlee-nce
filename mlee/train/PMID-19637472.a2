@@ -1,0 +1,39 @@
+T1	Blood_vessel_development 26 38	angiogenesis
+T8	Blood_vessel_development 214 226	angiogenesis
+T22	Blood_vessel_development 885 897	angiogenesis
+T25	Blood_vessel_development 961 978	revascularization
+T26	Blood_vessel_development 1227 1239	angiogenesis
+T30	Blood_vessel_development 1321 1333	angiogenesis
+T3	Planned_process 102 114	implantation
+E3	Planned_process:T3 Instrument:T4 Theme:T2
+T16	Planned_process 568 580	implantation
+E16	Planned_process:T16 Instrument:T17
+T27	Planned_process 1299 1311	implantation
+E27	Planned_process:T27 Instrument:T28
+T13	Regulation 147 153	effect
+E1	Regulation:T13 Theme:E10 Cause:E7
+T29	Planned_process 357 364	removed
+E2	Planned_process:T29 Theme:T9
+T32	Planned_process 407 417	peeled off
+E4	Planned_process:T32 Theme:T11
+T33	Planned_process 596 602	placed
+E6	Planned_process:T33 Instrument:T18 Theme:T19
+T7	Planned_process 173 185	implantation
+E7	Planned_process:T7 Instrument:T6
+T34	Planned_process 651 661	sacrificed
+E5	Planned_process:T34 Theme:T1002
+T35	Positive_regulation 1312 1320	improved
+E8	Positive_regulation:T35 Cause:E27 Theme:E14
+E9	Blood_vessel_development:T1 AtLoc:T2
+E10	Blood_vessel_development:T8 AtLoc:T31
+E11	Blood_vessel_development:T22 Theme:T21 AtLoc:T23
+E12	Blood_vessel_development:T25 AtLoc:T24
+E13	Blood_vessel_development:T26 
+E14	Blood_vessel_development:T30 AtLoc:T5
+T36	Blood_vessel_development 46 58	vascularized
+E15	Blood_vessel_development:T36 AtLoc:T2
+A2	Negation E15
+T37	Blood_vessel_development 1341 1353	vascularized
+E17	Blood_vessel_development:T37 AtLoc:T5
+A3	Negation E17
+A1	Speculation E1

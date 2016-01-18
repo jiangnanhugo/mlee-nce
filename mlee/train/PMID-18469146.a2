@@ -1,0 +1,101 @@
+T3	Pathway 46 60	cell signaling
+T6	Blood_vessel_development 98 110	angiogenesis
+T12	Blood_vessel_development 365 377	angiogenesis
+T19	Blood_vessel_development 555 567	angiogenesis
+T20	Blood_vessel_development 614 626	angiogenesis
+T59	Blood_vessel_development 1524 1536	angiogenesis
+T67	Blood_vessel_development 1847 1859	angiogenesis
+T2	Negative_regulation 23 31	disrupts
+E2	Negative_regulation:T2 Cause:E1 Theme:E55
+T34	Negative_regulation 936 945	decreased
+E34	Negative_regulation:T34 Cause:E19 Theme:E38
+E35	Negative_regulation:T34 Cause:E19 Theme:E36
+T36	Gene_expression 946 956	expression
+E36	Gene_expression:T36 Theme:T37
+T38	Phosphorylation 1016 1031	phosphorylation
+E38	Phosphorylation:T38 Theme:T39
+T40	Negative_regulation 1042 1052	Inhibition
+E40	Negative_regulation:T40 Theme:E20 Cause:T43
+T63	Negative_regulation 1701 1711	diminished
+E63	Negative_regulation:T63 Theme:T64 Cause:T62
+T26	Planned_process 14 22	exposure
+E1	Planned_process:T26 Instrument:T1
+T31	Regulation 114 123	regulated
+E3	Regulation:T31 Theme:E48 Cause:T7
+T47	Negative_regulation 357 364	impairs
+E4	Negative_regulation:T47 Theme:E49 Cause:T9
+T52	Regulation 447 454	effects
+E5	Regulation:T52 Cause:T14 Theme:E56
+T58	Regulation 544 554	influences
+E6	Regulation:T58 Theme:E50 Cause:T17
+A1	Speculation E6
+T66	Planned_process 669 677	exposure
+E7	Planned_process:T66 Instrument:T21
+T71	Regulation 714 721	effects
+E8	Regulation:T71 Cause:E7 Theme:E10
+T72	Positive_regulation 730 737	induced
+E9	Positive_regulation:T72 Cause:T23 Theme:E10
+T73	Development 756 765	formation
+E10	Development:T73 Theme:T24
+T74	Planned_process 775 783	exposure
+E11	Planned_process:T74 Instrument:T25
+T75	Negative_regulation 796 803	reduced
+E12	Negative_regulation:T75 Theme:E14
+T76	Positive_regulation 784 792	resulted
+E13	Positive_regulation:T76 Cause:E11 Theme:E12
+T77	Development 822 831	formation
+E14	Development:T77 Theme:T29
+T78	Positive_regulation 809 816	induced
+E16	Positive_regulation:T78 Cause:T28 Theme:E14
+T79	Negative_regulation 848 855	reduced
+E17	Negative_regulation:T79 Theme:T32
+E18	Positive_regulation:T76 Cause:E11 Theme:E17
+T80	Planned_process 927 935	exposure
+E19	Planned_process:T80 Instrument:T33
+T81	Metabolism 1064 1074	metabolism
+E20	Metabolism:T81 Theme:T42
+T82	Regulation 1119 1125	effect
+E21	Regulation:T82 Cause:T44 Theme:E23
+T83	Development 1162 1171	formation
+E23	Development:T83 Theme:T46
+T84	Negative_regulation 1105 1114	abrogated
+E24	Negative_regulation:T84 Cause:E40 Theme:E21
+T85	Planned_process 1187 1194	treated
+E25	Planned_process:T85 Theme:T1001 Instrument:T48
+T86	Metabolism 1226 1237	metabolized
+E26	Metabolism:T86 Theme:T48
+T87	Positive_regulation 1226 1237	metabolized
+E28	Positive_regulation:T87 Cause:T50 Theme:E26
+T88	Metabolism 1353 1363	metabolism
+E29	Metabolism:T88 Theme:T51
+T89	Positive_regulation 1416 1423	induced
+E31	Positive_regulation:T89 Cause:T53 Theme:E33
+T90	Regulation 1452 1466	responsiveness
+E32	Regulation:T90 Cause:T56 Theme:T55
+T91	Regulation 1424 1431	changes
+E33	Regulation:T91 Theme:E32
+T92	Regulation 1368 1377	important
+E37	Regulation:T92 Cause:E29 Theme:E33
+T93	Planned_process 1493 1501	exposure
+E39	Planned_process:T93 Instrument:T57
+T94	Negative_regulation 1514 1523	decreased
+E41	Negative_regulation:T94 Cause:E39 Theme:E52
+T95	Planned_process 1816 1824	exposure
+E42	Planned_process:T95 Instrument:T65
+T96	Negative_regulation 1839 1846	impairs
+E43	Negative_regulation:T96 Cause:E42 Theme:E53
+T97	Regulation 1892 1900	mediated
+E44	Regulation:T97 Cause:E46 Theme:E43
+T98	Regulation 1904 1911	changes
+E46	Regulation:T98 Theme:E47
+T99	Regulation 1932 1946	responsiveness
+E47	Regulation:T99 Theme:T69 Cause:T70
+E48	Blood_vessel_development:T6 
+E49	Blood_vessel_development:T12 AtLoc:T100
+E50	Blood_vessel_development:T19 AtLoc:T101
+E51	Blood_vessel_development:T20 
+E52	Blood_vessel_development:T59 AtLoc:T102
+E53	Blood_vessel_development:T67 
+E55	Pathway:T3 Participant:T4
+T11	Pathway 486 495	signaling
+E56	Pathway:T11 

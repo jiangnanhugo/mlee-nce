@@ -1,0 +1,58 @@
+T11	Blood_vessel_development 278 290	angiogenesis
+T2	Development 86 95	formation
+E2	Development:T2 Theme:T4
+T17	Regulation 643 651	ruffling
+E17	Regulation:T17 Theme:T47
+T18	Development 656 665	formation
+E18	Development:T18 Theme:T19
+T24	Negative_regulation 773 782	abolishes
+E24	Negative_regulation:T24 Theme:E25
+T25	Binding 798 802	bind
+E25	Binding:T25 Theme:T26 Theme:T23
+T27	Development 857 866	formation
+E27	Development:T27 Theme:T29
+T30	Gene_expression 1017 1027	expression
+E30	Gene_expression:T30 Theme:T31
+T32	Binding 1096 1100	bind
+E32	Binding:T32 Theme:T34 Theme:T31 Theme2:T35
+T44	Development 1347 1356	formation
+E44	Development:T44 Theme:T45
+T49	Development 1495 1507	organization
+E49	Development:T49 Theme:T51
+T50	Localization 1481 1490	migration
+E50	Localization:T50 Theme:T51
+T53	Development 1525 1534	formation
+E53	Development:T53 Theme:T54
+T55	Regulation 1539 1547	modulate
+E55	Regulation:T55 Theme:T57 Cause:E22
+*	Equiv T6 T7
+T9	Regulation 41 49	involved
+E1	Regulation:T9 Cause:T1 Theme:E2
+E3	Development:T2 Theme:T3
+E4	Regulation:T9 Cause:T1 Theme:E3
+T10	Gene_expression 174 183	expressed
+E5	Gene_expression:T10 Theme:T6
+T21	Planned_process 443 452	expressed
+E6	Planned_process:T21 Theme:T14
+T33	Gene_expression 590 600	Expression
+E7	Gene_expression:T33 Theme:T16
+T39	Positive_regulation 619 626	induces
+E8	Positive_regulation:T39 Cause:E7 Theme:E17
+E9	Positive_regulation:T39 Cause:E7 Theme:E18
+T59	Regulation 825 831	affect
+E10	Regulation:T59 Theme:E27
+A1	Negation E10
+T61	Binding 1183 1187	bind
+E11	Binding:T61 Theme:T37 Site:T36
+T64	Positive_regulation 1210 1216	induce
+E14	Positive_regulation:T64 Cause:T37 Theme:T38
+T66	Negative_regulation 1459 1468	influence
+E20	Negative_regulation:T66 Cause:T46 Theme:E50
+E21	Negative_regulation:T66 Cause:T46 Theme:E49
+T67	Regulation 1574 1581	effects
+E22	Regulation:T67 Cause:T46 Theme:T58
+E23	Blood_vessel_development:T11 
+R1	frag Arg1:T45 Arg2:T41	
+E19	Development:T44 Theme:T41
+T28	Regulation 333 340	changes
+E26	Regulation:T28 Theme:T12

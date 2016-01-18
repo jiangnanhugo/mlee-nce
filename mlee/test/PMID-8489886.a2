@@ -1,0 +1,6 @@
+T3	Blood_vessel_development 717 729	angiogenesis
+T2	Positive_regulation 709 716	promote
+E2	Positive_regulation:T2 Theme:E3
+T5	Negative_regulation 690 698	decrease
+E1	Negative_regulation:T5 Theme:T4
+E3	Blood_vessel_development:T3 

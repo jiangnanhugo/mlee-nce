@@ -1,0 +1,37 @@
+T2	Blood_vessel_development 43 55	angiogenesis
+T8	Blood_vessel_development 196 206	angiogenic
+T17	Blood_vessel_development 502 512	angiogenic
+T31	Blood_vessel_development 940 952	angiogenesis
+T35	Blood_vessel_development 1075 1085	angiogenic
+T14	Negative_regulation 477 487	inhibition
+E14	Negative_regulation:T14 Theme:E15
+T15	Growth 470 476	growth
+E15	Growth:T15 Theme:T16
+T21	Negative_regulation 634 643	retarding
+E21	Negative_regulation:T21 Theme:E22 Cause:T20
+T22	Growth 648 654	growth
+E22	Growth:T22 Theme:T23
+T25	Negative_regulation 799 809	inhibition
+E25	Negative_regulation:T25 Theme:T26
+*	Equiv T5 T6
+*	Equiv T10 T11
+*	Equiv T12 T13
+E1	Negative_regulation:T21 Theme:E22 Cause:T19
+T3	Planned_process 762 769	treated
+E2	Planned_process:T3 Instrument:T24
+T7	Regulation 846 860	active against
+E3	Regulation:T7 Cause:T27 Theme:T28
+T29	Negative_regulation 957 967	restricted
+E4	Negative_regulation:T29 Theme:E9 Cause:T33
+E5	Negative_regulation:T29 Theme:E9 Cause:T34
+E6	Blood_vessel_development:T2 
+E7	Blood_vessel_development:T8 
+E8	Blood_vessel_development:T17 
+E9	Blood_vessel_development:T31 
+E10	Blood_vessel_development:T35 
+T32	Negative_regulation 513 522	potential
+E11	Negative_regulation:T32 Theme:E8 Cause:T18
+A1	Speculation E11
+T36	Negative_regulation 1086 1094	activity
+E12	Negative_regulation:T36 Theme:E10 Cause:T34
+E13	Negative_regulation:T36 Theme:E10 Cause:T33

@@ -1,0 +1,68 @@
+T8	Blood_vessel_development 150 162	angiogenesis
+T13	Blood_vessel_development 236 248	angiogenesis
+T17	Blood_vessel_development 340 352	angiogenesis
+T21	Blood_vessel_development 430 442	angiogenesis
+T69	Blood_vessel_development 2096 2108	angiogenesis
+T75	Blood_vessel_development 2223 2235	angiogenesis
+T1	Gene_expression 0 12	Coexpression
+E1	Gene_expression:T1 Theme:T2 Theme:T3
+T14	Gene_expression 298 308	expression
+E14	Gene_expression:T14 Theme:T15
+T18	Gene_expression 370 382	coexpression
+E18	Gene_expression:T18 Theme:T19 Theme:T20
+T26	Gene_expression 617 627	expression
+E26	Gene_expression:T26 Theme:T27
+T39	Gene_expression 1120 1130	expression
+E39	Gene_expression:T39 Theme:T40
+T41	Gene_expression 1170 1180	expression
+E41	Gene_expression:T41 Theme:T42
+T43	Gene_expression 1263 1274	coexpressed
+E43	Gene_expression:T43 Theme:T45 Theme:T44
+T47	Localization 1310 1318	invasion
+E47	Localization:T47 Theme:T48
+T50	Gene_expression 1431 1441	expression
+E50	Gene_expression:T50 Theme:T51
+T53	Gene_expression 1517 1529	coexpression
+E53	Gene_expression:T53 Theme:T55 Theme:T54
+T58	Gene_expression 1748 1758	expression
+E58	Gene_expression:T58 Theme:T59
+T63	Gene_expression 1867 1879	coexpression
+E63	Gene_expression:T63 Theme:T65 Theme:T64
+T66	Gene_expression 2066 2076	expression
+E66	Gene_expression:T66 Theme:T67
+T71	Gene_expression 2164 2176	coexpression
+E71	Gene_expression:T71 Theme:T72 Theme:T73
+*	Equiv T9 T10
+T30	Regulation 128 140	plays a role
+E2	Regulation:T30 Theme:E15 Cause:T6
+T49	Regulation 210 226	plays a key role
+E3	Regulation:T49 Cause:T9 Theme:E16
+T68	Regulation 324 336	participates
+E4	Regulation:T68 Cause:E14 Theme:E17
+T74	Regulation 413 425	significance
+E5	Regulation:T74 Cause:E18 Theme:E19
+A1	Speculation E4
+*	Equiv T22 T23
+E6	Regulation:T74 Cause:E18 Theme:T22
+T76	Planned_process 555 560	taken
+E7	Planned_process:T76 Theme:T81
+T77	Planned_process 604 611	surgery
+E8	Planned_process:T77 Theme:T1000
+E9	Gene_expression:T26 Theme:T28
+T11	Gene_expression 1556 1568	coexpression
+E10	Gene_expression:T11 Theme:T55 Theme:T54
+A2	Negation E10
+T25	Gene_expression 1906 1918	coexpression
+E11	Gene_expression:T25 Theme:T65 Theme:T64
+A3	Negation E11
+T78	Gene_expression 1964 1976	coexpression
+E12	Gene_expression:T78 Theme:T64 Theme:T65
+T80	Regulation 2197 2219	play an important role
+E13	Regulation:T80 Cause:E71 Theme:E21
+A4	Speculation E13
+E15	Blood_vessel_development:T8 AtLoc:T7
+E16	Blood_vessel_development:T13 AtLoc:T12
+E17	Blood_vessel_development:T17 
+E19	Blood_vessel_development:T21 
+E20	Blood_vessel_development:T69 AtLoc:T70
+E21	Blood_vessel_development:T75 

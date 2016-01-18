@@ -1,0 +1,88 @@
+T8	Blood_vessel_development 161 171	angiogenic
+T25	Blood_vessel_development 503 513	angiogenic
+T19	Localization 405 414	migration
+E19	Localization:T19 Theme:T22
+T21	Cell_proliferation 390 403	proliferation
+E21	Cell_proliferation:T21 Theme:T22
+*	Equiv T5 T6
+T12	Regulation 261 268	effects
+E2	Regulation:T12 Theme:T13
+T17	Negative_regulation 365 372	inhibit
+E3	Negative_regulation:T17 Cause:T14 Theme:E21
+T28	Development 425 434	formation
+E4	Development:T28 Theme:T24
+E5	Negative_regulation:T17 Cause:T14 Theme:E19
+E6	Negative_regulation:T17 Cause:T14 Theme:E4
+T43	Regulation 573 578	cause
+E7	Regulation:T43 Cause:T26 Theme:E8
+T46	Regulation 589 596	changes
+E8	Regulation:T46 Theme:T30
+T47	Breakdown 670 678	collapse
+E10	Breakdown:T47 Theme:T32
+T48	Regulation 639 649	associated
+E12	Regulation:T48 Cause:T26 Theme:E10
+T49	Regulation 692 699	effects
+E13	Regulation:T49 Theme:T33
+T50	Regulation 821 826	cause
+T51	Development 839 847	bundling
+E15	Development:T51 Theme:T36
+T52	Breakdown 863 867	loss
+E16	Breakdown:T52 Theme:T38
+E17	Regulation:T50 Theme:E15
+A2	Negation E17
+T53	Regulation 777 783	affect
+E14	Regulation:T53 Theme:T34
+A1	Negation E14
+E22	Regulation:T50 Theme:E16
+A3	Negation E22
+T54	Regulation 1018 1025	effects
+E24	Regulation:T54 Cause:T39 Theme:T40
+T55	Negative_regulation 1095 1102	prevent
+E25	Negative_regulation:T55 Cause:T39 Theme:E26
+T56	Binding 1134 1145	interacting
+E26	Binding:T56 Theme:T41
+T57	Regulation 1557 1563	target
+E27	Regulation:T57 Cause:T44 Theme:T45
+T59	Negative_regulation 13 20	actions
+E28	Negative_regulation:T59 Theme:T2 Cause:T3
+T61	Negative_regulation 227 234	actions
+E30	Negative_regulation:T61 Theme:T60 Cause:E2
+T63	Negative_regulation 1430 1437	actions
+E32	Negative_regulation:T63 Theme:T62 Cause:T44
+T65	Death 905 914	apoptosis
+E33	Death:T65 Theme:T64
+T67	Death 924 929	death
+E34	Death:T67 Theme:T66
+T70	Localization 1296 1304	motility
+E36	Localization:T70 Theme:T69
+T71	Positive_regulation 1278 1286	required
+E38	Positive_regulation:T71 Theme:E36 Cause:E41
+T74	Binding 1319 1331	interactions
+E39	Binding:T74 Theme:T73 Theme:T72
+E40	Positive_regulation:T71 Theme:E39 Cause:E41
+T75	Development 1263 1273	maturation
+E41	Development:T75 Theme:T4
+T58	Breakdown 1242 1255	stabilization
+E43	Breakdown:T58 Theme:T4
+A4	Negation E43
+E44	Positive_regulation:T71 Theme:E39 Cause:E43
+E45	Positive_regulation:T71 Theme:E36 Cause:E43
+A5	Speculation E24
+A6	Speculation E25
+E46	Breakdown:T58 Theme:T7
+A7	Negation E46
+E47	Development:T75 Theme:T7
+E48	Positive_regulation:T71 Theme:E39 Cause:E46
+E49	Positive_regulation:T71 Theme:E36 Cause:E46
+E50	Positive_regulation:T71 Theme:E39 Cause:E47
+E51	Positive_regulation:T71 Theme:E36 Cause:E47
+E52	Blood_vessel_development:T8 
+E53	Blood_vessel_development:T25 
+T76	Breakdown 185 195	disrupting
+E54	Breakdown:T76 Theme:T10
+T77	Negative_regulation 196 206	properties
+E55	Negative_regulation:T77 Theme:E52 Cause:T5
+T78	Planned_process 514 521	actions
+E56	Planned_process:T78 Theme:E53 Instrument:T14
+T9	Planned_process 110 122	chemotherapy
+E1	Planned_process:T9 Theme:T1

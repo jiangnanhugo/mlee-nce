@@ -1,0 +1,26 @@
+T6	Blood_vessel_development 90 102	angiogenesis
+T13	Blood_vessel_development 259 271	angiogenesis
+T14	Blood_vessel_development 297 309	angiogenesis
+T22	Blood_vessel_development 687 699	angiogenesis
+T7	Development 126 135	formation
+E7	Development:T7 Theme:T9
+T12	Negative_regulation 250 258	impaired
+E12	Negative_regulation:T12 Theme:E14
+T23	Development 723 732	formation
+E23	Development:T23 Theme:T25
+T1	Positive_regulation 78 89	accelerated
+E1	Positive_regulation:T1 Cause:T4 Theme:E13
+E2	Positive_regulation:T1 Cause:T3 Theme:E13
+E3	Positive_regulation:T1 Cause:T2 Theme:E13
+E4	Positive_regulation:T1 Cause:T4 Theme:E7
+E5	Positive_regulation:T1 Cause:T3 Theme:E7
+E6	Positive_regulation:T1 Cause:T2 Theme:E7
+T5	Positive_regulation 289 296	improve
+E9	Positive_regulation:T5 Theme:E15
+T11	Positive_regulation 678 686	promotes
+E10	Positive_regulation:T11 Theme:E16
+E11	Positive_regulation:T11 Theme:E23
+E13	Blood_vessel_development:T6 
+E14	Blood_vessel_development:T13 
+E15	Blood_vessel_development:T14 
+E16	Blood_vessel_development:T22 

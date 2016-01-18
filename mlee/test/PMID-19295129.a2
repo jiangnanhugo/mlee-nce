@@ -1,0 +1,66 @@
+T13	Blood_vessel_development 151 163	angiogenesis
+T29	Blood_vessel_development 434 447	tubulogenesis
+T47	Pathway 1218 1227	signaling
+T49	Blood_vessel_development 1239 1251	angiogenesis
+T4	Development 78 87	sprouting
+E4	Development:T4 Theme:T6
+T7	Localization 125 134	migration
+E7	Localization:T7 Theme:T11
+T9	Cell_proliferation 107 120	proliferation
+E9	Cell_proliferation:T9 Theme:T11
+T14	Cell_proliferation 176 189	proliferation
+E14	Cell_proliferation:T14 Theme:T18
+T17	Localization 194 204	chemotaxis
+E17	Localization:T17 Theme:T18
+T32	Phosphorylation 554 569	phosphorylation
+E32	Phosphorylation:T32 Site:T51 Theme:T33
+T34	Planned_process 664 673	Knockdown
+E34	Planned_process:T34 Theme:T35
+T37	Gene_expression 713 723	production
+E37	Gene_expression:T37 Theme:T38
+T39	Regulation 731 745	reorganization
+E39	Regulation:T39 Theme:T40
+*	Equiv T20 T21
+*	Equiv T22 T23
+*	Equiv T25 T26
+T1	Regulation 34 42	mediated
+E1	Regulation:T1 Cause:T3 Theme:E4
+T12	Positive_regulation 138 147	essential
+E2	Positive_regulation:T12 Theme:E35 Cause:E7
+E3	Positive_regulation:T12 Theme:E35 Cause:E9
+T19	Regulation 229 235	driven
+E6	Regulation:T19 Theme:E17 Cause:T20
+E11	Regulation:T19 Theme:E14 Cause:T20
+E12	Regulation:T19 Theme:E17 Cause:T22
+E13	Regulation:T19 Theme:E14 Cause:T22
+T28	Positive_regulation 352 361	activates
+E19	Positive_regulation:T28 Cause:T24 Theme:T27
+T45	Positive_regulation 420 429	important
+E18	Positive_regulation:T45 Theme:E36 Cause:E19
+T46	Positive_regulation 546 553	induces
+E20	Positive_regulation:T46 Theme:E32 Cause:E21
+T50	Regulation 546 553	induces
+E21	Regulation:T50 Theme:T31 Cause:T30
+T52	Regulation 701 708	affects
+E22	Regulation:T52 Cause:E34 Theme:E37
+T53	Localization 747 756	migration
+E23	Localization:T53 Theme:T36
+T54	Cell_proliferation 761 774	proliferation
+E24	Cell_proliferation:T54 Theme:T36
+E25	Regulation:T52 Cause:E34 Theme:E39
+E26	Regulation:T52 Cause:E34 Theme:E23
+E27	Regulation:T52 Cause:E34 Theme:E24
+T55	Localization 784 793	migration
+E28	Localization:T55 Theme:T36
+T56	Cell_proliferation 808 821	proliferation
+E29	Cell_proliferation:T56 Theme:T36
+T57	Negative_regulation 797 806	inhibited
+E30	Negative_regulation:T57 Theme:E28 Cause:E34
+T58	Positive_regulation 825 833	enhanced
+E31	Positive_regulation:T58 Theme:E29 Cause:E34
+T59	Positive_regulation 969 977	activate
+E33	Positive_regulation:T59 Theme:T41
+E35	Blood_vessel_development:T13 
+E36	Blood_vessel_development:T29 
+E38	Blood_vessel_development:T49 
+E40	Pathway:T47 Participant:T48

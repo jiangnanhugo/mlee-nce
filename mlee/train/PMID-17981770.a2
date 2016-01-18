@@ -1,0 +1,8 @@
+T15	Blood_vessel_development 740 758	neovascularization
+T14	Breakdown 607 618	dysfunction
+E1	Breakdown:T14 Theme:T9
+T20	Negative_regulation 629 638	prevented
+E2	Negative_regulation:T20 Cause:E3 Theme:E1
+T21	Positive_regulation 646 656	activation
+E3	Positive_regulation:T21 Theme:T12
+E4	Blood_vessel_development:T15 

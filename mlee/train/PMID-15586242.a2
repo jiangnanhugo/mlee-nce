@@ -1,0 +1,38 @@
+T4	Blood_vessel_development 73 83	angiogenic
+T13	Blood_vessel_development 488 500	angiogenesis
+T15	Blood_vessel_development 756 766	angiogenic
+T39	Blood_vessel_development 1177 1189	angiogenesis
+T7	Binding 375 380	binds
+E7	Binding:T7 Theme:T11 Site:T9 Theme2:T8
+T18	Planned_process 838 844	linked
+E18	Planned_process:T18 Instrument:T16 Instrument:T21 Instrument:T23
+*	Equiv T5 T6
+*	Equiv T9 T10
+T28	Regulation 27 35	mediated
+E1	Regulation:T28 Cause:T2 Theme:T3
+T32	Negative_regulation 84 92	activity
+E2	Negative_regulation:T32 Theme:E13
+T37	Positive_regulation 506 515	initiates
+E3	Positive_regulation:T37 Theme:E4 Cause:T8
+T40	Transcription 527 537	expression
+E4	Transcription:T40 Theme:T11
+T41	Planned_process 788 799	constructed
+E5	Planned_process:T41 Theme:T16
+*	Equiv T16 T17 T24
+*	Equiv T23 T25
+*	Equiv T21 T26
+T42	Localization 960 968	secreted
+E6	Localization:T42 Theme:T27
+T43	Negative_regulation 987 996	inhibited
+E8	Negative_regulation:T43 Cause:T27 Theme:E9
+T44	Development 1002 1011	formation
+E9	Development:T44 Theme:T30
+T45	Localization 1016 1025	migration
+E10	Localization:T45 Theme:T33
+E11	Negative_regulation:T43 Cause:T27 Theme:E10
+T47	Negative_regulation 1155 1170	down-regulating
+E12	Negative_regulation:T47 Theme:E16
+E13	Blood_vessel_development:T4 
+E14	Blood_vessel_development:T13 
+E15	Blood_vessel_development:T15 
+E16	Blood_vessel_development:T39 AtLoc:T38

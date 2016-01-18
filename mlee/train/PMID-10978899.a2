@@ -1,0 +1,30 @@
+T11	Pathway 666 694	signal transduction pathways
+T14	Blood_vessel_development 751 763	angiogenesis
+T6	Gene_expression 271 282	coexpressed
+E6	Gene_expression:T6 Theme:T7 Theme:T8 Theme:T13
+*	Equiv T2 T3
+T9	Localization 151 162	colocalized
+E1	Localization:T9 Theme:T2 Theme:T4 AtLoc:T20
+T5	Positive_regulation 652 662	initiation
+E2	Positive_regulation:T5 Theme:E16 Cause:T12
+T17	Negative_regulation 719 728	influence
+E3	Negative_regulation:T17 Cause:E2 Theme:E15
+T18	Development 802 813	progression
+E4	Development:T18 Theme:T15
+T19	Localization 814 824	metastasis
+E5	Localization:T19 Theme:T15
+E7	Negative_regulation:T17 Cause:E2 Theme:E4
+E8	Negative_regulation:T17 Cause:E2 Theme:E5
+T22	Localization 487 496	migration
+E9	Localization:T22 Theme:T21
+T23	Localization 501 509	invasion
+E10	Localization:T23 Theme:T21
+T24	Positive_regulation 469 477	required
+E11	Positive_regulation:T24 Theme:E9
+E12	Positive_regulation:T24 Theme:E10
+T26	Binding 565 583	adhesive processes
+E13	Binding:T26 Theme:T25
+T27	Regulation 517 527	contribute
+E14	Regulation:T27 Cause:T10 Theme:E13
+E15	Blood_vessel_development:T14 
+E16	Pathway:T11 

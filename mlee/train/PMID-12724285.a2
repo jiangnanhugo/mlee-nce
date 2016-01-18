@@ -1,0 +1,71 @@
+T7	Blood_vessel_development 152 164	angiogenesis
+T10	Blood_vessel_development 315 327	angiogenesis
+T35	Blood_vessel_development 955 967	angiogenesis
+T71	Blood_vessel_development 1745 1757	angiogenesis
+T3	Development 98 109	development
+E3	Development:T3 Theme:T4
+T11	Synthesis 345 355	production
+E11	Synthesis:T11 Theme:T12
+T16	Planned_process 476 485	Injection
+E16	Planned_process:T16 Instrument:T17
+T19	Negative_regulation 579 588	decreased
+E19	Negative_regulation:T19 Theme:T21
+T22	Planned_process 626 635	injection
+E22	Planned_process:T22 Instrument:T24
+T31	Synthesis 871 880	synthesis
+E31	Synthesis:T31 Theme:T32
+T34	Regulation 944 951	changes
+E34	Regulation:T34 Theme:E20
+T36	Negative_regulation 992 1000	decrease
+E36	Negative_regulation:T36 Theme:E13
+T41	Development 1070 1080	luteinized
+E41	Development:T41 Theme:T42
+T51	Regulation 1352 1359	changes
+E51	Regulation:T51 Theme:T52
+T53	Negative_regulation 1403 1411	decrease
+E53	Negative_regulation:T53 Theme:T55
+T57	Negative_regulation 1509 1518	inhibited
+E57	Negative_regulation:T57 Cause:T58 Theme:E61
+T61	Development 1523 1536	establishment
+E61	Development:T61 Theme:T62
+T63	Planned_process 1579 1588	injection
+E63	Planned_process:T63 Instrument:T64
+T67	Development 1695 1704	formation
+E67	Development:T67 Theme:T68
+T69	Positive_regulation 1730 1741	stimulation
+E69	Positive_regulation:T69 Theme:E21 Cause:T66
+*	Equiv T4 T5
+T30	Regulation 241 246	roles
+E1	Regulation:T30 Cause:T8 Theme:E18
+A1	Speculation E1
+E2	Regulation:T30 Cause:T9 Theme:E18
+E4	Regulation:T30 Cause:T8 Theme:E11
+E5	Regulation:T30 Cause:T9 Theme:E11
+A2	Speculation E2
+A3	Speculation E4
+A4	Speculation E5
+T37	Development 369 375	formed
+E6	Development:T37 Theme:T13
+T59	Planned_process 445 459	pseudopregnant
+E7	Planned_process:T59 Theme:T1000
+T65	Positive_regulation 437 444	induced
+E8	Positive_regulation:T65 Theme:E7 Cause:T15
+T70	Regulation 735 741	effect
+E9	Regulation:T70 Cause:T26 Theme:T28
+A5	Negation E9
+T72	Regulation 811 817	effect
+E10	Regulation:T72 Theme:T29
+A6	Negation E10
+T73	Regulation 972 983	responsible
+E12	Regulation:T73 Cause:E34 Theme:E36
+T74	Synthesis 1017 1026	synthesis
+E13	Synthesis:T74 Theme:T38
+T46	Regulation 1383 1394	responsible
+E14	Regulation:T46 Cause:E51 Theme:E53
+T75	Regulation 1675 1685	associated
+E15	Regulation:T75 Cause:E69 Theme:E67
+E17	Blood_vessel_development:T7 
+E18	Blood_vessel_development:T10 
+E20	Blood_vessel_development:T35 
+E21	Blood_vessel_development:T71 
+A7	Speculation E12

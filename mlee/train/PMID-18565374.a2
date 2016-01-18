@@ -1,0 +1,20 @@
+T8	Blood_vessel_development 740 757	revascularization
+T16	Blood_vessel_development 1310 1327	revascularization
+T18	Planned_process 40 47	therapy
+E1	Planned_process:T18 Theme:T1
+T19	Planned_process 222 229	therapy
+E2	Planned_process:T19 Theme:T2
+T20	Planned_process 565 572	therapy
+E3	Planned_process:T20 Theme:T3
+T21	Planned_process 625 634	treatment
+E4	Planned_process:T21 Theme:T5
+T22	Planned_process 1216 1223	therapy
+E5	Planned_process:T22 Theme:T13
+T23	Development 762 774	regeneration
+E6	Development:T23 Theme:T7
+T24	Development 1332 1344	regeneration
+E7	Development:T24 Theme:T15
+T25	Planned_process 1547 1556	therapies
+E8	Planned_process:T25 Theme:T17
+E9	Blood_vessel_development:T8 AtLoc:T7
+E10	Blood_vessel_development:T16 AtLoc:T15

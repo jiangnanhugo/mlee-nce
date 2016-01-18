@@ -1,0 +1,48 @@
+T54	Pathway 1202 1211	signaling
+T57	Pathway 1300 1319	signaling apparatus
+T2	Localization 25 34	migration
+E2	Localization:T2 Theme:T3
+T21	Localization 508 517	migration
+E21	Localization:T21 Theme:T22
+T23	Planned_process 529 538	knockdown
+E23	Planned_process:T23 Theme:T24
+T34	Positive_regulation 794 807	up regulation
+E34	Positive_regulation:T34 Theme:T35
+T39	Localization 894 904	chemotaxis
+E39	Localization:T39 Theme:T40
+T42	Binding 947 955	interact
+E42	Binding:T42 Theme:T44 Theme:T43
+T50	Positive_regulation 1109 1118	activated
+E50	Positive_regulation:T50 Theme:T53
+E51	Positive_regulation:T50 Theme:T52
+T61	Localization 1360 1369	migration
+E61	Localization:T61 Theme:T62
+R1	frag Arg1:T15 Arg2:T17
+*	Equiv T12 T11
+T19	Regulation 170 181	play a role
+E3	Regulation:T19 Cause:T5 Theme:E1
+T25	Planned_process 253 262	knockdown
+E4	Planned_process:T25 Theme:T11
+T59	Planned_process 378 399	small interfering RNA
+E5	Planned_process:T59 Instrument:T13 Theme:T14
+T63	Negative_regulation 548 557	abrogated
+E6	Negative_regulation:T63 Theme:E8 Cause:E23
+T64	Regulation 574 582	response
+E8	Regulation:T64 Theme:T27 Cause:T66
+T65	Positive_regulation 617 625	enhanced
+E9	Positive_regulation:T65 Theme:E10 Cause:E23
+T67	Regulation 641 649	response
+E10	Regulation:T67 Theme:T27 Cause:T28
+T68	Regulation 715 723	response
+E11	Regulation:T68 Theme:T29 Cause:T8
+A1	Negation E11
+E12	Regulation:T68 Theme:T29 Cause:T31
+A2	Negation E12
+T6	Negative_regulation 886 893	reduced
+E13	Negative_regulation:T6 Theme:E39 Cause:T9
+T69	Positive_regulation 840 847	rescues
+E14	Positive_regulation:T69 Cause:T36 Theme:E39
+E15	Pathway:T54 Participant:T55
+E16	Pathway:T57 Participant:T58
+T20	Development 194 202	guidance
+E1	Development:T20 Theme:T1

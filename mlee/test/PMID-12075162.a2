@@ -1,0 +1,8 @@
+T4	Blood_vessel_development 406 421	neoangiogenesis
+T11	Localization 269 281	infiltrating
+E1	Localization:T11 Theme:T3
+T12	Localization 468 476	Invasive
+E2	Localization:T12 Theme:T5
+T13	Development 526 540	differentiated
+E3	Development:T13 Theme:T6
+E4	Blood_vessel_development:T4 

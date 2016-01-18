@@ -1,0 +1,56 @@
+T3	Blood_vessel_development 36 48	angiogenesis
+T11	Blood_vessel_development 480 492	angiogenesis
+T12	Blood_vessel_development 527 539	angiogenesis
+T15	Blood_vessel_development 649 661	angiogenesis
+T23	Blood_vessel_development 868 880	angiogenesis
+T27	Blood_vessel_development 1002 1014	angiogenesis
+T33	Blood_vessel_development 1325 1337	angiogenesis
+*	Equiv T17 T18
+*	Equiv T5 T6
+T34	Negative_regulation 24 31	inhibit
+E1	Negative_regulation:T34 Theme:E21 Cause:T1
+T39	Positive_regulation 49 56	induced
+E2	Positive_regulation:T39 Cause:T2 Theme:E21
+T40	Planned_process 281 286	treat
+E3	Planned_process:T40 Instrument:T4 Theme:T1002
+T41	Negative_regulation 428 445	inhibitory effect
+E4	Negative_regulation:T41 Theme:E22 Cause:T9
+T42	Positive_regulation 472 479	induced
+E5	Positive_regulation:T42 Cause:T10 Theme:E22
+T43	Positive_regulation 543 550	induced
+E6	Positive_regulation:T43 Theme:E23 Cause:E7
+T44	Planned_process 554 566	implantation
+E7	Planned_process:T44 Instrument:T13 Theme:T1003
+T45	Negative_regulation 662 679	inhibitory effect
+E8	Negative_regulation:T45 Cause:T14 Theme:E24
+T46	Negative_regulation 739 748	effective
+E9	Negative_regulation:T46 Theme:E24 Cause:T19
+E10	Negative_regulation:T46 Theme:E24 Cause:T17
+T47	Regulation 835 846	ineffective
+E11	Regulation:T47 Cause:T22 Theme:E28
+A1	Negation E11
+T48	Negative_regulation 1015 1032	inhibitory effect
+E12	Negative_regulation:T48 Theme:E26 Cause:T25
+E13	Negative_regulation:T48 Theme:E26 Cause:T24
+T49	Positive_regulation 1041 1050	amplified
+E14	Positive_regulation:T49 Theme:T25
+T50	Planned_process 1074 1086	administered
+E15	Planned_process:T50 Instrument:T25
+E16	Positive_regulation:T49 Theme:T24
+E17	Planned_process:T50 Instrument:T24
+T51	Planned_process 1204 1218	administration
+E18	Planned_process:T51 Instrument:T29
+T52	Negative_regulation 1338 1355	inhibitory effect
+E19	Negative_regulation:T52 Theme:E27 Cause:T31
+E20	Negative_regulation:T52 Theme:E27 Cause:T8
+E21	Blood_vessel_development:T3 
+E22	Blood_vessel_development:T11 
+E23	Blood_vessel_development:T12 
+E24	Blood_vessel_development:T15 
+E25	Blood_vessel_development:T23 
+E26	Blood_vessel_development:T27 
+E27	Blood_vessel_development:T33 
+T53	Negative_regulation 854 864	inhibition
+E28	Negative_regulation:T53 Theme:E25
+T54	Planned_process 325 337	chemotherapy
+E29	Planned_process:T54 Theme:T1002

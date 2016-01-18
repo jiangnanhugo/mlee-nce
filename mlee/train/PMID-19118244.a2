@@ -1,0 +1,58 @@
+T3	Blood_vessel_development 202 214	angiogenesis
+T11	Blood_vessel_development 545 557	angiogenesis
+T1	DNA_methylation 29 40	methylation
+E1	DNA_methylation:T1 Theme:T2 Site:T9
+T7	DNA_methylation 461 477	hypermethylation
+E7	DNA_methylation:T7 Theme:T8 Site:T48
+T10	Positive_regulation 531 541	activation
+E10	Positive_regulation:T10 Theme:E12
+T13	DNA_methylation 630 641	methylation
+E13	DNA_methylation:T13 Theme:T14 Site:T49
+T15	DNA_methylation 687 698	methylation
+E15	DNA_methylation:T15 Site:T50 Theme:T16
+T17	Gene_expression 881 891	expression
+E17	Gene_expression:T17 Theme:T18
+T19	Cell_proliferation 990 1003	proliferation
+E19	Cell_proliferation:T19 Theme:T21
+T22	DNA_methylation 1058 1069	methylation
+E22	DNA_methylation:T22 Theme:T23
+T27	DNA_methylation 1315 1326	methylation
+E27	DNA_methylation:T27 Theme:T28 Site:T51
+T29	DNA_methylation 1396 1407	methylation
+E29	DNA_methylation:T29 Theme:T30 Site:T52
+T31	DNA_methylation 1515 1526	methylation
+E31	DNA_methylation:T31 Theme:T32 Site:T53
+T33	Negative_regulation 1720 1734	downregulation
+E33	Negative_regulation:T33 Theme:T34
+T37	Negative_regulation 1800 1807	Reduced
+E37	Negative_regulation:T37 Theme:E38
+T38	Gene_expression 1813 1823	expression
+E38	Gene_expression:T38 Theme:T39
+T40	Gene_expression 1856 1866	expression
+E40	Gene_expression:T40 Theme:T41
+T42	Positive_regulation 1916 1926	activation
+E42	Positive_regulation:T42 Theme:T43
+T45	DNA_methylation 2036 2047	methylation
+E45	DNA_methylation:T45 Site:T54 Theme:T46
+*	Equiv T4 T5
+T58	Gene_expression 371 380	deficient
+E2	Gene_expression:T58 Theme:T4
+A1	Negation E2
+T59	Positive_regulation 520 527	leading
+E3	Positive_regulation:T59 Cause:E7 Theme:E10
+T60	Regulation 1041 1049	affected
+E4	Regulation:T60 Theme:E19 Cause:E22
+A2	Speculation E4
+T61	DNA_methylation 1743 1753	methylated
+E5	DNA_methylation:T61 Theme:T35
+T62	DNA_methylation 1781 1793	unmethylated
+E6	DNA_methylation:T62 Theme:T36
+A3	Negation E6
+R1	frag Arg1:T63 Arg2:T43	
+E8	Positive_regulation:T42 Theme:T63
+E9	Positive_regulation:T42 Theme:T44
+A4	Negation E9
+R2	frag Arg1:T64 Arg2:T47	
+E11	Blood_vessel_development:T3 
+E12	Blood_vessel_development:T11 AtLoc:T12
+*	Equiv T56 T65

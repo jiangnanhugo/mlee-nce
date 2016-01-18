@@ -1,0 +1,86 @@
+T4	Blood_vessel_development 50 62	angiogenesis
+T6	Blood_vessel_development 82 94	angiogenesis
+T9	Blood_vessel_development 144 156	angiogenesis
+T22	Blood_vessel_development 480 492	angiogenesis
+T41	Blood_vessel_development 890 902	angiogenesis
+T51	Blood_vessel_development 1027 1041	collagenolysis
+T60	Blood_vessel_development 1249 1259	angiogenic
+T75	Blood_vessel_development 1433 1445	angiogenesis
+T7	Negative_regulation 110 120	activities
+E7	Negative_regulation:T7 Cause:T2 Theme:T8
+T16	Cell_proliferation 453 466	proliferation
+E16	Cell_proliferation:T16 Theme:T19
+T18	Localization 439 448	migration
+E18	Localization:T18 Theme:T19
+T27	Negative_regulation 608 618	inhibiting
+E27	Negative_regulation:T27 Cause:T26 Theme:E29
+T28	Localization 641 651	metastasis
+E28	Localization:T28 Theme:T30
+T29	Cell_proliferation 630 636	growth
+E29	Cell_proliferation:T29 Theme:T30
+T35	Localization 719 728	migration
+E35	Localization:T35 Theme:T36
+T37	Planned_process 863 868	added
+E37	Planned_process:T37 Instrument:T38 Theme:E24
+T44	Breakdown 928 937	disrupted
+E44	Breakdown:T44 Theme:T46
+T48	Negative_regulation 997 1006	prevented
+E48	Negative_regulation:T48 Cause:T47 Theme:E25
+T52	Planned_process 1086 1094	injected
+E52	Planned_process:T52 Instrument:T53 Theme:T1004
+T54	Negative_regulation 1113 1123	suppressed
+E54	Negative_regulation:T54 Cause:T53 Theme:E55
+T55	Cell_proliferation 1141 1147	growth
+E55	Cell_proliferation:T55 Theme:T56
+T57	Localization 1180 1190	metastasis
+E57	Localization:T57 Theme:T58
+T62	Negative_regulation 1294 1306	interference
+E62	Negative_regulation:T62 Theme:E64
+T64	Cell_proliferation 1316 1329	proliferation
+E64	Cell_proliferation:T64 Theme:T68
+T66	Localization 1334 1343	migration
+E66	Localization:T66 Theme:T68
+T73	Negative_regulation 1414 1424	inhibition
+E73	Negative_regulation:T73 Cause:E10 Theme:E31
+T76	Cell_proliferation 1461 1467	growth
+E76	Cell_proliferation:T76 Theme:T77
+*	Equiv T19 T21
+*	Equiv T24 T25
+T5	Positive_regulation 882 889	induced
+E1	Positive_regulation:T5 Cause:T40 Theme:E24
+T1	Planned_process 184 192	purified
+E2	Planned_process:T1 Theme:T11
+T10	Positive_regulation 493 500	induced
+E3	Positive_regulation:T10 Theme:E23 Cause:T23
+E4	Negative_regulation:T27 Cause:T26 Theme:E28
+T20	Negative_regulation 703 712	inhibited
+E5	Negative_regulation:T20 Theme:E35 Cause:T32
+T33	Positive_regulation 903 909	caused
+E6	Positive_regulation:T33 Cause:E37 Theme:E44
+T39	Positive_regulation 1019 1026	induced
+E8	Positive_regulation:T39 Cause:T50 Theme:E25
+E9	Negative_regulation:T54 Cause:T53 Theme:E57
+T49	Negative_regulation 1260 1267	effects
+E10	Negative_regulation:T49 Theme:E26 Cause:T61
+T59	Positive_regulation 1287 1290	due
+E11	Positive_regulation:T59 Theme:E10 Cause:E62
+A1	Speculation E11
+E12	Negative_regulation:T62 Theme:E66
+E13	Positive_regulation:T59 Theme:E10 Cause:E12
+E14	Positive_regulation:T59 Theme:E10 Cause:E33
+A2	Speculation E13
+A3	Speculation E14
+E19	Negative_regulation:T73 Cause:E10 Theme:E76
+E20	Blood_vessel_development:T4 
+E21	Blood_vessel_development:T6 
+E22	Blood_vessel_development:T9 
+E23	Blood_vessel_development:T22 
+E24	Blood_vessel_development:T41 
+E25	Blood_vessel_development:T51 
+E26	Blood_vessel_development:T60 
+E31	Blood_vessel_development:T75 
+E32	Negative_regulation:T7 Cause:T2 Theme:E21
+T42	Negative_regulation 1365 1375	inhibition
+E33	Negative_regulation:T42 Theme:E15
+T15	Pathway 1379 1393	collagenolysis
+E15	Pathway:T15 

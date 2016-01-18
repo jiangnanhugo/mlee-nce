@@ -1,0 +1,16 @@
+T1	Pathway 46 55	signaling
+T11	Pathway 645 654	signaling
+T16	Regulation 693 703	regulation
+E16	Regulation:T16 Theme:T17
+T19	Regulation 738 748	regulation
+E19	Regulation:T19 Theme:T21 Cause:E4
+T3	Regulation 0 10	Regulation
+E1	Regulation:T3 Theme:E5
+T4	Regulation 219 232	Dysregulation
+E2	Regulation:T4 Theme:T8
+T6	Regulation 672 677	roles
+E3	Regulation:T6 Cause:T14 Theme:E16
+T7	Negative_regulation 784 794	inhibitory
+E4	Negative_regulation:T7 Theme:T22
+E5	Pathway:T1 Participant:T2
+E6	Pathway:T11 Participant:T12

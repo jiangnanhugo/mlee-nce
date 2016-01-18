@@ -1,0 +1,81 @@
+T3	Blood_vessel_development 33 43	angiogenic
+T5	Blood_vessel_development 91 103	angiogenesis
+T7	Blood_vessel_development 236 248	angiogenesis
+T28	Blood_vessel_development 660 670	angiogenic
+T51	Blood_vessel_development 1117 1135	neovascularization
+T74	Blood_vessel_development 1453 1465	angiogenesis
+T80	Blood_vessel_development 1644 1656	angiogenesis
+T1	Positive_regulation 78 87	induction
+E1	Positive_regulation:T1 Theme:E40 Cause:T6
+T8	Positive_regulation 336 345	activates
+E8	Positive_regulation:T8 Cause:T9 Theme:E11
+T11	Gene_expression 393 403	expression
+E11	Gene_expression:T11 Theme:T12
+T20	Regulation 613 622	modulates
+E20	Regulation:T20 Theme:E25 Cause:E4
+T25	Gene_expression 627 637	expression
+E25	Gene_expression:T25 Theme:T29
+T38	Positive_regulation 931 940	activated
+T39	Negative_regulation 944 953	repressed
+T41	Gene_expression 888 898	expression
+E41	Gene_expression:T41 Theme:T42
+T47	Planned_process 1074 1083	Injection
+E47	Planned_process:T47 Instrument:T48 Theme:T49
+T55	Positive_regulation 1247 1256	increased
+E55	Positive_regulation:T55 Theme:E63
+T63	Transcription 1257 1267	expression
+E63	Transcription:T63 Theme:T64
+T69	Planned_process 1369 1377	injected
+E69	Planned_process:T69 Instrument:T70 Theme:T71
+T75	Regulation 1469 1480	controlling
+E75	Regulation:T75 Cause:T72 Theme:E77
+T77	Gene_expression 1563 1573	expression
+E77	Gene_expression:T77 Theme:T78
+R1	frag Arg1:T14 Arg2:T15
+*	Equiv T29 T30
+*	Equiv T9 T10
+*	Equiv T12 T13
+T2	Regulation 225 235	regulating
+E2	Regulation:T2 Theme:E42
+T4	Planned_process 466 474	exposure
+E3	Planned_process:T4 Instrument:T16 Theme:T14
+E4	Planned_process:T4 Instrument:T16 Theme:T15
+E5	Gene_expression:T25 Theme:T31
+E6	Gene_expression:T25 Theme:T32
+E7	Gene_expression:T25 Theme:T33
+E9	Regulation:T20 Theme:E5 Cause:E4
+E10	Regulation:T20 Theme:E6 Cause:E4
+E12	Regulation:T20 Theme:E7 Cause:E4
+E13	Regulation:T20 Theme:E25 Cause:E3
+E14	Regulation:T20 Theme:E5 Cause:E3
+E15	Regulation:T20 Theme:E6 Cause:E3
+E16	Regulation:T20 Theme:E7 Cause:E3
+E17	Gene_expression:T41 Theme:T43
+E18	Positive_regulation:T38 Cause:T45 Theme:E41
+E21	Positive_regulation:T38 Cause:T45 Theme:E17
+E22	Negative_regulation:T39 Cause:T45 Theme:E41
+E24	Negative_regulation:T39 Cause:T45 Theme:E17
+T18	Positive_regulation 1109 1116	induced
+E26	Positive_regulation:T18 Cause:E47 Theme:E45
+E27	Transcription:T63 Theme:T65
+E28	Transcription:T63 Theme:T66
+E29	Transcription:T63 Theme:T67
+E30	Transcription:T63 Theme:T68
+E31	Positive_regulation:T55 Theme:E27
+E32	Positive_regulation:T55 Theme:E28
+E33	Positive_regulation:T55 Theme:E29
+E34	Positive_regulation:T55 Theme:E30
+T19	Regulation 1440 1449	regulator
+E35	Regulation:T19 Theme:E46 Cause:E75
+T21	Positive_regulation 1637 1643	induce
+E36	Positive_regulation:T21 Theme:E48
+E37	Blood_vessel_development:T3 
+E40	Blood_vessel_development:T5 AtLoc:T22
+E42	Blood_vessel_development:T7 
+E43	Blood_vessel_development:T28 
+E45	Blood_vessel_development:T51 AtLoc:T52
+E46	Blood_vessel_development:T74 
+E48	Blood_vessel_development:T80 AtLoc:T23
+T27	Blood_vessel_development 1508 1518	angiogenic
+E49	Blood_vessel_development:T27 
+R2	frag Arg1:T36 Arg2:T37	

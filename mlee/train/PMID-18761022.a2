@@ -1,0 +1,63 @@
+T7	Blood_vessel_development 67 85	neovascularization
+T64	Blood_vessel_development 1549 1561	angiogenesis
+T13	Development 266 277	development
+E13	Development:T13 Theme:T15
+T22	Gene_expression 552 562	expression
+E22	Gene_expression:T22 Theme:T23
+T45	Growth 1100 1106	growth
+E45	Growth:T45 Theme:T46
+T50	Gene_expression 1241 1251	expression
+E50	Gene_expression:T50 Theme:T51
+T58	Gene_expression 1430 1440	expression
+E58	Gene_expression:T58 Theme:T59
+T69	Planned_process 1721 1730	targeting
+E69	Planned_process:T69 Theme:T70
+T73	Growth 1774 1780	growth
+E73	Growth:T73 Theme:T74
+T75	Development 1794 1805	development
+E75	Development:T75 Theme:T76
+R1	frag Arg1:T40 Arg2:T41
+R2	frag Arg1:T39 Arg2:T41
+R3	frag Arg1:T38 Arg2:T41
+R4	frag Arg1:T37 Arg2:T41
+R5	frag Arg1:T36 Arg2:T41
+R6	frag Arg1:T56 Arg2:T57
+T25	Development 92 101	formation
+E1	Development:T25 Theme:T9
+T29	Positive_regulation 138 145	depends
+E2	Positive_regulation:T29 Cause:E3 Theme:E1
+T63	Binding 153 164	interaction
+E3	Binding:T63 Theme:T11 Theme:T12
+T71	Gene_expression 375 384	expressed
+E4	Gene_expression:T71 Theme:T17
+*	Equiv T16 T17
+*	Equiv T1 T2 T3
+A1	Speculation E22
+T77	Negative_regulation 675 685	preventing
+E5	Negative_regulation:T77 Cause:T28 Theme:E6
+T31	Development 700 709	formation
+E6	Development:T31 Theme:T32
+T78	Localization 897 904	present
+E7	Localization:T78 Theme:T42
+T79	Planned_process 993 1003	Transgenic
+E9	Planned_process:T79 Theme:T1002 Instrument:T44
+T80	Gene_expression 1023 1030	express
+E10	Gene_expression:T80 Theme:T44
+T81	Growth 1187 1192	grown
+E11	Growth:T81 Theme:T48
+E12	Growth:T81 Theme:T47
+T82	Planned_process 1213 1223	transgenic
+E15	Planned_process:T82 Instrument:T49 Theme:T1007
+T83	Gene_expression 1280 1290	expressing
+E16	Gene_expression:T83 Theme:T52
+T84	Gene_expression 1323 1331	positive
+E17	Gene_expression:T84 Theme:T54
+T85	Gene_expression 1501 1510	expressed
+E18	Gene_expression:T85 Theme:T61
+T86	Development 1589 1600	development
+E19	Development:T86 Theme:T65
+T87	Negative_regulation 1746 1755	interfere
+E20	Negative_regulation:T87 Cause:E69 Theme:E73
+A2	Speculation E20
+E21	Blood_vessel_development:T7 AtLoc:T6
+E23	Blood_vessel_development:T64 

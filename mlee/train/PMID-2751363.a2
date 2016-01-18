@@ -1,0 +1,12 @@
+T2	Blood_vessel_development 52 64	angiogenesis
+T9	Blood_vessel_development 728 740	angiogenesis
+T15	Blood_vessel_development 990 1000	angiogenic
+T11	Development 924 936	Histogenesis
+E11	Development:T11 Theme:T13
+T23	Planned_process 136 146	conization
+E3	Planned_process:T23 Theme:T3
+T24	Planned_process 156 168	hysterectomy
+E4	Planned_process:T24 Theme:T3
+E5	Blood_vessel_development:T2 
+E6	Blood_vessel_development:T9 Theme:T10 AtLoc:T20
+E7	Blood_vessel_development:T15 

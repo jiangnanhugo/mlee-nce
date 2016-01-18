@@ -1,0 +1,54 @@
+T2	Blood_vessel_development 59 71	angiogenesis
+T21	Blood_vessel_development 671 683	angiogenesis
+T27	Blood_vessel_development 953 965	angiogenesis
+T19	Cell_proliferation 660 666	growth
+E19	Cell_proliferation:T19 Theme:T20
+T33	Growth 1135 1141	growth
+E33	Growth:T33 Theme:T35
+T36	Gene_expression 1232 1242	production
+E36	Gene_expression:T36 Theme:T37
+T39	Gene_expression 1292 1302	production
+E39	Gene_expression:T39 Theme:T40
+T41	Gene_expression 1328 1332	make
+E41	Gene_expression:T41 Theme:T42
+*	Equiv T5 T6
+*	Equiv T23 T24
+T32	Development 83 93	generation
+E1	Development:T32 Theme:T4
+T43	Localization 189 197	secreted
+E2	Localization:T43 Theme:T5 FromLoc:T3
+T50	Negative_regulation 275 282	prevent
+E3	Negative_regulation:T50 Theme:T49 Cause:T7
+T51	Localization 409 417	secreted
+E4	Localization:T51 Theme:T8 FromLoc:T9
+T52	Positive_regulation 631 642	stimulating
+E5	Positive_regulation:T52 Cause:T16 Theme:E19
+E6	Positive_regulation:T52 Cause:T16 Theme:E22
+T53	Localization 924 933	secreting
+E7	Localization:T53 Theme:T25 FromLoc:T26
+T54	Positive_regulation 946 952	induce
+E8	Positive_regulation:T54 Cause:T26 Theme:E23
+T55	Localization 1043 1050	secrete
+E9	Localization:T55 Theme:T29
+T56	Localization 1081 1085	leak
+E10	Localization:T56 Theme:T31
+T57	Positive_regulation 1111 1121	stimulates
+E11	Positive_regulation:T57 Theme:E33 Cause:E10
+T58	Positive_regulation 1395 1401	induce
+E12	Positive_regulation:T58 Theme:E13 Cause:T17
+T59	Cell_proliferation 1430 1434	grow
+E14	Cell_proliferation:T59 Theme:T17
+T60	Localization 1439 1445	spread
+E15	Localization:T60 Theme:T17
+T61	Planned_process 1658 1663	treat
+E16	Planned_process:T61 Theme:T47
+T62	Negative_regulation 1219 1227	turn off
+E17	Negative_regulation:T62 Theme:E36
+T63	Negative_regulation 1273 1281	turn off
+E20	Negative_regulation:T63 Cause:T38 Theme:E39
+A1	Negation E20
+E21	Blood_vessel_development:T2 AtLoc:T1
+E22	Blood_vessel_development:T21 
+E23	Blood_vessel_development:T27 
+T13	Development 1395 1401	induce
+E13	Development:T13 Theme:T45

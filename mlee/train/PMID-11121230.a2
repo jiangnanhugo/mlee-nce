@@ -1,0 +1,48 @@
+T6	Blood_vessel_development 112 124	Angiogenesis
+T15	Blood_vessel_development 365 377	angiogenesis
+T17	Blood_vessel_development 429 439	angiogenic
+T19	Blood_vessel_development 504 514	angiogenic
+T38	Blood_vessel_development 1254 1264	angiogenic
+T1	Negative_regulation 15 25	inhibition
+E1	Negative_regulation:T1 Theme:E3
+T3	Cell_proliferation 57 63	growth
+E3	Cell_proliferation:T3 Theme:T4
+T9	Growth 164 170	growth
+E9	Growth:T9 Theme:T12
+T11	Localization 175 184	migration
+E11	Localization:T11 Theme:T12
+T24	Cell_proliferation 612 625	proliferation
+E24	Cell_proliferation:T24 Theme:T25
+*	Equiv T27 T28
+T39	Growth 262 268	growth
+E4	Growth:T39 Theme:T33
+T40	Localization 273 283	metastasis
+E5	Localization:T40 Theme:T33
+R1	frag Arg1:T43 Arg2:T42	
+R2	frag Arg1:T45 Arg2:T44	
+T7	Regulation 584 591	effects
+E6	Regulation:T7 Theme:E24 Cause:T21
+E7	Regulation:T7 Theme:E24 Cause:T20
+T16	Planned_process 699 711	immortalized
+E12	Planned_process:T16 Theme:T27 Instrument:T43
+E13	Planned_process:T16 Theme:T27 Instrument:T42
+T22	Planned_process 768 779	transformed
+E14	Planned_process:T22 Instrument:T13 Theme:T29
+T32	Planned_process 998 1010	immortalized
+E15	Planned_process:T32 Theme:T35
+T41	Cell_proliferation 1208 1221	proliferation
+E16	Cell_proliferation:T41 Theme:T37
+T47	Development 205 212	derived
+E17	Development:T47 Theme:T12
+T49	Cell_proliferation 896 909	proliferation
+E18	Cell_proliferation:T49 Theme:T48
+T50	Negative_regulation 886 895	inhibited
+E19	Negative_regulation:T50 Cause:T31 Theme:E18
+T51	Positive_regulation 985 994	effective
+E20	Positive_regulation:T51 Cause:T34 Theme:T35
+E21	Positive_regulation:T51 Cause:T34 Theme:T36
+E22	Blood_vessel_development:T6 
+E25	Blood_vessel_development:T15 AtLoc:T14
+E26	Blood_vessel_development:T17 
+E27	Blood_vessel_development:T19 
+E28	Blood_vessel_development:T38 

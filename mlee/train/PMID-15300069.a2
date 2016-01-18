@@ -1,0 +1,25 @@
+T1	Blood_vessel_development 51 69	neovascularization
+T4	Blood_vessel_development 209 227	neovascularization
+T1002	Blood_vessel_development 530 533	CNV
+T1004	Blood_vessel_development 557 560	CNV
+T1006	Blood_vessel_development 842 845	CNV
+T1007	Blood_vessel_development 1064 1067	CNV
+T15	Blood_vessel_development 229 232	CNV
+*	Equiv T8 T9
+T16	Planned_process 70 77	treated
+E1	Planned_process:T16 Instrument:T3 Theme:E6
+T17	Planned_process 234 241	treated
+E2	Planned_process:T17 Instrument:T6 Theme:E12
+T18	Planned_process 358 365	treated
+E3	Planned_process:T18 Theme:T7
+T19	Planned_process 750 757	treated
+E4	Planned_process:T19 Theme:T10
+T23	Development 1261 1271	progressed
+E5	Development:T23 Theme:T22
+E6	Blood_vessel_development:T1 
+E7	Blood_vessel_development:T4 
+E8	Blood_vessel_development:T1002 
+E9	Blood_vessel_development:T1004 
+E10	Blood_vessel_development:T1006 
+E11	Blood_vessel_development:T1007 
+E12	Blood_vessel_development:T15 

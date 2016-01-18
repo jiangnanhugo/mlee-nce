@@ -1,2 +1,2 @@
-# aemlp
-autoencoder based mluti-layer perceptron
+# AEMLP
+use auto-encoder to extract context feature,

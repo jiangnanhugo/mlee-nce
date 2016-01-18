@@ -1,0 +1,43 @@
+T1	Blood_vessel_development 7 19	angiogenesis
+T2	Blood_vessel_development 87 99	Angiogenesis
+T6	Blood_vessel_development 271 283	angiogenesis
+T14	Blood_vessel_development 479 489	angiogenic
+T15	Blood_vessel_development 499 509	angiogenic
+T16	Blood_vessel_development 526 538	Angiogenesis
+T17	Blood_vessel_development 587 597	angiogenic
+T18	Blood_vessel_development 697 707	angiogenic
+T19	Blood_vessel_development 760 772	angiogenesis
+T20	Blood_vessel_development 801 811	angiogenic
+T21	Blood_vessel_development 955 967	angiogenesis
+T3	Development 186 199	proliferation
+E3	Development:T3 Theme:T5
+T7	Localization 363 372	migration
+E7	Localization:T7 Theme:T11
+T9	Cell_proliferation 348 361	proliferation
+E9	Cell_proliferation:T9 Theme:T11
+T29	Development 122 133	progression
+E1	Development:T29 Theme:T23
+T30	Regulation 284 292	involves
+E2	Regulation:T30 Cause:E18 Theme:E9
+T31	Remodeling 374 388	reorganisation
+E5	Remodeling:T31 Theme:T28
+T32	Development 422 431	formation
+E6	Development:T32 Theme:T13
+E11	Regulation:T30 Cause:E18 Theme:E7
+E13	Regulation:T30 Cause:E18 Theme:E5
+E14	Regulation:T30 Cause:E18 Theme:E6
+T33	Negative_regulation 812 821	therapies
+E15	Negative_regulation:T33 Theme:E25
+E16	Blood_vessel_development:T1 AtLoc:T26
+E17	Blood_vessel_development:T2 
+E18	Blood_vessel_development:T6 AtLoc:T25
+E19	Blood_vessel_development:T14 
+E20	Blood_vessel_development:T15 
+E21	Blood_vessel_development:T16 
+E22	Blood_vessel_development:T17 
+E23	Blood_vessel_development:T18 
+E24	Blood_vessel_development:T19 
+E25	Blood_vessel_development:T20 AtLoc:T24
+E26	Blood_vessel_development:T21 
+T34	Negative_regulation 708 717	therapies
+E27	Negative_regulation:T34 Theme:E23

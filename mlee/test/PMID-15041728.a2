@@ -1,0 +1,50 @@
+T2	Gene_expression 10 20	expression
+E2	Gene_expression:T2 Theme:T3
+T5	Development 64 75	progression
+E5	Development:T5 Theme:T6
+T16	Transcription 320 330	expression
+E16	Transcription:T16 Theme:T17
+T20	Gene_expression 514 524	expression
+E20	Gene_expression:T20 Theme:T21
+T25	Gene_expression 584 598	Overexpression
+E25	Gene_expression:T25 Theme:T26
+T31	Gene_expression 809 819	expression
+E31	Gene_expression:T31 Theme:T32
+T39	Gene_expression 1065 1075	expression
+E39	Gene_expression:T39 Theme:T40
+T44	Gene_expression 1205 1215	expression
+E44	Gene_expression:T44 Theme:T45 Theme:T43
+T48	Development 1334 1345	progression
+E48	Development:T48 Theme:T49
+E1	Gene_expression:T2 Theme:T4
+E3	Transcription:T16 Theme:T15
+E4	Transcription:T16 Theme:T13
+E6	Transcription:T16 Theme:T11
+E7	Gene_expression:T25 Theme:T27
+E8	Gene_expression:T25 Theme:T28
+E9	Gene_expression:T25 Theme:T29
+E10	Gene_expression:T39 Theme:T41
+T1	Death 1259 1267	survival
+E11	Death:T1 Theme:T1000
+A1	Negation E11
+T9	Regulation 1315 1326	play a role
+E12	Regulation:T9 Theme:E48 Cause:T47
+A2	Speculation E12
+E13	Regulation:T9 Theme:E48 Cause:T46
+A3	Speculation E13
+T10	Blood_vessel_development 240 252	angiogenesis
+T12	Positive_regulation 169 180	stimulation
+E14	Positive_regulation:T12 Cause:T8 Theme:E23
+T23	Cell_proliferation 189 202	proliferation
+E15	Cell_proliferation:T23 Theme:T22
+T24	Localization 204 213	migration
+E17	Localization:T24 Theme:T22
+T38	Binding 219 227	adhesion
+E18	Binding:T38 Theme:T22
+E19	Positive_regulation:T12 Cause:T8 Theme:E18
+E21	Positive_regulation:T12 Cause:T8 Theme:E17
+E22	Positive_regulation:T12 Cause:T8 Theme:E15
+E23	Blood_vessel_development:T10 
+T42	Death 80 88	survival
+E24	Death:T42 Theme:T14
+A4	Negation E24

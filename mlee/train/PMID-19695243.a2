@@ -1,0 +1,63 @@
+T6	Blood_vessel_development 449 459	angiogenic
+T13	Localization 744 753	secretion
+E13	Localization:T13 Theme:T14
+T23	Growth 1011 1017	growth
+E23	Growth:T23 Theme:T24
+T37	Cell_proliferation 1279 1292	proliferation
+E37	Cell_proliferation:T37 Theme:T38
+T44	Localization 1552 1561	secretion
+E44	Localization:T44 Theme:T45
+T52	Growth 1678 1690	tumor growth
+E52	Growth:T52 Theme:T53
+*	Equiv T14 T15
+*	Equiv T7 T8
+*	Equiv T9 T10
+*	Equiv T11 T12
+T5	Planned_process 839 846	exposed
+E1	Planned_process:T5 Instrument:T18 Theme:T17
+E2	Planned_process:T5 Theme:T16 Instrument:T18
+E3	Planned_process:T5 Instrument:T21 Theme:T16
+E5	Planned_process:T5 Instrument:T20 Theme:T16
+E6	Planned_process:T5 Instrument:T19 Theme:T16
+E7	Planned_process:T5 Instrument:T19 Theme:T17
+E8	Planned_process:T5 Instrument:T21 Theme:T17
+E9	Planned_process:T5 Instrument:T20 Theme:T17
+T63	Positive_regulation 1535 1543	increase
+E10	Positive_regulation:T63 Theme:E44
+T64	Negative_regulation 1252 1261	inhibited
+E11	Negative_regulation:T64 Theme:E37 Cause:T32
+E12	Negative_regulation:T64 Theme:E37 Cause:T34
+E14	Negative_regulation:T64 Theme:E37 Cause:T33
+A1	Negation E12
+A2	Negation E14
+T65	Planned_process 1322 1330	exposure
+E15	Planned_process:T65 Instrument:T41 Instrument:T42 Instrument:T43 Theme:T39
+E16	Planned_process:T65 Instrument:T41 Instrument:T42 Instrument:T43 Theme:T40
+T66	Negative_regulation 1663 1671	inhibits
+E17	Negative_regulation:T66 Theme:E52 Cause:T49
+E18	Negative_regulation:T66 Theme:T55 Cause:T49
+E19	Negative_regulation:T66 Theme:T55 Cause:T48
+E20	Negative_regulation:T66 Theme:T55 Cause:T47
+A3	Negation E18
+A4	Negation E19
+E21	Negative_regulation:T66 Theme:E52 Cause:T48
+E22	Negative_regulation:T66 Theme:E52 Cause:T47
+A5	Negation E17
+A6	Negation E21
+T67	Planned_process 1789 1796	therapy
+E24	Planned_process:T67 Instrument:T58 Instrument:T57 Instrument:T56
+T68	Regulation 1805 1811	affect
+E26	Regulation:T68 Cause:E24 Theme:T59
+A7	Negation E26
+R1	frag Arg1:T16 Arg2:T17	
+T60	Negative_regulation 242 250	activity
+E27	Negative_regulation:T60 Theme:T51
+T69	Positive_regulation 212 220	enhances
+E28	Positive_regulation:T69 Theme:E27
+T71	Cell_proliferation 663 676	proliferation
+E29	Cell_proliferation:T71 Theme:T70
+E30	Blood_vessel_development:T6 
+T72	Negative_regulation 474 484	activities
+E31	Negative_regulation:T72 Theme:E30
+E32	Negative_regulation:T72 Theme:T73
+R2	frag Arg1:T39 Arg2:T40	

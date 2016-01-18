@@ -1,0 +1,40 @@
+T2	Blood_vessel_development 56 66	angiogenic
+T7	Blood_vessel_development 314 326	angiogenesis
+T8	Blood_vessel_development 345 357	angiogenesis
+T12	Blood_vessel_development 470 482	angiogenesis
+T13	Blood_vessel_development 521 533	angiogenesis
+T31	Blood_vessel_development 972 984	angiogenesis
+T67	Blood_vessel_development 1880 1890	angiogenic
+T10	Cell_proliferation 417 430	proliferation
+E10	Cell_proliferation:T10 Theme:T11
+T25	Cell_proliferation 855 868	proliferation
+E25	Cell_proliferation:T25 Theme:T26
+T37	Gene_expression 1149 1159	expression
+E37	Gene_expression:T37 Theme:T38
+T39	Gene_expression 1245 1255	expression
+E39	Gene_expression:T39 Theme:T40
+T42	Transcription 1346 1356	expression
+E42	Transcription:T42 Theme:T43
+T57	Gene_expression 1632 1642	expression
+E57	Gene_expression:T57 Theme:T59
+*	Equiv T4 T5
+*	Equiv T18 T19
+*	Equiv T20 T21
+T30	Regulation 431 451	plays a pivotal role
+E1	Regulation:T30 Cause:E10 Theme:E12
+T28	Cell_proliferation 901 914	proliferation
+E2	Cell_proliferation:T28 Theme:T29
+E3	Gene_expression:T57 Theme:T60
+E4	Gene_expression:T57 Theme:T61
+T33	Development 1911 1921	maturation
+E5	Development:T33 Theme:T68
+T34	Development 1653 1663	maturation
+E6	Development:T34 Theme:T58
+E7	Blood_vessel_development:T2 AtLoc:T1
+E8	Blood_vessel_development:T7 
+E11	Blood_vessel_development:T8 
+E12	Blood_vessel_development:T12 
+E13	Blood_vessel_development:T13 
+E14	Blood_vessel_development:T31 
+E15	Blood_vessel_development:T67 AtLoc:T69
+E16	Blood_vessel_development:T2 AtLoc:T3

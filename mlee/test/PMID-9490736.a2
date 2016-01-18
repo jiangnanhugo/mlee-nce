@@ -1,0 +1,59 @@
+T3	Blood_vessel_development 96 108	angiogenesis
+T4	Blood_vessel_development 111 123	Angiogenesis
+T12	Pathway 259 266	pathway
+T16	Blood_vessel_development 334 346	angiogenesis
+T17	Blood_vessel_development 378 390	angiogenesis
+T44	Blood_vessel_development 1120 1132	angiogenesis
+T6	Binding 168 176	adhesion
+E6	Binding:T6 Theme:T8
+T11	Positive_regulation 229 239	activating
+E11	Positive_regulation:T11 Cause:T10 Theme:E26
+T31	Negative_regulation 802 812	Inhibition
+E31	Negative_regulation:T31 Theme:T32
+*	Equiv T22 T26
+*	Equiv T18 T19
+*	Equiv T32 T33
+*	Equiv T20 T21
+T5	Positive_regulation 124 131	depends
+E1	Positive_regulation:T5 Theme:E22 Cause:E6
+T9	Regulation 299 308	influence
+E2	Regulation:T9 Theme:T15 Cause:E11
+A1	Speculation E2
+T24	Positive_regulation 364 374	initiation
+E3	Positive_regulation:T24 Theme:E24 Cause:T18
+T25	Regulation 667 677	refractory
+E4	Regulation:T25 Cause:T28 Theme:T27
+A2	Negation E4
+T36	Positive_regulation 743 751	depended
+E5	Positive_regulation:T36 Theme:T27 Cause:T29
+E8	Positive_regulation:T36 Theme:T27 Cause:T30
+A3	Negation E8
+T42	Positive_regulation 874 883	dependent
+E9	Positive_regulation:T42 Cause:T34 Theme:T35
+T45	Negative_regulation 895 902	blocked
+E10	Negative_regulation:T45 Cause:E31 Theme:E12
+T47	Development 907 916	formation
+E12	Development:T47 Theme:T38
+T49	Regulation 948 959	influencing
+E13	Regulation:T49 Theme:T39 Cause:E31
+A4	Negation E13
+T50	Negative_regulation 998 1008	Inhibition
+E14	Negative_regulation:T50 Theme:T41
+T51	Localization 1051 1060	migration
+E15	Localization:T51 Theme:T43
+T52	Binding 1069 1077	adhesion
+E16	Binding:T52 Theme:T43
+T53	Positive_regulation 1043 1050	induced
+E17	Positive_regulation:T53 Cause:E14 Theme:E15
+E18	Positive_regulation:T53 Cause:E14 Theme:E16
+A5	Negation E18
+T54	Positive_regulation 1133 1140	depends
+E19	Positive_regulation:T54 Cause:T46 Theme:E25
+T55	Regulation 1167 1176	regulated
+E20	Regulation:T55 Theme:T46 Cause:T48
+E21	Blood_vessel_development:T3 
+E22	Blood_vessel_development:T4 
+E23	Blood_vessel_development:T16 
+E24	Blood_vessel_development:T17 AtLoc:T20
+E25	Blood_vessel_development:T44 
+E26	Pathway:T12 Participant:T13 Participant2:T14

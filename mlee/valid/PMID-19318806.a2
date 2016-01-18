@@ -1,0 +1,62 @@
+T28	Pathway 991 1000	signaling
+T9	Development 537 548	progression
+E9	Development:T9 Theme:T10
+T12	Growth 581 587	growth
+E12	Growth:T12 Theme:T13
+T19	Binding 735 740	binds
+T25	Positive_regulation 852 862	stimulates
+E25	Positive_regulation:T25 Cause:T26 Theme:E17
+T33	Gene_expression 1158 1168	expression
+E33	Gene_expression:T33 Theme:T34
+*	Equiv T14 T15
+T37	Localization 61 71	metastasis
+E1	Localization:T37 Theme:T23
+T41	Development 78 92	transformation
+E2	Development:T41 Theme:T40
+T42	Regulation 557 564	effects
+E3	Regulation:T42 Cause:T6 Theme:E12
+T43	Positive_regulation 549 556	through
+E4	Positive_regulation:T43 Theme:E9 Cause:E3
+E5	Regulation:T42 Theme:E12 Cause:T7
+E6	Regulation:T42 Theme:E12 Cause:T8
+E7	Positive_regulation:T43 Theme:E9 Cause:E5
+E8	Positive_regulation:T43 Theme:E9 Cause:E6
+T44	Binding 645 651	linked
+E10	Binding:T44 Theme:T16 Theme:T14
+T45	Gene_expression 671 680	expressed
+E13	Gene_expression:T45 Theme:T14
+E14	Binding:T19 Theme:T21 Theme:T20
+E15	Binding:T19 Theme:T22 Theme:T20
+E16	Binding:T19 Theme:T20
+T46	Regulation 876 890	reorganization
+E17	Regulation:T46 Theme:T11
+T47	Development 939 957	dendrite formation
+E18	Development:T47 Theme:T27
+T48	Binding 926 934	adhesion
+E19	Binding:T48 Theme:T27
+T49	Positive_regulation 913 922	resulting
+E20	Positive_regulation:T49 Cause:T26 Theme:E19
+E21	Positive_regulation:T49 Cause:T26 Theme:E18
+T50	Regulation 970 977	targets
+E22	Regulation:T50 Theme:T31 Cause:E37
+E23	Regulation:T50 Theme:T32 Cause:E37
+T57	Cell_proliferation 275 281	growth
+E24	Cell_proliferation:T57 Theme:T56
+T58	Localization 283 292	migration
+E26	Localization:T58 Theme:T56
+T59	Negative_regulation 260 266	brakes
+E27	Negative_regulation:T59 Theme:E24
+E28	Negative_regulation:T59 Theme:E26
+T61	Death 302 310	survival
+E29	Death:T61 Theme:T60
+A1	Negation E29
+E30	Negative_regulation:T59 Theme:E29
+T64	Localization 597 606	migration
+E31	Localization:T64 Theme:T63
+E32	Regulation:T42 Cause:T6 Theme:E31
+E34	Positive_regulation:T43 Theme:E9 Cause:E32
+T66	Binding 1102 1110	adhesion
+E35	Binding:T66 Theme:T65
+T67	Localization 1115 1124	migration
+E36	Localization:T67 Theme:T65
+E37	Pathway:T28 Participant:T29

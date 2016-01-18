@@ -1,0 +1,53 @@
+T55	Blood_vessel_development 1757 1769	angiogenesis
+T18	Gene_expression 489 498	expressed
+E18	Gene_expression:T18 Theme:T19
+T30	Gene_expression 974 983	expressed
+E30	Gene_expression:T30 Theme:T31
+T32	Localization 1054 1063	localized
+E32	Localization:T32 Theme:T33 AtLoc:T35
+T36	Binding 1162 1169	binding
+E36	Binding:T36 Theme:T37 Theme:T33
+T40	Gene_expression 1248 1258	expression
+E40	Gene_expression:T40 Theme:T41
+T46	Gene_expression 1456 1466	expression
+E46	Gene_expression:T46 Theme:T47
+R1	frag Arg1:T23 Arg2:T24
+R2	frag Arg1:T9 Arg2:T10
+T5	Binding 100 111	interaction
+E1	Binding:T5 Theme:T4
+T51	Regulation 81 85	role
+E2	Regulation:T51 Cause:T1 Theme:E1
+A1	Speculation E2
+T57	Localization 142 150	detected
+E3	Localization:T57 Theme:T6 AtLoc:T7
+T58	Gene_expression 591 599	negative
+E4	Gene_expression:T58 Theme:T19
+A2	Negation E4
+T59	Development 719 733	differentiated
+E5	Development:T59 Theme:T23
+E6	Development:T59 Theme:T24
+E8	Binding:T36 Theme:T38 Theme:T33
+E9	Binding:T36 Theme:T39 Theme:T33
+T60	Positive_regulation 1424 1433	increased
+E10	Positive_regulation:T60 Theme:E46
+T61	Regulation 1630 1652	play a regulatory role
+E11	Regulation:T61 Theme:E12 Cause:T50
+A3	Speculation E11
+T62	Binding 1680 1692	interactions
+E12	Binding:T62 Theme:T52
+E13	Regulation:T61 Theme:E12 Cause:T49
+A4	Speculation E13
+T63	Development 1726 1736	generation
+E14	Development:T63 Theme:T53
+T64	Regulation 1703 1712	involving
+E15	Regulation:T64 Cause:T50 Theme:E14
+A5	Speculation E15
+T65	Development 1817 1831	differentiated
+E16	Development:T65 Theme:T56
+E17	Regulation:T64 Cause:T49 Theme:E14
+E19	Regulation:T64 Cause:T50 Theme:E7
+E20	Regulation:T64 Cause:T49 Theme:E7
+A6	Speculation E17
+A7	Speculation E19
+A8	Speculation E20
+E7	Blood_vessel_development:T55 

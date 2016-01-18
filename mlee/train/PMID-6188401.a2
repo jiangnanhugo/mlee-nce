@@ -1,0 +1,68 @@
+T1	Blood_vessel_development 0 12	Angiogenesis
+T12	Blood_vessel_development 333 343	angiogenic
+T17	Development 400 411	anastomosis
+T19	Blood_vessel_development 497 507	angiogenic
+T28	Blood_vessel_development 733 745	angiogenesis
+T29	Blood_vessel_development 787 797	angiogenic
+T30	Blood_vessel_development 837 847	angiogenic
+T50	Blood_vessel_development 1530 1540	angiogenic
+T51	Blood_vessel_development 1568 1580	angiogenesis
+T23	Positive_regulation 630 639	activated
+E23	Positive_regulation:T23 Theme:T24
+T53	Positive_regulation 1742 1752	initiation
+E53	Positive_regulation:T53 Theme:E32
+T55	Regulation 1757 1764	control
+E55	Regulation:T55 Theme:E32
+T11	Positive_regulation 14 24	initiation
+E1	Positive_regulation:T11 Theme:E18
+T20	Regulation 29 36	control
+E2	Regulation:T20 Theme:E18
+T32	Growth 143 149	growth
+E4	Growth:T32 Theme:T4
+T38	Breakdown 218 223	lysis
+E5	Breakdown:T38 Theme:T7
+T39	Localization 281 290	migration
+E7	Localization:T39 Theme:T10
+T43	Development 360 369	formation
+E8	Development:T43 Theme:T14
+T49	Development 371 382	development
+E10	Development:T49 Theme:T16
+T57	Regulation 165 173	involves
+E11	Regulation:T57 Cause:E4 Theme:E5
+E12	Regulation:T57 Cause:E4 Theme:E7
+E14	Regulation:T57 Cause:E4 Theme:E8
+E16	Regulation:T57 Cause:E4 Theme:E10
+E17	Regulation:T57 Cause:E4 Theme:E35
+T59	Positive_regulation 723 732	stimulate
+E19	Positive_regulation:T59 Cause:T5 Theme:E38
+T60	Positive_regulation 848 859	stimulation
+E20	Positive_regulation:T60 Theme:E40
+T61	Planned_process 897 902	clone
+E21	Planned_process:T61 Theme:T31
+T62	Planned_process 962 969	culture
+E22	Planned_process:T62 Theme:T31
+T63	Growth 1040 1046	growth
+E24	Growth:T63 Theme:T34
+T65	Localization 1211 1220	migration
+E26	Localization:T65 Theme:T37
+T66	Positive_regulation 1173 1184	speeding up
+E27	Positive_regulation:T66 Theme:E26 Cause:T35
+T67	Regulation 1313 1319	effect
+E28	Regulation:T67 Theme:T42
+T68	Development 1403 1410	prepare
+E29	Development:T68 Theme:T45
+T69	Localization 1439 1446	release
+E30	Localization:T69 Theme:T46 FromLoc:T44
+T70	Localization 1501 1505	move
+E31	Localization:T70 Theme:T48
+T71	Growth 1778 1784	growth
+E32	Growth:T71 Theme:T56
+E18	Blood_vessel_development:T1 
+E34	Blood_vessel_development:T12 
+E35	Development:T17 Theme:T18
+E37	Blood_vessel_development:T19 
+E38	Blood_vessel_development:T28 
+E39	Blood_vessel_development:T29 
+E40	Blood_vessel_development:T30 
+E41	Blood_vessel_development:T50 Theme:T48
+E42	Blood_vessel_development:T51 

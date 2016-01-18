@@ -1,0 +1,14 @@
+*	Equiv T6 T7
+T21	Negative_regulation 269 277	activity
+E1	Negative_regulation:T21 Cause:T6 Theme:T20
+T22	Negative_regulation 665 673	activity
+E2	Negative_regulation:T22 Theme:T19
+A1	Negation E2
+T24	Negative_regulation 739 747	activity
+E3	Negative_regulation:T24 Cause:T12 Theme:T23
+A2	Speculation E3
+A3	Negation E3
+T26	Negative_regulation 831 839	activity
+E4	Negative_regulation:T26 Theme:T25
+T8	Negative_regulation 110 118	activity
+E5	Negative_regulation:T8 Theme:T2

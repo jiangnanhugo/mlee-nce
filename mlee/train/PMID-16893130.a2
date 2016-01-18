@@ -1,0 +1,15 @@
+T16	Blood_vessel_development 581 596	neoangiogenesis
+T17	Blood_vessel_development 600 618	neovascularization
+T20	Blood_vessel_development 685 695	angiogenic
+T21	Blood_vessel_development 835 845	angiogenic
+T14	Development 540 551	development
+E14	Development:T14 Theme:T15
+T2	Planned_process 82 89	therapy
+E1	Planned_process:T2 Theme:T1000 Instrument:T3
+E2	Planned_process:T2 Theme:T1000 Instrument:T1
+T12	Planned_process 824 831	treated
+E5	Planned_process:T12 Theme:T1004
+E6	Blood_vessel_development:T16 
+E7	Blood_vessel_development:T17 
+E8	Blood_vessel_development:T20 
+E9	Blood_vessel_development:T21 

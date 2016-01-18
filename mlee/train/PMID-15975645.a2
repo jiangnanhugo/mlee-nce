@@ -1,0 +1,57 @@
+T10	Blood_vessel_development 187 199	angiogenesis
+T29	Blood_vessel_development 725 737	angiogenesis
+T42	Blood_vessel_development 1079 1091	angiogenesis
+T48	Blood_vessel_development 1223 1235	angiogenesis
+T3	Negative_regulation 28 35	inhibit
+E3	Negative_regulation:T3 Theme:T5 Cause:T2
+T4	Growth 42 48	growth
+E4	Growth:T4 Theme:T5
+T8	Growth 179 185	growth
+E8	Growth:T8 Theme:T9
+T12	Planned_process 304 311	treated
+E12	Planned_process:T12 Instrument:T14 Theme:T13
+T23	Planned_process 531 538	treated
+E23	Planned_process:T23 Theme:T1005 Instrument:T24
+T26	Growth 628 634	growth
+E26	Growth:T26 Theme:T27
+T33	Cell_proliferation 829 842	proliferation
+E33	Cell_proliferation:T33 Theme:T34
+T39	Negative_regulation 942 951	inhibited
+E39	Negative_regulation:T39 Theme:T41 Cause:T38
+T40	Growth 958 964	growth
+E40	Growth:T40 Theme:T41
+E1	Negative_regulation:T3 Theme:T5 Cause:T1
+E2	Planned_process:T12 Instrument:T15 Theme:T13
+T11	Planned_process 458 466	injected
+E5	Planned_process:T11 Theme:T20 Instrument:T19
+E6	Planned_process:T11 Theme:T20 Instrument:T18
+T22	Development 510 519	developed
+E7	Development:T22 Theme:T21
+T50	Negative_regulation 802 811	inhibited
+E9	Negative_regulation:T50 Cause:T30 Theme:E33
+T51	Regulation 870 886	no direct effect
+E10	Regulation:T51 Cause:T35 Theme:T36
+A1	Negation E10
+E11	Negative_regulation:T39 Theme:T41 Cause:T37
+T52	Negative_regulation 1069 1078	inhibited
+E13	Negative_regulation:T52 Theme:E27 Cause:T38
+E14	Negative_regulation:T52 Theme:E27 Cause:T37
+T53	Negative_regulation 1201 1208	inhibit
+E15	Negative_regulation:T53 Cause:T45 Theme:E16
+T54	Growth 1215 1221	growth
+E16	Growth:T54 Theme:T47
+E17	Negative_regulation:T53 Cause:T44 Theme:E16
+E18	Negative_regulation:T53 Cause:T44 Theme:E28
+E19	Negative_regulation:T53 Cause:T45 Theme:E28
+T55	Death 1248 1257	apoptosis
+E20	Death:T55 Theme:T49
+T56	Positive_regulation 1241 1247	induce
+E21	Positive_regulation:T56 Theme:E20 Cause:T45
+E22	Positive_regulation:T56 Theme:E20 Cause:T44
+E24	Blood_vessel_development:T10 AtLoc:T46
+E25	Blood_vessel_development:T29 
+E27	Blood_vessel_development:T42 
+E28	Blood_vessel_development:T48 AtLoc:T49
+T57	Death 205 214	apoptosis
+E29	Death:T57 Theme:T46
+E30	Planned_process:T23 Theme:T1005 Instrument:T25

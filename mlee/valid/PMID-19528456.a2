@@ -1,0 +1,63 @@
+T10	Blood_vessel_development 127 139	angiogenesis
+T39	Blood_vessel_development 808 820	angiogenesis
+T41	Blood_vessel_development 864 876	angiogenesis
+T1	Gene_expression 26 36	expression
+E1	Gene_expression:T1 Theme:T3
+T11	Gene_expression 182 192	expression
+E11	Gene_expression:T11 Theme:T12
+T13	Regulation 200 208	response
+E13	Regulation:T13 Theme:T14 Cause:T17
+T21	Gene_expression 405 415	expressing
+E21	Gene_expression:T21 Theme:T24
+T25	Regulation 466 474	response
+E25	Regulation:T25 Cause:T26 Theme:E21
+T28	Planned_process 561 570	treatment
+E28	Planned_process:T28 Instrument:T29 Theme:T30
+T33	Localization 692 701	migration
+E33	Localization:T33 Theme:T34
+T36	Gene_expression 744 754	expressing
+E36	Gene_expression:T36 Theme:T37
+T42	Planned_process 920 929	treatment
+E42	Planned_process:T42 Instrument:T43
+T46	Growth 1008 1014	growth
+E46	Growth:T46 Theme:T47
+T48	Gene_expression 1054 1064	expressing
+E48	Gene_expression:T48 Theme:T49
+T54	Gene_expression 1241 1251	expressing
+E54	Gene_expression:T54 Theme:T55
+T58	Planned_process 1364 1371	therapy
+E58	Planned_process:T58 Instrument:T59
+T60	Growth 1429 1435	growth
+E60	Growth:T60 Theme:T61
+T62	Gene_expression 1456 1471	over-expressing
+E62	Gene_expression:T62 Theme:T63
+T67	Negative_regulation 1559 1572	interventions
+E67	Negative_regulation:T67 Theme:T68
+T8	Binding 233 243	associated
+E2	Binding:T8 Theme:T16 Theme:T17
+T15	Regulation 578 584	effect
+E3	Regulation:T15 Cause:E28 Theme:E4
+A1	Negation E3
+T18	Death 615 623	survival
+E4	Death:T18 Theme:T73
+A2	Negation E4
+T31	Negative_regulation 667 674	reduced
+E5	Negative_regulation:T31 Theme:E33 Cause:E28
+T38	Positive_regulation 799 807	enhanced
+E6	Positive_regulation:T38 Cause:T35 Theme:E17
+T44	Growth 841 847	growth
+E7	Growth:T44 Theme:T35
+E8	Positive_regulation:T38 Cause:T35 Theme:E7
+T65	Negative_regulation 987 994	inhibit
+E9	Negative_regulation:T65 Theme:E46 Cause:E42
+T69	Positive_regulation 1015 1022	induced
+E10	Positive_regulation:T69 Cause:T50 Theme:E46
+T51	Regulation 1119 1127	response
+E12	Regulation:T51 Cause:T53 Theme:T52
+T70	Planned_process 1109 1118	treatment
+E14	Planned_process:T70 Theme:T52
+T56	Negative_regulation 1384 1396	counteracted
+E15	Negative_regulation:T56 Theme:E60 Cause:E58
+E16	Blood_vessel_development:T10 AtLoc:T9
+E17	Blood_vessel_development:T39 AtLoc:T35
+E18	Blood_vessel_development:T41 AtLoc:T40

@@ -1,0 +1,20 @@
+T1	Blood_vessel_development 0 12	Angiogenesis
+T5	Blood_vessel_development 1218 1230	angiogenesis
+T24	Planned_process 90 97	treated
+E1	Planned_process:T24 Instrument:T2 Theme:T39
+T27	Development 702 721	diameters increased
+E2	Development:T27 Theme:T19
+T30	Development 1096 1107	development
+E3	Development:T30 Theme:T29
+T31	Development 1449 1460	development
+E4	Development:T31 Theme:T9
+T32	Regulation 1353 1359	effect
+E5	Regulation:T32 Cause:T7 Theme:E4
+T33	Negative_regulation 1525 1533	decrease
+E6	Negative_regulation:T33 Theme:T11
+T35	Development 1681 1692	development
+E9	Development:T35 Theme:T17
+T36	Regulation 1640 1647	effects
+E11	Regulation:T36 Theme:E9 Cause:T12
+E12	Blood_vessel_development:T1 AtLoc:T23
+E13	Blood_vessel_development:T5 AtLoc:T40

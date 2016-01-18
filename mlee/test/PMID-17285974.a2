@@ -1,0 +1,26 @@
+T1	Blood_vessel_development 28 40	angiogenesis
+T4	Blood_vessel_development 175 187	angiogenesis
+T28	Blood_vessel_development 1579 1589	angiogenic
+T31	Blood_vessel_development 1622 1634	angiogenesis
+T34	Blood_vessel_development 1650 1662	angiogenesis
+T8	Gene_expression 409 419	expression
+E8	Gene_expression:T8 Theme:T9
+T20	Gene_expression 1149 1159	Expression
+E20	Gene_expression:T20 Theme:T21
+*	Equiv T6 T7
+*	Equiv T9 T10
+T5	Positive_regulation 1608 1615	promote
+E1	Positive_regulation:T5 Theme:E10
+T12	Development 1699 1710	progression
+E2	Development:T12 Theme:T35
+T14	Death 1737 1746	apoptosis
+E3	Death:T14 Theme:T36
+T16	Negative_regulation 1714 1724	inhibiting
+E4	Negative_regulation:T16 Cause:E11 Theme:E3
+T17	Regulation 1669 1679	contribute
+E5	Regulation:T17 Cause:E4 Theme:E2
+E6	Blood_vessel_development:T1 AtLoc:T3
+E7	Blood_vessel_development:T4 AtLoc:T6
+E9	Blood_vessel_development:T28 
+E10	Blood_vessel_development:T31 AtLoc:T32
+E11	Blood_vessel_development:T34 AtLoc:T33

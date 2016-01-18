@@ -1,0 +1,60 @@
+T10	Blood_vessel_development 138 150	angiogenesis
+T53	Blood_vessel_development 1260 1272	angiogenesis
+T2	Localization 25 34	secretion
+E2	Localization:T2 Theme:T3
+T14	Development 256 267	progression
+E14	Development:T14 Theme:T15
+T16	Localization 302 311	secretion
+E16	Localization:T16 Theme:T17
+T30	Planned_process 844 852	exposure
+E30	Planned_process:T30 Instrument:T31
+T32	Localization 872 881	secretion
+E32	Localization:T32 Theme:T33
+T38	Negative_regulation 1016 1025	inhibited
+E38	Negative_regulation:T38 Cause:T39 Theme:E40
+T40	Localization 1030 1039	secretion
+E40	Localization:T40 Theme:T41 Theme:T37
+T45	Cell_proliferation 1157 1170	proliferation
+E45	Cell_proliferation:T45 Theme:T47
+T55	Regulation 1345 1355	regulation
+E55	Regulation:T55 Theme:T56
+T62	Development 1515 1526	progression
+E62	Development:T62 Theme:T63
+T8	Positive_regulation 10 19	increases
+E1	Positive_regulation:T8 Cause:T1 Theme:E2
+T44	Localization 152 162	metastasis
+E3	Localization:T44 Theme:T9
+T52	Regulation 116 126	associated
+E4	Regulation:T52 Cause:T7 Theme:E22
+E5	Regulation:T52 Cause:T6 Theme:E22
+E6	Regulation:T52 Cause:T7 Theme:E3
+E7	Regulation:T52 Cause:T6 Theme:E3
+T64	Positive_regulation 213 220	crucial
+E8	Positive_regulation:T64 Cause:T12 Theme:E14
+T65	Regulation 290 296	affect
+E9	Regulation:T65 Theme:E16
+T66	Localization 398 405	secrete
+E10	Localization:T66 Theme:T20
+T67	Regulation 419 429	regulatory
+E11	Regulation:T67 Theme:T21
+T68	Positive_regulation 853 862	increased
+E12	Positive_regulation:T68 Cause:E30 Theme:E32
+T69	Positive_regulation 965 974	increased
+E13	Positive_regulation:T69 Cause:T36 Theme:E40
+T70	Negative_regulation 1130 1139	inhibited
+E15	Negative_regulation:T70 Cause:T43 Theme:E45
+T71	Positive_regulation 1171 1178	induced
+E17	Positive_regulation:T71 Cause:T49 Theme:E45
+T72	Gene_expression 1194 1202	produced
+E18	Gene_expression:T72 Theme:T49
+T73	Negative_regulation 1250 1259	decreased
+E19	Negative_regulation:T73 Cause:T51 Theme:E23
+T74	Regulation 1324 1337	critical role
+E20	Regulation:T74 Cause:T54 Theme:E55
+T75	Regulation 1476 1482	driven
+E21	Regulation:T75 Cause:T60 Theme:E62
+A1	Speculation E11
+E22	Blood_vessel_development:T10 AtLoc:T9
+E23	Blood_vessel_development:T53 
+T46	Planned_process 915 922	culture
+E24	Planned_process:T46 Theme:T34

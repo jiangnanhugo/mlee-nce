@@ -1,0 +1,47 @@
+T2	Blood_vessel_development 66 78	angiogenesis
+T10	Blood_vessel_development 329 341	angiogenesis
+T11	Pathway 356 373	metabolic pathway
+T15	Blood_vessel_development 445 457	angiogenesis
+T16	Blood_vessel_development 522 534	angiogenesis
+T18	Blood_vessel_development 615 627	angiogenesis
+T20	Blood_vessel_development 728 740	angiogenesis
+T21	Blood_vessel_development 798 816	neovascularization
+T24	Blood_vessel_development 918 930	angiogenesis
+T30	Blood_vessel_development 1083 1095	angiogenesis
+T32	Blood_vessel_development 1196 1208	angiogenesis
+*	Equiv T3 T4
+*	Equiv T8 T9
+T5	Positive_regulation 56 65	dependent
+E1	Positive_regulation:T5 Cause:T1 Theme:E12
+T14	Positive_regulation 321 328	induced
+E2	Positive_regulation:T14 Cause:T8 Theme:E13
+T26	Positive_regulation 605 614	dependent
+E3	Positive_regulation:T26 Cause:T17 Theme:E16
+T33	Positive_regulation 718 727	dependent
+E4	Positive_regulation:T33 Cause:T19 Theme:E17
+T34	Planned_process 849 857	knockout
+E5	Planned_process:T34 Theme:T22
+T35	Planned_process 872 880	injected
+E6	Planned_process:T35 Instrument:T23 Theme:T1002
+T36	Positive_regulation 903 914	stimulation
+E7	Positive_regulation:T36 Theme:E19
+T37	Planned_process 943 951	injected
+E8	Planned_process:T37 Theme:T1003
+T38	Negative_regulation 991 1008	inhibitory effect
+E9	Negative_regulation:T38 Cause:T28 Theme:E20
+T39	Positive_regulation 1066 1074	mediated
+E10	Positive_regulation:T39 Cause:T29 Theme:E20
+T40	Positive_regulation 1186 1195	dependent
+E11	Positive_regulation:T40 Cause:T31 Theme:E21
+E12	Blood_vessel_development:T2 
+E13	Blood_vessel_development:T10 
+E14	Blood_vessel_development:T15 
+E15	Blood_vessel_development:T16 
+E16	Blood_vessel_development:T18 
+E17	Blood_vessel_development:T20 
+E18	Blood_vessel_development:T21 AtLoc:T1001
+E19	Blood_vessel_development:T24 AtLoc:T1003
+E20	Blood_vessel_development:T30 
+E21	Blood_vessel_development:T32 
+E22	Blood_vessel_development:T21 AtLoc:T1002
+E23	Pathway:T11 Participant:T12

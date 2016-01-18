@@ -1,0 +1,67 @@
+T12	Blood_vessel_development 233 245	angiogenesis
+T13	Blood_vessel_development 256 268	angiogenesis
+T69	Blood_vessel_development 1745 1763	neovascularization
+T1	Positive_regulation 0 8	Enhanced
+E1	Positive_regulation:T1 Theme:E2
+T2	Gene_expression 9 19	expression
+E2	Gene_expression:T2 Theme:T3
+T14	Gene_expression 408 418	expression
+E14	Gene_expression:T14 Theme:T15
+T18	Positive_regulation 473 483	stimulated
+E18	Positive_regulation:T18 Theme:T19 Cause:T20
+T27	Gene_expression 652 660	produced
+E27	Gene_expression:T27 Theme:T28
+T33	Transcription 930 940	expression
+E33	Transcription:T33 Theme:T34
+T35	Positive_regulation 974 984	stimulated
+E35	Positive_regulation:T35 Theme:T39 Cause:T38
+T42	Positive_regulation 1132 1142	stimulated
+E42	Positive_regulation:T42 Theme:T46 Cause:T45
+T50	Positive_regulation 1227 1237	stimulated
+E50	Positive_regulation:T50 Theme:T54 Cause:T53
+T64	Positive_regulation 1614 1621	enhance
+E64	Positive_regulation:T64 Theme:E65 Cause:T62
+T65	Gene_expression 1627 1637	expression
+E65	Gene_expression:T65 Theme:T66
+*	Equiv T21 T20
+*	Equiv T7 T8
+*	Equiv T24 T25
+*	Equiv T22 T23
+*	Equiv T16 T17
+T11	Regulation 247 255	Aberrant
+E3	Regulation:T11 Theme:E28
+T68	Positive_regulation 696 704	enhanced
+E4	Positive_regulation:T68 Theme:E27 Cause:E5
+T70	Positive_regulation 729 740	stimulation
+E5	Positive_regulation:T70 Theme:T26 Cause:T29
+E6	Positive_regulation:T70 Theme:T26 Cause:T30
+E7	Positive_regulation:T68 Theme:E27 Cause:E6
+T71	Positive_regulation 890 899	increased
+E8	Positive_regulation:T71 Theme:T31
+A1	Negation E8
+E10	Positive_regulation:T35 Theme:T39 Cause:T36
+T37	Positive_regulation 1014 1025	enhancement
+E11	Positive_regulation:T37 Theme:T41
+E12	Positive_regulation:T42 Theme:T46 Cause:T43
+T44	Positive_regulation 1147 1154	enhance
+E13	Positive_regulation:T44 Cause:T46 Theme:T48
+E15	Positive_regulation:T50 Theme:T54 Cause:T51
+T52	Planned_process 1311 1320	injection
+E16	Planned_process:T52 Instrument:T56
+T72	Negative_regulation 1427 1434	reduced
+E17	Negative_regulation:T72 Theme:T60
+T73	Positive_regulation 1444 1453	enhancing
+E20	Positive_regulation:T73 Theme:T58
+E21	Negative_regulation:T72 Theme:E20
+E22	Positive_regulation:T64 Theme:E65 Cause:T61
+T74	Positive_regulation 1764 1774	stimulated
+E23	Positive_regulation:T74 Theme:E29
+T77	Development 301 310	formation
+E24	Development:T77 Theme:T76
+T78	Regulation 278 288	associated
+E25	Regulation:T78 Cause:E3 Theme:E24
+E26	Blood_vessel_development:T12 
+E28	Blood_vessel_development:T13 
+E29	Blood_vessel_development:T69 
+T9	Positive_regulation 196 203	inducer
+E9	Positive_regulation:T9 Theme:E26 Cause:T7
