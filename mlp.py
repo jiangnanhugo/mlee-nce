@@ -359,7 +359,7 @@ def test_mlp(chosen_type,learning_rate_start=1e-2,learning_rate_end=1e-4, L1_reg
 
 if __name__ == '__main__':
 	result_file=open('result_file','w')
-	for i in range(0,4):
+	for i in range(0,19):
 		result_string=test_mlp(i)
 		print result_string
 		result_file.write(result_string)
