@@ -11,7 +11,7 @@ sys.setdefaultencoding('utf8')
 
 #set values for various parameters
 num_features=300  #Word vector dimensionality
-min_word_count=40 #minimum word count
+min_word_count=20 #minimum word count
 num_workers=10    #Number of threads to run in parallel
 context=20        #context window size
 downsampling=1e-3 # Downsample setting for frequent words
