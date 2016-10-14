@@ -1,2 +1,3 @@
-# AEMLP
-use auto-encoder to extract context feature,
+# mlee-nce
+Biological Event Trigger Identification with Noise Contrastive Estimation
+
