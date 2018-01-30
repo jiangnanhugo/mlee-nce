@@ -1,53 +1,79 @@
-#run the program during the spare time either weekends or between 9:00 PM and 5:00 AM Eastern time during weekdays
+################################################################################
+# @Author Wei-Ming Chen, PhD                                                   #
+# @pubmed abstracts scraper                                                    #
+# @version: v1.0.0                                                             #
+# @usage: perl abstract_scraper.pl                                             #
+################################################################################
 
+use utf8;
 use LWP::Simple;
-use Encode;;
+use threads;
 
-#for ($year=1940;$year<=2011;$year++)
-for ($year=2012;$year>=2012;$year--)
-{
-	#$query = 'science[journal]+AND+breast+cancer+AND+2008[pdat]';
-	$s_year ="$year";
-	$query = $s_year."[pdat]";
-	unless(mkdir $s_year) {
-		die "Unable to create $s_year\n";
+# Maximum number of threads to be issued
+my $maxThread = 24; 
+
+
+# Download all PubMed abstracts
+my $db = 'pubmed';
+my $query = '"0000/01/01"[PDAT] : "3000/12/31"[PDAT]';
+my $retmax = 1000;
+
+
+# Assemble the esearch URL
+my $base = 'http://eutils.ncbi.nlm.nih.gov/entrez/eutils/';
+my $url = $base . "esearch.fcgi?db=$db&term=$query&usehistory=y";
+my $output = get($url);
+
+open(my $fh, '>', 'summary.xml');
+print $fh "$output";
+close $fh;
+
+
+# Parse WebEnv and QueryKey
+my $web = $1 if ($output =~ /<WebEnv>(\S+)<\/WebEnv>/);
+my $key = $1 if ($output =~ /<QueryKey>(\d+)<\/QueryKey>/);
+my $count = $1 if ($output =~ /<Count>(\d+)<\/Count>/);
+
+
+# Retrieve data in batches of 1000
+for ($retstart = 0; $retstart < $count; $retstart += $retmax) {
+	my $treadIssued = 'no';
+
+	# loop until the thread is issued on this thread
+	while ($treadIssued eq 'no') {
+		# check num of running threads
+		my @runningThrAry = threads->list(threads::running);
+		
+		# if running threads lower than the limit
+		if (@runningThrAry < $maxThread) {
+			# spawn a new thread
+			threads->create(\&efetch, ($db, $key, $web, $retstart, $retmax));
+			$treadIssued = 'yes';
+			@runningThrAry = threads->list(threads::running);
+		}
+		sleep 1;
 	}
-	
-	#assemble the esearch URL
-	$base = 'http://eutils.ncbi.nlm.nih.gov/entrez/eutils/';
-	#$url = $base . "esearch.fcgi?db=pubmed&tool=load_med_nlp&email=zhoudeyu@gmail.com&term=$query&usehistory=y";
-	$url = $base."esearch.fcgi?db=pubmed&term=$query&usehistory=y";
 
-	#post the esearch URL
-	$output = get($url);
-	
-	#parse WebEnv, QueryKey and Count (# records retrieved)
-	$web = $1 if ($output =~ /<WebEnv>(\S+)<\/WebEnv>/);
-	$key = $1 if ($output =~ /<QueryKey>(\d+)<\/QueryKey>/);
-	$count = $1 if ($output =~ /<Count>(\d+)<\/Count>/);
-	
-	print "$web $key $count"
-	
-	#open output file for writing
-	
-	
-	# #retrieve data in batches of 500
-	# $retmax = 100;
-	# for ($retstart = 0; $retstart < $count; $retstart += $retmax) 
-	# {
-	# 		open OUT, ">:utf8", "$year/".$retstart|| die "Can't open file!\n";
-	# 		#open(OUT, ">$year/".$retstart) || die "Can't open file!\n";
-	#         $efetch_url = $base ."efetch.fcgi?db=pubmed&WebEnv=$web";
-	#         $efetch_url .= "&query_key=$key&retstart=$retstart";
-	#         #$efetch_url .= "&retmax=$retmax&rettype=abstract&retmode=text";
-	#         $efetch_url .= "&retmax=$retmax&retmode=xml";
+	# detach the finished threads
+	my @joinableThrAry = threads->list(threads::joinable);
+	foreach my $joinableThr (@joinableThrAry) {
+		$joinableThr->detach() if not $joinableThr->is_running();
+	}
+}
+ 
 
-	#         $efetch_out = get($efetch_url);
-	#         $efetch_out = Encode::decode_utf8($efetch_out);
-	#         if ( defined $efetch_out)
-	#         {
-	#         	print OUT "$efetch_out";
-	#         }	
-	# }
-	# close OUT;
-}	
+sub efetch {
+	my ($db, $key, $web, $retstart, $retmax) = @_;
+	my $efetch_url = $base . "efetch.fcgi?db=$db&query_key=$key&WebEnv=$web&retstart=$retstart&retmax=$retmax&retmode=xml";
+	my $efetch_out = get($efetch_url);
+	
+	open(my $fh, '>', "$retstart".'.txt');
+	print $fh "$efetch_out";
+	close $fh;
+	
+	open(my $fh, '>>', 'esearch.err');
+	print $fh "$retstart ";
+	close $fh;
+	
+	print "$retstart ";
+}
