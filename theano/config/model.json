@@ -1,0 +1,12 @@
+{
+  "train_file": ["../data/X_train","../data/Y_train"],
+  "valid_file": ["../data/X_valid","../data/Y_valid"],
+  "test_file": ["../data/X_test","../data/Y_test"],
+  "checkpoint": "None",
+  "hidden_layers": [300,50,10,2],
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "optimizer": "rmsprop",
+  "clip_freq":2000,
+  "mode":"train"
+}

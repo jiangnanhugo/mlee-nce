@@ -33,7 +33,7 @@ def corpus_init(filepath):
 		fw.write('\n')
 	fw.close()
 
-corpus_init('abstract.txt')
+#corpus_init('abstract.txt')
 #set values for various parameters
 num_features=300  #Word vector dimensionality
 min_word_count=40 #minimum word count
@@ -44,7 +44,7 @@ downsampling=1e-3 # Downsample setting for frequent words
 # Initialize and train the model (this will take some time)
 from gensim.models import word2vec
 print "Training model..."
-sentences=word2vec.LineSentence('process_word.txt')
+sentences=word2vec.LineSentence('stemed.abstracts.EP.ascii.lower.tcbb.txt')#process_word.txt')
 model=word2vec.Word2Vec(sentences,workers=num_workers,size=num_features,min_count=min_word_count,window=context,sample=downsampling)
 
 # If you don't plan to train the model any further, calling
@@ -54,10 +54,10 @@ model.init_sims(replace=True)
 
 # It can be helpful to create a meaningful model name and save
 # the model for later use. You can load it later using  Word2Vec.load()
-model_name="300features_40minwords_10context"
+model_name="stemed.300features_40minwords_10context"
 model.save(model_name+'.model')
 
 # Store the learned weights, in a format the original C tool understands
 # or, import word weights created by the (faster) C word2vec
 # this way, you can switch between the C/Python toolkits easily
-model.save_word2vec_format(model_name+'.bin',binary=True)
+model.wv.save_word2vec_format(model_name+'.bin',binary=True)
