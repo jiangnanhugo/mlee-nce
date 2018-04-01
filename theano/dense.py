@@ -28,7 +28,7 @@ class relu_layer(object):
         init_b = np.zeros((n_output,), dtype=theano.config.floatX)
         b = theano.shared(value=init_b, name=prefix + '_relu_b', borrow=True)
 
-        self.activation = T.nnet.relu(T.dot(input, W) + b).flatten()
+        self.activation = T.nnet.relu(T.dot(input, W) + b)
         self.params = [W, b]
 
 

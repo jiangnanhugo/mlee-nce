@@ -8,7 +8,7 @@ class softmax(object):
         self.n_input = n_input
         self.n_output = n_output
 
-        self.x = x.reshape([-1, x.shape[-1]])
+        # self.x = x.reshape([-1, x.shape[-1]])
 
         init_W = np.asarray(np.random.uniform(low=-np.sqrt(1. / n_input),
                                               high=np.sqrt(1. / n_input),
@@ -20,5 +20,5 @@ class softmax(object):
 
         self.params = [self.W, self.b]
 
-        self.activation = T.nnet.softmax(T.dot(self.x, self.W) + self.b)
+        self.activation = T.nnet.softmax(T.dot(x, self.W) + self.b)
         self.predict = T.argmax(self.activation, axis=-1)

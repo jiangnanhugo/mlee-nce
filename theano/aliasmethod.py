@@ -1,5 +1,4 @@
 import numpy as np
-import theano
 
 
 def alias_setup(probs):
@@ -48,7 +47,7 @@ def Q_w(vocab, alpha):
     for idx in range(len(vocab)):
         vocab_p[idx] = float(vocab[idx][1] ** alpha) / float(q_t)
 
-    return np.asarray(vocab_p, dtype=theano.config.floatX)
+    return np.asarray(vocab_p, dtype=np.float32)
 
 
 def alias_draw(J, q, k, pos_idx):
@@ -79,13 +78,12 @@ def alias_draw(J, q, k, pos_idx):
     return ne_sample
 
 
-def negative_sample(k, J, q):
+def negative_sample(k, J, q,words):
     """
     sample for integer vector pos_y
     """
-    neg = []
-    for i in range(k):
-        sampled = alias_draw(J, q, k, pos=None)
-        neg.append(sampled)
+    sampled = alias_draw(J, q, k, pos_idx=None)
+    sampled_words =[words[idx] for idx in sampled]
 
-    return neg
+
+    return sampled_words

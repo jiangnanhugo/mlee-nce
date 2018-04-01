@@ -1,12 +1,12 @@
 {
-  "train_file": ["None","None"],
-  "valid_file": ["None","None"],
-  "test_file": ["None","None"],
+  "train_file": ["../dumped/category_16_k_20_X_train_word.pkl","../dumped/category_16_k_20_y_train_word.pkl"],
+  "valid_file": ["../data/X_valid","../data/Y_valid"],
+  "test_file": ["../data/X_test","../data/Y_test"],
   "checkpoint": "None",
   "batch_size": 20,
   "optimizer": "adam",
   "epochs": 30,
-  "dropout": 0.1,
+  "dropout": 0.5,
   "hidden_layers": [300,50,10,2],
   "learning_rate": 0.001,
   "mode":"train"
